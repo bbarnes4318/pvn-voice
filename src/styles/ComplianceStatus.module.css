@@ -1,0 +1,58 @@
+.compliance-status-card {
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.compliance-status-card :global(.ant-card-body) {
+  padding: 24px;
+}
+
+.compliance-status-card :global(.ant-tag) {
+  padding: 4px 8px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.compliance-status-card :global(.ant-alert) {
+  margin: 16px 0;
+  border-radius: 6px;
+}
+
+.compliance-status-card :global(.ant-typography) {
+  margin-bottom: 8px;
+}
+
+.compliance-status-card :global(.ant-space) {
+  width: 100%;
+}
+
+.compliance-status-card :global(.ant-space-vertical) {
+  gap: 16px !important;
+}
+
+.compliance-status-card :global(.ant-alert-message) {
+  font-weight: 600;
+}
+
+.compliance-status-card :global(.ant-alert-description) {
+  margin-top: 8px;
+}
+
+.compliance-status-card :global(.ant-tag-success) {
+  background-color: #f6ffed;
+  border-color: #b7eb8f;
+  color: #52c41a;
+}
+
+.compliance-status-card :global(.ant-tag-warning) {
+  background-color: #fffbe6;
+  border-color: #ffe58f;
+  color: #faad14;
+}
+
+.compliance-status-card :global(.ant-tag-error) {
+  background-color: #fff2f0;
+  border-color: #ffccc7;
+  color: #ff4d4f;
+} 

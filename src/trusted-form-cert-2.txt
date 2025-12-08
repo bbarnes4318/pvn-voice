@@ -1,0 +1,112 @@
+Implementing the TrustedForm Certify Web SDK
+Sign up online for a free TrustedForm Certify account to start generating certificates.
+
+TrustedForm Certify generates a new Certificate of Authenticity each time a consumer lands on a page with a lead generation form. Adding it to your web forms is quick and easy, and we've carefully engineered it to load quickly. The usage of the Web SDK is governed by our TrustedForm Certify Web SDK End User License Agreement.
+
+Looking to certify leads from a social media or mobile application? Contact Us
+
+With the TrustedForm Certify Web SDK added to your HTML page, TrustedForm Certificate URLs will start to be generated and passed along with the rest of the data submitted in the form. The SDK does this by adding a hidden field in your web form and inserting the URL into those fields. The field is then captured by your server when the form is submitted and can be passed along to the lead buyers as proof that the lead was collected on your site.
+
+The hidden field:
+
+<input type="hidden" name="xxTrustedFormCertUrl" id="xxTrustedFormCertUrl_0" value="https://cert.trustedform.com/454a35b802f3e7b63ffabb4efedb7c6ebe67886c">
+TrustedForm Certify Web SDK Prerequisites
+In order to add the Web SDK to your page, the following prerequisites need to be met:
+
+Landing pages and form builder platforms must support
+Custom JavaScript
+Custom Hidden Fields
+The TrustedForm Certify Web SDK must be in the same "window" as the form
+e.g. if the form is injected onto the page via an iFrame, the TrustedForm Certify Web SDK must also be in this iFrame
+The form must be present in the page before loading the TrustedForm Certify Web SDK.
+If the form is injected into the page code after the TrustedForm Certify Web SDK starts, the hidden field will not be appended to the form.
+Please check with your landing page or form builder platform provider to confirm they support these prerequisites and can provide you the proper documentation or support personnel to meet these requirements.
+
+Add the TrustedForm Certify Web SDK to Your Form
+If you don't already have the TrustedForm Certify Web SDK, you can register for it on the TrustedForm Certify page. Alternatively, if you have a TrustedForm account, you can visit the Issuing Certificates tab in the TrustedForm app. Once registered or in the app, you will see a JavaScript snippet.
+
+Once you have the snippet, add it to your page just before the closing </body> tag.
+
+Documenting One to One Consent for New FCC Rules and Regulations
+If you are generating leads for another party and prior express written consent is required under the Telephone Consumer Protection Act (TCPA), it is crucial to clearly identify key elements on your forms. This allows other parties to determine whether they have been granted consent in a manner compliant with the FCC's rule, which mandates that websites obtain consent from each seller individually if prior express written consent is required under the TCPA.
+
+In order to tag elements of your lead form correctly, follow our Consent Tagging instructions.
+
+Troubleshooting
+If TrustedForm certificates are not being created please ensure you followed all the steps above and check your browser's developer console for any errors. If everything looks good, here are a few additional reasons why certificates are not being created or experiencing issues.
+
+TrustedForm Certify is being executed before a form has been added to the page
+An AdBlocker is preventing TrustedForm Certify from executing
+JavaScript is disabled on the browser
+Poor internet connection
+Other scripts are preventing TrustedForm Certify from executing before the form is submitted
+Website assets are not publicly accessible
+TrustedForm is experiencing an outage
+Tips to help TrustedForm capture your form submits and consent language
+Use a <button> or <input type=“submit”> element to submit your form.
+Make sure the submit button exists within the <form> .
+Trigger form submission using the native browser submission.
+Place your consent language within 50 pixels of your submit button.
+TrustedForm Certify Web SDK Variables
+You'll notice there are a handful of variables which are defined in the example script above: field, provideReferrer, etc. These variables allow you to configure the script according to your needs.
+
+field - Customizing the hidden field
+By default, the TrustedForm Certify Web SDK automatically adds a hidden input fields with the name, xxTrustedFormCertUrl to your form. These names can be changed to suit your preferences.
+
+var field = 'myTrustedFormCertURL';
+Then, in the tf.src line, make sure '&field=' + escape(field) is are present.
+
+sandbox - Sandbox Mode
+"Sandbox mode" allows publishers to test that their Certificates are generated correctly. You'll want to use sandbox mode prior to going live with your Certs.
+
+Enable sandbox mode:
+
+var sandbox=true
+Then, in the tf.src line, make sure '&sandbox=' + sandbox is present.
+
+Please note that Certificates generated while sandbox mode is enabled cannot be claimed.
+
+invert_field_sensitivity - Treating All Fields as Sensitive Data
+TrustedForm supports the ability to treat all fields as sensitive data. When this option is selected, you must flag individual fields that you don't want to be treated as sensitive.
+
+In order to switch to this option, set the invert_field_sensitivity variable to true.
+
+var invertFieldSensitivity=true
+Then, in the tf.src line, make sure '&invert_field_sensitivity=' + invertFieldSensitivity is present.
+
+When invert_field_sensitivity is enabled, you must explicitly mark fields you want the TrustedForm Certify Web SDK to capture:
+
+<input type="text" name="phone" data-tf-sensitive="false" />
+identifier - Providing Identifying Information
+TrustedForm is designed to work on a single form on a single page, but that's not always what is needed. There are times when publishers need to link a consumer's progress across multiple forms and pages. You can do this by using the identifier parameter.
+
+var identifier="some-session-identifier"
+Then, in the tf.src line, make sure '&identifier=' + escape(identifier) is present.
+
+Please note that the identifier cannot exceed 128 characters, and any characters in excess of 128 will be truncated.
+
+The identifier will be present in the Certificate under the "Publisher provided data" section.
+
+Flagging Sensitive Data Fields
+The TrustedForm Certify Web SDK allows you to flag any or all sensitive fields of consumer data. When this feature is used, we apply a cryptographic hash to the flagged fields making it unfeasible for anyone, including us, to store, retrieve, reverse-engineer, or utilize the data that was volunteered by the end-user in that flagged data field.
+
+When a TrustedForm session replay is viewed, the data in a flagged field will be seen only as a series of asterisks. In order for you to protect sensitive data and still have a recognizable certificate for compliance, we recommend only flagging fields that truly collect sensitive data.
+
+Verify the SDK Has Been Implemented Properly
+Load the HTML page using Firefox, Chrome, or Safari and view the form using the DOM inspector (right click and choose "Inspect" or "Inspect Element").
+
+Search for the field xxTrustedFormCertUrl in your form – this will be different if you changed the field variable. If you find it, you have successfully set up the client-side portion of the TrustedForm integration.
+
+NOTE: View Source doesn't work in most browsers to verify the field has been added. You must inspect the source as described above. See the example below of where to find what you're looking for.
+
+TrustedForm Snippet Example
+
+Set up the Server-Side Integration
+The value stored in the xxTrustedFormCertUrl field is what identifies and points to a consumer's specific experience. Therefore, it must be provided to the recipient(s) of the lead (i.e. the lead buyer). Because of this, it is critical that your systems captures this field along with the rest of the form data.
+
+If you are posting directly to a LeadConduit account, there is no need to add the xxTrustedFormCertUrl field to the LeadConduit campaign. LeadConduit will automatically capture this field as one of the system fields.
+
+If you are capturing the lead data in your database or lead management system before delivering it, you will need to add the xxTrustedFormCertUrl field so you can capture the TrustedForm Certificate URL.
+
+Verify the Certificate URL is passed properly
+Once you have everything set up, check with the party receiving your leads. Are they receiving the Certificate URL value along with their lead data? If not, make sure the server is capturing the field. If the offer is brokered, then the broker must also pass along the Certificate URL to the recipient. If the recipient is receiving the Certificate URL, then the implementation of TrustedForm is complete.

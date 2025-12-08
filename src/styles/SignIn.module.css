@@ -1,0 +1,41 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #1890ff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card :global(.ant-form-item) {
+  margin-bottom: 24px;
+}
+
+.card :global(.ant-input-affix-wrapper) {
+  border-radius: 4px;
+}
+
+.card :global(.ant-btn) {
+  height: 40px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.card :global(.ant-input-password) {
+  border-radius: 4px;
+} 
