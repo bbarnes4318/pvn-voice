@@ -1,11 +1,8 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ],
+  "framework": "nextjs",
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
   "env": {
     "NEXTAUTH_SECRET": "c65a560161e084023b38e0624eb5a39051e308fc3142aef8798a70dbced05783",
     "NEXT_PUBLIC_APP_URL": "https://www.pvndialer.com",
@@ -14,4 +11,4 @@
     "SCRAPINGDOG_API_KEY": "67af731d604e0433fc6d68ea",
     "GEMINI_API_KEY": "AIzaSyAJV0sl3CrcX2HK9n5Ez3HW9e_YRVjUTFg"
   }
-} 
+}
