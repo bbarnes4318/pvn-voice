@@ -8,7 +8,7 @@ export default function ContactCenter() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>Cloud Contact Center - PVN Dialer</title>
+        <title>Cloud Contact Center - PVN Voice</title>
         <meta name="description" content="Provide exceptional customer experiences with our powerful yet easy-to-use contact center solution. Scale agents up or down as needed without hardware limitations." />
       </Head>
 

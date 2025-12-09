@@ -64,7 +64,7 @@ const TestimonialCard = ({ quote, author, title, company, industry, image, metri
 const Testimonials: React.FC = () => {
   const testimonials = [
     {
-      quote: "PVN Dialer has transformed our healthcare practice's communication system. The HIPAA compliance features and secure messaging have given us peace of mind while improving our patient care coordination.",
+      quote: "PVN Voice has transformed our healthcare practice's communication system. The HIPAA compliance features and secure messaging have given us peace of mind while improving our patient care coordination.",
       author: "Dr. David Chen",
       title: "Medical Director",
       company: "HealthCare Plus",
@@ -77,7 +77,7 @@ const Testimonials: React.FC = () => {
       ]
     },
     {
-      quote: "As a global enterprise, we needed a solution that could scale with our operations. PVN Dialer's international calling features and advanced analytics have been game-changers.",
+      quote: "As a global enterprise, we needed a solution that could scale with our operations. PVN Voice's international calling features and advanced analytics have been game-changers.",
       author: "Jessica Johnson",
       title: "IT Director",
       company: "GlobalTech Solutions",
@@ -155,7 +155,7 @@ const Testimonials: React.FC = () => {
       ]
     },
     {
-      quote: "The customer support and training provided by PVN Dialer's team has been exceptional. They've helped us maximize the value of every feature.",
+      quote: "The customer support and training provided by PVN Voice's team has been exceptional. They've helped us maximize the value of every feature.",
       author: "Brian Reynolds",
       title: "Operations Manager",
       company: "CustomerFirst Services",
@@ -276,7 +276,7 @@ const Testimonials: React.FC = () => {
             Trusted by <span className="text-secondary-600">Industry Leaders</span>
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
-            Discover how forward-thinking companies are revolutionizing their business communications with PVN Dialer's cutting-edge solutions. Join thousands of organizations that have transformed their operations and achieved remarkable results.
+            Discover how forward-thinking companies are revolutionizing their business communications with PVN Voice's cutting-edge solutions. Join thousands of organizations that have transformed their operations and achieved remarkable results.
           </p>
         </div>
 
@@ -407,7 +407,7 @@ const Testimonials: React.FC = () => {
             Ready to Transform Your Business Communication?
           </h3>
           <p className="text-primary-100 mb-6 text-lg">
-            Join industry leaders who trust PVN Dialer for their critical communications needs. Experience the future of business communication today.
+            Join industry leaders who trust PVN Voice for their critical communications needs. Experience the future of business communication today.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
           <a 

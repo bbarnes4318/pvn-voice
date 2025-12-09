@@ -9,7 +9,7 @@ export default function VoIPSecurityPractices() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>10 Essential VoIP Security Practices Every Business Should Implement - PVN Dialer</title>
+        <title>10 Essential VoIP Security Practices Every Business Should Implement - PVN Voice</title>
         <meta name="description" content="Protect your business communications with these crucial security practices designed for cloud-based phone systems. Learn how to prevent VoIP security breaches." />
         <meta name="keywords" content="VoIP security, business phone security, VoIP encryption, SIP security, voice security, cybersecurity, communications security" />
       </Head>
@@ -217,7 +217,7 @@ export default function VoIPSecurityPractices() {
                     <div className="bg-primary-50 p-8 rounded-xl">
                       <h3 className="text-xl font-bold text-primary-600 mb-4">Need Help Securing Your VoIP System?</h3>
                       <p className="text-gray-700 mb-6">
-                        Contact PVN Dialer today for a comprehensive security assessment and implementation plan.
+                        Contact PVN Voice today for a comprehensive security assessment and implementation plan.
                       </p>
                       <a href="/contact-us" className="inline-block bg-primary-600 text-white px-8 py-4 rounded-md hover:bg-primary-700 transition-colors font-medium">
                         Schedule a Security Assessment

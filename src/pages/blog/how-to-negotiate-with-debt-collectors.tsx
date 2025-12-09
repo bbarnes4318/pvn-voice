@@ -9,7 +9,7 @@ export default function VoIPContractNegotiation() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>VoIP Contract Negotiation: A Complete Guide to Getting the Best Deal - PVN Dialer</title>
+        <title>VoIP Contract Negotiation: A Complete Guide to Getting the Best Deal - PVN Voice</title>
         <meta name="description" content="Learn how to negotiate VoIP contracts effectively with our comprehensive guide covering pricing, features, and terms to ensure you get the best value for your business." />
       </Head>
 

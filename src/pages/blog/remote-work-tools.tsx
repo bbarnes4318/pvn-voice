@@ -9,7 +9,7 @@ export default function RemoteWorkTools() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>Essential Remote Work Tools for VoIP Teams: Complete Guide - PVN Dialer</title>
+        <title>Essential Remote Work Tools for VoIP Teams: Complete Guide - PVN Voice</title>
         <meta name="description" content="Discover the essential tools and VoIP solutions for remote teams. Learn about cloud PBX features, virtual phone systems, and collaboration tools that enhance remote work productivity." />
       </Head>
 

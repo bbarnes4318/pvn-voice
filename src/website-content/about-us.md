@@ -1,4 +1,4 @@
-# About Us Content for PVN Dialer
+# About Us Content for PVN Voice
 
 ## SEO Keywords
 - trusted VoIP provider
@@ -15,7 +15,7 @@
 **Connecting Businesses Through Better Communication**
 
 ### Subheadline
-At PVN Dialer, we're on a mission to make business communication simpler, more reliable, and more affordable for companies of all sizes.
+At PVN Voice, we're on a mission to make business communication simpler, more reliable, and more affordable for companies of all sizes.
 
 ## Our Story Section
 
@@ -23,13 +23,13 @@ At PVN Dialer, we're on a mission to make business communication simpler, more r
 **Our Journey to Transform Business Communication**
 
 ### Content
-PVN Dialer was founded in 2010 by a team of telecommunications experts who recognized a critical gap in the market: businesses needed more flexible, affordable, and feature-rich phone systems without the complexity and high costs of traditional solutions.
+PVN Voice was founded in 2010 by a team of telecommunications experts who recognized a critical gap in the market: businesses needed more flexible, affordable, and feature-rich phone systems without the complexity and high costs of traditional solutions.
 
 After experiencing firsthand the frustrations that businesses face with outdated phone systems—complicated setups, unexpected costs, poor reliability, and lack of modern features—our founders set out to create something better.
 
 Starting with just a handful of clients in the San Francisco Bay Area, we built our cloud-based phone system from the ground up, focusing on reliability, ease of use, and outstanding customer support. What began as a small startup has grown into a trusted communications provider serving more than 10,000 businesses across North America.
 
-Our name, PVN Dialer, reflects our commitment to providing **P**rofessional **V**oice **N**etworks that businesses can depend on. Today, we're proud to help companies of all sizes communicate more effectively while saving substantially on their telecommunications costs.
+Our name, PVN Voice, reflects our commitment to providing **P**rofessional **V**oice **N**etworks that businesses can depend on. Today, we're proud to help companies of all sizes communicate more effectively while saving substantially on their telecommunications costs.
 
 ## Our Mission & Values Section
 
@@ -56,18 +56,18 @@ Your success is our success. We measure our achievements by how well our solutio
 **Meet the Team Behind Your Business Communications**
 
 ### Content
-The PVN Dialer team brings together experts from telecommunications, cloud infrastructure, customer service, and business operations. Our leadership team has over 60 years of combined experience in the communications industry.
+The PVN Voice team brings together experts from telecommunications, cloud infrastructure, customer service, and business operations. Our leadership team has over 60 years of combined experience in the communications industry.
 
 What sets our team apart is our dedication to understanding the unique communication needs of different businesses. From small retail shops to multi-location professional service firms, we've helped thousands of companies implement communications solutions that support their specific goals.
 
 Our technical team works tirelessly to maintain our 99.99% uptime record, while our customer success specialists are always ready to provide personalized support for any questions or challenges you might face.
 
-We're proud of the diverse perspectives and extensive expertise that each team member brings to PVN Dialer, creating a company culture focused on innovation, excellence, and genuine care for our customers.
+We're proud of the diverse perspectives and extensive expertise that each team member brings to PVN Voice, creating a company culture focused on innovation, excellence, and genuine care for our customers.
 
 ## Why Choose Us Section
 
 ### Headline
-**Why Businesses Trust PVN Dialer**
+**Why Businesses Trust PVN Voice**
 
 ### Benefit Cards
 
@@ -102,7 +102,7 @@ Our 4.9/5 customer satisfaction rating and 97% retention rate speak to our commi
 **Ready to Experience Better Business Communication?**
 
 ### Subheadline
-Join thousands of businesses that trust PVN Dialer for their critical communications needs.
+Join thousands of businesses that trust PVN Voice for their critical communications needs.
 
 ### CTA Buttons
 - "Start Your Free Trial"

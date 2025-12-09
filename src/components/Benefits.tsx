@@ -77,7 +77,7 @@ const Benefits: React.FC = () => {
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary-600">
-            Why <span className="text-secondary-600">200+ Businesses</span> Choose PVN Dialer
+            Why <span className="text-secondary-600">200+ Businesses</span> Choose PVN Voice
           </h2>
           <p className="text-xl text-gray-600">
             Our cloud-based phone solutions deliver enterprise features at small business prices, helping companies communicate better while saving substantially on their telecom costs.
@@ -95,7 +95,7 @@ const Benefits: React.FC = () => {
             Ready to Transform Your Business Communications?
           </h3>
           <p className="text-primary-100 mb-6 text-lg">
-            Join thousands of businesses who trust PVN Dialer for their critical communications needs.
+            Join thousands of businesses who trust PVN Voice for their critical communications needs.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a 

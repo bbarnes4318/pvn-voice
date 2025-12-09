@@ -9,7 +9,7 @@ export default function VoIPCallQuality() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>Optimizing VoIP Call Quality: The Complete Guide for Businesses - PVN Dialer</title>
+        <title>Optimizing VoIP Call Quality: The Complete Guide for Businesses - PVN Voice</title>
         <meta name="description" content="Learn how to diagnose, troubleshoot and optimize your VoIP call quality. Discover practical solutions to common issues like jitter, latency, and packet loss." />
         <meta name="keywords" content="VoIP call quality, business phone systems, VoIP optimization, network optimization, voice quality, jitter, latency, packet loss" />
       </Head>

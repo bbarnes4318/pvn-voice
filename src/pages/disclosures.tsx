@@ -9,8 +9,8 @@ export default function Disclosures() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>Disclosures - PVN Dialer</title>
-        <meta name="description" content="Important disclosures about PVN Dialer's VoIP services, potential limitations, and relevant business telecommunication information." />
+        <title>Disclosures - PVN Voice</title>
+        <meta name="description" content="Important disclosures about PVN Voice's VoIP services, potential limitations, and relevant business telecommunication information." />
         <meta name="robots" content="noindex" />
       </Head>
 
@@ -95,7 +95,7 @@ export default function Disclosures() {
 
                 <div className="prose prose-sm max-w-none">
                   <p className="text-gray-700 leading-relaxed mb-6">
-                    At PVN Dialer, we are committed to transparency. Please review these important disclosures about our VoIP and business communication services to ensure you have all the information needed to make informed decisions about your telecommunications needs.
+                    At PVN Voice, we are committed to transparency. Please review these important disclosures about our VoIP and business communication services to ensure you have all the information needed to make informed decisions about your telecommunications needs.
                   </p>
 
                   <h2 id="service" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 flex items-center">
@@ -107,7 +107,7 @@ export default function Disclosures() {
                     <div className="bg-white p-4 rounded-md border border-gray-200 shadow-sm">
                       <h3 className="font-bold text-gray-800 text-sm mb-2">Internet-Based Service</h3>
                       <p className="text-gray-700 text-sm leading-relaxed mb-0">
-                        PVN Dialer provides Voice over Internet Protocol (VoIP) services that require a broadband internet connection to function. Our services are not traditional landline telephone services.
+                        PVN Voice provides Voice over Internet Protocol (VoIP) services that require a broadband internet connection to function. Our services are not traditional landline telephone services.
                       </p>
                     </div>
                     
@@ -249,7 +249,7 @@ export default function Disclosures() {
 
                   <h2 id="updates" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200">Updates to Disclosures</h2>
                   <p className="text-gray-700 leading-relaxed mb-6">
-                    PVN Dialer may update these disclosures from time to time to reflect changes in regulations, industry practices, or our services. The most current version will always be available on our website.
+                    PVN Voice may update these disclosures from time to time to reflect changes in regulations, industry practices, or our services. The most current version will always be available on our website.
                   </p>
 
                   <div className="bg-primary-50 p-6 rounded-lg shadow-sm border border-primary-100 my-8">

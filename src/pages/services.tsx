@@ -8,7 +8,7 @@ export default function Services() {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Head>
-        <title>VOIP & Dialer Services for Call Centers | PVN Dialer</title>
+        <title>VOIP & Dialer Services for Call Centers | PVN Voice</title>
         <meta name="description" content="Transform your call center with advanced VOIP and dialer solutions. Discover features, benefits, and AI-powered enhancements for modern call centers." />
       </Head>
       <Header />

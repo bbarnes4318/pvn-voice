@@ -9,7 +9,7 @@ export default function VoIPDeploymentStrategies() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>VoIP Deployment Strategies: Phased vs. Big Bang Approach - PVN Dialer</title>
+        <title>VoIP Deployment Strategies: Phased vs. Big Bang Approach - PVN Voice</title>
         <meta name="description" content="Compare different VoIP deployment strategies to find the best approach for your business, from phased rollouts to complete system overhauls." />
       </Head>
 

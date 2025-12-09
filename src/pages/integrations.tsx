@@ -37,8 +37,8 @@ const testimonials = [
 
 const faqs = [
   {
-    q: "What business tools can I integrate with PVN Dialer?",
-    a: "PVN Dialer integrates with leading CRMs (Salesforce, HubSpot, Zoho), helpdesk platforms (Zendesk, Freshdesk, ServiceNow), analytics tools (Google Analytics, Tableau, Power BI), collaboration suites (Microsoft Teams, Slack, Asana), and more."
+    q: "What business tools can I integrate with PVN Voice?",
+    a: "PVN Voice integrates with leading CRMs (Salesforce, HubSpot, Zoho), helpdesk platforms (Zendesk, Freshdesk, ServiceNow), analytics tools (Google Analytics, Tableau, Power BI), collaboration suites (Microsoft Teams, Slack, Asana), and more."
   },
   {
     q: "How secure are your integrations?",
@@ -62,8 +62,8 @@ export default function Integrations() {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Head>
-        <title>VoIP Integrations for Business | PVN Dialer</title>
-        <meta name="description" content="Seamlessly integrate PVN Dialer with Salesforce, HubSpot, Zendesk, Microsoft Teams, and more. Unify your business communications, automate workflows, and drive measurable ROI with secure, scalable integrations." />
+        <title>VoIP Integrations for Business | PVN Voice</title>
+        <meta name="description" content="Seamlessly integrate PVN Voice with Salesforce, HubSpot, Zendesk, Microsoft Teams, and more. Unify your business communications, automate workflows, and drive measurable ROI with secure, scalable integrations." />
       </Head>
       <Header />
       <main className="flex-grow">
@@ -71,7 +71,7 @@ export default function Integrations() {
         <section className="bg-gradient-to-r from-primary-700 to-primary-400 text-white py-20 px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-extrabold mb-6 drop-shadow-lg">Seamless VoIP Integrations for Modern Businesses</h1>
-            <p className="text-2xl md:text-3xl mb-8 font-medium text-primary-100 drop-shadow">Connect PVN Dialer with the tools you rely on—CRM, helpdesk, analytics, and more—for unified workflows and measurable results.</p>
+            <p className="text-2xl md:text-3xl mb-8 font-medium text-primary-100 drop-shadow">Connect PVN Voice with the tools you rely on—CRM, helpdesk, analytics, and more—for unified workflows and measurable results.</p>
             <a href="tel:+19045128487" className="inline-flex items-center space-x-3 bg-secondary-600 hover:bg-secondary-700 text-white px-10 py-5 rounded-xl font-bold text-xl shadow-cta transition-colors">
               <FaPhoneAlt className="text-white text-2xl" />
               <span>Call (904) 512-8487 for a Free Consultation</span>
@@ -82,7 +82,7 @@ export default function Integrations() {
         {/* SEO Intro */}
         <section className="py-12 bg-gradient-to-br from-primary-50 to-primary-100">
           <div className="container-custom max-w-4xl mx-auto text-center">
-            <p className="text-2xl text-primary-700 font-semibold">PVN Dialer's integration capabilities empower your business to unify communications, automate workflows, and maximize productivity. Our robust APIs and pre-built integrations connect you with industry-leading CRMs, helpdesk platforms, analytics tools, and collaboration suites—eliminating data silos and driving measurable ROI.</p>
+            <p className="text-2xl text-primary-700 font-semibold">PVN Voice's integration capabilities empower your business to unify communications, automate workflows, and maximize productivity. Our robust APIs and pre-built integrations connect you with industry-leading CRMs, helpdesk platforms, analytics tools, and collaboration suites—eliminating data silos and driving measurable ROI.</p>
           </div>
         </section>
 
@@ -207,7 +207,7 @@ export default function Integrations() {
               <div className="bg-white p-8 rounded-xl shadow-md flex flex-col items-center">
                 <FaPlug className="text-4xl text-primary-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-2">1. Connect</h3>
-                <p className="text-gray-600 text-center">Choose your business tools and connect them to PVN Dialer in minutes.</p>
+                <p className="text-gray-600 text-center">Choose your business tools and connect them to PVN Voice in minutes.</p>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-md flex flex-col items-center">
                 <FaSync className="text-4xl text-primary-600 mb-4" />

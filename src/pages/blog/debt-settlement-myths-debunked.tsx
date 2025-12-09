@@ -9,7 +9,7 @@ export default function VoIPMyths() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>5 Common VoIP Myths Debunked: The Truth About Cloud Phone Systems - PVN Dialer</title>
+        <title>5 Common VoIP Myths Debunked: The Truth About Cloud Phone Systems - PVN Voice</title>
         <meta name="description" content="Discover the truth about VoIP phone systems as we debunk common misconceptions about reliability, call quality, security, and cost. Make informed decisions about your business communications." />
         <meta name="keywords" content="VoIP myths, business phone system, cloud communications, VoIP reliability, VoIP call quality, VoIP security, VoIP costs" />
       </Head>

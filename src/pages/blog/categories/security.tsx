@@ -29,7 +29,7 @@ const SecurityBlog = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>Security - PVN Dialer Blog</title>
+        <title>Security - PVN Voice Blog</title>
         <meta name="description" content="Learn about VoIP security best practices and how to protect your business communications." />
       </Head>
 

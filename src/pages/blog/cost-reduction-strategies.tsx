@@ -9,7 +9,7 @@ export default function CostReductionStrategies() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>VoIP Cost Reduction Strategies: Maximize Your Investment - PVN Dialer</title>
+        <title>VoIP Cost Reduction Strategies: Maximize Your Investment - PVN Voice</title>
         <meta name="description" content="Learn proven strategies to reduce VoIP costs while maintaining quality. Discover optimization techniques, bundle deals, and smart resource allocation for maximum ROI." />
       </Head>
 

@@ -14,7 +14,7 @@ const Footer = () => {
               <Link href="/" className="block">
                 <Image 
                   src="/images/logo2.png" 
-                  alt="PVN Dialer Footer Logo"
+                  alt="PVN Voice Footer Logo"
                   width={240}
                   height={65}
                   priority
@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
             <div className="mt-4">
               <p className="text-gray-200">
-                PVN Dialer is a leading provider of cloud-based business phone systems and unified communications solutions, helping companies communicate better while saving substantially on their telecom costs.
+                PVN Voice is a leading provider of cloud-based business phone systems and unified communications solutions, helping companies communicate better while saving substantially on their telecom costs.
               </p>
               <div className="mt-4 flex space-x-4">
                 <a href="#" className="text-gray-200 hover:text-white transition-colors">
@@ -140,7 +140,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-primary-600">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-200 text-sm mb-4 md:mb-0">
-              © {new Date().getFullYear()} PVN Dialer. All rights reserved.
+              © {new Date().getFullYear()} PVN Voice. All rights reserved.
             </p>
             <p className="text-gray-200 text-sm text-center md:text-right">
               Reliable, affordable business communications solutions.
@@ -150,7 +150,7 @@ const Footer = () => {
           </div>
           <div className="mt-6 text-xs text-center text-gray-300">
             <p>
-              *PVN Dialer is a registered trademark. Our cloud phone systems operate over your existing internet connection. Call quality may vary depending on your internet connection speed and quality. A stable internet connection is recommended for optimal performance.
+              *PVN Voice is a registered trademark. Our cloud phone systems operate over your existing internet connection. Call quality may vary depending on your internet connection speed and quality. A stable internet connection is recommended for optimal performance.
             </p>
           </div>
         </div>

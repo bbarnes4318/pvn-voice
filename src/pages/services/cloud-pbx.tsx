@@ -9,7 +9,7 @@ export default function CloudPBXServices() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>Cloud PBX Services | Hosted PBX Features - PVN Dialer</title>
+        <title>Cloud PBX Services | Hosted PBX Features - PVN Voice</title>
         <meta name="description" content="Transform your business with our Cloud PBX and virtual phone system. Get enterprise-grade hosted PBX features with advanced call management and seamless integration." />
       </Head>
 

@@ -185,8 +185,8 @@ export default function Blog() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>Business VoIP Blog - PVN Dialer</title>
-        <meta name="description" content="Get the latest insights, tips, and strategies for business VoIP, cloud communications, and remote work from PVN Dialer experts." />
+        <title>Business VoIP Blog - PVN Voice</title>
+        <meta name="description" content="Get the latest insights, tips, and strategies for business VoIP, cloud communications, and remote work from PVN Voice experts." />
       </Head>
 
       <Header />
@@ -198,7 +198,7 @@ export default function Blog() {
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-lg">Business Communications Blog</h1>
               <p className="text-xl md:text-2xl text-primary-100 mb-8">
-                Get the latest insights, tips, and strategies for business VoIP, cloud communications, and remote work from PVN Dialer experts.
+                Get the latest insights, tips, and strategies for business VoIP, cloud communications, and remote work from PVN Voice experts.
               </p>
             </div>
           </div>

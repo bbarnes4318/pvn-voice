@@ -9,7 +9,7 @@ export default function UnifiedCommunications() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>Unified Communications: The Future of Business Communication - PVN Dialer</title>
+        <title>Unified Communications: The Future of Business Communication - PVN Voice</title>
         <meta name="description" content="Discover how unified communications is transforming the way businesses connect, collaborate, and communicate in the modern workplace." />
       </Head>
 
@@ -144,7 +144,7 @@ export default function UnifiedCommunications() {
                   <div className="bg-primary-50 p-6 rounded-xl mt-8">
                     <h3 className="font-bold text-primary-600 mb-3">Ready to Transform Your Communication?</h3>
                     <p className="text-gray-700 mb-4">
-                      Contact PVN Dialer today to learn how our unified communications solutions can benefit your business.
+                      Contact PVN Voice today to learn how our unified communications solutions can benefit your business.
                     </p>
                     <a href="/contact-us" className="inline-block bg-primary-600 text-white px-6 py-3 rounded-md hover:bg-primary-700 transition-colors">
                       Get Started

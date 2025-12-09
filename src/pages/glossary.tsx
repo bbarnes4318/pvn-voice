@@ -167,7 +167,7 @@ export default function Glossary() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>VoIP Glossary - PVN Dialer</title>
+        <title>VoIP Glossary - PVN Voice</title>
         <meta name="description" content="A comprehensive glossary of VoIP and business communication terminology to help you better understand cloud telephony solutions." />
       </Head>
 

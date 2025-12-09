@@ -9,7 +9,7 @@ export default function FutureBusinessCommunication() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>The Future of Business Communication: AI, 5G, and Beyond - PVN Dialer</title>
+        <title>The Future of Business Communication: AI, 5G, and Beyond - PVN Voice</title>
         <meta name="description" content="Explore how artificial intelligence, 5G networks, and emerging technologies are revolutionizing business communications. Learn about predictive analytics, real-time translation, and immersive collaboration tools." />
       </Head>
 

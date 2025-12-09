@@ -9,7 +9,7 @@ const VoIPSecurityThreats = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>VoIP Security Threats and How to Prevent Them - PVN Dialer Blog</title>
+        <title>VoIP Security Threats and How to Prevent Them - PVN Voice Blog</title>
         <meta name="description" content="Learn about common VoIP security threats and best practices for protecting your business communications." />
       </Head>
 

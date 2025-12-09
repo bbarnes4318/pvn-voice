@@ -28,7 +28,7 @@ const TechnicalBlog = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>Technical - PVN Dialer Blog</title>
+        <title>Technical - PVN Voice Blog</title>
         <meta name="description" content="Deep dive into technical aspects of VoIP implementation and optimization." />
       </Head>
 

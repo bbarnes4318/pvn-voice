@@ -28,7 +28,7 @@ const BuyersGuideBlog = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>Buyer's Guide - PVN Dialer Blog</title>
+        <title>Buyer's Guide - PVN Voice Blog</title>
         <meta name="description" content="Comprehensive guides to help you choose the right VoIP solution for your business." />
       </Head>
 

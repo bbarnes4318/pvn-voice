@@ -9,7 +9,7 @@ export default function VoIPNetworkRequirements() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>VoIP Network Requirements: A Complete Technical Guide - PVN Dialer</title>
+        <title>VoIP Network Requirements: A Complete Technical Guide - PVN Voice</title>
         <meta name="description" content="Master your VoIP network setup with detailed requirements for bandwidth, QoS, and security. Includes network diagrams, configuration templates, and performance optimization tips." />
       </Head>
 

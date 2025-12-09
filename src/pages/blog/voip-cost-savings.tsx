@@ -9,7 +9,7 @@ export default function VoIPCostSavings() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>VoIP Cost Savings: How Businesses Save Money with Modern Phone Systems - PVN Dialer</title>
+        <title>VoIP Cost Savings: How Businesses Save Money with Modern Phone Systems - PVN Voice</title>
         <meta name="description" content="Discover how businesses are significantly reducing their communication costs by switching to VoIP phone systems. Learn about direct and indirect savings." />
       </Head>
 
@@ -210,7 +210,7 @@ export default function VoIPCostSavings() {
                     <div className="bg-primary-50 p-8 rounded-xl">
                       <h3 className="text-xl font-bold text-primary-600 mb-4">Ready to Start Saving?</h3>
                       <p className="text-gray-700 mb-6">
-                        Contact PVN Dialer today for a free consultation and custom savings analysis for your business.
+                        Contact PVN Voice today for a free consultation and custom savings analysis for your business.
                       </p>
                       <a 
                         href="/contact-us" 

@@ -16,8 +16,8 @@ export default function AboutUs() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>About Us - PVN Dialer</title>
-        <meta name="description" content="Learn more about PVN Dialer, our mission, values, and dedicated team helping businesses communicate better." />
+        <title>About Us - PVN Voice</title>
+        <meta name="description" content="Learn more about PVN Voice, our mission, values, and dedicated team helping businesses communicate better." />
       </Head>
       <Header />
       <main className="flex-grow">
@@ -26,7 +26,7 @@ export default function AboutUs() {
           <div className="absolute inset-0 bg-[url('/images/about-hero-bg.jpg')] bg-cover bg-center opacity-20"></div>
           <div className="container-custom relative z-10">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-6xl font-extrabold mb-6 drop-shadow-lg tracking-tight">Meet PVN Dialer</h1>
+              <h1 className="text-6xl font-extrabold mb-6 drop-shadow-lg tracking-tight">Meet PVN Voice</h1>
               <p className="text-2xl md:text-3xl text-primary-100 mb-8 font-medium drop-shadow">Empowering businesses to connect, innovate, and grow—one call at a time.</p>
               <a href="#team" className="inline-block bg-secondary-600 hover:bg-secondary-700 text-white px-10 py-5 rounded-2xl font-bold text-xl shadow-2xl transition-colors">Meet Our Team</a>
             </div>
@@ -42,7 +42,7 @@ export default function AboutUs() {
                 <li className="mb-12 ml-6">
                   <div className="absolute w-6 h-6 bg-primary-600 rounded-full -left-3 flex items-center justify-center text-white"><FaRocket /></div>
                   <h3 className="text-xl font-bold text-primary-700 mb-2">2023: Founded</h3>
-                  <p className="text-gray-700 mb-2">PVN Dialer is born in Florida by telecom experts who saw a need for flexible, affordable, and feature-rich phone systems for call centers and businesses worldwide.</p>
+                  <p className="text-gray-700 mb-2">PVN Voice is born in Florida by telecom experts who saw a need for flexible, affordable, and feature-rich phone systems for call centers and businesses worldwide.</p>
                 </li>
                 <li className="mb-12 ml-6">
                   <div className="absolute w-6 h-6 bg-primary-600 rounded-full -left-3 flex items-center justify-center text-white"><FaLightbulb /></div>
@@ -52,7 +52,7 @@ export default function AboutUs() {
                 <li className="mb-12 ml-6">
                   <div className="absolute w-6 h-6 bg-primary-600 rounded-full -left-3 flex items-center justify-center text-white"><FaAward /></div>
                   <h3 className="text-xl font-bold text-primary-700 mb-2">2025: National Expansion</h3>
-                  <p className="text-gray-700 mb-2">PVN Dialer becomes a trusted VoIP provider for businesses across the Globe, with a focus on innovation, data security, and customer success.</p>
+                  <p className="text-gray-700 mb-2">PVN Voice becomes a trusted VoIP provider for businesses across the Globe, with a focus on innovation, data security, and customer success.</p>
                 </li>
                 <li className="ml-6">
                   <div className="absolute w-6 h-6 bg-primary-600 rounded-full -left-3 flex items-center justify-center text-white"><FaUsers /></div>
@@ -62,7 +62,7 @@ export default function AboutUs() {
               </ol>
               <div className="mt-12 bg-gradient-to-r from-primary-200 to-primary-50 p-8 rounded-2xl shadow-lg flex flex-col md:flex-row items-center gap-6">
                 <FaQuoteLeft className="text-4xl text-primary-600 mb-4 md:mb-0 md:mr-6" />
-                <blockquote className="text-xl text-primary-800 font-semibold italic">“We started PVN Dialer to give every business—big or small—the power to communicate like an enterprise, without the enterprise price tag.”</blockquote>
+                <blockquote className="text-xl text-primary-800 font-semibold italic">“We started PVN Voice to give every business—big or small—the power to communicate like an enterprise, without the enterprise price tag.”</blockquote>
                 <span className="block text-primary-600 font-bold mt-4 md:mt-0 md:ml-6">— Founder-James Christopher</span>
               </div>
             </div>
@@ -132,7 +132,7 @@ export default function AboutUs() {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6 drop-shadow-lg">Ready to Experience Better Business Communication?</h2>
             <p className="text-2xl mb-8 text-primary-100 font-medium drop-shadow">
-              Join thousands of businesses that trust PVN Dialer for their critical communications needs.
+              Join thousands of businesses that trust PVN Voice for their critical communications needs.
             </p>
             <a 
               href="tel:+19045128487" 

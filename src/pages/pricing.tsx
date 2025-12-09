@@ -8,7 +8,7 @@ export default function Pricing() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>Custom VoIP Solutions - PVN Dialer</title>
+        <title>Custom VoIP Solutions - PVN Voice</title>
         <meta name="description" content="Get a tailored VoIP solution that perfectly matches your business needs and budget. Schedule a free consultation today." />
       </Head>
 

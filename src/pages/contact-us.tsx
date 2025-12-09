@@ -78,8 +78,8 @@ export default function ContactUs() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>Contact Us - PVN Dialer</title>
-        <meta name="description" content="Contact PVN Dialer for information about our business VoIP phone systems, unified communications, and cloud contact center solutions." />
+        <title>Contact Us - PVN Voice</title>
+        <meta name="description" content="Contact PVN Voice for information about our business VoIP phone systems, unified communications, and cloud contact center solutions." />
       </Head>
 
       <Header />
@@ -298,7 +298,7 @@ export default function ContactUs() {
                 <div className="mt-12 bg-primary-50 p-6 rounded-xl">
                   <h3 className="text-xl font-bold text-primary-600 mb-3">Schedule a Demo</h3>
                   <p className="text-gray-700 mb-4">
-                    Want to see PVN Dialer in action? Schedule a personalized demo with one of our product specialists.
+                    Want to see PVN Voice in action? Schedule a personalized demo with one of our product specialists.
                   </p>
                   <a 
                     href="#contact-form" 
@@ -326,7 +326,7 @@ export default function ContactUs() {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="PVN Dialer Office Location"
+                  title="PVN Voice Office Location"
                 ></iframe>
               </div>
             </div>
@@ -339,7 +339,7 @@ export default function ContactUs() {
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Business Communication?</h2>
               <p className="text-xl mb-8">
-                Contact us today and experience the PVN Dialer difference.
+                Contact us today and experience the PVN Voice difference.
               </p>
               <a 
                 href="tel:+19045128487" 

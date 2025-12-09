@@ -9,8 +9,8 @@ export default function Sitemap() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>Sitemap - PVN Dialer</title>
-        <meta name="description" content="View all pages available on PVN Dialer to help you navigate our VoIP business phone systems and communication resources." />
+        <title>Sitemap - PVN Voice</title>
+        <meta name="description" content="View all pages available on PVN Voice to help you navigate our VoIP business phone systems and communication resources." />
       </Head>
 
       <Header />
@@ -21,7 +21,7 @@ export default function Sitemap() {
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl font-bold mb-4">Sitemap</h1>
               <p className="text-xl text-primary-100">
-                A complete guide to all the pages on PVN Dialer
+                A complete guide to all the pages on PVN Voice
               </p>
             </div>
           </div>

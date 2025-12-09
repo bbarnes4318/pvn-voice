@@ -9,8 +9,8 @@ export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>Privacy Policy - PVN Dialer</title>
-        <meta name="description" content="PVN Dialer's privacy policy details how we collect, use, and protect your personal information. Learn about our commitment to your privacy." />
+        <title>Privacy Policy - PVN Voice</title>
+        <meta name="description" content="PVN Voice's privacy policy details how we collect, use, and protect your personal information. Learn about our commitment to your privacy." />
         <meta name="robots" content="noindex" />
       </Head>
 
@@ -88,7 +88,7 @@ export default function PrivacyPolicy() {
                     <div>
                       <h2 className="text-xl font-bold text-gray-800 mb-2">Our Commitment to Your Privacy</h2>
                       <p className="text-gray-700 text-sm leading-relaxed">
-                        At PVN Dialer, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our business VoIP and communications services. Please read this policy carefully. If you disagree with its terms, please discontinue use of our website and services immediately.
+                        At PVN Voice, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our business VoIP and communications services. Please read this policy carefully. If you disagree with its terms, please discontinue use of our website and services immediately.
                       </p>
                     </div>
                   </div>
@@ -127,7 +127,7 @@ export default function PrivacyPolicy() {
 
                   <div className="bg-blue-50 p-4 rounded-md my-6 border-l-4 border-blue-400">
                     <p className="text-blue-800 text-sm leading-relaxed m-0">
-                      <strong>Note:</strong> PVN Dialer does not knowingly collect or solicit information from anyone under the age of 18. If you are a parent or guardian and believe we might have any information from or about a child under the age of 18, please contact us immediately at <a href="mailto:support@pvndialer.com" className="text-blue-700 hover:underline">support@pvndialer.com</a>.
+                      <strong>Note:</strong> PVN Voice does not knowingly collect or solicit information from anyone under the age of 18. If you are a parent or guardian and believe we might have any information from or about a child under the age of 18, please contact us immediately at <a href="mailto:support@pvndialer.com" className="text-blue-700 hover:underline">support@pvndialer.com</a>.
                     </p>
                   </div>
 
@@ -321,10 +321,10 @@ export default function PrivacyPolicy() {
                   </p>
                   <div className="bg-white p-4 rounded-md border border-gray-200 shadow-sm my-4">
                     <p className="text-gray-700 mb-1">
-                      <strong>PVN Dialer, Inc.</strong>
+                      <strong>PVN Voice, Inc.</strong>
                     </p>
                     <p className="text-gray-600 mb-4">
-                      PVN Dialer<br />
+                      PVN Voice<br />
                       2800 N 6th Street #796<br />
                       Saint Augustine, FL 32084<br />
                       United States

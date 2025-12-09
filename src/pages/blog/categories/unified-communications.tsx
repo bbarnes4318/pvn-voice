@@ -28,7 +28,7 @@ const UnifiedCommunicationsBlog = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>Unified Communications - PVN Dialer Blog</title>
+        <title>Unified Communications - PVN Voice Blog</title>
         <meta name="description" content="Learn about integrated communication solutions that streamline your business operations." />
       </Head>
 

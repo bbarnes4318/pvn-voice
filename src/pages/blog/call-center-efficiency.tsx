@@ -9,7 +9,7 @@ export default function CallCenterEfficiency() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>How to Improve Call Center Efficiency: Complete Guide - PVN Dialer</title>
+        <title>How to Improve Call Center Efficiency: Complete Guide - PVN Voice</title>
         <meta name="description" content="Learn proven strategies to improve call center efficiency using advanced VoIP and call center software. Discover how predictive dialers, auto dialers, and cloud PBX systems can boost productivity." />
       </Head>
 

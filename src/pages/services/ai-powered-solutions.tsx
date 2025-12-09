@@ -8,9 +8,9 @@ export default function AIPoweredSolutions() {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Head>
-        <title>AI-Powered Solutions | Advanced Call Center AI & AMD - PVN Dialer</title>
-        <meta name="description" content="Unlock the power of AI for your business with PVN Dialer's AI-powered solutions. Experience industry-leading AI Answering Machine Detection (AI AMD), smart call routing, analytics, and automation." />
-        <meta name="keywords" content="AI-Powered Solutions, AI AMD, Answering Machine Detection, Call Center AI, VoIP AI, Automated Dialer, Smart Call Routing, AI Analytics, PVN Dialer" />
+        <title>AI-Powered Solutions | Advanced Call Center AI & AMD - PVN Voice</title>
+        <meta name="description" content="Unlock the power of AI for your business with PVN Voice's AI-powered solutions. Experience industry-leading AI Answering Machine Detection (AI AMD), smart call routing, analytics, and automation." />
+        <meta name="keywords" content="AI-Powered Solutions, AI AMD, Answering Machine Detection, Call Center AI, VoIP AI, Automated Dialer, Smart Call Routing, AI Analytics, PVN Voice" />
       </Head>
       <Header />
       <main className="flex-grow">

@@ -1,4 +1,4 @@
-# Services Overview Content for PVN Dialer
+# Services Overview Content for PVN Voice
 
 ## SEO Keywords
 - business VoIP services
@@ -19,7 +19,7 @@
 Everything your business needs to communicate effectively with customers and team members, all in one powerful platform.
 
 ### Content Introduction
-PVN Dialer offers a comprehensive suite of business communication tools designed to meet the needs of organizations of all sizes. From startups to enterprise businesses, our cloud-based solutions provide the reliability, features, and flexibility needed in today's fast-paced business environment.
+PVN Voice offers a comprehensive suite of business communication tools designed to meet the needs of organizations of all sizes. From startups to enterprise businesses, our cloud-based solutions provide the reliability, features, and flexibility needed in today's fast-paced business environment.
 
 ## Core Services Grid
 

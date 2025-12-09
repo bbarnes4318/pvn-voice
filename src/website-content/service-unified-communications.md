@@ -1,4 +1,4 @@
-# Unified Communications Service Page Content for PVN Dialer
+# Unified Communications Service Page Content for PVN Voice
 
 ## SEO Keywords
 - unified communications platform
@@ -93,7 +93,7 @@ See who's available, busy, or away with real-time status indicators across the p
 ## How It Works Section
 
 ### Headline
-**How PVN Dialer Unified Communications Works**
+**How PVN Voice Unified Communications Works**
 
 ### Step Cards
 
@@ -104,7 +104,7 @@ Select the unified communications features that match your team's needs, from ba
 Add users, create teams, and set up channels through our intuitive admin portal. Import existing user lists for quick deployment.
 
 #### Step 3: Install Apps
-Team members download the PVN Dialer app on their computers and mobile devices, available for Windows, Mac, iOS, and Android.
+Team members download the PVN Voice app on their computers and mobile devices, available for Windows, Mac, iOS, and Android.
 
 #### Step 4: Start Collaborating
 Begin communicating and collaborating immediately with an intuitive interface that requires minimal training.
@@ -170,7 +170,7 @@ Break down silos between departments with shared channels and easy communication
 Extend your unified communications to include clients and partners in secure external channels for project collaboration.
 
 ### Customer Story Highlight
-"PVN Dialer's unified communications platform has transformed how our global team works together. With team members across three continents, having all our communications in one place has dramatically improved our collaboration and reduced miscommunication."
+"PVN Voice's unified communications platform has transformed how our global team works together. With team members across three continents, having all our communications in one place has dramatically improved our collaboration and reduced miscommunication."
 - Thomas Wilson, CTO at Global Innovations Inc.
 
 ## Benefits Section
@@ -204,13 +204,13 @@ Manage all communication tools through one administrative interface with central
 **What Teams Say About Our Unified Communications**
 
 ### Customer Testimonials
-"Adopting PVN Dialer's unified platform has eliminated our communication chaos. Our team now collaborates seamlessly whether they're in the office, at home, or on the road."
+"Adopting PVN Voice's unified platform has eliminated our communication chaos. Our team now collaborates seamlessly whether they're in the office, at home, or on the road."
 - Lisa Chen, Operations Director at Novus Marketing
 
-"The integration capabilities are what sold us on PVN Dialer. Having our communications tied directly to our CRM has made our sales team significantly more efficient and responsive."
+"The integration capabilities are what sold us on PVN Voice. Having our communications tied directly to our CRM has made our sales team significantly more efficient and responsive."
 - Jason Rivera, Sales Manager at TechPro Solutions
 
-"We've tried several communication platforms, but none were as intuitive and comprehensive as PVN Dialer. The adoption rate among our team was nearly 100% within days."
+"We've tried several communication platforms, but none were as intuitive and comprehensive as PVN Voice. The adoption rate among our team was nearly 100% within days."
 - Amanda Johnson, IT Director at First Capital Group
 
 ## Plans & Pricing Section
@@ -273,7 +273,7 @@ Complete solution for larger organizations
 **Ready to Unify Your Team Communications?**
 
 ### Subheadline
-Join thousands of businesses that have streamlined their communications with PVN Dialer.
+Join thousands of businesses that have streamlined their communications with PVN Voice.
 
 ### CTA Buttons
 - "Start Your Free Trial"

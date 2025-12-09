@@ -1,4 +1,4 @@
-# PVN Dialer Website Content
+# PVN Voice Website Content
 
 This directory contains optimized website copy for pvndialer.com, a provider of VoIP services. The content has been written to be SEO-optimized, user-friendly, and focused on driving conversions.
 
@@ -67,4 +67,4 @@ To keep the content fresh and effective:
 
 ---
 
-This content was developed based on best practices for SaaS and B2B websites, with specific optimization for VoIP service providers. It's designed to highlight PVN Dialer's unique value proposition while addressing common customer pain points and search intent. 
+This content was developed based on best practices for SaaS and B2B websites, with specific optimization for VoIP service providers. It's designed to highlight PVN Voice's unique value proposition while addressing common customer pain points and search intent. 

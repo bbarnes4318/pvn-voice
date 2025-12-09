@@ -11,7 +11,7 @@ const Logo: React.FC<LogoProps> = ({ className = '' }) => {
     <Link href="/" className={`block w-auto h-auto ${className}`}>
       <Image 
         src="/images/logo.png" 
-        alt="PVN Dialer Logo"
+        alt="PVN Voice Logo"
         width={291}
         height={77}
         priority

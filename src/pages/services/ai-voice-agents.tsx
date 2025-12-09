@@ -23,9 +23,9 @@ export default function AIVoiceAgents() {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Head>
-        <title>AI Voice Agents & Virtual Agents | Conversational AI for Business - PVN Dialer</title>
-        <meta name="description" content="Experience the future of customer engagement with PVN Dialer's AI Voice Agents. Deploy virtual agents for calls, surveys, reminders, and more. Listen to real AI voicebot samples!" />
-        <meta name="keywords" content="AI Voice Agents, Virtual Agents, Conversational AI, Voicebots, AI Call Center, AI Phone Agents, Automated Voice, PVN Dialer" />
+        <title>AI Voice Agents & Virtual Agents | Conversational AI for Business - PVN Voice</title>
+        <meta name="description" content="Experience the future of customer engagement with PVN Voice's AI Voice Agents. Deploy virtual agents for calls, surveys, reminders, and more. Listen to real AI voicebot samples!" />
+        <meta name="keywords" content="AI Voice Agents, Virtual Agents, Conversational AI, Voicebots, AI Call Center, AI Phone Agents, Automated Voice, PVN Voice" />
       </Head>
       <Header />
       <main className="flex-grow">

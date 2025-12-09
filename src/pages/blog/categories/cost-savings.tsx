@@ -29,7 +29,7 @@ const CostSavingsBlog = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>Cost Savings - PVN Dialer Blog</title>
+        <title>Cost Savings - PVN Voice Blog</title>
         <meta name="description" content="Learn how to reduce costs and maximize value with modern business communication solutions." />
       </Head>
 

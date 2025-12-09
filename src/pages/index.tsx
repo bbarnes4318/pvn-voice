@@ -12,13 +12,13 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>PVN Dialer - Business VoIP & Cloud Phone Systems</title>
-        <meta property="og:title" content="PVN Dialer - Business VoIP & Cloud Phone Systems" />
-        <meta property="og:description" content="Transform your business communication with PVN Dialer. Our cloud-based phone solutions offer enterprise features at small business prices. Contact us today." />
+        <title>PVN Voice - Business VoIP & Cloud Phone Systems</title>
+        <meta property="og:title" content="PVN Voice - Business VoIP & Cloud Phone Systems" />
+        <meta property="og:description" content="Transform your business communication with PVN Voice. Our cloud-based phone solutions offer enterprise features at small business prices. Contact us today." />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/og-image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="description" content="PVN Dialer provides cloud-based business phone systems with enterprise-grade features at affordable prices. Easy setup, 24/7 support, and no contract required." />
+        <meta name="description" content="PVN Voice provides cloud-based business phone systems with enterprise-grade features at affordable prices. Easy setup, 24/7 support, and no contract required." />
       </Head>
 
       <Header />
@@ -26,12 +26,12 @@ export default function Home() {
         {/* Hero Section */}
         <HeroTop />
         
-        {/* Why Choose PVN Dialer Section */}
+        {/* Why Choose PVN Voice Section */}
         <section className="py-24 bg-gradient-to-br from-white to-primary-50">
           <div className="container-custom">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-primary-700 mb-4">
-                Why <span className="text-secondary-600">200+ Businesses</span> Choose PVN Dialer
+                Why <span className="text-secondary-600">200+ Businesses</span> Choose PVN Voice
               </h2>
               <p className="text-xl text-primary-700 leading-relaxed max-w-3xl mx-auto mb-12">
                 Our cloud-based phone solutions deliver enterprise features at small business prices, helping companies communicate better while saving substantially on their telecom costs.

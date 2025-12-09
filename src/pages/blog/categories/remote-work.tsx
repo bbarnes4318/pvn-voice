@@ -29,7 +29,7 @@ const RemoteWorkBlog = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>Remote Work - PVN Dialer Blog</title>
+        <title>Remote Work - PVN Voice Blog</title>
         <meta name="description" content="Learn how to enable and optimize remote work with modern communication tools." />
       </Head>
 

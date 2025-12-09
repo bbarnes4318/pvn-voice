@@ -9,7 +9,7 @@ export default function VOIPServices() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>Business VoIP Services | Professional VoIP Provider - PVN Dialer</title>
+        <title>Business VoIP Services | Professional VoIP Provider - PVN Voice</title>
         <meta name="description" content="Transform your business communications with our professional VoIP phone service. Get reliable, scalable, and feature-rich VoIP solutions from a trusted provider." />
       </Head>
 

@@ -9,7 +9,7 @@ export default function UnifiedCommunicationsExplained() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>Unified Communications Explained: The Future of Business Communication - PVN Dialer</title>
+        <title>Unified Communications Explained: The Future of Business Communication - PVN Voice</title>
         <meta name="description" content="Learn how unified communications is transforming business communication by integrating voice, video, messaging, and collaboration tools into a seamless experience." />
       </Head>
 
@@ -203,7 +203,7 @@ export default function UnifiedCommunicationsExplained() {
                     <div className="bg-primary-50 p-8 rounded-xl">
                       <h3 className="text-xl font-bold text-primary-600 mb-4">Ready to Transform Your Communication?</h3>
                       <p className="text-gray-700 mb-6">
-                        Contact PVN Dialer today to learn how our Unified Communications solutions can enhance your business communication.
+                        Contact PVN Voice today to learn how our Unified Communications solutions can enhance your business communication.
                       </p>
                       <a href="/contact-us" className="inline-block bg-primary-600 text-white px-8 py-4 rounded-md hover:bg-primary-700 transition-colors font-medium">
                         Get Started with UC

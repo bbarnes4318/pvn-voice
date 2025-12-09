@@ -9,7 +9,7 @@ export default function OptimizingVoIPCallQuality() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>Troubleshooting and Optimizing VoIP Call Quality: The Ultimate Guide - PVN Dialer</title>
+        <title>Troubleshooting and Optimizing VoIP Call Quality: The Ultimate Guide - PVN Voice</title>
         <meta name="description" content="Learn how to diagnose and resolve common VoIP call quality issues to ensure crystal-clear business communications. Master network optimization for business VoIP." />
         <meta name="keywords" content="VoIP call quality, voice quality optimization, business phone systems, jitter, latency, packet loss, network optimization, QoS" />
       </Head>
@@ -236,7 +236,7 @@ export default function OptimizingVoIPCallQuality() {
                     <div className="bg-primary-50 p-8 rounded-xl">
                       <h3 className="text-xl font-bold text-primary-600 mb-4">Need Help Optimizing Your VoIP System?</h3>
                       <p className="text-gray-700 mb-6">
-                        Contact PVN Dialer today for a comprehensive call quality assessment and optimization plan.
+                        Contact PVN Voice today for a comprehensive call quality assessment and optimization plan.
                       </p>
                       <a href="/contact-us" className="inline-block bg-primary-600 text-white px-8 py-4 rounded-md hover:bg-primary-700 transition-colors font-medium">
                         Get Your Quality Assessment

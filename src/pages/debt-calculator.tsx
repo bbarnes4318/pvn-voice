@@ -34,8 +34,8 @@ export default function Pricing() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>Pricing - PVN Dialer</title>
-        <meta name="description" content="Clear, transparent pricing for PVN Dialer's cloud phone system, unified communications, and contact center solutions. No hidden fees or long-term contracts." />
+        <title>Pricing - PVN Voice</title>
+        <meta name="description" content="Clear, transparent pricing for PVN Voice's cloud phone system, unified communications, and contact center solutions. No hidden fees or long-term contracts." />
       </Head>
 
       <Header />
@@ -375,7 +375,7 @@ export default function Pricing() {
                 <div className="bg-gray-50 p-6 rounded-xl">
                   <h3 className="text-xl font-bold text-primary-600 mb-2">Are there any setup fees?</h3>
                   <p className="text-gray-700">
-                    No, there are no setup fees with PVN Dialer. All plans include free configuration and onboarding assistance to help you get started quickly.
+                    No, there are no setup fees with PVN Voice. All plans include free configuration and onboarding assistance to help you get started quickly.
                   </p>
                 </div>
                 
@@ -389,7 +389,7 @@ export default function Pricing() {
                 <div className="bg-gray-50 p-6 rounded-xl">
                   <h3 className="text-xl font-bold text-primary-600 mb-2">Can I keep my existing phone numbers?</h3>
                   <p className="text-gray-700">
-                    Yes, you can port your existing phone numbers to PVN Dialer. The porting process typically takes 2-4 weeks and we'll guide you through the entire process.
+                    Yes, you can port your existing phone numbers to PVN Voice. The porting process typically takes 2-4 weeks and we'll guide you through the entire process.
                   </p>
                 </div>
                 
@@ -410,7 +410,7 @@ export default function Pricing() {
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Business Communication?</h2>
               <p className="text-xl mb-8">
-                Try PVN Dialer risk-free with our 30-day money-back guarantee. No credit card required to start.
+                Try PVN Voice risk-free with our 30-day money-back guarantee. No credit card required to start.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a

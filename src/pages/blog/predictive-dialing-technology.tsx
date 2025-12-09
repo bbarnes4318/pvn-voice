@@ -9,8 +9,8 @@ export default function PredictiveDialingTechnology() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>What is Predictive Dialing Technology? Complete Guide - PVN Dialer</title>
-        <meta name="description" content="Learn everything about predictive dialing technology, how it works, and its benefits for call centers. Discover how PVN Dialer's advanced predictive dialer can improve your outbound calling efficiency." />
+        <title>What is Predictive Dialing Technology? Complete Guide - PVN Voice</title>
+        <meta name="description" content="Learn everything about predictive dialing technology, how it works, and its benefits for call centers. Discover how PVN Voice's advanced predictive dialer can improve your outbound calling efficiency." />
       </Head>
 
       <Header />

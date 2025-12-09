@@ -9,7 +9,7 @@ export default function RemoteWorkVoIP() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>VoIP Solutions for Remote Work: Empowering Distributed Teams - PVN Dialer</title>
+        <title>VoIP Solutions for Remote Work: Empowering Distributed Teams - PVN Voice</title>
         <meta name="description" content="Discover how VoIP technology enables seamless communication for remote teams, including best practices, setup guides, and tips for maintaining productivity." />
       </Head>
 
@@ -201,7 +201,7 @@ export default function RemoteWorkVoIP() {
                     <div className="bg-primary-50 p-8 rounded-xl">
                       <h3 className="text-xl font-bold text-primary-600 mb-4">Ready to Empower Your Remote Team?</h3>
                       <p className="text-gray-700 mb-6">
-                        Contact PVN Dialer today for a comprehensive remote work VoIP solution that will keep your team connected and productive.
+                        Contact PVN Voice today for a comprehensive remote work VoIP solution that will keep your team connected and productive.
                       </p>
                       <a href="/contact-us" className="inline-block bg-primary-600 text-white px-8 py-4 rounded-md hover:bg-primary-700 transition-colors font-medium">
                         Get Started with Remote VoIP
@@ -381,7 +381,7 @@ export default function RemoteWorkVoIP() {
                   <div className="bg-primary-50 p-6 rounded-xl mt-8">
                     <h3 className="font-bold text-primary-600 mb-3">Ready to Optimize Your Remote Team Communication?</h3>
                     <p className="text-gray-700 mb-4">
-                      Contact PVN Dialer today for a personalized demo of our remote work VoIP solutions.
+                      Contact PVN Voice today for a personalized demo of our remote work VoIP solutions.
                     </p>
                     <a href="/contact-us" className="inline-block bg-primary-600 text-white px-6 py-3 rounded-md hover:bg-primary-700 transition-colors">
                       Schedule Your Demo

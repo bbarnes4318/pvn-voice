@@ -6,8 +6,8 @@ export default function KYCPage() {
   return (
     <>
       <Head>
-        <title>KYC Verification - PVN Dialer</title>
-        <meta name="description" content="Complete your KYC verification to start using PVN Dialer services" />
+        <title>KYC Verification - PVN Voice</title>
+        <meta name="description" content="Complete your KYC verification to start using PVN Voice services" />
       </Head>
 
       <main className="min-h-screen bg-gray-50 py-12">

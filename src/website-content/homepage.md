@@ -1,4 +1,4 @@
-# Homepage Content for PVN Dialer
+# Homepage Content for PVN Voice
 
 ## SEO Keywords
 - business VoIP services
@@ -13,7 +13,7 @@
 ## Hero Section
 
 ### Main Headline
-**Transform Your Business Communication with PVN Dialer**
+**Transform Your Business Communication with PVN Voice**
 
 ### Subheadline
 Powerful cloud-based phone solutions that grow with your business
@@ -61,7 +61,7 @@ The hidden costs of outdated phone systems are killing your business growth
    - 60% of IT budget wasted on legacy systems
 
 ### Solution Preview
-"See how PVN Dialer solves these challenges with our modern communication platform"
+"See how PVN Voice solves these challenges with our modern communication platform"
 
 ## Features Section
 
@@ -94,7 +94,7 @@ Enhance team communication with instant messaging, video conferencing, and file 
 
 #### Case Study 1: Tech Startup
 **Challenge:** Rapid growth with remote team across 3 countries
-**Solution:** PVN Dialer's unified communications platform
+**Solution:** PVN Voice's unified communications platform
 **Results:**
 - 40% increase in team productivity
 - 60% reduction in communication costs
@@ -102,7 +102,7 @@ Enhance team communication with instant messaging, video conferencing, and file 
 
 #### Case Study 2: Healthcare Practice
 **Challenge:** Complex call routing and HIPAA compliance
-**Solution:** PVN Dialer's secure, compliant phone system
+**Solution:** PVN Voice's secure, compliant phone system
 **Results:**
 - 85% reduction in missed calls
 - Full HIPAA compliance achieved
@@ -110,7 +110,7 @@ Enhance team communication with instant messaging, video conferencing, and file 
 
 #### Case Study 3: Sales Organization
 **Challenge:** Poor call quality and lost leads
-**Solution:** PVN Dialer's HD voice and advanced analytics
+**Solution:** PVN Voice's HD voice and advanced analytics
 **Results:**
 - 35% increase in sales conversion rate
 - 50% reduction in dropped calls
@@ -149,13 +149,13 @@ Enhance team communication with instant messaging, video conferencing, and file 
 **Trusted by Industry Leaders**
 
 ### Customer Testimonials
-"PVN Dialer has revolutionized how our team communicates. Setting up our system took minutes, not days, and the cost savings compared to our old provider are substantial."
+"PVN Voice has revolutionized how our team communicates. Setting up our system took minutes, not days, and the cost savings compared to our old provider are substantial."
 - Sarah Jenkins, Marketing Director at GrowFast Solutions
 
-"As we shifted to remote work, PVN Dialer made the transition seamless. Our clients can't tell whether we're in the office or working from home. The call quality is exceptional."
+"As we shifted to remote work, PVN Voice made the transition seamless. Our clients can't tell whether we're in the office or working from home. The call quality is exceptional."
 - Michael Torres, CEO of Torres Consulting
 
-"The customer support at PVN Dialer is unmatched. When we need help, we get immediate assistance from knowledgeable professionals who solve our issues quickly."
+"The customer support at PVN Voice is unmatched. When we need help, we get immediate assistance from knowledgeable professionals who solve our issues quickly."
 - Jennifer Lopez, Office Manager at Bright Financial
 
 ### Stats
@@ -213,4 +213,4 @@ Get started in minutes with our risk-free trial. No credit card required.
 - "Talk to a VoIP Expert: (800) 123-4567"
 
 ### Trust Message
-"Join 10,000+ businesses who trust PVN Dialer for their communication needs" 
+"Join 10,000+ businesses who trust PVN Voice for their communication needs" 

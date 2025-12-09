@@ -9,7 +9,7 @@ export default function AutoDialerSoftware() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>Auto Dialer Software: Complete Guide to Power Dialing Technology - PVN Dialer</title>
+        <title>Auto Dialer Software: Complete Guide to Power Dialing Technology - PVN Voice</title>
         <meta name="description" content="Discover how auto dialer software and power dialer technology can revolutionize your call center operations. Learn about features, benefits, and implementation strategies." />
       </Head>
 

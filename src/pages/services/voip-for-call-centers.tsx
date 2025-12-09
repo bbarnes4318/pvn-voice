@@ -8,9 +8,9 @@ export default function VoipForCallCenters() {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Head>
-        <title>VoIP for Call Centers | Cloud Call Center Solutions - PVN Dialer</title>
-        <meta name="description" content="Transform your call center with PVN Dialer's cloud-based VoIP solutions. Boost agent productivity, improve customer experience, and reduce costs with advanced call center features." />
-        <meta name="keywords" content="VoIP for Call Centers, Cloud Call Center, Call Center Software, VoIP Solutions, Business VoIP, Contact Center, Inbound Call Center, Outbound Call Center, Call Routing, PVN Dialer" />
+        <title>VoIP for Call Centers | Cloud Call Center Solutions - PVN Voice</title>
+        <meta name="description" content="Transform your call center with PVN Voice's cloud-based VoIP solutions. Boost agent productivity, improve customer experience, and reduce costs with advanced call center features." />
+        <meta name="keywords" content="VoIP for Call Centers, Cloud Call Center, Call Center Software, VoIP Solutions, Business VoIP, Contact Center, Inbound Call Center, Outbound Call Center, Call Routing, PVN Voice" />
       </Head>
       <Header />
       <main className="flex-grow">
@@ -71,7 +71,7 @@ export default function VoipForCallCenters() {
         <section className="py-20 bg-gradient-to-br from-primary-50 to-blue-100">
           <div className="container-custom grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Why PVN Dialer for Call Centers?</h2>
+              <h2 className="text-3xl font-bold mb-6">Why PVN Voice for Call Centers?</h2>
               <ul className="space-y-5 text-lg">
                 <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3" /><span>Increase agent productivity and reduce wait times</span></li>
                 <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3" /><span>Enhance customer experience with fast, personalized service</span></li>
@@ -116,7 +116,7 @@ export default function VoipForCallCenters() {
             <h2 className="text-3xl font-bold text-center mb-12">What Our Call Center Clients Say</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white/10 p-8 rounded-2xl shadow flex flex-col items-center text-center">
-                <p className="mb-4 italic">"PVN Dialer helped us cut our average handle time by 30% and our customer satisfaction scores have never been higher."</p>
+                <p className="mb-4 italic">"PVN Voice helped us cut our average handle time by 30% and our customer satisfaction scores have never been higher."</p>
                 <span className="font-semibold">— Lisa M., Call Center Manager</span>
               </div>
               <div className="bg-white/10 p-8 rounded-2xl shadow flex flex-col items-center text-center">
@@ -124,7 +124,7 @@ export default function VoipForCallCenters() {
                 <span className="font-semibold">— Tom S., Operations Director</span>
               </div>
               <div className="bg-white/10 p-8 rounded-2xl shadow flex flex-col items-center text-center">
-                <p className="mb-4 italic">"We switched to PVN Dialer and saved over 40% on our phone costs while getting more features than ever before."</p>
+                <p className="mb-4 italic">"We switched to PVN Voice and saved over 40% on our phone costs while getting more features than ever before."</p>
                 <span className="font-semibold">— Priya R., Customer Experience Lead</span>
               </div>
             </div>

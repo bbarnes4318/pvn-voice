@@ -6,12 +6,12 @@ import { FaCheck, FaPhoneAlt, FaUsers, FaMobileAlt, FaGlobe, FaChartLine, FaCogs
 
 const testimonials = [
   {
-    quote: "Setting up our PVN Dialer system was surprisingly easy. We were up and running in less than an hour, and the call quality has been exceptional.",
+    quote: "Setting up our PVN Voice system was surprisingly easy. We were up and running in less than an hour, and the call quality has been exceptional.",
     name: "Michael Rodriguez",
     title: "IT Manager at Apex Solutions"
   },
   {
-    quote: "The flexibility of PVN Dialer has been invaluable as we've grown. Adding new team members takes seconds, not days, and the mobile app ensures our sales team never misses an opportunity.",
+    quote: "The flexibility of PVN Voice has been invaluable as we've grown. Adding new team members takes seconds, not days, and the mobile app ensures our sales team never misses an opportunity.",
     name: "Sarah Jenkins",
     title: "Sales Director at NovaTech Inc."
   },
@@ -27,7 +27,7 @@ export default function BusinessPhoneSystem() {
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Head>
         <title>Cloud Business Phone System | Modern VoIP Solutions for Business</title>
-        <meta name="description" content="Upgrade to a modern cloud business phone system with PVN Dialer. Enjoy advanced VoIP features, mobile integration, and cost savings for businesses of all sizes." />
+        <meta name="description" content="Upgrade to a modern cloud business phone system with PVN Voice. Enjoy advanced VoIP features, mobile integration, and cost savings for businesses of all sizes." />
       </Head>
       <Header />
       <main className="flex-grow">
@@ -76,7 +76,7 @@ export default function BusinessPhoneSystem() {
               <img src="/images/phone-benefits.png" alt="Cloud Phone System Benefits" className="rounded-xl shadow-lg w-full max-w-md mx-auto md:mx-0" />
             </div>
             <div className="flex-1">
-              <h2 className="text-3xl font-bold text-primary-700 mb-6">Why Choose PVN Dialer?</h2>
+              <h2 className="text-3xl font-bold text-primary-700 mb-6">Why Choose PVN Voice?</h2>
               <ul className="space-y-5 text-lg">
                 <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3 flex-shrink-0" /><span>Save up to 70% compared to traditional phone systems</span></li>
                 <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3 flex-shrink-0" /><span>Set up in minutes, not days or weeks</span></li>
@@ -92,7 +92,7 @@ export default function BusinessPhoneSystem() {
         {/* Timeline/How It Works Section */}
         <section className="py-20 bg-gradient-to-br from-primary-50 to-primary-100">
           <div className="container-custom">
-            <h2 className="text-4xl font-bold text-center mb-12 text-primary-700">How PVN Dialer Works: Simple, Reliable, Powerful</h2>
+            <h2 className="text-4xl font-bold text-center mb-12 text-primary-700">How PVN Voice Works: Simple, Reliable, Powerful</h2>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
               <div className="bg-white p-10 rounded-2xl shadow-lg flex flex-col items-center text-center border border-primary-100">
                 <span className="text-3xl font-bold text-primary-700 mb-2">1</span>
@@ -163,7 +163,7 @@ export default function BusinessPhoneSystem() {
         <section className="py-20 bg-gradient-to-r from-primary-700 to-primary-400 text-white text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Transform Your Business Phone System?</h2>
-            <p className="text-xl mb-8 text-primary-100">Join thousands of businesses that trust PVN Dialer for reliable, feature-rich communications.</p>
+            <p className="text-xl mb-8 text-primary-100">Join thousands of businesses that trust PVN Voice for reliable, feature-rich communications.</p>
             <a 
               href="tel:+19045128487" 
               className="inline-flex items-center space-x-3 bg-secondary-600 hover:bg-secondary-700 text-white px-10 py-5 rounded-xl font-bold text-xl shadow-cta transition-colors"

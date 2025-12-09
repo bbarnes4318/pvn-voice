@@ -9,7 +9,7 @@ export default function VoIPFeaturesComparison() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>VoIP Features: The Ultimate Comparison Guide - PVN Dialer</title>
+        <title>VoIP Features: The Ultimate Comparison Guide - PVN Voice</title>
         <meta name="description" content="Compare essential VoIP features across leading providers. Detailed analysis of call quality, pricing, integrations, and advanced features to help you choose the right VoIP solution." />
       </Head>
 

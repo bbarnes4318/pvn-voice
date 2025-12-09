@@ -9,7 +9,7 @@ export default function ChoosingVoIPProvider() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>How to Choose the Right VoIP Provider: A Comprehensive Guide - PVN Dialer</title>
+        <title>How to Choose the Right VoIP Provider: A Comprehensive Guide - PVN Voice</title>
         <meta name="description" content="Learn the essential factors to consider when selecting a VoIP provider for your business, from reliability and features to pricing and support." />
       </Head>
 
@@ -170,7 +170,7 @@ export default function ChoosingVoIPProvider() {
                   <div className="bg-primary-50 p-6 rounded-xl mt-8">
                     <h3 className="font-bold text-primary-600 mb-3">Need Help Choosing?</h3>
                     <p className="text-gray-700 mb-4">
-                      PVN Dialer offers a comprehensive VoIP solution with all the features your business needs. Contact us for a personalized consultation.
+                      PVN Voice offers a comprehensive VoIP solution with all the features your business needs. Contact us for a personalized consultation.
                     </p>
                     <a href="/contact-us" className="inline-block bg-primary-600 text-white px-6 py-3 rounded-md hover:bg-primary-700 transition-colors">
                       Schedule Consultation

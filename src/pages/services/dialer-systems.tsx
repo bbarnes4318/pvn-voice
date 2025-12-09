@@ -8,9 +8,9 @@ export default function DialerSystems() {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Head>
-        <title>Dialer Systems | Automated Dialing Solutions for Business - PVN Dialer</title>
-        <meta name="description" content="Revolutionize your outbound calling with PVN Dialer's advanced dialer systems. Boost productivity, connect with more leads, and automate your sales and support outreach." />
-        <meta name="keywords" content="Dialer Systems, Auto Dialer, Predictive Dialer, Power Dialer, Progressive Dialer, Sales Dialer, Automated Calling, Outbound Dialer, Call Center Dialer, PVN Dialer" />
+        <title>Dialer Systems | Automated Dialing Solutions for Business - PVN Voice</title>
+        <meta name="description" content="Revolutionize your outbound calling with PVN Voice's advanced dialer systems. Boost productivity, connect with more leads, and automate your sales and support outreach." />
+        <meta name="keywords" content="Dialer Systems, Auto Dialer, Predictive Dialer, Power Dialer, Progressive Dialer, Sales Dialer, Automated Calling, Outbound Dialer, Call Center Dialer, PVN Voice" />
       </Head>
       <Header />
       <main className="flex-grow">
@@ -71,7 +71,7 @@ export default function DialerSystems() {
         <section className="py-20 bg-gradient-to-br from-primary-50 to-blue-100">
           <div className="container-custom grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Why Choose PVN Dialer Systems?</h2>
+              <h2 className="text-3xl font-bold mb-6">Why Choose PVN Voice Systems?</h2>
               <ul className="space-y-5 text-lg">
                 <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3" /><span>Boost outbound call volume and connect with more prospects</span></li>
                 <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3" /><span>Automate repetitive tasks and eliminate manual dialing</span></li>
@@ -116,7 +116,7 @@ export default function DialerSystems() {
             <h2 className="text-3xl font-bold text-center mb-12">What Our Clients Say</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white/10 p-8 rounded-2xl shadow flex flex-col items-center text-center">
-                <p className="mb-4 italic">"PVN Dialer's predictive dialer doubled our team's call volume and helped us hit record sales numbers."</p>
+                <p className="mb-4 italic">"PVN Voice's predictive dialer doubled our team's call volume and helped us hit record sales numbers."</p>
                 <span className="font-semibold">— Mark T., Sales Manager</span>
               </div>
               <div className="bg-white/10 p-8 rounded-2xl shadow flex flex-col items-center text-center">

@@ -9,8 +9,8 @@ export default function TermsOfService() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>Terms of Service - PVN Dialer</title>
-        <meta name="description" content="Read PVN Dialer's Terms of Service and understand the terms that govern your use of our VoIP and business communication services." />
+        <title>Terms of Service - PVN Voice</title>
+        <meta name="description" content="Read PVN Voice's Terms of Service and understand the terms that govern your use of our VoIP and business communication services." />
         <meta name="robots" content="noindex" />
       </Head>
 
@@ -93,7 +93,7 @@ export default function TermsOfService() {
                     <div>
                       <h2 className="text-xl font-bold text-gray-800 mb-2">Important Notice</h2>
                       <p className="text-gray-700 text-sm leading-relaxed">
-                        These Terms of Service constitute a legally binding agreement between you and PVN Dialer. By using our services, you acknowledge that you have read, understood, and agree to be bound by these terms. If you do not agree with any part of these terms, please do not use our services.
+                        These Terms of Service constitute a legally binding agreement between you and PVN Voice. By using our services, you acknowledge that you have read, understood, and agree to be bound by these terms. If you do not agree with any part of these terms, please do not use our services.
                       </p>
                     </div>
                   </div>
@@ -102,12 +102,12 @@ export default function TermsOfService() {
                 <div className="prose prose-sm max-w-none">
                   <h2 id="acceptance" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200">1. Acceptance of Terms</h2>
                   <p className="text-gray-700 leading-relaxed">
-                    By accessing or using PVN Dialer's website, services, or applications (collectively, the "Services"), you agree to be bound by these Terms of Service. If you do not agree to these Terms, you may not access or use the Services. These Terms constitute a legally binding agreement between you and PVN Dialer.
+                    By accessing or using PVN Voice's website, services, or applications (collectively, the "Services"), you agree to be bound by these Terms of Service. If you do not agree to these Terms, you may not access or use the Services. These Terms constitute a legally binding agreement between you and PVN Voice.
                   </p>
 
                   <h2 id="description" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200">2. Description of Services</h2>
                   <p className="text-gray-700 leading-relaxed mb-3">
-                    PVN Dialer provides business VoIP telephone and unified communications services. Our Services include but are not limited to:
+                    PVN Voice provides business VoIP telephone and unified communications services. Our Services include but are not limited to:
                   </p>
                   <ul className="list-disc pl-6 space-y-1 mb-4">
                     <li className="text-gray-700">Cloud-based business phone systems</li>
@@ -117,7 +117,7 @@ export default function TermsOfService() {
                     <li className="text-gray-700">Customer support throughout the implementation and use of our services</li>
                   </ul>
                   <p className="text-gray-700 leading-relaxed">
-                    PVN Dialer does not provide legal advice, tax advice, or IT consulting services beyond the scope of our communications products.
+                    PVN Voice does not provide legal advice, tax advice, or IT consulting services beyond the scope of our communications products.
                   </p>
 
                   <h2 id="eligibility" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200">3. Eligibility</h2>
@@ -132,7 +132,7 @@ export default function TermsOfService() {
                     <li className="text-gray-700">Have sufficient internet connectivity to support VoIP services</li>
                   </ul>
                   <p className="text-gray-700 leading-relaxed">
-                    PVN Dialer reserves the right to refuse service to anyone for any lawful reason.
+                    PVN Voice reserves the right to refuse service to anyone for any lawful reason.
                   </p>
 
                   <h2 id="registration" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200">4. Account Registration</h2>
@@ -184,7 +184,7 @@ export default function TermsOfService() {
 
                   <h2 id="responsibilities" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200">7. Client Responsibilities</h2>
                   <p className="text-gray-700 leading-relaxed mb-3">
-                    As a client of PVN Dialer, you agree to:
+                    As a client of PVN Voice, you agree to:
                   </p>
                   <ul className="list-disc pl-6 space-y-1 mb-4">
                     <li className="text-gray-700">Provide complete and accurate information about your business needs</li>
@@ -202,10 +202,10 @@ export default function TermsOfService() {
                   <ul className="list-disc pl-6 space-y-1 mb-4">
                     <li className="text-gray-700">You will be responsible for paying any outstanding balances</li>
                     <li className="text-gray-700">You may request to port your phone numbers to another provider</li>
-                    <li className="text-gray-700">PVN Dialer will provide reasonable assistance during the transition</li>
+                    <li className="text-gray-700">PVN Voice will provide reasonable assistance during the transition</li>
                   </ul>
                   <p className="text-gray-700 leading-relaxed">
-                    PVN Dialer reserves the right to terminate services if you breach these Terms, provide false information, or fail to pay subscription fees.
+                    PVN Voice reserves the right to terminate services if you breach these Terms, provide false information, or fail to pay subscription fees.
                   </p>
 
                   <h2 id="privacy" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200">9. Privacy and Communication</h2>
@@ -218,7 +218,7 @@ export default function TermsOfService() {
 
                   <h2 id="liability" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200">10. Limitation of Liability</h2>
                   <p className="text-gray-700 leading-relaxed mb-3">
-                    To the maximum extent permitted by law, PVN Dialer shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from:
+                    To the maximum extent permitted by law, PVN Voice shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from:
                   </p>
                   <ul className="list-disc pl-6 space-y-1 mb-4">
                     <li className="text-gray-700">Your use or inability to use our Services</li>
@@ -227,7 +227,7 @@ export default function TermsOfService() {
                     <li className="text-gray-700">Service interruptions or outages</li>
                   </ul>
                   <p className="text-gray-700 leading-relaxed">
-                    In no event shall our total liability to you exceed the amounts paid by you to PVN Dialer for the Services in the six months prior to the claim.
+                    In no event shall our total liability to you exceed the amounts paid by you to PVN Voice for the Services in the six months prior to the claim.
                   </p>
 
                   <h2 id="disclaimer" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200">11. Disclaimer of Warranties</h2>
@@ -237,7 +237,7 @@ export default function TermsOfService() {
 
                   <h2 id="indemnification" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200">12. Indemnification</h2>
                   <p className="text-gray-700 leading-relaxed">
-                    You agree to indemnify, defend, and hold harmless PVN Dialer and its officers, directors, employees, agents, and affiliates from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses arising from your use of the Services or your violation of these Terms.
+                    You agree to indemnify, defend, and hold harmless PVN Voice and its officers, directors, employees, agents, and affiliates from and against any and all claims, damages, obligations, losses, liabilities, costs, or debt, and expenses arising from your use of the Services or your violation of these Terms.
                   </p>
 
                   <h2 id="changes" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200">13. Changes to Terms</h2>
@@ -266,7 +266,7 @@ export default function TermsOfService() {
                       </li>
                       <li className="text-gray-700 flex items-start">
                         <span className="w-20 inline-block font-medium">Mail:</span> 
-                        <span>PVN Dialer<br />2800 N 6th Street #796<br />Saint Augustine, FL 32084</span>
+                        <span>PVN Voice<br />2800 N 6th Street #796<br />Saint Augustine, FL 32084</span>
                       </li>
                     </ul>
                   </div>

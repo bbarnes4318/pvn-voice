@@ -40,7 +40,7 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer, icon }) => {
 const FAQ: React.FC = () => {
   const faqs = [
     {
-      question: "How much can I save with PVN Dialer?",
+      question: "How much can I save with PVN Voice?",
       answer: "Most businesses save 50-70% on their monthly phone costs. This comes from eliminating hardware costs, maintenance fees, and long-distance charges. Plus, you only pay for what you need with our flexible pricing plans.",
       icon: <FaCheckCircle />
     },
@@ -61,7 +61,7 @@ const FAQ: React.FC = () => {
     },
     {
       question: "Can I keep my existing phone numbers?",
-      answer: "Yes, you can port your existing phone numbers to PVN Dialer. Our team handles the entire porting process, and you won't experience any service interruption during the transition.",
+      answer: "Yes, you can port your existing phone numbers to PVN Voice. Our team handles the entire porting process, and you won't experience any service interruption during the transition.",
       icon: <FaCheckCircle />
     }
   ];

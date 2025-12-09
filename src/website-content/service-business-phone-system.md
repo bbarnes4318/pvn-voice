@@ -1,4 +1,4 @@
-# Business Phone System Service Page Content for PVN Dialer
+# Business Phone System Service Page Content for PVN Voice
 
 ## SEO Keywords
 - cloud PBX system
@@ -93,7 +93,7 @@ Configure calls to ring multiple devices simultaneously or in sequence so you ne
 ## How It Works Section
 
 ### Headline
-**How PVN Dialer Works: Simple, Reliable, Powerful**
+**How PVN Voice Works: Simple, Reliable, Powerful**
 
 ### Step Cards
 
@@ -120,7 +120,7 @@ Make and receive calls from anywhere, manage settings from your dashboard, and e
 ### Use Case Cards
 
 #### Remote & Hybrid Teams
-Keep your team connected whether they're in the office, at home, or on the road. With PVN Dialer, your business phone system works wherever your people do.
+Keep your team connected whether they're in the office, at home, or on the road. With PVN Voice, your business phone system works wherever your people do.
 
 #### Multiple Locations
 Connect multiple offices under one unified phone system. Transfer calls between locations seamlessly and present a consistent customer experience.
@@ -132,17 +132,17 @@ Add new lines, features, and locations instantly as your business expands. No ne
 Provide exceptional customer experiences with advanced routing, queuing, and reporting features designed for support and sales teams.
 
 ### Customer Story Highlight
-"When we shifted to a hybrid work model, PVN Dialer made the transition seamless. Our clients can't tell whether we're in the office or working remotely, and the ability to manage everything through the app has been a game-changer for our team."
+"When we shifted to a hybrid work model, PVN Voice made the transition seamless. Our clients can't tell whether we're in the office or working remotely, and the ability to manage everything through the app has been a game-changer for our team."
 - Jennifer McKay, Operations Director at GreenTech Solutions
 
 ## Comparison Section
 
 ### Headline
-**Why Choose PVN Dialer Over Traditional Phone Systems**
+**Why Choose PVN Voice Over Traditional Phone Systems**
 
 ### Comparison Table
 
-| Feature | Traditional PBX | PVN Dialer Cloud System |
+| Feature | Traditional PBX | PVN Voice Cloud System |
 |---------|----------------|-------------------------|
 | Upfront Costs | $10,000+ for hardware | No hardware required |
 | Setup Time | Weeks or months | Minutes or hours |
@@ -162,10 +162,10 @@ Provide exceptional customer experiences with advanced routing, queuing, and rep
 **What Our Customers Say**
 
 ### Customer Testimonials
-"Setting up our PVN Dialer system was surprisingly easy. We were up and running in less than an hour, and the call quality has been exceptional."
+"Setting up our PVN Voice system was surprisingly easy. We were up and running in less than an hour, and the call quality has been exceptional."
 - Michael Rodriguez, IT Manager at Apex Solutions
 
-"The flexibility of PVN Dialer has been invaluable as we've grown. Adding new team members takes seconds, not days, and the mobile app ensures our sales team never misses an opportunity."
+"The flexibility of PVN Voice has been invaluable as we've grown. Adding new team members takes seconds, not days, and the mobile app ensures our sales team never misses an opportunity."
 - Sarah Jenkins, Sales Director at NovaTech Inc.
 
 "The cost savings compared to our old system have been substantial—about 65% less per month—but the biggest benefit has been the reliability. In three years, we haven't experienced any downtime."
@@ -229,7 +229,7 @@ Complete solution for larger organizations
 **Ready to Transform Your Business Phone System?**
 
 ### Subheadline
-Join thousands of businesses that trust PVN Dialer for reliable, feature-rich communications.
+Join thousands of businesses that trust PVN Voice for reliable, feature-rich communications.
 
 ### CTA Buttons
 - "Start Your Free Trial"

@@ -9,7 +9,7 @@ export default function FAQPage() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>Frequently Asked Questions - PVN Dialer</title>
+        <title>Frequently Asked Questions - PVN Voice</title>
         <meta name="description" content="Get answers to common questions about our VoIP phone system, contact center solutions, and business communication services." />
       </Head>
 

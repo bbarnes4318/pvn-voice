@@ -9,7 +9,7 @@ export default function BusinessCommunicationTips() {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>Business Communication Tips - PVN Dialer</title>
+        <title>Business Communication Tips - PVN Voice</title>
         <meta name="description" content="Practical advice and tips to help you optimize your business phone system, improve call quality, and maximize the benefits of VoIP technology." />
       </Head>
 

@@ -9,7 +9,7 @@ export default function VoIPCallQualityOptimization() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
-        <title>VoIP Call Quality Optimization: A Complete Guide to Crystal Clear Communications - PVN Dialer</title>
+        <title>VoIP Call Quality Optimization: A Complete Guide to Crystal Clear Communications - PVN Voice</title>
         <meta name="description" content="Learn how to optimize your VoIP call quality with our comprehensive guide covering network settings, hardware requirements, and troubleshooting tips." />
       </Head>
 
