@@ -1,7 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube, FaSignInAlt } from 'react-icons/fa';
+import { PORTAL_LOGIN_URL } from '../lib/site-links';
 
 const Footer = () => {
   return (
@@ -73,6 +74,17 @@ const Footer = () => {
                 <Link href="/contact-us" className="text-gray-200 hover:text-white transition-colors">
                   Contact Us
                 </Link>
+              </li>
+              <li>
+                <a
+                  href={PORTAL_LOGIN_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-gray-200 hover:text-white transition-colors"
+                >
+                  <FaSignInAlt className="mr-2 text-sm" />
+                  Customer Login
+                </a>
               </li>
             </ul>
           </div>
