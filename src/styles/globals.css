@@ -46,8 +46,63 @@
   .text-shadow {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  
+
   .text-shadow-lg {
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Print styles for the compliance policy pages: carriers and clients print these,
+   so drop the site chrome (header, footer, sidebar, print button) and render the
+   policy itself as plain black-on-white text at full width. */
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+
+  html,
+  body,
+  .policy-page {
+    background: #fff !important;
+  }
+
+  .policy-page section {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .policy-hero {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .policy-hero h1,
+  .policy-hero p,
+  .policy-hero a {
+    color: #000 !important;
+  }
+
+  .policy-body {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .policy-body a {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+
+  .policy-body h2 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .policy-body ul,
+  .policy-body li,
+  .policy-body p {
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 } 

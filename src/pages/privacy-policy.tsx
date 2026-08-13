@@ -125,6 +125,10 @@ export default function PrivacyPolicy() {
                     This information is collected through cookies, web beacons, and other tracking technologies, as well as third-party analytics tools.
                   </p>
 
+                  <p className="text-gray-700 leading-relaxed mt-4">
+                    Where you provide a telephone number and consent to be contacted, the standards we apply to collecting, documenting, honoring, and revoking that consent are described in our <Link href="/compliance/consent" className="text-primary-600 hover:text-primary-700">Opt-In &amp; Consent Policy</Link>. Our full set of telemarketing compliance policies, including our <Link href="/compliance/do-not-call" className="text-primary-600 hover:text-primary-700">Do-Not-Call Policy</Link>, is available on our <Link href="/compliance" className="text-primary-600 hover:text-primary-700">Compliance</Link> page.
+                  </p>
+
                   <div className="bg-blue-50 p-4 rounded-md my-6 border-l-4 border-blue-400">
                     <p className="text-blue-800 text-sm leading-relaxed m-0">
                       <strong>Note:</strong> PVN Voice does not knowingly collect or solicit information from anyone under the age of 18. If you are a parent or guardian and believe we might have any information from or about a child under the age of 18, please contact us immediately at <a href="mailto:support@pvndialer.com" className="text-blue-700 hover:underline">support@pvndialer.com</a>.

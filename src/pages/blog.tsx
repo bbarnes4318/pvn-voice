@@ -440,7 +440,8 @@ export default function Blog() {
                 </button>
               </form>
               <p className="mt-4 text-sm text-primary-200">
-                We respect your privacy. Unsubscribe at any time.
+                We respect your privacy. Unsubscribe at any time. See our{' '}
+                <Link href="/compliance/consent" className="underline hover:text-white">Opt-In &amp; Consent Policy</Link>.
               </p>
             </div>
           </div>

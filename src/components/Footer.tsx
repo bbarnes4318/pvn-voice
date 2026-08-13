@@ -129,6 +129,16 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link href="/compliance/do-not-call" className="text-gray-200 hover:text-white transition-colors">
+                  Do Not Call Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/compliance" className="text-gray-200 hover:text-white transition-colors">
+                  Compliance
+                </Link>
+              </li>
+              <li>
                 <Link href="/sitemap" className="text-gray-200 hover:text-white transition-colors">
                   Sitemap
                 </Link>

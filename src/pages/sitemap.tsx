@@ -142,6 +142,45 @@ export default function Sitemap() {
                     </li>
                   </ul>
                 </div>
+
+                {/* Compliance Policies */}
+                <div>
+                  <h2 className="text-2xl font-bold text-primary-600 mb-6 flex items-center">
+                    <FaShieldAlt className="mr-2" /> Compliance Policies
+                  </h2>
+                  <ul className="space-y-4">
+                    <li>
+                      <Link href="/compliance" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
+                        Compliance Overview
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/compliance/do-not-call" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
+                        Do-Not-Call (DNC) Policy
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/compliance/do-not-originate" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
+                        Do-Not-Originate (DNO) Policy
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/compliance/reassigned-numbers" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
+                        Reassigned Numbers Database (RND) Policy
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/compliance/consent" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
+                        Opt-In &amp; Consent Policy
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
               </div>
 
               {/* Blog Categories */}

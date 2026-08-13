@@ -217,6 +217,10 @@ export default function ContactUs() {
                     </div>
                   </div>
                   
+                  <p className="text-xs text-gray-500 mb-4">
+                    Calls and messages placed to the number you provide are governed by our <a href="/compliance/consent" className="text-primary-600 hover:underline">Opt-In &amp; Consent Policy</a> and our <a href="/compliance/do-not-call" className="text-primary-600 hover:underline">Do Not Call Policy</a>. You may opt out at any time by calling (904) 512-8487.
+                  </p>
+
                   <button
                     type="submit"
                     className="w-full bg-primary-600 text-white py-3 px-4 rounded-md hover:bg-primary-700 transition duration-300 font-medium"
