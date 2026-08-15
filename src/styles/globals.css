@@ -2,15 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
+/* PVN brand color system.
+   Two canonical colors, both taken byte-exact from the logo artwork:
+     navy-900  #003359  hsl(206, 100%, 17.5%)  - logo wordmark and pin
+     green-500 #3cb26e  hsl(145,  50%, 46.7%)  - logo dot
+   Every other step is a tint/shade of the same hue. Saturation eases off in the
+   light tints so they don't go neon. green-700 is the CTA color: it is the
+   LIGHTEST green at hue 145 / 50% saturation that clears 4.5:1 against white
+   text (4.52:1). Green is reserved for actions, checkmarks, and success states. */
+:root {
+  --pvn-navy-50: #eff6fb;
+  --pvn-navy-100: #d4e8f7;
+  --pvn-navy-200: #a6d1f2;
+  --pvn-navy-300: #6cb0e5;
+  --pvn-navy-400: #1c8de3;
+  --pvn-navy-500: #006ec2;
+  --pvn-navy-600: #005799;
+  --pvn-navy-700: #004880;
+  --pvn-navy-800: #003d6b;
+  --pvn-navy-900: #003359;
+  --pvn-navy-950: #002038;
+
+  --pvn-green-50: #ebfaf1;
+  --pvn-green-100: #d0f1de;
+  --pvn-green-200: #aae4c2;
+  --pvn-green-300: #85d6a7;
+  --pvn-green-400: #5bc888;
+  --pvn-green-500: #3cb26e;
+  --pvn-green-600: #30a661;
+  --pvn-green-700: #2d8652;
+  --pvn-green-800: #1c6e3e;
+  --pvn-green-900: #145730;
+  --pvn-green-950: #0c371e;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
     @apply text-gray-800 bg-gray-50;
   }
-  
+
   h1, h2, h3, h4, h5, h6 {
     @apply font-display font-bold;
   }
@@ -20,23 +54,23 @@
   .btn {
     @apply inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
   }
-  
+
   .btn-primary {
-    @apply btn bg-secondary-600 text-white hover:bg-secondary-700 focus:ring-secondary-500 shadow-cta hover:shadow-lg;
+    @apply btn bg-green-700 text-white hover:bg-green-800 focus:ring-green-600 shadow-cta hover:shadow-lg;
   }
-  
+
   .btn-secondary {
-    @apply btn bg-white text-primary-700 border border-primary-200 hover:bg-gray-50 focus:ring-primary-500;
+    @apply btn bg-white text-navy-600 border border-navy-200 hover:bg-gray-50 focus:ring-navy-500;
   }
-  
+
   .btn-call {
     @apply btn-primary text-lg py-4 px-8 md:text-xl md:py-5 md:px-10;
   }
-  
+
   .container-custom {
     @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px];
   }
-  
+
   .section {
     @apply py-12 sm:py-16 lg:py-20;
   }
@@ -105,4 +139,4 @@
     break-inside: avoid;
     page-break-inside: avoid;
   }
-} 
+}

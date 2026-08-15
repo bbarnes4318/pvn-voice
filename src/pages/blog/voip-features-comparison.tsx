@@ -18,7 +18,7 @@ export default function VoIPFeaturesComparison() {
         <article className="py-16 bg-white">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto">
-              <Link href="/blog" className="inline-flex items-center text-primary-600 hover:text-primary-700 mb-8">
+              <Link href="/blog" className="inline-flex items-center text-navy-500 hover:text-navy-600 mb-8">
                 <FaArrowLeft className="mr-2" />
                 Back to Blog
               </Link>
@@ -41,7 +41,7 @@ export default function VoIPFeaturesComparison() {
                     18 min read
                   </div>
                 </div>
-                <div className="h-1 w-20 bg-primary-600"></div>
+                <div className="h-1 w-20 bg-navy-500"></div>
               </div>
 
               <div className="prose prose-lg max-w-none">
@@ -115,9 +115,9 @@ export default function VoIPFeaturesComparison() {
                 </ul>
 
                 <h2>4. Pricing Models</h2>
-                <div className="bg-primary-50 p-6 rounded-xl my-8">
-                  <h3 className="text-xl font-bold text-primary-800 mb-4">Common Pricing Structures</h3>
-                  <ul className="list-disc list-inside text-primary-700">
+                <div className="bg-navy-50 p-6 rounded-xl my-8">
+                  <h3 className="text-xl font-bold text-navy-700 mb-4">Common Pricing Structures</h3>
+                  <ul className="list-disc list-inside text-navy-600">
                     <li>Per-user monthly subscription</li>
                     <li>Pay-as-you-go plans</li>
                     <li>Unlimited calling packages</li>
@@ -190,7 +190,7 @@ export default function VoIPFeaturesComparison() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <Link href="/blog/voip-network-requirements" className="group">
                     <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-                      <h4 className="text-lg font-bold text-gray-900 group-hover:text-primary-600 mb-2">
+                      <h4 className="text-lg font-bold text-gray-900 group-hover:text-navy-500 mb-2">
                         VoIP Network Requirements: A Complete Technical Guide
                       </h4>
                       <p className="text-gray-600">
@@ -200,7 +200,7 @@ export default function VoIPFeaturesComparison() {
                   </Link>
                   <Link href="/blog/cost-reduction-strategies" className="group">
                     <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-                      <h4 className="text-lg font-bold text-gray-900 group-hover:text-primary-600 mb-2">
+                      <h4 className="text-lg font-bold text-gray-900 group-hover:text-navy-500 mb-2">
                         VoIP Cost Reduction Strategies: Maximize Your Investment
                       </h4>
                       <p className="text-gray-600">

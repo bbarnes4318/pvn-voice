@@ -17,14 +17,14 @@ export default function VoIPMyths() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-primary-600 text-white py-12 md:py-20">
+        <section className="bg-navy-500 text-white py-12 md:py-20">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto">
-              <Link href="/blog" className="inline-flex items-center text-primary-100 hover:text-white mb-6 transition-colors">
+              <Link href="/blog" className="inline-flex items-center text-navy-50 hover:text-white mb-6 transition-colors">
                 <FaArrowLeft className="mr-2" /> Back to Blog
               </Link>
               <h1 className="text-3xl md:text-5xl font-bold mb-6">5 Common VoIP Myths Debunked: The Truth About Cloud Phone Systems</h1>
-              <div className="flex items-center text-primary-100 space-x-6">
+              <div className="flex items-center text-navy-50 space-x-6">
                 <div className="flex items-center">
                   <FaCalendarAlt className="mr-2" />
                   <span>April 22, 2023</span>
@@ -34,7 +34,7 @@ export default function VoIPMyths() {
                   <span>Michael Roberts</span>
                 </div>
                 <div>
-                  <span className="px-3 py-1 bg-primary-700 rounded-full text-sm">Business Communications</span>
+                  <span className="px-3 py-1 bg-navy-600 rounded-full text-sm">Business Communications</span>
                 </div>
               </div>
             </div>
@@ -55,15 +55,15 @@ export default function VoIPMyths() {
                   </div>
 
                   {/* Table of Contents */}
-                  <div className="bg-primary-50 p-6 rounded-xl mb-8">
-                    <h3 className="text-primary-600 font-bold mb-4">Quick Navigation</h3>
+                  <div className="bg-navy-50 p-6 rounded-xl mb-8">
+                    <h3 className="text-navy-500 font-bold mb-4">Quick Navigation</h3>
                     <ul className="list-none p-0 m-0 space-y-2">
-                      <li><a href="#intro" className="text-primary-600 hover:text-primary-700">Introduction</a></li>
-                      <li><a href="#myth1" className="text-primary-600 hover:text-primary-700">Myth 1: VoIP Call Quality Is Poor</a></li>
-                      <li><a href="#myth2" className="text-primary-600 hover:text-primary-700">Myth 2: VoIP Is Unreliable and Prone to Outages</a></li>
-                      <li><a href="#myth3" className="text-primary-600 hover:text-primary-700">Myth 3: VoIP Systems Are Vulnerable to Security Breaches</a></li>
-                      <li><a href="#myth4" className="text-primary-600 hover:text-primary-700">Myth 4: VoIP Is Too Complicated for Small Businesses</a></li>
-                      <li><a href="#myth5" className="text-primary-600 hover:text-primary-700">Myth 5: VoIP Is Just for Making Calls</a></li>
+                      <li><a href="#intro" className="text-navy-500 hover:text-navy-600">Introduction</a></li>
+                      <li><a href="#myth1" className="text-navy-500 hover:text-navy-600">Myth 1: VoIP Call Quality Is Poor</a></li>
+                      <li><a href="#myth2" className="text-navy-500 hover:text-navy-600">Myth 2: VoIP Is Unreliable and Prone to Outages</a></li>
+                      <li><a href="#myth3" className="text-navy-500 hover:text-navy-600">Myth 3: VoIP Systems Are Vulnerable to Security Breaches</a></li>
+                      <li><a href="#myth4" className="text-navy-500 hover:text-navy-600">Myth 4: VoIP Is Too Complicated for Small Businesses</a></li>
+                      <li><a href="#myth5" className="text-navy-500 hover:text-navy-600">Myth 5: VoIP Is Just for Making Calls</a></li>
                     </ul>
                   </div>
 
@@ -76,9 +76,9 @@ export default function VoIPMyths() {
                   </p>
 
                   {/* Myth 1 */}
-                  <div className="bg-gray-50 rounded-xl p-8 my-8 border-l-4 border-secondary-500">
+                  <div className="bg-gray-50 rounded-xl p-8 my-8 border-l-4 border-navy-500">
                     <h2 id="myth1" className="flex items-start mt-0 scroll-mt-20">
-                      <span className="bg-secondary-500 text-white text-lg font-bold rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">1</span>
+                      <span className="bg-navy-500 text-white text-lg font-bold rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">1</span>
                       Myth: VoIP Call Quality Is Poor
                     </h2>
                     
@@ -99,7 +99,7 @@ export default function VoIPMyths() {
                         <FaCheck className="text-green-500" />
                       </div>
                       <div>
-                        <h3 className="text-green-600 font-medium">The Reality:</h3>
+                        <h3 className="text-navy-600 font-medium">The Reality:</h3>
                         <p className="text-gray-700 mb-3">
                           Modern VoIP systems often deliver superior call quality compared to traditional phone lines. With adequate bandwidth and proper network configuration, VoIP calls are clear, crisp, and indistinguishable from (or better than) landline calls.
                         </p>
@@ -111,9 +111,9 @@ export default function VoIPMyths() {
                   </div>
 
                   {/* Myth 2 */}
-                  <div className="bg-gray-50 rounded-xl p-8 my-8 border-l-4 border-secondary-500">
+                  <div className="bg-gray-50 rounded-xl p-8 my-8 border-l-4 border-navy-500">
                     <h2 id="myth2" className="flex items-start mt-0 scroll-mt-20">
-                      <span className="bg-secondary-500 text-white text-lg font-bold rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">2</span>
+                      <span className="bg-navy-500 text-white text-lg font-bold rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">2</span>
                       Myth: VoIP Is Unreliable and Prone to Outages
                     </h2>
                     
@@ -134,7 +134,7 @@ export default function VoIPMyths() {
                         <FaCheck className="text-green-500" />
                       </div>
                       <div>
-                        <h3 className="text-green-600 font-medium">The Reality:</h3>
+                        <h3 className="text-navy-600 font-medium">The Reality:</h3>
                         <p className="text-gray-700 mb-3">
                           Enterprise-grade VoIP providers typically offer 99.999% uptime (the "five nines" standard), which translates to less than 5.3 minutes of downtime per year. Consider these reliability features of modern VoIP systems:
                         </p>
@@ -153,9 +153,9 @@ export default function VoIPMyths() {
                   </div>
 
                   {/* Myth 3 */}
-                  <div className="bg-gray-50 rounded-xl p-8 my-8 border-l-4 border-secondary-500">
+                  <div className="bg-gray-50 rounded-xl p-8 my-8 border-l-4 border-navy-500">
                     <h2 id="myth3" className="flex items-start mt-0 scroll-mt-20">
-                      <span className="bg-secondary-500 text-white text-lg font-bold rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">3</span>
+                      <span className="bg-navy-500 text-white text-lg font-bold rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">3</span>
                       Myth: VoIP Systems Are Vulnerable to Security Breaches
                     </h2>
                     
@@ -176,7 +176,7 @@ export default function VoIPMyths() {
                         <FaCheck className="text-green-500" />
                       </div>
                       <div>
-                        <h3 className="text-green-600 font-medium">The Reality:</h3>
+                        <h3 className="text-navy-600 font-medium">The Reality:</h3>
                         <p className="text-gray-700 mb-3">
                           Modern VoIP systems employ robust security measures that make them just as secure—and often more secure—than traditional phone systems. Leading VoIP providers implement multiple layers of protection:
                         </p>
@@ -191,9 +191,9 @@ export default function VoIPMyths() {
                   </div>
 
                   {/* Myth 4 */}
-                  <div className="bg-gray-50 rounded-xl p-8 my-8 border-l-4 border-secondary-500">
+                  <div className="bg-gray-50 rounded-xl p-8 my-8 border-l-4 border-navy-500">
                     <h2 id="myth4" className="flex items-start mt-0 scroll-mt-20">
-                      <span className="bg-secondary-500 text-white text-lg font-bold rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">4</span>
+                      <span className="bg-navy-500 text-white text-lg font-bold rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">4</span>
                       Myth: VoIP Is Too Complicated for Small Businesses
                     </h2>
                     
@@ -214,13 +214,13 @@ export default function VoIPMyths() {
                         <FaCheck className="text-green-500" />
                       </div>
                       <div>
-                        <h3 className="text-green-600 font-medium">The Reality:</h3>
+                        <h3 className="text-navy-600 font-medium">The Reality:</h3>
                         <p className="text-gray-700 mb-3">
                           Cloud-based VoIP systems are designed with ease of use in mind and require minimal technical expertise to set up and manage. Let's compare the complexity:
                         </p>
                         <div className="grid md:grid-cols-2 gap-4 mb-3">
                           <div className="bg-white p-4 rounded-lg shadow-sm">
-                            <h4 className="font-bold text-primary-600 mb-2">Modern VoIP:</h4>
+                            <h4 className="font-bold text-navy-500 mb-2">Modern VoIP:</h4>
                             <ul className="text-sm space-y-1">
                               <li>• Web-based administration panels</li>
                               <li>• Plug-and-play phone setup</li>
@@ -230,7 +230,7 @@ export default function VoIPMyths() {
                             </ul>
                           </div>
                           <div className="bg-white p-4 rounded-lg shadow-sm">
-                            <h4 className="font-bold text-primary-600 mb-2">Traditional PBX:</h4>
+                            <h4 className="font-bold text-navy-500 mb-2">Traditional PBX:</h4>
                             <ul className="text-sm space-y-1">
                               <li>• Physical installation required</li>
                               <li>• Hardware maintenance issues</li>
@@ -248,9 +248,9 @@ export default function VoIPMyths() {
                   </div>
 
                   {/* Myth 5 */}
-                  <div className="bg-gray-50 rounded-xl p-8 my-8 border-l-4 border-secondary-500">
+                  <div className="bg-gray-50 rounded-xl p-8 my-8 border-l-4 border-navy-500">
                     <h2 id="myth5" className="flex items-start mt-0 scroll-mt-20">
-                      <span className="bg-secondary-500 text-white text-lg font-bold rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">5</span>
+                      <span className="bg-navy-500 text-white text-lg font-bold rounded-full w-8 h-8 flex items-center justify-center mr-3 flex-shrink-0">5</span>
                       Myth: VoIP Is Just for Making Calls
                     </h2>
                     
@@ -271,7 +271,7 @@ export default function VoIPMyths() {
                         <FaCheck className="text-green-500" />
                       </div>
                       <div>
-                        <h3 className="text-green-600 font-medium">The Reality:</h3>
+                        <h3 className="text-navy-600 font-medium">The Reality:</h3>
                         <p className="text-gray-700 mb-3">
                           Modern VoIP systems are full-featured unified communications platforms that go far beyond basic voice calling. Today's VoIP solutions often include:
                         </p>
@@ -291,10 +291,10 @@ export default function VoIPMyths() {
                     </div>
                   </div>
 
-                  <div className="bg-blue-50 border-l-4 border-blue-500 p-5 my-8">
+                  <div className="bg-navy-50 border-l-4 border-navy-500 p-5 my-8">
                     <div className="flex">
-                      <FaExclamationTriangle className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
-                      <p className="text-blue-700 m-0">
+                      <FaExclamationTriangle className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
+                      <p className="text-navy-600 m-0">
                         <strong>Expert Tip:</strong> When evaluating VoIP providers, look for those that offer network assessment tools to ensure your existing infrastructure can support high-quality VoIP service before you make the switch.
                       </p>
                     </div>
@@ -376,14 +376,14 @@ export default function VoIPMyths() {
               {/* Sidebar */}
               <div className="lg:col-span-1">
                 {/* CTA Box */}
-                <div className="bg-primary-50 rounded-xl p-6 mb-8">
-                  <h3 className="text-xl font-bold text-primary-700 mb-4">Want to Know if VoIP is Right for Your Business?</h3>
+                <div className="bg-navy-50 rounded-xl p-6 mb-8">
+                  <h3 className="text-xl font-bold text-navy-600 mb-4">Want to Know if VoIP is Right for Your Business?</h3>
                   <p className="text-gray-700 mb-6">
                     Get a free consultation with our VoIP specialists to understand your options and create a customized communications solution.
                   </p>
                   <a 
                     href="tel:+19045128487" 
-                    className="btn-call mx-auto flex items-center justify-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
+                    className="btn-call mx-auto flex items-center justify-center space-x-3 bg-green-700 hover:bg-green-800"
                   >
                     <FaPhoneAlt className="text-white" />
                     <span>Call (904) 512-8487 for a Free Consultation</span>
@@ -397,14 +397,14 @@ export default function VoIPMyths() {
                 </div>
 
                 {/* Free Guide */}
-                <div className="bg-secondary-50 rounded-xl p-6 mb-8">
-                  <h3 className="text-xl font-bold text-secondary-700 mb-4">Free VoIP Buyer's Guide</h3>
+                <div className="bg-green-50 rounded-xl p-6 mb-8">
+                  <h3 className="text-xl font-bold text-green-800 mb-4">Free VoIP Buyer's Guide</h3>
                   <p className="text-gray-700 mb-6">
                     Download our comprehensive guide to choosing the right VoIP system for your business needs and budget.
                   </p>
                   <a 
                     href="#" 
-                    className="block w-full bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors"
+                    className="block w-full bg-green-700 hover:bg-green-800 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors"
                   >
                     Download Free Guide
                   </a>
@@ -416,19 +416,19 @@ export default function VoIPMyths() {
                   <ul className="space-y-6">
                     <li>
                       <Link href="/blog/voip-cost-savings" className="group">
-                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-1">How Businesses Save 50-70% by Switching to VoIP Phone Systems</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-1">How Businesses Save 50-70% by Switching to VoIP Phone Systems</h4>
                         <p className="text-sm text-gray-500">April 12, 2023</p>
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/voip-security-practices" className="group">
-                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-1">10 Essential VoIP Security Practices Every Business Should Implement</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-1">10 Essential VoIP Security Practices Every Business Should Implement</h4>
                         <p className="text-sm text-gray-500">March 15, 2023</p>
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/choosing-voip-provider" className="group">
-                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-1">How to Choose the Right VoIP Provider for Your Business Needs</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-1">How to Choose the Right VoIP Provider for Your Business Needs</h4>
                         <p className="text-sm text-gray-500">February 8, 2023</p>
                       </Link>
                     </li>
@@ -440,7 +440,7 @@ export default function VoIPMyths() {
         </section>
 
         {/* CTA Banner */}
-        <section className="bg-primary-600 text-white py-12">
+        <section className="bg-navy-500 text-white py-12">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-bold mb-6">Ready to Explore VoIP for Your Business?</h2>
@@ -449,7 +449,7 @@ export default function VoIPMyths() {
               </p>
               <a 
                 href="tel:+19045128487" 
-                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
+                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-green-700 hover:bg-green-800"
               >
                 <FaPhoneAlt className="text-white" />
                 <span>Call (904) 512-8487 for a Free Consultation</span>

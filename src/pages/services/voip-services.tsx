@@ -16,7 +16,7 @@ export default function VOIPServices() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-r from-primary-600 to-primary-700 text-white py-32 overflow-hidden">
+        <section className="relative bg-gradient-to-r from-navy-500 to-navy-600 text-white py-32 overflow-hidden">
           <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:60px_60px]" />
           <div className="container-custom relative">
             <div className="max-w-4xl mx-auto text-center">
@@ -31,7 +31,7 @@ export default function VOIPServices() {
                 Experience crystal-clear voice quality, advanced features, and seamless integration with our reliable VoIP phone service. Join thousands of businesses that trust our solutions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/contact" className="inline-flex items-center justify-center bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                <Link href="/contact" className="inline-flex items-center justify-center bg-white text-navy-500 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
                   Get Started Free
                   <FaArrowRight className="ml-2" />
                 </Link>
@@ -48,19 +48,19 @@ export default function VOIPServices() {
           <div className="container-custom">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary-600 mb-2">99.9%</div>
+                <div className="text-4xl font-bold text-navy-500 mb-2">99.9%</div>
                 <div className="text-gray-600">Uptime Guarantee</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary-600 mb-2">50%</div>
+                <div className="text-4xl font-bold text-navy-500 mb-2">50%</div>
                 <div className="text-gray-600">Cost Savings</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary-600 mb-2">24/7</div>
+                <div className="text-4xl font-bold text-navy-500 mb-2">24/7</div>
                 <div className="text-gray-600">Support Available</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary-600 mb-2">10K+</div>
+                <div className="text-4xl font-bold text-navy-500 mb-2">10K+</div>
                 <div className="text-gray-600">Happy Customers</div>
               </div>
             </div>
@@ -82,28 +82,28 @@ export default function VOIPServices() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div className="bg-white p-10 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
                   <div className="flex items-center mb-8">
-                    <div className="bg-primary-50 p-4 rounded-xl mr-6">
-                      <FaPhone className="text-primary-600 text-3xl" />
+                    <div className="bg-navy-50 p-4 rounded-xl mr-6">
+                      <FaPhone className="text-navy-500 text-3xl" />
                     </div>
                     <h3 className="text-2xl font-bold text-gray-900">Advanced Call Features</h3>
                   </div>
                   <ul className="space-y-6">
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-primary-600 mt-1 mr-4 flex-shrink-0 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mt-1 mr-4 flex-shrink-0 text-xl" />
                       <div>
                         <span className="text-lg font-semibold block mb-1">Call forwarding and routing</span>
                         <span className="text-gray-600">Intelligent call routing to the right team member</span>
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-primary-600 mt-1 mr-4 flex-shrink-0 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mt-1 mr-4 flex-shrink-0 text-xl" />
                       <div>
                         <span className="text-lg font-semibold block mb-1">Voicemail and transcription</span>
                         <span className="text-gray-600">Never miss a message with automatic transcription</span>
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-primary-600 mt-1 mr-4 flex-shrink-0 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mt-1 mr-4 flex-shrink-0 text-xl" />
                       <div>
                         <span className="text-lg font-semibold block mb-1">Conference calling</span>
                         <span className="text-gray-600">HD quality conference calls with up to 100 participants</span>
@@ -113,28 +113,28 @@ export default function VOIPServices() {
                 </div>
                 <div className="bg-white p-10 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
                   <div className="flex items-center mb-8">
-                    <div className="bg-primary-50 p-4 rounded-xl mr-6">
-                      <FaCogs className="text-primary-600 text-3xl" />
+                    <div className="bg-navy-50 p-4 rounded-xl mr-6">
+                      <FaCogs className="text-navy-500 text-3xl" />
                     </div>
                     <h3 className="text-2xl font-bold text-gray-900">Easy Integration</h3>
                   </div>
                   <ul className="space-y-6">
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-primary-600 mt-1 mr-4 flex-shrink-0 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mt-1 mr-4 flex-shrink-0 text-xl" />
                       <div>
                         <span className="text-lg font-semibold block mb-1">CRM integration</span>
                         <span className="text-gray-600">Seamless integration with popular CRM platforms</span>
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-primary-600 mt-1 mr-4 flex-shrink-0 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mt-1 mr-4 flex-shrink-0 text-xl" />
                       <div>
                         <span className="text-lg font-semibold block mb-1">Team collaboration tools</span>
                         <span className="text-gray-600">Built-in collaboration features for better teamwork</span>
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-primary-600 mt-1 mr-4 flex-shrink-0 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mt-1 mr-4 flex-shrink-0 text-xl" />
                       <div>
                         <span className="text-lg font-semibold block mb-1">Mobile app support</span>
                         <span className="text-gray-600">Stay connected on the go with our mobile app</span>
@@ -161,8 +161,8 @@ export default function VOIPServices() {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="bg-white p-10 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all duration-300">
-                  <div className="bg-primary-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <FaChartLine className="text-primary-600 text-2xl" />
+                  <div className="bg-navy-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <FaChartLine className="text-navy-500 text-2xl" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-4">Cost Savings</h3>
                   <p className="text-gray-600 leading-relaxed">
@@ -170,8 +170,8 @@ export default function VOIPServices() {
                   </p>
                 </div>
                 <div className="bg-white p-10 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all duration-300">
-                  <div className="bg-primary-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <FaGlobe className="text-primary-600 text-2xl" />
+                  <div className="bg-navy-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <FaGlobe className="text-navy-500 text-2xl" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-4">Global Reach</h3>
                   <p className="text-gray-600 leading-relaxed">
@@ -179,8 +179,8 @@ export default function VOIPServices() {
                   </p>
                 </div>
                 <div className="bg-white p-10 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all duration-300">
-                  <div className="bg-primary-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <FaShieldAlt className="text-primary-600 text-2xl" />
+                  <div className="bg-navy-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <FaShieldAlt className="text-navy-500 text-2xl" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-4">Enterprise Security</h3>
                   <p className="text-gray-600 leading-relaxed">
@@ -208,87 +208,87 @@ export default function VOIPServices() {
                 <div className="bg-white p-10 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
                   <div className="text-center mb-8">
                     <h3 className="text-2xl font-bold text-gray-900 mb-4">Starter</h3>
-                    <div className="text-4xl font-bold text-primary-600 mb-2">$29.99<span className="text-lg text-gray-600">/month</span></div>
+                    <div className="text-4xl font-bold text-navy-500 mb-2">$29.99<span className="text-lg text-gray-600">/month</span></div>
                     <p className="text-gray-600">Perfect for small businesses</p>
                   </div>
                   <ul className="space-y-6 mb-10">
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Up to 5 users</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Basic call features</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Mobile app access</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Email support</span>
                     </li>
                   </ul>
-                  <Link href="/contact" className="block text-center bg-primary-600 text-white px-6 py-4 rounded-xl font-semibold hover:bg-primary-700 transition-colors">
+                  <Link href="/contact" className="block text-center bg-navy-500 text-white px-6 py-4 rounded-xl font-semibold hover:bg-navy-600 transition-colors">
                     Get Started
                   </Link>
                 </div>
-                <div className="bg-white p-10 rounded-2xl shadow-lg border-2 border-primary-600 transform scale-105 relative">
-                  <div className="absolute top-0 right-0 bg-primary-600 text-white px-4 py-1 rounded-bl-xl rounded-tr-xl">
+                <div className="bg-white p-10 rounded-2xl shadow-lg border-2 border-navy-500 transform scale-105 relative">
+                  <div className="absolute top-0 right-0 bg-navy-500 text-white px-4 py-1 rounded-bl-xl rounded-tr-xl">
                     Popular
                   </div>
                   <div className="text-center mb-8">
                     <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional</h3>
-                    <div className="text-4xl font-bold text-primary-600 mb-2">$49.99<span className="text-lg text-gray-600">/month</span></div>
+                    <div className="text-4xl font-bold text-navy-500 mb-2">$49.99<span className="text-lg text-gray-600">/month</span></div>
                     <p className="text-gray-600">Ideal for growing businesses</p>
                   </div>
                   <ul className="space-y-6 mb-10">
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Up to 20 users</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Advanced features</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Priority support</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Analytics dashboard</span>
                     </li>
                   </ul>
-                  <Link href="/contact" className="block text-center bg-primary-600 text-white px-6 py-4 rounded-xl font-semibold hover:bg-primary-700 transition-colors">
+                  <Link href="/contact" className="block text-center bg-navy-500 text-white px-6 py-4 rounded-xl font-semibold hover:bg-navy-600 transition-colors">
                     Get Started
                   </Link>
                 </div>
                 <div className="bg-white p-10 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
                   <div className="text-center mb-8">
                     <h3 className="text-2xl font-bold text-gray-900 mb-4">Enterprise</h3>
-                    <div className="text-4xl font-bold text-primary-600 mb-2">Custom<span className="text-lg text-gray-600">/month</span></div>
+                    <div className="text-4xl font-bold text-navy-500 mb-2">Custom<span className="text-lg text-gray-600">/month</span></div>
                     <p className="text-gray-600">For large organizations</p>
                   </div>
                   <ul className="space-y-6 mb-10">
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Unlimited users</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Custom features</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">24/7 support</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Dedicated account manager</span>
                     </li>
                   </ul>
-                  <Link href="/contact" className="block text-center bg-primary-600 text-white px-6 py-4 rounded-xl font-semibold hover:bg-primary-700 transition-colors">
+                  <Link href="/contact" className="block text-center bg-navy-500 text-white px-6 py-4 rounded-xl font-semibold hover:bg-navy-600 transition-colors">
                     Contact Sales
                   </Link>
                 </div>
@@ -298,7 +298,7 @@ export default function VOIPServices() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-24 bg-primary-600 text-white relative overflow-hidden">
+        <section className="py-24 bg-navy-500 text-white relative overflow-hidden">
           <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:60px_60px]" />
           <div className="container-custom relative">
             <div className="max-w-4xl mx-auto text-center">
@@ -309,7 +309,7 @@ export default function VOIPServices() {
                 Join thousands of businesses that trust our VoIP phone service for their communication needs. Get started with a free consultation today.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/contact" className="inline-flex items-center justify-center bg-white text-primary-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
+                <Link href="/contact" className="inline-flex items-center justify-center bg-white text-navy-500 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
                   Get Started Free
                   <FaArrowRight className="ml-2" />
                 </Link>

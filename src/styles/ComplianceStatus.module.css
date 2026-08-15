@@ -40,9 +40,9 @@
 }
 
 .compliance-status-card :global(.ant-tag-success) {
-  background-color: #f6ffed;
-  border-color: #b7eb8f;
-  color: #52c41a;
+  background-color: var(--pvn-green-50);
+  border-color: var(--pvn-green-200);
+  color: var(--pvn-green-700);
 }
 
 .compliance-status-card :global(.ant-tag-warning) {

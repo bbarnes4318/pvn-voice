@@ -34,8 +34,8 @@ const Navigation: React.FC = () => {
                 href={item.path}
                 className={`px-3 py-2 rounded-md text-sm font-medium ${
                   router.pathname === item.path
-                    ? 'text-blue-600 bg-blue-50'
-                    : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
+                    ? 'text-navy-500 bg-navy-50'
+                    : 'text-gray-700 hover:text-navy-500 hover:bg-navy-50'
                 }`}
               >
                 {item.label}
@@ -47,7 +47,7 @@ const Navigation: React.FC = () => {
           <div className="flex items-center sm:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-blue-50 focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-navy-500 hover:bg-navy-50 focus:outline-none"
             >
               <span className="sr-only">Open main menu</span>
               {!isOpen ? (
@@ -96,8 +96,8 @@ const Navigation: React.FC = () => {
                 href={item.path}
                 className={`block px-3 py-2 rounded-md text-base font-medium ${
                   router.pathname === item.path
-                    ? 'text-blue-600 bg-blue-50'
-                    : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
+                    ? 'text-navy-500 bg-navy-50'
+                    : 'text-gray-700 hover:text-navy-500 hover:bg-navy-50'
                 }`}
                 onClick={() => setIsOpen(false)}
               >

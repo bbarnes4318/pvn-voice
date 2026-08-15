@@ -29,7 +29,7 @@
 
 .progressBar {
   height: 4px;
-  background: #2196F3;
+  background: var(--pvn-navy-500);
   transition: width 0.3s ease;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .step.completed .stepNumber {
-  background: #2196F3;
+  background: var(--pvn-navy-500);
   color: white;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .input:focus {
-  border-color: #2196F3;
+  border-color: var(--pvn-navy-500);
   outline: none;
 }
 
@@ -123,7 +123,7 @@
 }
 
 .dropzone.active {
-  border-color: #2196F3;
+  border-color: var(--pvn-navy-500);
 }
 
 .uploadPrompt {
@@ -179,12 +179,12 @@
 }
 
 .button[type="submit"] {
-  background: #2196F3;
+  background: var(--pvn-navy-500);
   color: white;
 }
 
 .button[type="submit"]:hover {
-  background: #1976D2;
+  background: var(--pvn-navy-600);
 }
 
 .button[type="button"] {

@@ -6,7 +6,7 @@ import { FaPhoneAlt, FaHandshake, FaChartLine, FaShieldAlt, FaHeadset } from 're
 
 export default function Pricing() {
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-navy-50 to-navy-100">
       <Head>
         <title>Custom VoIP Solutions - PVN Voice</title>
         <meta name="description" content="Get a tailored VoIP solution that perfectly matches your business needs and budget. Schedule a free consultation today." />
@@ -15,16 +15,16 @@ export default function Pricing() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-primary-600 text-white py-16">
+        <section className="bg-navy-500 text-white py-16">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">Your Business Deserves a Custom Solution</h1>
-              <p className="text-xl text-primary-100 mb-8">
+              <p className="text-xl text-navy-50 mb-8">
                 No one-size-fits-all pricing here. Get a tailored solution that matches your exact needs and budget.
               </p>
               <a 
                 href="tel:+19045128487" 
-                className="btn-call inline-flex items-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
+                className="btn-call inline-flex items-center space-x-3 bg-green-700 hover:bg-green-800"
               >
                 <FaPhoneAlt className="text-white" />
                 <span>Call (904) 512-8487 for a Free Consultation</span>
@@ -47,7 +47,7 @@ export default function Pricing() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="bg-white rounded-xl shadow-lg p-8">
                   <div className="flex items-center mb-4">
-                    <FaHandshake className="text-4xl text-secondary-400 mr-4" />
+                    <FaHandshake className="text-4xl text-green-500 mr-4" />
                     <h3 className="text-xl font-bold">Personalized Approach</h3>
                   </div>
                   <p className="text-gray-600">
@@ -57,7 +57,7 @@ export default function Pricing() {
 
                 <div className="bg-white rounded-xl shadow-lg p-8">
                   <div className="flex items-center mb-4">
-                    <FaChartLine className="text-4xl text-secondary-400 mr-4" />
+                    <FaChartLine className="text-4xl text-green-500 mr-4" />
                     <h3 className="text-xl font-bold">Scalable Solutions</h3>
                   </div>
                   <p className="text-gray-600">
@@ -67,7 +67,7 @@ export default function Pricing() {
 
                 <div className="bg-white rounded-xl shadow-lg p-8">
                   <div className="flex items-center mb-4">
-                    <FaShieldAlt className="text-4xl text-secondary-400 mr-4" />
+                    <FaShieldAlt className="text-4xl text-green-500 mr-4" />
                     <h3 className="text-xl font-bold">Transparent Pricing</h3>
                   </div>
                   <p className="text-gray-600">
@@ -77,7 +77,7 @@ export default function Pricing() {
 
                 <div className="bg-white rounded-xl shadow-lg p-8">
                   <div className="flex items-center mb-4">
-                    <FaHeadset className="text-4xl text-secondary-400 mr-4" />
+                    <FaHeadset className="text-4xl text-green-500 mr-4" />
                     <h3 className="text-xl font-bold">Dedicated Support</h3>
                   </div>
                   <p className="text-gray-600">
@@ -96,7 +96,7 @@ export default function Pricing() {
               <h2 className="text-3xl font-bold text-center mb-12">How We Create Your Perfect Solution</h2>
               <div className="space-y-12">
                 <div className="flex items-start">
-                  <div className="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">1</div>
+                  <div className="bg-navy-500 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">1</div>
                   <div className="ml-4">
                     <h3 className="text-xl font-semibold mb-2">Free Consultation</h3>
                     <p className="text-gray-600">
@@ -106,7 +106,7 @@ export default function Pricing() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">2</div>
+                  <div className="bg-navy-500 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">2</div>
                   <div className="ml-4">
                     <h3 className="text-xl font-semibold mb-2">Custom Solution Design</h3>
                     <p className="text-gray-600">
@@ -116,7 +116,7 @@ export default function Pricing() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">3</div>
+                  <div className="bg-navy-500 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">3</div>
                   <div className="ml-4">
                     <h3 className="text-xl font-semibold mb-2">Seamless Implementation</h3>
                     <p className="text-gray-600">
@@ -126,7 +126,7 @@ export default function Pricing() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">4</div>
+                  <div className="bg-navy-500 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">4</div>
                   <div className="ml-4">
                     <h3 className="text-xl font-semibold mb-2">Ongoing Support</h3>
                     <p className="text-gray-600">
@@ -140,16 +140,16 @@ export default function Pricing() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-primary-600 text-white py-16">
+        <section className="bg-navy-500 text-white py-16">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-bold mb-6">Ready to Transform Your Business Communication?</h2>
-              <p className="text-xl text-primary-100 mb-8">
+              <p className="text-xl text-navy-50 mb-8">
                 Schedule your free consultation today and discover how we can help you save up to 50% on your communication costs.
               </p>
               <a 
                 href="tel:+19045128487" 
-                className="btn-call inline-flex items-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
+                className="btn-call inline-flex items-center space-x-3 bg-green-700 hover:bg-green-800"
               >
                 <FaPhoneAlt className="text-white" />
                 <span>Call (904) 512-8487 for a Free Consultation</span>

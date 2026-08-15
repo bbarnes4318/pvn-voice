@@ -7,7 +7,7 @@ import { FaLock, FaShieldAlt, FaUserShield, FaFileAlt, FaPrint } from 'react-ico
 
 export default function PrivacyPolicy() {
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-navy-50 to-navy-100">
       <Head>
         <title>Privacy Policy - PVN Voice</title>
         <meta name="description" content="PVN Voice's privacy policy details how we collect, use, and protect your personal information. Learn about our commitment to your privacy." />
@@ -17,22 +17,22 @@ export default function PrivacyPolicy() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-primary-600 text-white py-10">
+        <section className="bg-navy-500 text-white py-10">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto">
               <div className="flex justify-between items-center mb-6">
-                <Link href="/" className="text-primary-100 hover:text-white transition-colors text-sm">
+                <Link href="/" className="text-navy-50 hover:text-white transition-colors text-sm">
                   &larr; Back to Home
                 </Link>
                 <button 
                   onClick={() => window.print()} 
-                  className="text-primary-100 hover:text-white transition-colors text-sm flex items-center"
+                  className="text-navy-50 hover:text-white transition-colors text-sm flex items-center"
                 >
                   <FaPrint className="mr-1" /> Print
                 </button>
               </div>
               <h1 className="text-3xl md:text-4xl font-bold">Privacy Policy</h1>
-              <p className="text-primary-100 mt-3">
+              <p className="text-navy-50 mt-3">
                 Last Updated: May 16, 2023
               </p>
             </div>
@@ -49,30 +49,30 @@ export default function PrivacyPolicy() {
                   <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
                     <h2 className="text-lg font-bold text-gray-800 mb-4 border-b border-gray-200 pb-2">Contents</h2>
                     <ul className="space-y-2 text-sm">
-                      <li><a href="#information-collected" className="text-primary-600 hover:text-primary-800 transition-colors">Information We Collect</a></li>
-                      <li><a href="#how-we-use" className="text-primary-600 hover:text-primary-800 transition-colors">How We Use Your Information</a></li>
-                      <li><a href="#information-sharing" className="text-primary-600 hover:text-primary-800 transition-colors">How We Share Your Information</a></li>
-                      <li><a href="#security" className="text-primary-600 hover:text-primary-800 transition-colors">How We Protect Your Information</a></li>
-                      <li><a href="#cookies" className="text-primary-600 hover:text-primary-800 transition-colors">Cookies and Tracking Technologies</a></li>
-                      <li><a href="#third-party" className="text-primary-600 hover:text-primary-800 transition-colors">Third-Party Websites</a></li>
-                      <li><a href="#choices" className="text-primary-600 hover:text-primary-800 transition-colors">Your Privacy Choices</a></li>
-                      <li><a href="#california" className="text-primary-600 hover:text-primary-800 transition-colors">California Privacy Rights</a></li>
-                      <li><a href="#changes" className="text-primary-600 hover:text-primary-800 transition-colors">Changes to This Privacy Policy</a></li>
-                      <li><a href="#contact" className="text-primary-600 hover:text-primary-800 transition-colors">Contact Us</a></li>
+                      <li><a href="#information-collected" className="text-navy-500 hover:text-navy-700 transition-colors">Information We Collect</a></li>
+                      <li><a href="#how-we-use" className="text-navy-500 hover:text-navy-700 transition-colors">How We Use Your Information</a></li>
+                      <li><a href="#information-sharing" className="text-navy-500 hover:text-navy-700 transition-colors">How We Share Your Information</a></li>
+                      <li><a href="#security" className="text-navy-500 hover:text-navy-700 transition-colors">How We Protect Your Information</a></li>
+                      <li><a href="#cookies" className="text-navy-500 hover:text-navy-700 transition-colors">Cookies and Tracking Technologies</a></li>
+                      <li><a href="#third-party" className="text-navy-500 hover:text-navy-700 transition-colors">Third-Party Websites</a></li>
+                      <li><a href="#choices" className="text-navy-500 hover:text-navy-700 transition-colors">Your Privacy Choices</a></li>
+                      <li><a href="#california" className="text-navy-500 hover:text-navy-700 transition-colors">California Privacy Rights</a></li>
+                      <li><a href="#changes" className="text-navy-500 hover:text-navy-700 transition-colors">Changes to This Privacy Policy</a></li>
+                      <li><a href="#contact" className="text-navy-500 hover:text-navy-700 transition-colors">Contact Us</a></li>
                     </ul>
                   </div>
                   
-                  <div className="mt-6 bg-primary-50 p-5 rounded-lg border border-primary-100">
+                  <div className="mt-6 bg-navy-50 p-5 rounded-lg border border-navy-100">
                     <div className="flex items-center mb-3">
-                      <FaShieldAlt className="text-primary-600 mr-2" />
-                      <h3 className="font-bold text-primary-700">Need Help?</h3>
+                      <FaShieldAlt className="text-navy-500 mr-2" />
+                      <h3 className="font-bold text-navy-600">Need Help?</h3>
                     </div>
                     <p className="text-sm text-gray-700 mb-3">
                       If you have questions about our privacy practices or need to make a request regarding your information:
                     </p>
                     <a 
                       href="tel:+19045128487" 
-                      className="block w-full bg-primary-600 hover:bg-primary-700 text-white text-center py-2 px-3 rounded text-sm font-medium"
+                      className="block w-full bg-navy-500 hover:bg-navy-600 text-white text-center py-2 px-3 rounded text-sm font-medium"
                     >
                       Call (904) 512-8487
                     </a>
@@ -84,7 +84,7 @@ export default function PrivacyPolicy() {
               <div className="lg:w-3/4">
                 <div className="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-100 mb-8">
                   <div className="flex items-start">
-                    <FaShieldAlt className="text-primary-600 text-2xl mr-4 mt-1 flex-shrink-0" />
+                    <FaShieldAlt className="text-navy-500 text-2xl mr-4 mt-1 flex-shrink-0" />
                     <div>
                       <h2 className="text-xl font-bold text-gray-800 mb-2">Our Commitment to Your Privacy</h2>
                       <p className="text-gray-700 text-sm leading-relaxed">
@@ -126,12 +126,12 @@ export default function PrivacyPolicy() {
                   </p>
 
                   <p className="text-gray-700 leading-relaxed mt-4">
-                    Where you provide a telephone number and consent to be contacted, the standards we apply to collecting, documenting, honoring, and revoking that consent are described in our <Link href="/compliance/consent" className="text-primary-600 hover:text-primary-700">Opt-In &amp; Consent Policy</Link>. Our full set of telemarketing compliance policies, including our <Link href="/compliance/do-not-call" className="text-primary-600 hover:text-primary-700">Do-Not-Call Policy</Link>, is available on our <Link href="/compliance" className="text-primary-600 hover:text-primary-700">Compliance</Link> page.
+                    Where you provide a telephone number and consent to be contacted, the standards we apply to collecting, documenting, honoring, and revoking that consent are described in our <Link href="/compliance/consent" className="text-navy-500 hover:text-navy-600">Opt-In &amp; Consent Policy</Link>. Our full set of telemarketing compliance policies, including our <Link href="/compliance/do-not-call" className="text-navy-500 hover:text-navy-600">Do-Not-Call Policy</Link>, is available on our <Link href="/compliance" className="text-navy-500 hover:text-navy-600">Compliance</Link> page.
                   </p>
 
-                  <div className="bg-blue-50 p-4 rounded-md my-6 border-l-4 border-blue-400">
-                    <p className="text-blue-800 text-sm leading-relaxed m-0">
-                      <strong>Note:</strong> PVN Voice does not knowingly collect or solicit information from anyone under the age of 18. If you are a parent or guardian and believe we might have any information from or about a child under the age of 18, please contact us immediately at <a href="mailto:support@pvndialer.com" className="text-blue-700 hover:underline">support@pvndialer.com</a>.
+                  <div className="bg-navy-50 p-4 rounded-md my-6 border-l-4 border-navy-400">
+                    <p className="text-navy-700 text-sm leading-relaxed m-0">
+                      <strong>Note:</strong> PVN Voice does not knowingly collect or solicit information from anyone under the age of 18. If you are a parent or guardian and believe we might have any information from or about a child under the age of 18, please contact us immediately at <a href="mailto:support@pvndialer.com" className="text-navy-600 hover:underline">support@pvndialer.com</a>.
                     </p>
                   </div>
 
@@ -142,7 +142,7 @@ export default function PrivacyPolicy() {
 
                   <div className="grid md:grid-cols-2 gap-4 my-6">
                     <div className="bg-white border border-gray-200 rounded-md p-4 shadow-sm">
-                      <h3 className="font-bold text-primary-600 mb-2 text-sm">Primary Uses</h3>
+                      <h3 className="font-bold text-navy-500 mb-2 text-sm">Primary Uses</h3>
                       <ul className="list-disc pl-5 space-y-1 text-sm">
                         <li className="text-gray-700">To provide, operate, and maintain our services</li>
                         <li className="text-gray-700">To provision VoIP and communication systems</li>
@@ -154,7 +154,7 @@ export default function PrivacyPolicy() {
                     </div>
 
                     <div className="bg-white border border-gray-200 rounded-md p-4 shadow-sm">
-                      <h3 className="font-bold text-primary-600 mb-2 text-sm">Additional Uses</h3>
+                      <h3 className="font-bold text-navy-500 mb-2 text-sm">Additional Uses</h3>
                       <ul className="list-disc pl-5 space-y-1 text-sm">
                         <li className="text-gray-700">To improve our website and services</li>
                         <li className="text-gray-700">To personalize your experience</li>
@@ -196,7 +196,7 @@ export default function PrivacyPolicy() {
                   
                   <div className="flex items-start my-4 bg-white p-4 rounded-md border border-gray-200 shadow-sm">
                     <div className="mr-4 flex-shrink-0">
-                      <FaLock className="text-primary-600 text-xl" />
+                      <FaLock className="text-navy-500 text-xl" />
                     </div>
                     <div>
                       <p className="text-gray-700 leading-relaxed mb-3">
@@ -257,33 +257,33 @@ export default function PrivacyPolicy() {
                           <td className="px-4 py-3 whitespace-nowrap text-sm font-medium text-gray-900">Access</td>
                           <td className="px-4 py-3 text-sm text-gray-500">Request copies of your personal information we have collected</td>
                           <td className="px-4 py-3 text-sm text-gray-500">
-                            <a href="mailto:support@pvndialer.com" className="text-primary-600 hover:text-primary-700">Contact Us</a>
+                            <a href="mailto:support@pvndialer.com" className="text-navy-500 hover:text-navy-600">Contact Us</a>
                           </td>
                         </tr>
                         <tr>
                           <td className="px-4 py-3 whitespace-nowrap text-sm font-medium text-gray-900">Correction</td>
                           <td className="px-4 py-3 text-sm text-gray-500">Request correction of inaccurate personal information</td>
                           <td className="px-4 py-3 text-sm text-gray-500">
-                            <a href="mailto:support@pvndialer.com" className="text-primary-600 hover:text-primary-700">Contact Us</a>
+                            <a href="mailto:support@pvndialer.com" className="text-navy-500 hover:text-navy-600">Contact Us</a>
                           </td>
                         </tr>
                         <tr>
                           <td className="px-4 py-3 whitespace-nowrap text-sm font-medium text-gray-900">Deletion</td>
                           <td className="px-4 py-3 text-sm text-gray-500">Request deletion of your personal information</td>
                           <td className="px-4 py-3 text-sm text-gray-500">
-                            <a href="mailto:support@pvndialer.com" className="text-primary-600 hover:text-primary-700">Contact Us</a>
+                            <a href="mailto:support@pvndialer.com" className="text-navy-500 hover:text-navy-600">Contact Us</a>
                           </td>
                         </tr>
                         <tr>
                           <td className="px-4 py-3 whitespace-nowrap text-sm font-medium text-gray-900">Marketing Opt-Out</td>
                           <td className="px-4 py-3 text-sm text-gray-500">Opt out of marketing communications</td>
-                          <td className="px-4 py-3 text-sm text-gray-500">Click "unsubscribe" in emails or <a href="mailto:support@pvndialer.com" className="text-primary-600 hover:text-primary-700">Contact Us</a></td>
+                          <td className="px-4 py-3 text-sm text-gray-500">Click "unsubscribe" in emails or <a href="mailto:support@pvndialer.com" className="text-navy-500 hover:text-navy-600">Contact Us</a></td>
                         </tr>
                         <tr>
                           <td className="px-4 py-3 whitespace-nowrap text-sm font-medium text-gray-900">Do Not Sell/Share</td>
                           <td className="px-4 py-3 text-sm text-gray-500">Opt out of the sale or sharing of personal information</td>
                           <td className="px-4 py-3 text-sm text-gray-500">
-                            <a href="mailto:support@pvndialer.com" className="text-primary-600 hover:text-primary-700">Contact Us</a>
+                            <a href="mailto:support@pvndialer.com" className="text-navy-500 hover:text-navy-600">Contact Us</a>
                           </td>
                         </tr>
                       </tbody>
@@ -308,7 +308,7 @@ export default function PrivacyPolicy() {
                   </ul>
 
                   <p className="text-gray-700 leading-relaxed">
-                    To make a request under the CCPA/CPRA, please contact us at <a href="mailto:support@pvndialer.com" className="text-primary-600 hover:text-primary-700">support@pvndialer.com</a> or call us at <a href="tel:+19045128487" className="text-primary-600 hover:text-primary-700">(904) 512-8487</a>.
+                    To make a request under the CCPA/CPRA, please contact us at <a href="mailto:support@pvndialer.com" className="text-navy-500 hover:text-navy-600">support@pvndialer.com</a> or call us at <a href="tel:+19045128487" className="text-navy-500 hover:text-navy-600">(904) 512-8487</a>.
                   </p>
 
                   <h2 id="changes" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200">9. Changes to This Privacy Policy</h2>
@@ -334,10 +334,10 @@ export default function PrivacyPolicy() {
                       United States
                     </p>
                     <p className="text-gray-700 mb-1">
-                      <a href="mailto:support@pvndialer.com" className="text-primary-600 hover:text-primary-700">support@pvndialer.com</a>
+                      <a href="mailto:support@pvndialer.com" className="text-navy-500 hover:text-navy-600">support@pvndialer.com</a>
                     </p>
                     <p className="text-gray-700 mb-0">
-                      <a href="tel:+19045128487" className="text-primary-600 hover:text-primary-700">(904) 512-8487</a>
+                      <a href="tel:+19045128487" className="text-navy-500 hover:text-navy-600">(904) 512-8487</a>
                     </p>
                   </div>
 
@@ -348,7 +348,7 @@ export default function PrivacyPolicy() {
                       </p>
                       <a 
                         href="#top" 
-                        className="flex items-center text-primary-600 hover:text-primary-700 transition-colors text-xs font-medium"
+                        className="flex items-center text-navy-500 hover:text-navy-600 transition-colors text-xs font-medium"
                       >
                         Back to Top
                         <svg className="ml-1 w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -370,17 +370,17 @@ export default function PrivacyPolicy() {
               <h2 className="text-lg font-bold text-gray-800 mb-4 text-center">Other Legal Documents</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <Link href="/terms-of-service" className="bg-white rounded-md p-4 shadow-sm text-center hover:shadow transition-shadow border border-gray-100">
-                  <FaFileAlt className="text-primary-600 text-xl mx-auto mb-2" />
+                  <FaFileAlt className="text-navy-500 text-xl mx-auto mb-2" />
                   <h3 className="font-bold text-gray-800 text-sm mb-1">Terms of Service</h3>
                   <p className="text-gray-600 text-xs">Rules governing the use of our website and services</p>
                 </Link>
                 <Link href="/disclosures" className="bg-white rounded-md p-4 shadow-sm text-center hover:shadow transition-shadow border border-gray-100">
-                  <FaUserShield className="text-primary-600 text-xl mx-auto mb-2" />
+                  <FaUserShield className="text-navy-500 text-xl mx-auto mb-2" />
                   <h3 className="font-bold text-gray-800 text-sm mb-1">Disclosures</h3>
                   <p className="text-gray-600 text-xs">Important information about our VoIP services</p>
                 </Link>
                 <Link href="/contact-us" className="bg-white rounded-md p-4 shadow-sm text-center hover:shadow transition-shadow border border-gray-100">
-                  <FaShieldAlt className="text-primary-600 text-xl mx-auto mb-2" />
+                  <FaShieldAlt className="text-navy-500 text-xl mx-auto mb-2" />
                   <h3 className="font-bold text-gray-800 text-sm mb-1">Contact Us</h3>
                   <p className="text-gray-600 text-xs">Reach out with questions about our privacy practices</p>
                 </Link>

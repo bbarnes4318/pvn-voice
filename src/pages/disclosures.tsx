@@ -7,7 +7,7 @@ import { FaExclamationTriangle, FaBalanceScale, FaNetworkWired, FaShieldAlt, FaL
 
 export default function Disclosures() {
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-navy-50 to-navy-100">
       <Head>
         <title>Disclosures - PVN Voice</title>
         <meta name="description" content="Important disclosures about PVN Voice's VoIP services, potential limitations, and relevant business telecommunication information." />
@@ -17,22 +17,22 @@ export default function Disclosures() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-primary-600 text-white py-10">
+        <section className="bg-navy-500 text-white py-10">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto">
               <div className="flex justify-between items-center mb-6">
-                <Link href="/" className="text-primary-100 hover:text-white transition-colors text-sm">
+                <Link href="/" className="text-navy-50 hover:text-white transition-colors text-sm">
                   &larr; Back to Home
                 </Link>
                 <button 
                   onClick={() => window.print()} 
-                  className="text-primary-100 hover:text-white transition-colors text-sm flex items-center"
+                  className="text-navy-50 hover:text-white transition-colors text-sm flex items-center"
                 >
                   <FaPrint className="mr-1" /> Print
                 </button>
               </div>
               <h1 className="text-3xl md:text-4xl font-bold">Important Disclosures</h1>
-              <p className="text-primary-100 mt-3">
+              <p className="text-navy-50 mt-3">
                 Information you should know about our VoIP and business communication services
               </p>
             </div>
@@ -49,29 +49,29 @@ export default function Disclosures() {
                   <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
                     <h2 className="text-lg font-bold text-gray-800 mb-4 border-b border-gray-200 pb-2">Contents</h2>
                     <ul className="space-y-2 text-sm">
-                      <li><a href="#service" className="text-primary-600 hover:text-primary-800 transition-colors">Service Disclosures</a></li>
-                      <li><a href="#limitations" className="text-primary-600 hover:text-primary-800 transition-colors">Service Limitations</a></li>
-                      <li><a href="#e911" className="text-primary-600 hover:text-primary-800 transition-colors">E911 Services</a></li>
-                      <li><a href="#connectivity" className="text-primary-600 hover:text-primary-800 transition-colors">Internet Connectivity</a></li>
-                      <li><a href="#quality" className="text-primary-600 hover:text-primary-800 transition-colors">Service Quality</a></li>
-                      <li><a href="#rights" className="text-primary-600 hover:text-primary-800 transition-colors">Customer Rights</a></li>
-                      <li><a href="#alternatives" className="text-primary-600 hover:text-primary-800 transition-colors">Alternative Options</a></li>
-                      <li><a href="#regulatory" className="text-primary-600 hover:text-primary-800 transition-colors">Regulatory Information</a></li>
-                      <li><a href="#updates" className="text-primary-600 hover:text-primary-800 transition-colors">Updates to Disclosures</a></li>
+                      <li><a href="#service" className="text-navy-500 hover:text-navy-700 transition-colors">Service Disclosures</a></li>
+                      <li><a href="#limitations" className="text-navy-500 hover:text-navy-700 transition-colors">Service Limitations</a></li>
+                      <li><a href="#e911" className="text-navy-500 hover:text-navy-700 transition-colors">E911 Services</a></li>
+                      <li><a href="#connectivity" className="text-navy-500 hover:text-navy-700 transition-colors">Internet Connectivity</a></li>
+                      <li><a href="#quality" className="text-navy-500 hover:text-navy-700 transition-colors">Service Quality</a></li>
+                      <li><a href="#rights" className="text-navy-500 hover:text-navy-700 transition-colors">Customer Rights</a></li>
+                      <li><a href="#alternatives" className="text-navy-500 hover:text-navy-700 transition-colors">Alternative Options</a></li>
+                      <li><a href="#regulatory" className="text-navy-500 hover:text-navy-700 transition-colors">Regulatory Information</a></li>
+                      <li><a href="#updates" className="text-navy-500 hover:text-navy-700 transition-colors">Updates to Disclosures</a></li>
                     </ul>
                   </div>
                   
-                  <div className="mt-6 bg-primary-50 p-5 rounded-lg border border-primary-100">
+                  <div className="mt-6 bg-navy-50 p-5 rounded-lg border border-navy-100">
                     <div className="flex items-center mb-3">
-                      <FaShieldAlt className="text-primary-600 mr-2" />
-                      <h3 className="font-bold text-primary-700">Have Questions?</h3>
+                      <FaShieldAlt className="text-navy-500 mr-2" />
+                      <h3 className="font-bold text-navy-600">Have Questions?</h3>
                     </div>
                     <p className="text-sm text-gray-700 mb-3">
                       Our team is available to explain these disclosures and answer any questions you may have.
                     </p>
                     <a 
                       href="tel:+18001234567" 
-                      className="block w-full bg-primary-600 hover:bg-primary-700 text-white text-center py-2 px-3 rounded text-sm font-medium"
+                      className="block w-full bg-navy-500 hover:bg-navy-600 text-white text-center py-2 px-3 rounded text-sm font-medium"
                     >
                       Call 1-800-123-4567
                     </a>
@@ -99,7 +99,7 @@ export default function Disclosures() {
                   </p>
 
                   <h2 id="service" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 flex items-center">
-                    <FaNetworkWired className="mr-3 text-primary-600" />
+                    <FaNetworkWired className="mr-3 text-navy-500" />
                     VoIP Service Disclosures
                   </h2>
                   
@@ -148,7 +148,7 @@ export default function Disclosures() {
                   </div>
 
                   <h2 id="limitations" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 flex items-center">
-                    <FaNetworkWired className="mr-3 text-primary-600" />
+                    <FaNetworkWired className="mr-3 text-navy-500" />
                     Service Limitations
                   </h2>
                   
@@ -190,7 +190,7 @@ export default function Disclosures() {
                   </div>
 
                   <h2 id="rights" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 flex items-center">
-                    <FaShieldAlt className="mr-3 text-primary-600" />
+                    <FaShieldAlt className="mr-3 text-navy-500" />
                     Customer Rights
                   </h2>
                   <p className="text-gray-700 leading-relaxed mb-3">
@@ -205,7 +205,7 @@ export default function Disclosures() {
                   </ul>
 
                   <h2 id="alternatives" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 flex items-center">
-                    <FaLock className="mr-3 text-primary-600" />
+                    <FaLock className="mr-3 text-navy-500" />
                     Alternative Communication Options
                   </h2>
                   <p className="text-gray-700 leading-relaxed mb-3">
@@ -214,28 +214,28 @@ export default function Disclosures() {
                   
                   <div className="grid md:grid-cols-2 gap-4 my-6">
                     <div className="bg-white border border-gray-200 rounded-md p-4 shadow-sm">
-                      <h3 className="font-bold text-primary-600 mb-2 text-sm">Traditional Landline Services</h3>
+                      <h3 className="font-bold text-navy-500 mb-2 text-sm">Traditional Landline Services</h3>
                       <p className="text-gray-700 text-sm leading-relaxed mb-0">
                         Traditional copper-line phone services provided by local telephone companies. More reliable during power outages but typically more expensive.
                       </p>
                     </div>
                     
                     <div className="bg-white border border-gray-200 rounded-md p-4 shadow-sm">
-                      <h3 className="font-bold text-primary-600 mb-2 text-sm">PBX Systems</h3>
+                      <h3 className="font-bold text-navy-500 mb-2 text-sm">PBX Systems</h3>
                       <p className="text-gray-700 text-sm leading-relaxed mb-0">
                         On-premises private branch exchange systems that provide call control within your organization. Higher upfront costs but may offer more control.
                       </p>
                     </div>
                     
                     <div className="bg-white border border-gray-200 rounded-md p-4 shadow-sm">
-                      <h3 className="font-bold text-primary-600 mb-2 text-sm">Mobile Phone Services</h3>
+                      <h3 className="font-bold text-navy-500 mb-2 text-sm">Mobile Phone Services</h3>
                       <p className="text-gray-700 text-sm leading-relaxed mb-0">
                         Cellular-based communication services that may offer more mobility but potentially higher per-minute costs.
                       </p>
                     </div>
                     
                     <div className="bg-white border border-gray-200 rounded-md p-4 shadow-sm">
-                      <h3 className="font-bold text-primary-600 mb-2 text-sm">Hybrid Solutions</h3>
+                      <h3 className="font-bold text-navy-500 mb-2 text-sm">Hybrid Solutions</h3>
                       <p className="text-gray-700 text-sm leading-relaxed mb-0">
                         Combining different communication technologies to achieve redundancy and specific business requirements.
                       </p>
@@ -252,8 +252,8 @@ export default function Disclosures() {
                     PVN Voice may update these disclosures from time to time to reflect changes in regulations, industry practices, or our services. The most current version will always be available on our website.
                   </p>
 
-                  <div className="bg-primary-50 p-6 rounded-lg shadow-sm border border-primary-100 my-8">
-                    <h3 className="font-bold text-primary-700 mb-3 flex items-center">
+                  <div className="bg-navy-50 p-6 rounded-lg shadow-sm border border-navy-100 my-8">
+                    <h3 className="font-bold text-navy-600 mb-3 flex items-center">
                       <FaFileAlt className="mr-2" /> Questions About These Disclosures?
                     </h3>
                     <p className="text-gray-700 text-sm leading-relaxed mb-4">
@@ -262,13 +262,13 @@ export default function Disclosures() {
                     <div className="flex flex-col sm:flex-row gap-4">
                       <a 
                         href="tel:+18001234567" 
-                        className="flex-1 bg-primary-600 hover:bg-primary-700 text-white text-center py-2 px-3 rounded text-sm font-medium inline-flex items-center justify-center"
+                        className="flex-1 bg-navy-500 hover:bg-navy-600 text-white text-center py-2 px-3 rounded text-sm font-medium inline-flex items-center justify-center"
                       >
                         Call 1-800-123-4567
                       </a>
                       <a 
                         href="mailto:support@pvndialer.com" 
-                        className="flex-1 bg-white hover:bg-gray-50 text-primary-600 border border-primary-600 text-center py-2 px-3 rounded text-sm font-medium inline-flex items-center justify-center"
+                        className="flex-1 bg-white hover:bg-gray-50 text-navy-500 border border-navy-500 text-center py-2 px-3 rounded text-sm font-medium inline-flex items-center justify-center"
                       >
                         Email Us
                       </a>
@@ -282,7 +282,7 @@ export default function Disclosures() {
                       </p>
                       <a 
                         href="#top" 
-                        className="flex items-center text-primary-600 hover:text-primary-700 transition-colors text-xs font-medium"
+                        className="flex items-center text-navy-500 hover:text-navy-600 transition-colors text-xs font-medium"
                       >
                         Back to Top
                         <svg className="ml-1 w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -304,17 +304,17 @@ export default function Disclosures() {
               <h2 className="text-lg font-bold text-gray-800 mb-4 text-center">Related Documents</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <Link href="/privacy-policy" className="bg-white rounded-md p-4 shadow-sm text-center hover:shadow transition-shadow border border-gray-100">
-                  <FaShieldAlt className="text-primary-600 text-xl mx-auto mb-2" />
+                  <FaShieldAlt className="text-navy-500 text-xl mx-auto mb-2" />
                   <h3 className="font-bold text-gray-800 text-sm mb-1">Privacy Policy</h3>
                   <p className="text-gray-600 text-xs">How we protect and use your information</p>
                 </Link>
                 <Link href="/terms-of-service" className="bg-white rounded-md p-4 shadow-sm text-center hover:shadow transition-shadow border border-gray-100">
-                  <FaFileAlt className="text-primary-600 text-xl mx-auto mb-2" />
+                  <FaFileAlt className="text-navy-500 text-xl mx-auto mb-2" />
                   <h3 className="font-bold text-gray-800 text-sm mb-1">Terms of Service</h3>
                   <p className="text-gray-600 text-xs">Rules governing the use of our services</p>
                 </Link>
                 <Link href="/contact-us" className="bg-white rounded-md p-4 shadow-sm text-center hover:shadow transition-shadow border border-gray-100">
-                  <FaBalanceScale className="text-primary-600 text-xl mx-auto mb-2" />
+                  <FaBalanceScale className="text-navy-500 text-xl mx-auto mb-2" />
                   <h3 className="font-bold text-gray-800 text-sm mb-1">Contact Us</h3>
                   <p className="text-gray-600 text-xs">Get help or ask questions about our services</p>
                 </Link>

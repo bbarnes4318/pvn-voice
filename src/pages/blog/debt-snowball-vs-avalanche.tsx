@@ -16,14 +16,14 @@ export default function VoIPDeploymentStrategies() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-primary-600 text-white py-12 md:py-20">
+        <section className="bg-navy-500 text-white py-12 md:py-20">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto">
-              <Link href="/blog" className="inline-flex items-center text-primary-100 hover:text-white mb-6 transition-colors">
+              <Link href="/blog" className="inline-flex items-center text-navy-50 hover:text-white mb-6 transition-colors">
                 <FaArrowLeft className="mr-2" /> Back to Blog
               </Link>
               <h1 className="text-3xl md:text-5xl font-bold mb-6">VoIP Deployment Strategies: Phased vs. Big Bang Approach</h1>
-              <div className="flex items-center text-primary-100 space-x-6">
+              <div className="flex items-center text-navy-50 space-x-6">
                 <div className="flex items-center">
                   <FaCalendarAlt className="mr-2" />
                   <span>April 1, 2024</span>
@@ -33,7 +33,7 @@ export default function VoIPDeploymentStrategies() {
                   <span>Michael Reynolds</span>
                 </div>
                 <div>
-                  <span className="px-3 py-1 bg-primary-700 rounded-full text-sm">VoIP Deployment</span>
+                  <span className="px-3 py-1 bg-navy-600 rounded-full text-sm">VoIP Deployment</span>
                 </div>
               </div>
             </div>
@@ -61,10 +61,10 @@ export default function VoIPDeploymentStrategies() {
                     What makes VoIP deployment particularly challenging is the need to balance business continuity with technological advancement. Unlike simple software updates, VoIP implementations often require significant infrastructure changes and user training.
                   </p>
 
-                  <div className="bg-blue-50 border-l-4 border-blue-500 p-5 my-8">
+                  <div className="bg-navy-50 border-l-4 border-navy-500 p-5 my-8">
                     <div className="flex">
-                      <FaNetworkWired className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
-                      <p className="text-blue-700 m-0">
+                      <FaNetworkWired className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
+                      <p className="text-navy-600 m-0">
                         <strong>Important:</strong> Before choosing a deployment strategy, thoroughly assess your organization's readiness, including network infrastructure, user technical proficiency, and business criticality of communication systems.
                       </p>
                     </div>
@@ -116,7 +116,7 @@ export default function VoIPDeploymentStrategies() {
 
                   <div className="grid md:grid-cols-2 gap-6 my-8">
                     <div className="bg-gray-50 p-6 rounded-xl">
-                      <h3 className="font-bold text-primary-600 mb-3">Phased Rollout Planning</h3>
+                      <h3 className="font-bold text-navy-500 mb-3">Phased Rollout Planning</h3>
                       <p className="text-gray-700 mb-4">
                         Develop detailed plans for gradual implementation across departments.
                       </p>
@@ -126,7 +126,7 @@ export default function VoIPDeploymentStrategies() {
                       </div>
                     </div>
                     <div className="bg-gray-50 p-6 rounded-xl">
-                      <h3 className="font-bold text-primary-600 mb-3">Big Bang Preparation</h3>
+                      <h3 className="font-bold text-navy-500 mb-3">Big Bang Preparation</h3>
                       <p className="text-gray-700 mb-4">
                         Ensure comprehensive readiness for full system deployment.
                       </p>
@@ -215,14 +215,14 @@ export default function VoIPDeploymentStrategies() {
               {/* Sidebar */}
               <div className="lg:col-span-1">
                 {/* CTA Box */}
-                <div className="bg-primary-50 rounded-xl p-6 mb-8">
-                  <h3 className="text-xl font-bold text-primary-700 mb-4">Need Help with VoIP Deployment?</h3>
+                <div className="bg-navy-50 rounded-xl p-6 mb-8">
+                  <h3 className="text-xl font-bold text-navy-600 mb-4">Need Help with VoIP Deployment?</h3>
                   <p className="text-gray-700 mb-6">
                     Our VoIP experts can help you choose and implement the best deployment strategy for your business.
                   </p>
                   <a 
                     href="tel:+19045128487" 
-                    className="block w-full bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors mb-4"
+                    className="block w-full bg-green-700 hover:bg-green-800 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors mb-4"
                   >
                     <FaPhoneAlt className="inline mr-2" />
                     Call (904) 512-8487 for a Free Consultation
@@ -236,14 +236,14 @@ export default function VoIPDeploymentStrategies() {
                 </div>
 
                 {/* Free Resources */}
-                <div className="bg-secondary-50 rounded-xl p-6 mb-8">
-                  <h3 className="text-xl font-bold text-secondary-700 mb-4">Free VoIP Resources</h3>
+                <div className="bg-green-50 rounded-xl p-6 mb-8">
+                  <h3 className="text-xl font-bold text-green-800 mb-4">Free VoIP Resources</h3>
                   <p className="text-gray-700 mb-6">
                     Download our helpful guides and templates for VoIP deployment planning and implementation.
                   </p>
                   <a 
                     href="#" 
-                    className="block w-full bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors"
+                    className="block w-full bg-green-700 hover:bg-green-800 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors"
                   >
                     <FaNetworkWired className="inline mr-2" />
                     Download Resources
@@ -277,7 +277,7 @@ export default function VoIPDeploymentStrategies() {
                   </ul>
                   <Link 
                     href="/VoIP-FAQ" 
-                    className="text-primary-600 hover:text-primary-700 text-sm font-medium flex items-center mt-4"
+                    className="text-navy-500 hover:text-navy-600 text-sm font-medium flex items-center mt-4"
                   >
                     Read our full VoIP FAQ
                     <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -292,19 +292,19 @@ export default function VoIPDeploymentStrategies() {
                   <ul className="space-y-6">
                     <li>
                       <Link href="/blog/VoIP-network-readiness" className="group">
-                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-1">VoIP Network Readiness: Preparing Your Infrastructure</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-1">VoIP Network Readiness: Preparing Your Infrastructure</h4>
                         <p className="text-sm text-gray-500">March 15, 2024</p>
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/VoIP-training-guide" className="group">
-                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-1">VoIP Training Guide: Ensuring User Adoption</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-1">VoIP Training Guide: Ensuring User Adoption</h4>
                         <p className="text-sm text-gray-500">February 15, 2024</p>
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/VoIP-testing-strategies" className="group">
-                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-1">VoIP Testing Strategies: Ensuring Success</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-1">VoIP Testing Strategies: Ensuring Success</h4>
                         <p className="text-sm text-gray-500">January 15, 2024</p>
                       </Link>
                     </li>
@@ -316,7 +316,7 @@ export default function VoIPDeploymentStrategies() {
         </section>
 
         {/* CTA Banner */}
-        <section className="bg-primary-600 text-white py-12">
+        <section className="bg-navy-500 text-white py-12">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-bold mb-6">Ready to Plan Your VoIP Deployment?</h2>
@@ -325,7 +325,7 @@ export default function VoIPDeploymentStrategies() {
               </p>
               <a 
                 href="tel:+19045128487" 
-                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
+                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-green-700 hover:bg-green-800"
               >
                 <FaPhoneAlt className="text-white" />
                 <span>Call (904) 512-8487 for a Free Consultation</span>

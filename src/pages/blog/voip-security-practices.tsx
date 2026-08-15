@@ -17,14 +17,14 @@ export default function VoIPSecurityPractices() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-primary-600 text-white py-12 md:py-20">
+        <section className="bg-navy-500 text-white py-12 md:py-20">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto">
-              <Link href="/blog" className="inline-flex items-center text-primary-100 hover:text-white mb-6 transition-colors">
+              <Link href="/blog" className="inline-flex items-center text-navy-50 hover:text-white mb-6 transition-colors">
                 <FaArrowLeft className="mr-2" /> Back to Blog
               </Link>
               <h1 className="text-3xl md:text-5xl font-bold mb-6">10 Essential VoIP Security Practices Every Business Should Implement</h1>
-              <div className="flex items-center text-primary-100 space-x-6">
+              <div className="flex items-center text-navy-50 space-x-6">
                 <div className="flex items-center">
                   <FaCalendarAlt className="mr-2" />
                   <span>March 15, 2023</span>
@@ -34,7 +34,7 @@ export default function VoIPSecurityPractices() {
                   <span>David Chen</span>
                 </div>
                 <div>
-                  <span className="px-3 py-1 bg-primary-700 rounded-full text-sm">Security</span>
+                  <span className="px-3 py-1 bg-navy-600 rounded-full text-sm">Security</span>
                 </div>
               </div>
             </div>
@@ -56,53 +56,53 @@ export default function VoIPSecurityPractices() {
 
                   <div className="space-y-12">
                   {/* Table of Contents */}
-                    <div className="bg-primary-50 p-8 rounded-xl">
-                      <h3 className="text-xl font-bold text-primary-600 mb-6">Quick Navigation</h3>
+                    <div className="bg-navy-50 p-8 rounded-xl">
+                      <h3 className="text-xl font-bold text-navy-500 mb-6">Quick Navigation</h3>
                       <ul className="space-y-3">
                         <li>
-                          <a href="#why-security" className="text-primary-600 hover:text-primary-700 flex items-center">
+                          <a href="#why-security" className="text-navy-500 hover:text-navy-600 flex items-center">
                             <FaArrowLeft className="mr-2 transform rotate-180" />
                             Why VoIP Security Matters
                           </a>
                         </li>
                         <li>
-                          <a href="#passwords" className="text-primary-600 hover:text-primary-700 flex items-center">
+                          <a href="#passwords" className="text-navy-500 hover:text-navy-600 flex items-center">
                             <FaArrowLeft className="mr-2 transform rotate-180" />
                             1. Implement Strong Password Policies
                           </a>
                         </li>
                         <li>
-                          <a href="#encryption" className="text-primary-600 hover:text-primary-700 flex items-center">
+                          <a href="#encryption" className="text-navy-500 hover:text-navy-600 flex items-center">
                             <FaArrowLeft className="mr-2 transform rotate-180" />
                             2. Encrypt All Voice Traffic
                           </a>
                         </li>
                         <li>
-                          <a href="#network" className="text-primary-600 hover:text-primary-700 flex items-center">
+                          <a href="#network" className="text-navy-500 hover:text-navy-600 flex items-center">
                             <FaArrowLeft className="mr-2 transform rotate-180" />
                             3. Secure Your Network Infrastructure
                           </a>
                         </li>
                         <li>
-                          <a href="#vpn" className="text-primary-600 hover:text-primary-700 flex items-center">
+                          <a href="#vpn" className="text-navy-500 hover:text-navy-600 flex items-center">
                             <FaArrowLeft className="mr-2 transform rotate-180" />
                             4. Use Virtual Private Networks (VPNs)
                           </a>
                         </li>
                         <li>
-                          <a href="#updates" className="text-primary-600 hover:text-primary-700 flex items-center">
+                          <a href="#updates" className="text-navy-500 hover:text-navy-600 flex items-center">
                             <FaArrowLeft className="mr-2 transform rotate-180" />
                             5. Keep Software and Firmware Updated
                           </a>
                         </li>
                         <li>
-                          <a href="#voicemail" className="text-primary-600 hover:text-primary-700 flex items-center">
+                          <a href="#voicemail" className="text-navy-500 hover:text-navy-600 flex items-center">
                             <FaArrowLeft className="mr-2 transform rotate-180" />
                             6. Implement Call Encryption for Voicemail
                           </a>
                         </li>
                         <li>
-                          <a href="#authentication" className="text-primary-600 hover:text-primary-700 flex items-center">
+                          <a href="#authentication" className="text-navy-500 hover:text-navy-600 flex items-center">
                             <FaArrowLeft className="mr-2 transform rotate-180" />
                             7. Control Access with Strong Authentication
                           </a>
@@ -120,8 +120,8 @@ export default function VoIPSecurityPractices() {
                         <h3 className="text-xl font-bold text-gray-900 mb-4">Key Security Concerns</h3>
                         <ul className="space-y-4">
                           <li className="flex items-start">
-                            <div className="bg-primary-100 p-2 rounded-full mr-4 flex-shrink-0">
-                              <span className="text-primary-700 font-bold">1</span>
+                            <div className="bg-navy-100 p-2 rounded-full mr-4 flex-shrink-0">
+                              <span className="text-navy-600 font-bold">1</span>
                             </div>
                             <div>
                               <h4 className="font-medium text-gray-800 mb-2">Unauthorized Access</h4>
@@ -129,8 +129,8 @@ export default function VoIPSecurityPractices() {
                             </div>
                           </li>
                           <li className="flex items-start">
-                            <div className="bg-primary-100 p-2 rounded-full mr-4 flex-shrink-0">
-                              <span className="text-primary-700 font-bold">2</span>
+                            <div className="bg-navy-100 p-2 rounded-full mr-4 flex-shrink-0">
+                              <span className="text-navy-600 font-bold">2</span>
                             </div>
                             <div>
                               <h4 className="font-medium text-gray-800 mb-2">Call Interception</h4>
@@ -138,8 +138,8 @@ export default function VoIPSecurityPractices() {
                             </div>
                           </li>
                           <li className="flex items-start">
-                            <div className="bg-primary-100 p-2 rounded-full mr-4 flex-shrink-0">
-                              <span className="text-primary-700 font-bold">3</span>
+                            <div className="bg-navy-100 p-2 rounded-full mr-4 flex-shrink-0">
+                              <span className="text-navy-600 font-bold">3</span>
                             </div>
                             <div>
                               <h4 className="font-medium text-gray-800 mb-2">Toll Fraud</h4>
@@ -147,8 +147,8 @@ export default function VoIPSecurityPractices() {
                             </div>
                           </li>
                           <li className="flex items-start">
-                            <div className="bg-primary-100 p-2 rounded-full mr-4 flex-shrink-0">
-                              <span className="text-primary-700 font-bold">4</span>
+                            <div className="bg-navy-100 p-2 rounded-full mr-4 flex-shrink-0">
+                              <span className="text-navy-600 font-bold">4</span>
                             </div>
                             <div>
                               <h4 className="font-medium text-gray-800 mb-2">Denial of Service Attacks</h4>
@@ -156,8 +156,8 @@ export default function VoIPSecurityPractices() {
                             </div>
                           </li>
                           <li className="flex items-start">
-                            <div className="bg-primary-100 p-2 rounded-full mr-4 flex-shrink-0">
-                              <span className="text-primary-700 font-bold">5</span>
+                            <div className="bg-navy-100 p-2 rounded-full mr-4 flex-shrink-0">
+                              <span className="text-navy-600 font-bold">5</span>
                             </div>
                             <div>
                               <h4 className="font-medium text-gray-800 mb-2">VLAN Hopping</h4>
@@ -184,7 +184,7 @@ export default function VoIPSecurityPractices() {
                   </p>
                   
                       <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                        <h3 className="text-xl font-bold text-primary-600 mb-4">Best Practices for VoIP Passwords</h3>
+                        <h3 className="text-xl font-bold text-navy-500 mb-4">Best Practices for VoIP Passwords</h3>
                         <ul className="space-y-3">
                           <li className="flex items-start">
                             <FaCheck className="text-green-500 mr-2 mt-1 flex-shrink-0" />
@@ -214,12 +214,12 @@ export default function VoIPSecurityPractices() {
                       </div>
                     </div>
 
-                    <div className="bg-primary-50 p-8 rounded-xl">
-                      <h3 className="text-xl font-bold text-primary-600 mb-4">Need Help Securing Your VoIP System?</h3>
+                    <div className="bg-navy-50 p-8 rounded-xl">
+                      <h3 className="text-xl font-bold text-navy-500 mb-4">Need Help Securing Your VoIP System?</h3>
                       <p className="text-gray-700 mb-6">
                         Contact PVN Voice today for a comprehensive security assessment and implementation plan.
                       </p>
-                      <a href="/contact-us" className="inline-block bg-primary-600 text-white px-8 py-4 rounded-md hover:bg-primary-700 transition-colors font-medium">
+                      <a href="/contact-us" className="inline-block bg-navy-500 text-white px-8 py-4 rounded-md hover:bg-navy-600 transition-colors font-medium">
                         Schedule a Security Assessment
                       </a>
                     </div>
@@ -233,7 +233,7 @@ export default function VoIPSecurityPractices() {
                   <div className="grid md:grid-cols-2 gap-6 mb-8">
                     <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                       <div className="flex items-center mb-4">
-                        <FaLock className="text-primary-600 text-xl mr-3" />
+                        <FaLock className="text-navy-500 text-xl mr-3" />
                         <h3 className="text-xl font-bold text-gray-900">Signaling Encryption</h3>
                       </div>
                       <p className="text-gray-700 mb-0">
@@ -242,7 +242,7 @@ export default function VoIPSecurityPractices() {
                     </div>
                     <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                       <div className="flex items-center mb-4">
-                        <FaLock className="text-primary-600 text-xl mr-3" />
+                        <FaLock className="text-navy-500 text-xl mr-3" />
                         <h3 className="text-xl font-bold text-gray-900">Media Encryption</h3>
                       </div>
                       <p className="text-gray-700 mb-0">
@@ -251,10 +251,10 @@ export default function VoIPSecurityPractices() {
                     </div>
                   </div>
                   
-                  <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl mb-8">
+                  <div className="bg-navy-50 border-l-4 border-navy-500 p-6 rounded-xl mb-8">
                     <div className="flex">
-                      <FaInfoCircle className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
-                      <p className="text-blue-700 m-0">
+                      <FaInfoCircle className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
+                      <p className="text-navy-600 m-0">
                         <strong>Pro Tip:</strong> When selecting a VoIP provider, verify that they support both TLS and SRTP encryption. Some providers may charge extra for encryption features, but the security benefits far outweigh the cost.
                       </p>
                     </div>
@@ -266,11 +266,11 @@ export default function VoIPSecurityPractices() {
                   </p>
                   
                   <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 mb-8">
-                    <h3 className="text-xl font-bold text-primary-600 mb-6">Network Security Essentials</h3>
+                    <h3 className="text-xl font-bold text-navy-500 mb-6">Network Security Essentials</h3>
                     <div className="space-y-6">
                       <div className="flex items-start">
-                        <div className="bg-primary-100 p-2 rounded-full mr-4 flex-shrink-0">
-                          <span className="text-primary-700 font-bold">A</span>
+                        <div className="bg-navy-100 p-2 rounded-full mr-4 flex-shrink-0">
+                          <span className="text-navy-600 font-bold">A</span>
                         </div>
                         <div>
                           <h4 className="font-medium text-gray-800 mb-2">VLAN Segmentation</h4>
@@ -281,8 +281,8 @@ export default function VoIPSecurityPractices() {
                       </div>
                       
                       <div className="flex items-start">
-                        <div className="bg-primary-100 p-2 rounded-full mr-4 flex-shrink-0">
-                          <span className="text-primary-700 font-bold">B</span>
+                        <div className="bg-navy-100 p-2 rounded-full mr-4 flex-shrink-0">
+                          <span className="text-navy-600 font-bold">B</span>
                         </div>
                         <div>
                           <h4 className="font-medium text-gray-800 mb-2">Firewall Configuration</h4>
@@ -293,8 +293,8 @@ export default function VoIPSecurityPractices() {
                       </div>
                       
                       <div className="flex items-start">
-                        <div className="bg-primary-100 p-2 rounded-full mr-4 flex-shrink-0">
-                          <span className="text-primary-700 font-bold">C</span>
+                        <div className="bg-navy-100 p-2 rounded-full mr-4 flex-shrink-0">
+                          <span className="text-navy-600 font-bold">C</span>
                         </div>
                         <div>
                           <h4 className="font-medium text-gray-800 mb-2">Intrusion Detection/Prevention</h4>
@@ -313,7 +313,7 @@ export default function VoIPSecurityPractices() {
                   
                   <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 mb-8">
                     <div className="flex items-center mb-4">
-                      <FaShieldAlt className="text-primary-600 text-xl mr-3" />
+                      <FaShieldAlt className="text-navy-500 text-xl mr-3" />
                       <h3 className="text-xl font-bold text-gray-900">VPN Implementation Guidelines</h3>
                     </div>
                     <p className="text-gray-700 mb-4">
@@ -364,7 +364,7 @@ export default function VoIPSecurityPractices() {
                   
                   <div className="grid md:grid-cols-2 gap-6 mb-8">
                     <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                      <h3 className="text-xl font-bold text-primary-600 mb-4">What to Update</h3>
+                      <h3 className="text-xl font-bold text-navy-500 mb-4">What to Update</h3>
                       <ul className="space-y-3">
                         <li className="flex items-start">
                           <FaCheck className="text-green-500 mr-2 mt-1 flex-shrink-0" />
@@ -393,7 +393,7 @@ export default function VoIPSecurityPractices() {
                       </ul>
                     </div>
                     <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                      <h3 className="text-xl font-bold text-primary-600 mb-4">Update Best Practices</h3>
+                      <h3 className="text-xl font-bold text-navy-500 mb-4">Update Best Practices</h3>
                       <ul className="space-y-3">
                         <li className="flex items-start">
                           <FaCheck className="text-green-500 mr-2 mt-1 flex-shrink-0" />
@@ -419,10 +419,10 @@ export default function VoIPSecurityPractices() {
                     </div>
                   </div>
                   
-                  <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl mb-8">
+                  <div className="bg-navy-50 border-l-4 border-navy-500 p-6 rounded-xl mb-8">
                     <div className="flex">
-                      <FaInfoCircle className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
-                      <p className="text-blue-700 m-0">
+                      <FaInfoCircle className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
+                      <p className="text-navy-600 m-0">
                         <strong>Pro Tip:</strong> If your VoIP system is cloud-based, verify that your provider maintains current software and implements security patches promptly.
                       </p>
                     </div>
@@ -434,7 +434,7 @@ export default function VoIPSecurityPractices() {
                   </p>
                   
                   <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 mb-8">
-                    <h3 className="text-xl font-bold text-primary-600 mb-4">Voicemail Security Measures</h3>
+                    <h3 className="text-xl font-bold text-navy-500 mb-4">Voicemail Security Measures</h3>
                     <div className="grid md:grid-cols-2 gap-4">
                       <div className="space-y-3">
                         <div className="flex items-start">
@@ -473,11 +473,11 @@ export default function VoIPSecurityPractices() {
                   </p>
                   
                   <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 mb-8">
-                    <h3 className="text-xl font-bold text-primary-600 mb-6">Authentication Best Practices</h3>
+                    <h3 className="text-xl font-bold text-navy-500 mb-6">Authentication Best Practices</h3>
                     <div className="grid md:grid-cols-2 gap-6">
                     <div className="space-y-4">
                       <div className="flex items-start">
-                          <FaUserShield className="text-primary-600 text-lg mr-3 mt-1" />
+                          <FaUserShield className="text-navy-500 text-lg mr-3 mt-1" />
                         <div>
                             <h4 className="font-medium text-gray-800 mb-1">Multi-Factor Authentication (MFA)</h4>
                             <p className="text-gray-700 text-sm mb-0">
@@ -486,7 +486,7 @@ export default function VoIPSecurityPractices() {
                         </div>
                       </div>
                       <div className="flex items-start">
-                          <FaUserShield className="text-primary-600 text-lg mr-3 mt-1" />
+                          <FaUserShield className="text-navy-500 text-lg mr-3 mt-1" />
                         <div>
                             <h4 className="font-medium text-gray-800 mb-1">Role-Based Access Control</h4>
                             <p className="text-gray-700 text-sm mb-0">
@@ -497,7 +497,7 @@ export default function VoIPSecurityPractices() {
                       </div>
                       <div className="space-y-4">
                       <div className="flex items-start">
-                          <FaUserShield className="text-primary-600 text-lg mr-3 mt-1" />
+                          <FaUserShield className="text-navy-500 text-lg mr-3 mt-1" />
                         <div>
                             <h4 className="font-medium text-gray-800 mb-1">IP Address Restrictions</h4>
                             <p className="text-gray-700 text-sm mb-0">
@@ -506,7 +506,7 @@ export default function VoIPSecurityPractices() {
                         </div>
                       </div>
                       <div className="flex items-start">
-                          <FaUserShield className="text-primary-600 text-lg mr-3 mt-1" />
+                          <FaUserShield className="text-navy-500 text-lg mr-3 mt-1" />
                         <div>
                             <h4 className="font-medium text-gray-800 mb-1">Certificate-Based Authentication</h4>
                             <p className="text-gray-700 text-sm mb-0">
@@ -524,7 +524,7 @@ export default function VoIPSecurityPractices() {
                   </p>
                   
                   <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 mb-8">
-                    <h3 className="text-xl font-bold text-primary-600 mb-4">Toll Fraud Prevention</h3>
+                    <h3 className="text-xl font-bold text-navy-500 mb-4">Toll Fraud Prevention</h3>
                     <div className="grid md:grid-cols-2 gap-4">
                       <div className="space-y-3">
                         <div className="flex items-start">
@@ -563,7 +563,7 @@ export default function VoIPSecurityPractices() {
                   </p>
                   
                   <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 mb-8">
-                    <h3 className="text-xl font-bold text-primary-600 mb-4">Comprehensive Security Audit Components</h3>
+                    <h3 className="text-xl font-bold text-navy-500 mb-4">Comprehensive Security Audit Components</h3>
                     <div className="grid md:grid-cols-2 gap-4">
                       <div className="space-y-3">
                         <div className="flex items-start">
@@ -607,10 +607,10 @@ export default function VoIPSecurityPractices() {
                     </div>
                   </div>
                   
-                  <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl mb-8">
+                  <div className="bg-navy-50 border-l-4 border-navy-500 p-6 rounded-xl mb-8">
                     <div className="flex">
-                      <FaInfoCircle className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
-                      <p className="text-blue-700 m-0">
+                      <FaInfoCircle className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
+                      <p className="text-navy-600 m-0">
                         <strong>Pro Tip:</strong> Consider engaging a specialized VoIP security consultant for at least an annual third-party assessment. They often identify issues that internal teams might miss.
                       </p>
                     </div>
@@ -622,7 +622,7 @@ export default function VoIPSecurityPractices() {
                   </p>
                   
                   <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 mb-8">
-                    <h3 className="text-xl font-bold text-primary-600 mb-6">Training Components</h3>
+                    <h3 className="text-xl font-bold text-navy-500 mb-6">Training Components</h3>
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="space-y-4">
                       <div className="bg-gray-50 p-4 rounded-lg">
@@ -655,10 +655,10 @@ export default function VoIPSecurityPractices() {
                     </div>
                   </div>
                   
-                  <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl mb-8">
+                  <div className="bg-navy-50 border-l-4 border-navy-500 p-6 rounded-xl mb-8">
                     <div className="flex">
-                      <FaInfoCircle className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
-                      <p className="text-blue-700 m-0">
+                      <FaInfoCircle className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
+                      <p className="text-navy-600 m-0">
                         <strong>Pro Tip:</strong> Regular training refreshers and security updates help maintain awareness as threats evolve.
                       </p>
                     </div>
@@ -720,14 +720,14 @@ export default function VoIPSecurityPractices() {
               {/* Sidebar */}
               <div className="lg:col-span-1 space-y-8">
                 {/* Contact CTA */}
-                <div className="bg-primary-50 rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-primary-700 mb-4">Need Expert Help?</h3>
+                <div className="bg-navy-50 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-navy-600 mb-4">Need Expert Help?</h3>
                   <p className="text-gray-600 mb-6">
                     Get personalized advice from our VoIP security experts and discover how to protect your business communications.
                   </p>
                   <a 
                     href="tel:+19045128487" 
-                    className="block w-full bg-primary-600 text-white font-medium py-3 px-4 rounded-lg text-center hover:bg-primary-700 transition-colors mb-4"
+                    className="block w-full bg-navy-500 text-white font-medium py-3 px-4 rounded-lg text-center hover:bg-navy-600 transition-colors mb-4"
                   >
                     Call (844) 598-0478
                   </a>
@@ -740,13 +740,13 @@ export default function VoIPSecurityPractices() {
                 </div>
 
                 {/* Security Resources */}
-                <div className="bg-secondary-50 rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-secondary-700 mb-6">Security Resources</h3>
+                <div className="bg-green-50 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-green-800 mb-6">Security Resources</h3>
                   <ul className="space-y-6">
                     <li className="flex items-start">
-                      <FaShieldAlt className="text-secondary-600 mt-1 mr-4 flex-shrink-0 text-lg" />
+                      <FaShieldAlt className="text-green-700 mt-1 mr-4 flex-shrink-0 text-lg" />
                       <div>
-                        <Link href="/resources/security-checklist" className="font-medium text-secondary-600 hover:text-secondary-700 transition-colors block mb-2">
+                        <Link href="/resources/security-checklist" className="font-medium text-green-700 hover:text-green-800 transition-colors block mb-2">
                           VoIP Security Checklist
                         </Link>
                         <p className="text-gray-600">
@@ -755,9 +755,9 @@ export default function VoIPSecurityPractices() {
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <FaShieldAlt className="text-secondary-600 mt-1 mr-4 flex-shrink-0 text-lg" />
+                      <FaShieldAlt className="text-green-700 mt-1 mr-4 flex-shrink-0 text-lg" />
                       <div>
-                        <Link href="/resources/security-policy-template" className="font-medium text-secondary-600 hover:text-secondary-700 transition-colors block mb-2">
+                        <Link href="/resources/security-policy-template" className="font-medium text-green-700 hover:text-green-800 transition-colors block mb-2">
                           Security Policy Template
                         </Link>
                         <p className="text-gray-600">
@@ -766,9 +766,9 @@ export default function VoIPSecurityPractices() {
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <FaShieldAlt className="text-secondary-600 mt-1 mr-4 flex-shrink-0 text-lg" />
+                      <FaShieldAlt className="text-green-700 mt-1 mr-4 flex-shrink-0 text-lg" />
                       <div>
-                        <Link href="/resources/incident-response-guide" className="font-medium text-secondary-600 hover:text-secondary-700 transition-colors block mb-2">
+                        <Link href="/resources/incident-response-guide" className="font-medium text-green-700 hover:text-green-800 transition-colors block mb-2">
                           Incident Response Guide
                         </Link>
                         <p className="text-gray-600">
@@ -784,23 +784,23 @@ export default function VoIPSecurityPractices() {
                   <h3 className="text-xl font-bold text-gray-800 mb-6">VoIP Security Facts</h3>
                   <ul className="space-y-4">
                     <li className="flex items-start">
-                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">43% of cyber attacks target small businesses</p>
                     </li>
                     <li className="flex items-start">
-                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">VoIP attacks increased by 67% in 2022</p>
                     </li>
                     <li className="flex items-start">
-                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">95% of security breaches are due to human error</p>
                     </li>
                     <li className="flex items-start">
-                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">Regular security training reduces risk by 70%</p>
                     </li>
                     <li className="flex items-start">
-                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">60% of businesses lack proper VoIP encryption</p>
                     </li>
                   </ul>
@@ -812,19 +812,19 @@ export default function VoIPSecurityPractices() {
                   <ul className="space-y-6">
                     <li>
                       <Link href="/blog/optimizing-voip-call-quality" className="group block">
-                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-2">Optimizing VoIP Call Quality: The Complete Guide</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-2">Optimizing VoIP Call Quality: The Complete Guide</h4>
                         <p className="text-sm text-gray-500">March 15, 2023</p>
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/choosing-voip-provider" className="group block">
-                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-2">How to Choose the Right VoIP Provider</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-2">How to Choose the Right VoIP Provider</h4>
                         <p className="text-sm text-gray-500">April 5, 2023</p>
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/voip-cost-savings" className="group block">
-                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-2">How VoIP Can Cut Your Communication Costs</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-2">How VoIP Can Cut Your Communication Costs</h4>
                         <p className="text-sm text-gray-500">February 20, 2023</p>
                       </Link>
                     </li>
@@ -836,7 +836,7 @@ export default function VoIPSecurityPractices() {
         </section>
 
         {/* CTA Banner */}
-        <section className="bg-primary-600 text-white py-12">
+        <section className="bg-navy-500 text-white py-12">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-bold mb-6">Ready to Secure Your Business Communications?</h2>
@@ -845,7 +845,7 @@ export default function VoIPSecurityPractices() {
               </p>
               <a 
                 href="tel:18001234567" 
-                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
+                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-green-700 hover:bg-green-800"
               >
                 <FaPhoneAlt className="text-white" />
                 <span>Call (800) 123-4567 for a Security Consultation</span>

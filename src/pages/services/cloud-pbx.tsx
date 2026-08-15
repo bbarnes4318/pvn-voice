@@ -16,7 +16,7 @@ export default function CloudPBXServices() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-r from-primary-600 to-primary-700 text-white py-32 overflow-hidden">
+        <section className="relative bg-gradient-to-r from-navy-500 to-navy-600 text-white py-32 overflow-hidden">
           <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:60px_60px]" />
           <div className="container-custom relative">
             <div className="max-w-4xl mx-auto text-center">
@@ -31,7 +31,7 @@ export default function CloudPBXServices() {
                 Experience the power of a virtual phone system with enterprise-grade features, seamless integration, and unmatched reliability. Transform your business communications today.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/contact" className="inline-flex items-center justify-center bg-white text-primary-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
+                <Link href="/contact" className="inline-flex items-center justify-center bg-white text-navy-500 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
                   Get Started Free
                   <FaArrowRight className="ml-2" />
                 </Link>
@@ -48,19 +48,19 @@ export default function CloudPBXServices() {
           <div className="container-custom">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary-600 mb-2">99.99%</div>
+                <div className="text-4xl font-bold text-navy-500 mb-2">99.99%</div>
                 <div className="text-gray-600">System Uptime</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary-600 mb-2">60%</div>
+                <div className="text-4xl font-bold text-navy-500 mb-2">60%</div>
                 <div className="text-gray-600">Cost Reduction</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary-600 mb-2">24/7</div>
+                <div className="text-4xl font-bold text-navy-500 mb-2">24/7</div>
                 <div className="text-gray-600">Technical Support</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary-600 mb-2">15K+</div>
+                <div className="text-4xl font-bold text-navy-500 mb-2">15K+</div>
                 <div className="text-gray-600">Active Users</div>
               </div>
             </div>
@@ -82,28 +82,28 @@ export default function CloudPBXServices() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div className="bg-white p-10 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
                   <div className="flex items-center mb-8">
-                    <div className="bg-primary-50 p-4 rounded-xl mr-6">
-                      <FaServer className="text-primary-600 text-3xl" />
+                    <div className="bg-navy-50 p-4 rounded-xl mr-6">
+                      <FaServer className="text-navy-500 text-3xl" />
                     </div>
                     <h3 className="text-2xl font-bold text-gray-900">Advanced Call Management</h3>
                   </div>
                   <ul className="space-y-6">
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-primary-600 mt-1 mr-4 flex-shrink-0 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mt-1 mr-4 flex-shrink-0 text-xl" />
                       <div>
                         <span className="text-lg font-semibold block mb-1">Auto-attendant</span>
                         <span className="text-gray-600">Professional call routing and greeting system</span>
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-primary-600 mt-1 mr-4 flex-shrink-0 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mt-1 mr-4 flex-shrink-0 text-xl" />
                       <div>
                         <span className="text-lg font-semibold block mb-1">Call queuing</span>
                         <span className="text-gray-600">Efficient call distribution and management</span>
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-primary-600 mt-1 mr-4 flex-shrink-0 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mt-1 mr-4 flex-shrink-0 text-xl" />
                       <div>
                         <span className="text-lg font-semibold block mb-1">Call recording</span>
                         <span className="text-gray-600">Quality assurance and compliance features</span>
@@ -113,28 +113,28 @@ export default function CloudPBXServices() {
                 </div>
                 <div className="bg-white p-10 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
                   <div className="flex items-center mb-8">
-                    <div className="bg-primary-50 p-4 rounded-xl mr-6">
-                      <FaNetworkWired className="text-primary-600 text-3xl" />
+                    <div className="bg-navy-50 p-4 rounded-xl mr-6">
+                      <FaNetworkWired className="text-navy-500 text-3xl" />
                     </div>
                     <h3 className="text-2xl font-bold text-gray-900">Virtual Phone System</h3>
                   </div>
                   <ul className="space-y-6">
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-primary-600 mt-1 mr-4 flex-shrink-0 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mt-1 mr-4 flex-shrink-0 text-xl" />
                       <div>
                         <span className="text-lg font-semibold block mb-1">Virtual extensions</span>
                         <span className="text-gray-600">Flexible extension management and routing</span>
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-primary-600 mt-1 mr-4 flex-shrink-0 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mt-1 mr-4 flex-shrink-0 text-xl" />
                       <div>
                         <span className="text-lg font-semibold block mb-1">Mobile integration</span>
                         <span className="text-gray-600">Seamless mobile app and softphone support</span>
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-primary-600 mt-1 mr-4 flex-shrink-0 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mt-1 mr-4 flex-shrink-0 text-xl" />
                       <div>
                         <span className="text-lg font-semibold block mb-1">Multi-site support</span>
                         <span className="text-gray-600">Connect multiple locations seamlessly</span>
@@ -161,8 +161,8 @@ export default function CloudPBXServices() {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="bg-white p-10 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all duration-300">
-                  <div className="bg-primary-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <FaChartLine className="text-primary-600 text-2xl" />
+                  <div className="bg-navy-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <FaChartLine className="text-navy-500 text-2xl" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-4">Cost Efficiency</h3>
                   <p className="text-gray-600 leading-relaxed">
@@ -170,8 +170,8 @@ export default function CloudPBXServices() {
                   </p>
                 </div>
                 <div className="bg-white p-10 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all duration-300">
-                  <div className="bg-primary-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <FaGlobe className="text-primary-600 text-2xl" />
+                  <div className="bg-navy-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <FaGlobe className="text-navy-500 text-2xl" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-4">Global Accessibility</h3>
                   <p className="text-gray-600 leading-relaxed">
@@ -179,8 +179,8 @@ export default function CloudPBXServices() {
                   </p>
                 </div>
                 <div className="bg-white p-10 rounded-2xl shadow-lg text-center hover:shadow-xl transition-all duration-300">
-                  <div className="bg-primary-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                    <FaShieldAlt className="text-primary-600 text-2xl" />
+                  <div className="bg-navy-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <FaShieldAlt className="text-navy-500 text-2xl" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-4">Enterprise Security</h3>
                   <p className="text-gray-600 leading-relaxed">
@@ -208,87 +208,87 @@ export default function CloudPBXServices() {
                 <div className="bg-white p-10 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
                   <div className="text-center mb-8">
                     <h3 className="text-2xl font-bold text-gray-900 mb-4">Basic</h3>
-                    <div className="text-4xl font-bold text-primary-600 mb-2">$24.99<span className="text-lg text-gray-600">/month</span></div>
+                    <div className="text-4xl font-bold text-navy-500 mb-2">$24.99<span className="text-lg text-gray-600">/month</span></div>
                     <p className="text-gray-600">Perfect for small teams</p>
                   </div>
                   <ul className="space-y-6 mb-10">
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Up to 5 extensions</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Basic call features</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Mobile app access</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Email support</span>
                     </li>
                   </ul>
-                  <Link href="/contact" className="block text-center bg-primary-600 text-white px-6 py-4 rounded-xl font-semibold hover:bg-primary-700 transition-colors">
+                  <Link href="/contact" className="block text-center bg-navy-500 text-white px-6 py-4 rounded-xl font-semibold hover:bg-navy-600 transition-colors">
                     Get Started
                   </Link>
                 </div>
-                <div className="bg-white p-10 rounded-2xl shadow-lg border-2 border-primary-600 transform scale-105 relative">
-                  <div className="absolute top-0 right-0 bg-primary-600 text-white px-4 py-1 rounded-bl-xl rounded-tr-xl">
+                <div className="bg-white p-10 rounded-2xl shadow-lg border-2 border-navy-500 transform scale-105 relative">
+                  <div className="absolute top-0 right-0 bg-navy-500 text-white px-4 py-1 rounded-bl-xl rounded-tr-xl">
                     Popular
                   </div>
                   <div className="text-center mb-8">
                     <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional</h3>
-                    <div className="text-4xl font-bold text-primary-600 mb-2">$49.99<span className="text-lg text-gray-600">/month</span></div>
+                    <div className="text-4xl font-bold text-navy-500 mb-2">$49.99<span className="text-lg text-gray-600">/month</span></div>
                     <p className="text-gray-600">Ideal for growing businesses</p>
                   </div>
                   <ul className="space-y-6 mb-10">
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Up to 20 extensions</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Advanced PBX features</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Priority support</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Analytics dashboard</span>
                     </li>
                   </ul>
-                  <Link href="/contact" className="block text-center bg-primary-600 text-white px-6 py-4 rounded-xl font-semibold hover:bg-primary-700 transition-colors">
+                  <Link href="/contact" className="block text-center bg-navy-500 text-white px-6 py-4 rounded-xl font-semibold hover:bg-navy-600 transition-colors">
                     Get Started
                   </Link>
                 </div>
                 <div className="bg-white p-10 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
                   <div className="text-center mb-8">
                     <h3 className="text-2xl font-bold text-gray-900 mb-4">Enterprise</h3>
-                    <div className="text-4xl font-bold text-primary-600 mb-2">Custom<span className="text-lg text-gray-600">/month</span></div>
+                    <div className="text-4xl font-bold text-navy-500 mb-2">Custom<span className="text-lg text-gray-600">/month</span></div>
                     <p className="text-gray-600">For large organizations</p>
                   </div>
                   <ul className="space-y-6 mb-10">
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Unlimited extensions</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Custom PBX features</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">24/7 support</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-primary-600 mr-4 text-xl" />
+                      <FaCheckCircle className="text-navy-500 mr-4 text-xl" />
                       <span className="text-lg">Dedicated account manager</span>
                     </li>
                   </ul>
-                  <Link href="/contact" className="block text-center bg-primary-600 text-white px-6 py-4 rounded-xl font-semibold hover:bg-primary-700 transition-colors">
+                  <Link href="/contact" className="block text-center bg-navy-500 text-white px-6 py-4 rounded-xl font-semibold hover:bg-navy-600 transition-colors">
                     Contact Sales
                   </Link>
                 </div>
@@ -298,7 +298,7 @@ export default function CloudPBXServices() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-24 bg-primary-600 text-white relative overflow-hidden">
+        <section className="py-24 bg-navy-500 text-white relative overflow-hidden">
           <div className="absolute inset-0 bg-grid-white/[0.05] bg-[size:60px_60px]" />
           <div className="container-custom relative">
             <div className="max-w-4xl mx-auto text-center">
@@ -309,7 +309,7 @@ export default function CloudPBXServices() {
                 Join thousands of businesses that trust our Cloud PBX and virtual phone system. Get started with a free consultation today.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/contact" className="inline-flex items-center justify-center bg-white text-primary-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
+                <Link href="/contact" className="inline-flex items-center justify-center bg-white text-navy-500 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
                   Get Started Free
                   <FaArrowRight className="ml-2" />
                 </Link>

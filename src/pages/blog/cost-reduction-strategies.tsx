@@ -18,7 +18,7 @@ export default function CostReductionStrategies() {
         <article className="py-16 bg-white">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto">
-              <Link href="/blog" className="inline-flex items-center text-primary-600 hover:text-primary-700 mb-8">
+              <Link href="/blog" className="inline-flex items-center text-navy-500 hover:text-navy-600 mb-8">
                 <FaArrowLeft className="mr-2" />
                 Back to Blog
               </Link>
@@ -41,7 +41,7 @@ export default function CostReductionStrategies() {
                     16 min read
                   </div>
                 </div>
-                <div className="h-1 w-20 bg-primary-600"></div>
+                <div className="h-1 w-20 bg-navy-500"></div>
               </div>
 
               <div className="prose prose-lg max-w-none">
@@ -57,9 +57,9 @@ export default function CostReductionStrategies() {
                 </p>
 
                 <h2>1. Bundle and Package Optimization</h2>
-                <div className="bg-primary-50 p-6 rounded-xl my-8">
-                  <h3 className="text-xl font-bold text-primary-800 mb-4">Cost-Saving Bundle Options</h3>
-                  <ul className="list-disc list-inside text-primary-700">
+                <div className="bg-navy-50 p-6 rounded-xl my-8">
+                  <h3 className="text-xl font-bold text-navy-700 mb-4">Cost-Saving Bundle Options</h3>
+                  <ul className="list-disc list-inside text-navy-600">
                     <li>Unified communications packages</li>
                     <li>Annual vs. monthly billing discounts</li>
                     <li>Multi-year contract benefits</li>
@@ -128,9 +128,9 @@ export default function CostReductionStrategies() {
                   <li>Vendor contract optimization</li>
                 </ul>
 
-                <div className="bg-primary-50 p-6 rounded-xl my-8">
-                  <h3 className="text-xl font-bold text-primary-800 mb-4">Quick Cost-Saving Tips</h3>
-                  <ul className="list-disc list-inside text-primary-700">
+                <div className="bg-navy-50 p-6 rounded-xl my-8">
+                  <h3 className="text-xl font-bold text-navy-700 mb-4">Quick Cost-Saving Tips</h3>
+                  <ul className="list-disc list-inside text-navy-600">
                     <li>Review and renegotiate contracts annually</li>
                     <li>Monitor and optimize international calling</li>
                     <li>Implement call quality monitoring</li>
@@ -180,7 +180,7 @@ export default function CostReductionStrategies() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <Link href="/blog/voip-features-comparison" className="group">
                     <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-                      <h4 className="text-lg font-bold text-gray-900 group-hover:text-primary-600 mb-2">
+                      <h4 className="text-lg font-bold text-gray-900 group-hover:text-navy-500 mb-2">
                         VoIP Features: The Ultimate Comparison Guide
                       </h4>
                       <p className="text-gray-600">
@@ -190,7 +190,7 @@ export default function CostReductionStrategies() {
                   </Link>
                   <Link href="/blog/remote-work-tools" className="group">
                     <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-                      <h4 className="text-lg font-bold text-gray-900 group-hover:text-primary-600 mb-2">
+                      <h4 className="text-lg font-bold text-gray-900 group-hover:text-navy-500 mb-2">
                         Essential Remote Work Tools for VoIP Teams
                       </h4>
                       <p className="text-gray-600">

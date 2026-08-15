@@ -13,15 +13,15 @@ const FAQItem: React.FC<FAQItemProps> = ({ question, answer, icon }) => {
   return (
     <div className="border-b border-gray-200 py-4">
       <button
-        className="flex justify-between items-center w-full text-left font-medium text-primary-600 hover:text-secondary-600 focus:outline-none"
+        className="flex justify-between items-center w-full text-left font-medium text-navy-500 hover:text-green-700 focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
       >
         <div className="flex items-center">
-          {icon && <span className="mr-3 text-secondary-600">{icon}</span>}
+          {icon && <span className="mr-3 text-green-700">{icon}</span>}
           <span className="text-lg">{question}</span>
         </div>
         <FaChevronDown
-          className={`text-secondary-600 transition-transform duration-200 ${
+          className={`text-green-700 transition-transform duration-200 ${
             isOpen ? 'transform rotate-180' : ''
           }`}
         />
@@ -70,8 +70,8 @@ const FAQ: React.FC = () => {
     <section className="section bg-gray-50">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary-600">
-            Frequently Asked <span className="text-secondary-600">Questions</span>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-navy-500">
+            Frequently Asked <span className="text-green-700">Questions</span>
           </h2>
           <p className="text-xl text-gray-600">
             Get answers to common questions about our VoIP phone system and services.
@@ -84,29 +84,29 @@ const FAQ: React.FC = () => {
           ))}
         </div>
 
-        <div className="bg-gradient-to-r from-primary-600 to-primary-700 text-white rounded-xl p-8 md:p-10 text-center max-w-3xl mx-auto shadow-lg">
+        <div className="bg-gradient-to-r from-navy-500 to-navy-600 text-white rounded-xl p-8 md:p-10 text-center max-w-3xl mx-auto shadow-lg">
           <h3 className="text-2xl md:text-3xl font-bold mb-4">
             Still Have Questions?
           </h3>
-          <p className="text-primary-100 mb-6 text-lg">
+          <p className="text-navy-50 mb-6 text-lg">
             Our VoIP experts are here to help you find the perfect solution for your business.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a 
               href="tel:+19045128487" 
-              className="bg-secondary-600 hover:bg-secondary-700 text-white px-8 py-4 rounded-lg transition-colors font-medium text-lg flex items-center justify-center space-x-3"
+              className="bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg transition-colors font-medium text-lg flex items-center justify-center space-x-3"
             >
               <FaPhone className="text-white" />
               <span>Call (904) 512-8487</span>
             </a>
             <a 
               href="/contact-us" 
-              className="bg-white text-primary-600 hover:bg-primary-50 px-8 py-4 rounded-lg transition-colors font-medium text-lg"
+              className="bg-white text-navy-500 hover:bg-navy-50 px-8 py-4 rounded-lg transition-colors font-medium text-lg"
             >
               Get a Free Demo
             </a>
           </div>
-          <p className="mt-4 text-sm text-primary-200">
+          <p className="mt-4 text-sm text-navy-200">
             Free consultation • No obligation • 30-day trial available
           </p>
         </div>

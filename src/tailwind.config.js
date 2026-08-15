@@ -22,44 +22,35 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: {
-          50: '#f0f5fc',
-          100: '#dde7f5',
-          200: '#c1d4ef',
-          300: '#97b9e4',
-          400: '#6595d5',
-          500: '#4177c3',
-          600: '#2e5eaa',
-          700: '#254b88',
-          800: '#21406f',
-          900: '#1e365c',
-          950: '#14233d',
+        // Single blue family, derived from the logo navy (#003359 at navy-900).
+        navy: {
+          50: 'var(--pvn-navy-50)',
+          100: 'var(--pvn-navy-100)',
+          200: 'var(--pvn-navy-200)',
+          300: 'var(--pvn-navy-300)',
+          400: 'var(--pvn-navy-400)',
+          500: 'var(--pvn-navy-500)',
+          600: 'var(--pvn-navy-600)',
+          700: 'var(--pvn-navy-700)',
+          800: 'var(--pvn-navy-800)',
+          900: 'var(--pvn-navy-900)',
+          950: 'var(--pvn-navy-950)',
         },
-        secondary: {
-          50: '#e6f7ef',
-          100: '#c3ebd7',
-          200: '#9adebe',
-          300: '#70d0a5',
-          400: '#50c090',
-          500: '#34ad79',
-          600: '#289c6a',
-          700: '#1e8a5a',
-          800: '#16784c',
-          900: '#105e3d',
-          950: '#093d27',
-        },
-        success: {
-          50: '#f0fdf4',
-          100: '#dcfce7',
-          200: '#bbf7d0',
-          300: '#86efac',
-          400: '#4ade80',
-          500: '#22c55e',
-          600: '#16a34a',
-          700: '#15803d',
-          800: '#166534',
-          900: '#14532d',
-          950: '#052e16',
+        // Single green family, derived from the logo dot (#3cb26e at green-500).
+        // Overrides Tailwind's default green so stray green-* classes cannot
+        // reintroduce an off-brand hue.
+        green: {
+          50: 'var(--pvn-green-50)',
+          100: 'var(--pvn-green-100)',
+          200: 'var(--pvn-green-200)',
+          300: 'var(--pvn-green-300)',
+          400: 'var(--pvn-green-400)',
+          500: 'var(--pvn-green-500)',
+          600: 'var(--pvn-green-600)',
+          700: 'var(--pvn-green-700)',
+          800: 'var(--pvn-green-800)',
+          900: 'var(--pvn-green-900)',
+          950: 'var(--pvn-green-950)',
         },
       },
       fontFamily: {
@@ -67,9 +58,10 @@ module.exports = {
         display: ['Montserrat', 'sans-serif'],
       },
       boxShadow: {
-        'cta': '0 10px 25px -5px rgba(40, 156, 106, 0.5)',
+        // Tinted to the CTA green (#2d8652).
+        'cta': '0 10px 25px -5px rgba(45, 134, 82, 0.5)',
       }
     },
   },
   plugins: [],
-} 
+}

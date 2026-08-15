@@ -21,57 +21,57 @@ export default function Home() {
         <meta name="description" content="PVN Voice provides cloud-based business phone systems with enterprise-grade features at affordable prices. Easy setup, 24/7 support, and no contract required." />
       </Head>
 
-      <Header />
-      <main className="flex-grow bg-gradient-to-br from-primary-50 to-primary-100">
+      <Header overlay />
+      <main className="flex-grow bg-gradient-to-br from-navy-50 to-navy-100">
         {/* Hero Section */}
         <HeroTop />
         
         {/* Why Choose PVN Voice Section */}
-        <section className="py-24 bg-gradient-to-br from-white to-primary-50">
+        <section className="py-24 bg-gradient-to-br from-white to-navy-50">
           <div className="container-custom">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-primary-700 mb-4">
-                Why <span className="text-secondary-600">200+ Businesses</span> Choose PVN Voice
+              <h2 className="text-4xl font-bold text-navy-600 mb-4">
+                Why <span className="text-green-700">200+ Businesses</span> Choose PVN Voice
               </h2>
-              <p className="text-xl text-primary-700 leading-relaxed max-w-3xl mx-auto mb-12">
+              <p className="text-xl text-navy-600 leading-relaxed max-w-3xl mx-auto mb-12">
                 Our cloud-based phone solutions deliver enterprise features at small business prices, helping companies communicate better while saving substantially on their telecom costs.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-              <div className="bg-gradient-to-br from-primary-100 to-primary-50 p-8 rounded-2xl shadow-lg text-center border border-primary-100">
-                <FaDollarSign className="text-primary-600 text-4xl mx-auto mb-4" />
-                <h3 className="text-xl font-bold text-primary-700 mb-3">Substantial Cost Savings</h3>
-                <p className="text-primary-700 mb-4">Transform your communication costs with our cloud-based solution.</p>
+              <div className="bg-gradient-to-br from-navy-100 to-navy-50 p-8 rounded-2xl shadow-lg text-center border border-navy-100">
+                <FaDollarSign className="text-navy-500 text-4xl mx-auto mb-4" />
+                <h3 className="text-xl font-bold text-navy-600 mb-3">Substantial Cost Savings</h3>
+                <p className="text-navy-600 mb-4">Transform your communication costs with our cloud-based solution.</p>
                 <ul className="text-left space-y-3">
                   <li className="flex items-start"><FaCheckCircle className="text-green-500 mt-1 mr-2 flex-shrink-0" /><span>Save up to 70% on monthly phone bills</span></li>
                   <li className="flex items-start"><FaCheckCircle className="text-green-500 mt-1 mr-2 flex-shrink-0" /><span>No hardware costs or maintenance fees</span></li>
                   <li className="flex items-start"><FaCheckCircle className="text-green-500 mt-1 mr-2 flex-shrink-0" /><span>Free internal calls between locations</span></li>
                 </ul>
               </div>
-              <div className="bg-gradient-to-br from-secondary-100 to-secondary-50 p-8 rounded-2xl shadow-lg text-center border border-secondary-100">
-                <FaUserClock className="text-secondary-600 text-4xl mx-auto mb-4" />
-                <h3 className="text-xl font-bold text-secondary-700 mb-3">Boost Productivity</h3>
-                <p className="text-secondary-700 mb-4">Empower your team with tools that drive efficiency and growth.</p>
+              <div className="bg-gradient-to-br from-green-100 to-green-50 p-8 rounded-2xl shadow-lg text-center border border-green-100">
+                <FaUserClock className="text-green-700 text-4xl mx-auto mb-4" />
+                <h3 className="text-xl font-bold text-green-800 mb-3">Boost Productivity</h3>
+                <p className="text-green-800 mb-4">Empower your team with tools that drive efficiency and growth.</p>
                 <ul className="text-left space-y-3">
                   <li className="flex items-start"><FaCheckCircle className="text-green-500 mt-1 mr-2 flex-shrink-0" /><span>40% increase in team productivity</span></li>
                   <li className="flex items-start"><FaCheckCircle className="text-green-500 mt-1 mr-2 flex-shrink-0" /><span>Reduce meeting time by 65%</span></li>
                   <li className="flex items-start"><FaCheckCircle className="text-green-500 mt-1 mr-2 flex-shrink-0" /><span>Streamline communication workflows</span></li>
                 </ul>
               </div>
-              <div className="bg-gradient-to-br from-primary-100 to-primary-50 p-8 rounded-2xl shadow-lg text-center border border-primary-100">
-                <FaLock className="text-primary-600 text-4xl mx-auto mb-4" />
-                <h3 className="text-xl font-bold text-primary-700 mb-3">Enterprise Security</h3>
-                <p className="text-primary-700 mb-4">Protect your business with military-grade security features.</p>
+              <div className="bg-gradient-to-br from-navy-100 to-navy-50 p-8 rounded-2xl shadow-lg text-center border border-navy-100">
+                <FaLock className="text-navy-500 text-4xl mx-auto mb-4" />
+                <h3 className="text-xl font-bold text-navy-600 mb-3">Enterprise Security</h3>
+                <p className="text-navy-600 mb-4">Protect your business with military-grade security features.</p>
                 <ul className="text-left space-y-3">
                   <li className="flex items-start"><FaCheckCircle className="text-green-500 mt-1 mr-2 flex-shrink-0" /><span>256-bit SSL encryption</span></li>
                   <li className="flex items-start"><FaCheckCircle className="text-green-500 mt-1 mr-2 flex-shrink-0" /><span>HIPAA compliant</span></li>
                   <li className="flex items-start"><FaCheckCircle className="text-green-500 mt-1 mr-2 flex-shrink-0" /><span>Regular security audits</span></li>
                 </ul>
               </div>
-              <div className="bg-gradient-to-br from-secondary-100 to-secondary-50 p-8 rounded-2xl shadow-lg text-center border border-secondary-100">
-                <FaHeadphones className="text-secondary-600 text-4xl mx-auto mb-4" />
-                <h3 className="text-xl font-bold text-secondary-700 mb-3">24/7 Expert Support</h3>
-                <p className="text-secondary-700 mb-4">Get help when you need it from our US-based support team.</p>
+              <div className="bg-gradient-to-br from-green-100 to-green-50 p-8 rounded-2xl shadow-lg text-center border border-green-100">
+                <FaHeadphones className="text-green-700 text-4xl mx-auto mb-4" />
+                <h3 className="text-xl font-bold text-green-800 mb-3">24/7 Expert Support</h3>
+                <p className="text-green-800 mb-4">Get help when you need it from our US-based support team.</p>
                 <ul className="text-left space-y-3">
                   <li className="flex items-start"><FaCheckCircle className="text-green-500 mt-1 mr-2 flex-shrink-0" /><span>Average response time &lt; 2 minutes</span></li>
                   <li className="flex items-start"><FaCheckCircle className="text-green-500 mt-1 mr-2 flex-shrink-0" /><span>99.9% uptime guarantee</span></li>

@@ -76,7 +76,7 @@ export default function ContactUs() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-navy-50 to-navy-100">
       <Head>
         <title>Contact Us - PVN Voice</title>
         <meta name="description" content="Contact PVN Voice for information about our business VoIP phone systems, unified communications, and cloud contact center solutions." />
@@ -85,11 +85,11 @@ export default function ContactUs() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-primary-600 text-white py-12 md:py-20">
+        <section className="bg-navy-500 text-white py-12 md:py-20">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
-              <p className="text-xl md:text-2xl text-primary-100">
+              <p className="text-xl md:text-2xl text-navy-50">
                 Our business communication specialists are ready to help
               </p>
             </div>
@@ -102,7 +102,7 @@ export default function ContactUs() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               {/* Contact Form */}
               <div id="contact-form" className="bg-gray-50 p-8 rounded-xl shadow-sm">
-                <h2 className="text-2xl font-bold text-primary-600 mb-6">Get in Touch</h2>
+                <h2 className="text-2xl font-bold text-navy-500 mb-6">Get in Touch</h2>
                 
                 {isSubmitted && (
                   <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-6 flex items-center">
@@ -120,7 +120,7 @@ export default function ContactUs() {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-navy-400"
                       required
                     />
                   </div>
@@ -133,7 +133,7 @@ export default function ContactUs() {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-navy-400"
                       required
                     />
                   </div>
@@ -146,7 +146,7 @@ export default function ContactUs() {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-navy-400"
                       required
                     />
                   </div>
@@ -158,7 +158,7 @@ export default function ContactUs() {
                       name="companySize"
                       value={formData.companySize}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-navy-400"
                       required
                     >
                       <option value="">Select your company size</option>
@@ -178,7 +178,7 @@ export default function ContactUs() {
                       value={formData.message}
                       onChange={handleChange}
                       rows={4}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-navy-400"
                       required
                     ></textarea>
                   </div>
@@ -194,7 +194,7 @@ export default function ContactUs() {
                         required
                       />
                       <span className="text-sm text-gray-700">
-                        I agree to the <a href="/privacy-policy" className="text-primary-600 hover:underline">Privacy Policy</a> and <a href="/terms-of-service" className="text-primary-600 hover:underline">Terms of Service</a>
+                        I agree to the <a href="/privacy-policy" className="text-navy-500 hover:underline">Privacy Policy</a> and <a href="/terms-of-service" className="text-navy-500 hover:underline">Terms of Service</a>
                       </span>
                     </label>
 
@@ -218,12 +218,12 @@ export default function ContactUs() {
                   </div>
                   
                   <p className="text-xs text-gray-500 mb-4">
-                    Calls and messages placed to the number you provide are governed by our <a href="/compliance/consent" className="text-primary-600 hover:underline">Opt-In &amp; Consent Policy</a> and our <a href="/compliance/do-not-call" className="text-primary-600 hover:underline">Do Not Call Policy</a>. You may opt out at any time by calling (904) 512-8487.
+                    Calls and messages placed to the number you provide are governed by our <a href="/compliance/consent" className="text-navy-500 hover:underline">Opt-In &amp; Consent Policy</a> and our <a href="/compliance/do-not-call" className="text-navy-500 hover:underline">Do Not Call Policy</a>. You may opt out at any time by calling (904) 512-8487.
                   </p>
 
                   <button
                     type="submit"
-                    className="w-full bg-primary-600 text-white py-3 px-4 rounded-md hover:bg-primary-700 transition duration-300 font-medium"
+                    className="w-full bg-navy-500 text-white py-3 px-4 rounded-md hover:bg-navy-600 transition duration-300 font-medium"
                   >
                     Submit Request
                   </button>
@@ -232,45 +232,45 @@ export default function ContactUs() {
               
               {/* Contact Information */}
               <div>
-                <h2 className="text-2xl font-bold text-primary-600 mb-6">Contact Information</h2>
+                <h2 className="text-2xl font-bold text-navy-500 mb-6">Contact Information</h2>
                 
                 <div className="space-y-6">
                   <div className="flex items-start">
-                    <div className="bg-primary-100 p-3 rounded-full text-primary-600 mr-4">
+                    <div className="bg-navy-100 p-3 rounded-full text-navy-500 mr-4">
                       <FaPhone />
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-800">Phone Support</h3>
                       <p className="text-gray-600 mb-1">Sales & General Inquiries</p>
-                      <a href="tel:+19045128487" className="text-primary-600 font-medium hover:underline">
+                      <a href="tel:+19045128487" className="text-navy-500 font-medium hover:underline">
                         (904) 512-8487
                       </a>
                       <p className="text-gray-600 mt-2 mb-1">Technical Support</p>
-                      <a href="tel:+19045128487" className="text-primary-600 font-medium hover:underline">
+                      <a href="tel:+19045128487" className="text-navy-500 font-medium hover:underline">
                         (904) 512-8487
                       </a>
                     </div>
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="bg-primary-100 p-3 rounded-full text-primary-600 mr-4">
+                    <div className="bg-navy-100 p-3 rounded-full text-navy-500 mr-4">
                       <FaEnvelope />
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-800">Email</h3>
                       <p className="text-gray-600 mb-1">Sales & Inquiries</p>
-                      <a href="mailto:sales@pvnvoice.com" className="text-primary-600 font-medium hover:underline">
+                      <a href="mailto:sales@pvnvoice.com" className="text-navy-500 font-medium hover:underline">
                         sales@pvnvoice.com
                       </a>
                       <p className="text-gray-600 mt-2 mb-1">Customer Support</p>
-                      <a href="mailto:support@pvnvoice.com" className="text-primary-600 font-medium hover:underline">
+                      <a href="mailto:support@pvnvoice.com" className="text-navy-500 font-medium hover:underline">
                         support@pvnvoice.com
                       </a>
                     </div>
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="bg-primary-100 p-3 rounded-full text-primary-600 mr-4">
+                    <div className="bg-navy-100 p-3 rounded-full text-navy-500 mr-4">
                       <FaMapMarkerAlt />
                     </div>
                     <div>
@@ -284,7 +284,7 @@ export default function ContactUs() {
                   </div>
                   
                   <div className="flex items-start">
-                    <div className="bg-primary-100 p-3 rounded-full text-primary-600 mr-4">
+                    <div className="bg-navy-100 p-3 rounded-full text-navy-500 mr-4">
                       <FaClock />
                     </div>
                     <div>
@@ -299,14 +299,14 @@ export default function ContactUs() {
                   </div>
                 </div>
                 
-                <div className="mt-12 bg-primary-50 p-6 rounded-xl">
-                  <h3 className="text-xl font-bold text-primary-600 mb-3">Schedule a Demo</h3>
+                <div className="mt-12 bg-navy-50 p-6 rounded-xl">
+                  <h3 className="text-xl font-bold text-navy-500 mb-3">Schedule a Demo</h3>
                   <p className="text-gray-700 mb-4">
                     Want to see PVN Voice in action? Schedule a personalized demo with one of our product specialists.
                   </p>
                   <a 
                     href="#contact-form" 
-                    className="inline-block bg-secondary-600 text-white py-2 px-6 rounded-md hover:bg-secondary-700 transition duration-300 font-medium"
+                    className="inline-block bg-green-700 text-white py-2 px-6 rounded-md hover:bg-green-800 transition duration-300 font-medium"
                   >
                     Request a Demo
                   </a>
@@ -320,7 +320,7 @@ export default function ContactUs() {
         <section className="py-16 bg-gray-50">
           <div className="container-custom">
             <div className="max-w-5xl mx-auto">
-              <h2 className="text-2xl font-bold text-primary-600 mb-6 text-center">Visit Our Office</h2>
+              <h2 className="text-2xl font-bold text-navy-500 mb-6 text-center">Visit Our Office</h2>
               <div className="rounded-xl overflow-hidden shadow-md h-96">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.837485047843!2d-81.31108472492815!3d29.897378979999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e6b7c2c0c0c0c0%3A0x0!2zMjgwMCBOIDZ0aCBTdHJlZXQgIzc5NiwgU2FpbnQgQXVndXN0aW5lLCBGTCAzMjA4NA!5e0!3m2!1sen!2sus!4v1647881234567!5m2!1sen!2sus"
@@ -338,7 +338,7 @@ export default function ContactUs() {
         </section>
         
         {/* CTA Section */}
-        <section className="py-16 bg-primary-600 text-white">
+        <section className="py-16 bg-navy-500 text-white">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Business Communication?</h2>
@@ -347,12 +347,12 @@ export default function ContactUs() {
               </p>
               <a 
                 href="tel:+19045128487" 
-                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
+                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-green-700 hover:bg-green-800"
               >
                 <FaPhone className="text-white" />
                 <span>Call (904) 512-8487 Now</span>
               </a>
-              <p className="mt-4 text-sm text-primary-200">
+              <p className="mt-4 text-sm text-navy-200">
                 No credit card required. No long-term contracts.
               </p>
             </div>
