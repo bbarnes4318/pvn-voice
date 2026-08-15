@@ -9,7 +9,7 @@ import {
   COMPLIANCE_POLICIES,
   DNC_PHONE_DISPLAY,
   DNC_PHONE_HREF,
-  POLICY_META_LINE,
+  getPolicyMetaLine,
 } from '../lib/compliance-policies';
 
 export interface PolicySection {
@@ -82,7 +82,7 @@ const PolicyLayout: React.FC<PolicyLayoutProps> = ({
               </div>
               <h1 className="text-3xl md:text-4xl font-bold">{heading}</h1>
               <p className="text-primary-100 mt-3">
-                {POLICY_META_LINE}
+                {getPolicyMetaLine(currentHref)}
               </p>
             </div>
           </div>

@@ -2,7 +2,15 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { IconType } from 'react-icons';
-import { FaDatabase, FaFileSignature, FaPhoneAlt, FaPhoneSlash, FaShieldAlt } from 'react-icons/fa';
+import {
+  FaDatabase,
+  FaFileContract,
+  FaFileSignature,
+  FaPhoneAlt,
+  FaPhoneSlash,
+  FaSearchLocation,
+  FaShieldAlt,
+} from 'react-icons/fa';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import {
@@ -17,6 +25,8 @@ const policyIcons: Record<string, IconType> = {
   '/compliance/do-not-originate': FaShieldAlt,
   '/compliance/reassigned-numbers': FaDatabase,
   '/compliance/consent': FaFileSignature,
+  '/compliance/traceback': FaSearchLocation,
+  '/compliance/acceptable-use': FaFileContract,
 };
 
 export default function Compliance() {
@@ -24,7 +34,7 @@ export default function Compliance() {
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
         <title>Compliance Policies - PVN Voice</title>
-        <meta name="description" content="PVN LLC's telemarketing compliance policies: Do-Not-Call, Do-Not-Originate, Reassigned Numbers Database, and Opt-In & Consent. Each policy is published in full for carriers, clients, and consumers." />
+        <meta name="description" content="PVN LLC's telemarketing compliance policies: Do-Not-Call, Do-Not-Originate, Reassigned Numbers Database, Opt-In & Consent, Traceback Response, and Acceptable Use. Each policy is published in full for carriers, clients, and consumers." />
       </Head>
 
       <Header />

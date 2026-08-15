@@ -179,6 +179,18 @@ export default function Sitemap() {
                         Opt-In &amp; Consent Policy
                       </Link>
                     </li>
+                    <li>
+                      <Link href="/compliance/traceback" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
+                        Traceback Response Policy
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/compliance/acceptable-use" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
+                        Acceptable Use Policy
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>
