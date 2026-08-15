@@ -16,14 +16,14 @@ export default function UnifiedCommunicationsExplained() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-navy-500 text-white py-12 md:py-20">
+        <section className="bg-primary-600 text-white py-12 md:py-20">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto">
-              <Link href="/blog" className="inline-flex items-center text-navy-50 hover:text-white mb-6 transition-colors">
+              <Link href="/blog" className="inline-flex items-center text-primary-100 hover:text-white mb-6 transition-colors">
                 <FaArrowLeft className="mr-2" /> Back to Blog
               </Link>
               <h1 className="text-3xl md:text-5xl font-bold mb-6">Unified Communications Explained: The Future of Business Communication</h1>
-              <div className="flex items-center text-navy-50 space-x-6">
+              <div className="flex items-center text-primary-100 space-x-6">
                 <div className="flex items-center">
                   <FaCalendarAlt className="mr-2" />
                   <span>April 2, 2024</span>
@@ -33,7 +33,7 @@ export default function UnifiedCommunicationsExplained() {
                   <span>Sarah Chen</span>
                 </div>
                 <div>
-                  <span className="px-3 py-1 bg-navy-600 rounded-full text-sm">UCaaS</span>
+                  <span className="px-3 py-1 bg-primary-700 rounded-full text-sm">UCaaS</span>
                 </div>
               </div>
             </div>
@@ -64,10 +64,10 @@ export default function UnifiedCommunicationsExplained() {
                       </p>
                     </div>
 
-                    <div className="bg-navy-50 border-l-4 border-navy-500 p-6 rounded-xl">
+                    <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl">
                       <div className="flex">
-                        <FaInfoCircle className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
-                        <p className="text-navy-600 m-0">
+                        <FaInfoCircle className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
+                        <p className="text-blue-700 m-0">
                           <strong>Pro Tip:</strong> When implementing UC, focus on user adoption and training. The most successful UC deployments are those where employees are properly trained and comfortable using all available features.
                         </p>
                       </div>
@@ -127,28 +127,28 @@ export default function UnifiedCommunicationsExplained() {
                       <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                         <ul className="space-y-4">
                           <li className="flex items-start">
-                            <FaNetworkWired className="text-navy-400 mr-3 flex-shrink-0 mt-1" />
+                            <FaNetworkWired className="text-primary-500 mr-3 flex-shrink-0 mt-1" />
                             <div>
                               <h3 className="text-lg font-bold text-gray-900 mb-2">Network Infrastructure</h3>
                               <p className="text-gray-700 mb-0">Ensure your network can handle the increased traffic and bandwidth requirements of UC solutions.</p>
                             </div>
                           </li>
                           <li className="flex items-start">
-                            <FaUsers className="text-navy-400 mr-3 flex-shrink-0 mt-1" />
+                            <FaUsers className="text-primary-500 mr-3 flex-shrink-0 mt-1" />
                             <div>
                               <h3 className="text-lg font-bold text-gray-900 mb-2">User Training</h3>
                               <p className="text-gray-700 mb-0">Provide comprehensive training to help employees maximize the benefits of UC tools.</p>
                             </div>
                           </li>
                           <li className="flex items-start">
-                            <FaShieldAlt className="text-navy-400 mr-3 flex-shrink-0 mt-1" />
+                            <FaShieldAlt className="text-primary-500 mr-3 flex-shrink-0 mt-1" />
                             <div>
                               <h3 className="text-lg font-bold text-gray-900 mb-2">Security Measures</h3>
                               <p className="text-gray-700 mb-0">Implement robust security protocols to protect sensitive communications and data.</p>
                             </div>
                           </li>
                           <li className="flex items-start">
-                            <FaMobileAlt className="text-navy-400 mr-3 flex-shrink-0 mt-1" />
+                            <FaMobileAlt className="text-primary-500 mr-3 flex-shrink-0 mt-1" />
                             <div>
                               <h3 className="text-lg font-bold text-gray-900 mb-2">Mobile Integration</h3>
                               <p className="text-gray-700 mb-0">Ensure seamless integration with mobile devices for on-the-go access.</p>
@@ -166,15 +166,15 @@ export default function UnifiedCommunicationsExplained() {
                             <h3 className="text-xl font-bold text-gray-900 mb-4">Emerging Technologies</h3>
                             <ul className="space-y-3">
                               <li className="flex items-start">
-                                <FaRobot className="text-navy-400 mr-2 mt-1 flex-shrink-0" />
+                                <FaRobot className="text-primary-500 mr-2 mt-1 flex-shrink-0" />
                                 <span>AI-powered communication tools</span>
                               </li>
                               <li className="flex items-start">
-                                <FaMicrochip className="text-navy-400 mr-2 mt-1 flex-shrink-0" />
+                                <FaMicrochip className="text-primary-500 mr-2 mt-1 flex-shrink-0" />
                                 <span>5G integration</span>
                               </li>
                               <li className="flex items-start">
-                                <FaCloud className="text-navy-400 mr-2 mt-1 flex-shrink-0" />
+                                <FaCloud className="text-primary-500 mr-2 mt-1 flex-shrink-0" />
                                 <span>Cloud-native solutions</span>
                               </li>
                             </ul>
@@ -183,15 +183,15 @@ export default function UnifiedCommunicationsExplained() {
                             <h3 className="text-xl font-bold text-gray-900 mb-4">Industry Trends</h3>
                             <ul className="space-y-3">
                               <li className="flex items-start">
-                                <FaChartLine className="text-navy-400 mr-2 mt-1 flex-shrink-0" />
+                                <FaChartLine className="text-primary-500 mr-2 mt-1 flex-shrink-0" />
                                 <span>Growing adoption of UCaaS</span>
                               </li>
                               <li className="flex items-start">
-                                <FaUsers className="text-navy-400 mr-2 mt-1 flex-shrink-0" />
+                                <FaUsers className="text-primary-500 mr-2 mt-1 flex-shrink-0" />
                                 <span>Increased focus on collaboration</span>
                               </li>
                               <li className="flex items-start">
-                                <FaShieldAlt className="text-navy-400 mr-2 mt-1 flex-shrink-0" />
+                                <FaShieldAlt className="text-primary-500 mr-2 mt-1 flex-shrink-0" />
                                 <span>Enhanced security features</span>
                               </li>
                             </ul>
@@ -200,12 +200,12 @@ export default function UnifiedCommunicationsExplained() {
                       </div>
                     </div>
 
-                    <div className="bg-navy-50 p-8 rounded-xl">
-                      <h3 className="text-xl font-bold text-navy-500 mb-4">Ready to Transform Your Communication?</h3>
+                    <div className="bg-primary-50 p-8 rounded-xl">
+                      <h3 className="text-xl font-bold text-primary-600 mb-4">Ready to Transform Your Communication?</h3>
                       <p className="text-gray-700 mb-6">
                         Contact PVN Voice today to learn how our Unified Communications solutions can enhance your business communication.
                       </p>
-                      <a href="/contact-us" className="inline-block bg-navy-500 text-white px-8 py-4 rounded-md hover:bg-navy-600 transition-colors font-medium">
+                      <a href="/contact-us" className="inline-block bg-primary-600 text-white px-8 py-4 rounded-md hover:bg-primary-700 transition-colors font-medium">
                         Get Started with UC
                       </a>
                     </div>
@@ -248,14 +248,14 @@ export default function UnifiedCommunicationsExplained() {
               {/* Sidebar */}
               <div className="lg:col-span-1 space-y-8">
                 {/* Contact CTA */}
-                <div className="bg-navy-50 rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-navy-600 mb-4">Ready to Unify Your Communications?</h3>
+                <div className="bg-primary-50 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-primary-700 mb-4">Ready to Unify Your Communications?</h3>
                   <p className="text-gray-600 mb-6">
                     Get expert advice on implementing unified communications for your business.
                   </p>
                   <a 
                     href="tel:+19045128487" 
-                    className="block w-full bg-navy-500 text-white font-medium py-3 px-4 rounded-lg text-center hover:bg-navy-600 transition-colors mb-4"
+                    className="block w-full bg-primary-600 text-white font-medium py-3 px-4 rounded-lg text-center hover:bg-primary-700 transition-colors mb-4"
                   >
                     Call (904) 512-8487
                   </a>
@@ -268,13 +268,13 @@ export default function UnifiedCommunicationsExplained() {
                 </div>
 
                 {/* UC Resources */}
-                <div className="bg-green-50 rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-green-800 mb-6">UC Resources</h3>
+                <div className="bg-secondary-50 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-secondary-700 mb-6">UC Resources</h3>
                   <ul className="space-y-6">
                     <li className="flex items-start">
-                      <FaNetworkWired className="text-green-700 mt-1 mr-4 flex-shrink-0 text-lg" />
+                      <FaNetworkWired className="text-secondary-600 mt-1 mr-4 flex-shrink-0 text-lg" />
                       <div>
-                        <Link href="/resources/uc-implementation-guide" className="font-medium text-green-700 hover:text-green-800 transition-colors block mb-2">
+                        <Link href="/resources/uc-implementation-guide" className="font-medium text-secondary-600 hover:text-secondary-700 transition-colors block mb-2">
                           UC Implementation Guide
                         </Link>
                         <p className="text-gray-600">
@@ -283,9 +283,9 @@ export default function UnifiedCommunicationsExplained() {
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <FaNetworkWired className="text-green-700 mt-1 mr-4 flex-shrink-0 text-lg" />
+                      <FaNetworkWired className="text-secondary-600 mt-1 mr-4 flex-shrink-0 text-lg" />
                       <div>
-                        <Link href="/resources/uc-features-checklist" className="font-medium text-green-700 hover:text-green-800 transition-colors block mb-2">
+                        <Link href="/resources/uc-features-checklist" className="font-medium text-secondary-600 hover:text-secondary-700 transition-colors block mb-2">
                           UC Features Checklist
                         </Link>
                         <p className="text-gray-600">
@@ -294,9 +294,9 @@ export default function UnifiedCommunicationsExplained() {
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <FaNetworkWired className="text-green-700 mt-1 mr-4 flex-shrink-0 text-lg" />
+                      <FaNetworkWired className="text-secondary-600 mt-1 mr-4 flex-shrink-0 text-lg" />
                       <div>
-                        <Link href="/resources/uc-roi-calculator" className="font-medium text-green-700 hover:text-green-800 transition-colors block mb-2">
+                        <Link href="/resources/uc-roi-calculator" className="font-medium text-secondary-600 hover:text-secondary-700 transition-colors block mb-2">
                           UC ROI Calculator
                         </Link>
                         <p className="text-gray-600">
@@ -312,23 +312,23 @@ export default function UnifiedCommunicationsExplained() {
                   <h3 className="text-xl font-bold text-gray-800 mb-6">UC Facts</h3>
                   <ul className="space-y-4">
                     <li className="flex items-start">
-                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">UC can increase productivity by 52%</p>
                     </li>
                     <li className="flex items-start">
-                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">75% of businesses use some form of UC</p>
                     </li>
                     <li className="flex items-start">
-                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">UC market growing 20% annually</p>
                     </li>
                     <li className="flex items-start">
-                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">90% report better collaboration with UC</p>
                     </li>
                     <li className="flex items-start">
-                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">UC reduces IT costs by up to 40%</p>
                     </li>
                   </ul>
@@ -340,19 +340,19 @@ export default function UnifiedCommunicationsExplained() {
                   <ul className="space-y-6">
                     <li>
                       <Link href="/blog/voip-security-practices" className="group block">
-                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-2">Essential VoIP Security Best Practices</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-2">Essential VoIP Security Best Practices</h4>
                         <p className="text-sm text-gray-500">March 10, 2023</p>
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/remote-work-voip" className="group block">
-                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-2">VoIP Solutions for Remote Work</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-2">VoIP Solutions for Remote Work</h4>
                         <p className="text-sm text-gray-500">April 15, 2023</p>
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/voip-cost-savings" className="group block">
-                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-2">How VoIP Can Cut Your Communication Costs</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-2">How VoIP Can Cut Your Communication Costs</h4>
                         <p className="text-sm text-gray-500">February 20, 2023</p>
                       </Link>
                     </li>

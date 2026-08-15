@@ -18,7 +18,7 @@ export default function PredictiveDialingTechnology() {
         <article className="py-16 bg-white">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto">
-              <Link href="/blog" className="inline-flex items-center text-navy-500 hover:text-navy-600 mb-8">
+              <Link href="/blog" className="inline-flex items-center text-primary-600 hover:text-primary-700 mb-8">
                 <FaArrowLeft className="mr-2" />
                 Back to Blog
               </Link>
@@ -41,12 +41,12 @@ export default function PredictiveDialingTechnology() {
                     10 min read
                   </div>
                 </div>
-                <div className="h-1 w-20 bg-navy-500"></div>
+                <div className="h-1 w-20 bg-primary-600"></div>
               </div>
 
               <div className="prose prose-lg max-w-none">
                 <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-                  <FaPhone className="mr-3 text-navy-500" />
+                  <FaPhone className="mr-3 text-primary-600" />
                   Understanding Predictive Dialing Technology
                 </h2>
                 <p className="text-lg text-gray-700 mb-8">
@@ -54,33 +54,33 @@ export default function PredictiveDialingTechnology() {
                 </p>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-                  <FaCogs className="mr-3 text-navy-500" />
+                  <FaCogs className="mr-3 text-primary-600" />
                   1. How Predictive Dialing Works
                 </h2>
-                <div className="bg-gradient-to-r from-navy-50 to-navy-100 p-8 rounded-xl my-8 shadow-sm">
-                  <h3 className="text-xl font-bold text-navy-700 mb-6">Core Components</h3>
+                <div className="bg-gradient-to-r from-primary-50 to-primary-100 p-8 rounded-xl my-8 shadow-sm">
+                  <h3 className="text-xl font-bold text-primary-800 mb-6">Core Components</h3>
                   <ul className="space-y-4">
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
+                      <FaCheckCircle className="text-primary-600 mt-1 mr-3 flex-shrink-0" />
                       <span>Advanced algorithms predict agent availability</span>
                     </li>
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
+                      <FaCheckCircle className="text-primary-600 mt-1 mr-3 flex-shrink-0" />
                       <span>Automated call pacing based on historical data</span>
                     </li>
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
+                      <FaCheckCircle className="text-primary-600 mt-1 mr-3 flex-shrink-0" />
                       <span>Intelligent call routing to available agents</span>
                     </li>
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
+                      <FaCheckCircle className="text-primary-600 mt-1 mr-3 flex-shrink-0" />
                       <span>Real-time performance monitoring and adjustment</span>
                     </li>
                   </ul>
                 </div>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-                  <FaChartLine className="mr-3 text-navy-500" />
+                  <FaChartLine className="mr-3 text-primary-600" />
                   2. Key Benefits of Predictive Dialing
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -88,15 +88,15 @@ export default function PredictiveDialingTechnology() {
                     <h3 className="text-lg font-semibold text-gray-900 mb-4">Operational Benefits</h3>
                     <ul className="space-y-3">
                       <li className="flex items-center">
-                        <FaCheckCircle className="text-navy-500 mr-2" />
+                        <FaCheckCircle className="text-primary-600 mr-2" />
                         Increased agent talk time
                       </li>
                       <li className="flex items-center">
-                        <FaCheckCircle className="text-navy-500 mr-2" />
+                        <FaCheckCircle className="text-primary-600 mr-2" />
                         Reduced idle time
                       </li>
                       <li className="flex items-center">
-                        <FaCheckCircle className="text-navy-500 mr-2" />
+                        <FaCheckCircle className="text-primary-600 mr-2" />
                         Higher call completion rates
                       </li>
                     </ul>
@@ -105,15 +105,15 @@ export default function PredictiveDialingTechnology() {
                     <h3 className="text-lg font-semibold text-gray-900 mb-4">Business Benefits</h3>
                     <ul className="space-y-3">
                       <li className="flex items-center">
-                        <FaCheckCircle className="text-navy-500 mr-2" />
+                        <FaCheckCircle className="text-primary-600 mr-2" />
                         Improved productivity
                       </li>
                       <li className="flex items-center">
-                        <FaCheckCircle className="text-navy-500 mr-2" />
+                        <FaCheckCircle className="text-primary-600 mr-2" />
                         Cost optimization
                       </li>
                       <li className="flex items-center">
-                        <FaCheckCircle className="text-navy-500 mr-2" />
+                        <FaCheckCircle className="text-primary-600 mr-2" />
                         Better resource utilization
                       </li>
                     </ul>
@@ -121,120 +121,120 @@ export default function PredictiveDialingTechnology() {
                 </div>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-                  <FaTachometerAlt className="mr-3 text-navy-500" />
+                  <FaTachometerAlt className="mr-3 text-primary-600" />
                   3. Implementation Considerations
                 </h2>
                 <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 mb-8">
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-navy-500 mr-3" />
+                      <FaCheckCircle className="text-primary-600 mr-3" />
                       <span>Network infrastructure requirements</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-navy-500 mr-3" />
+                      <FaCheckCircle className="text-primary-600 mr-3" />
                       <span>Agent training needs</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-navy-500 mr-3" />
+                      <FaCheckCircle className="text-primary-600 mr-3" />
                       <span>Compliance considerations</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-navy-500 mr-3" />
+                      <FaCheckCircle className="text-primary-600 mr-3" />
                       <span>Integration with existing systems</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-navy-500 mr-3" />
+                      <FaCheckCircle className="text-primary-600 mr-3" />
                       <span>Scalability planning</span>
                     </li>
                   </ul>
                 </div>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-                  <FaHeadset className="mr-3 text-navy-500" />
+                  <FaHeadset className="mr-3 text-primary-600" />
                   4. Best Practices for Predictive Dialing
                 </h2>
                 <div className="bg-gradient-to-r from-gray-50 to-gray-100 p-8 rounded-xl my-8 shadow-sm">
                   <h3 className="text-xl font-bold text-gray-900 mb-6">Optimize Your Implementation</h3>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-navy-500 mr-3" />
+                      <FaCheckCircle className="text-primary-600 mr-3" />
                       <span>Monitor and adjust dialing rates</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-navy-500 mr-3" />
+                      <FaCheckCircle className="text-primary-600 mr-3" />
                       <span>Maintain quality call lists</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-navy-500 mr-3" />
+                      <FaCheckCircle className="text-primary-600 mr-3" />
                       <span>Regular performance analysis</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-navy-500 mr-3" />
+                      <FaCheckCircle className="text-primary-600 mr-3" />
                       <span>Agent feedback integration</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-navy-500 mr-3" />
+                      <FaCheckCircle className="text-primary-600 mr-3" />
                       <span>Compliance monitoring</span>
                     </li>
                   </ul>
                 </div>
 
                 <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-                  <FaDesktop className="mr-3 text-navy-500" />
+                  <FaDesktop className="mr-3 text-primary-600" />
                   5. Integration with Modern Call Center Software
                 </h2>
                 <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 mb-8">
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-navy-500 mr-3" />
+                      <FaCheckCircle className="text-primary-600 mr-3" />
                       <span>Cloud PBX integration</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-navy-500 mr-3" />
+                      <FaCheckCircle className="text-primary-600 mr-3" />
                       <span>CRM system connectivity</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-navy-500 mr-3" />
+                      <FaCheckCircle className="text-primary-600 mr-3" />
                       <span>Analytics and reporting</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-navy-500 mr-3" />
+                      <FaCheckCircle className="text-primary-600 mr-3" />
                       <span>Quality monitoring tools</span>
                     </li>
                     <li className="flex items-center">
-                      <FaCheckCircle className="text-navy-500 mr-3" />
+                      <FaCheckCircle className="text-primary-600 mr-3" />
                       <span>Workforce management</span>
                     </li>
                   </ul>
                 </div>
 
-                <div className="bg-navy-50 p-8 rounded-xl my-8 shadow-sm">
-                  <h3 className="text-xl font-bold text-navy-700 mb-6">Future of Predictive Dialing</h3>
+                <div className="bg-primary-50 p-8 rounded-xl my-8 shadow-sm">
+                  <h3 className="text-xl font-bold text-primary-800 mb-6">Future of Predictive Dialing</h3>
                   <ul className="space-y-4">
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
+                      <FaCheckCircle className="text-primary-600 mt-1 mr-3 flex-shrink-0" />
                       <span>AI-powered predictive analytics</span>
                     </li>
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
+                      <FaCheckCircle className="text-primary-600 mt-1 mr-3 flex-shrink-0" />
                       <span>Enhanced customer experience</span>
                     </li>
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
+                      <FaCheckCircle className="text-primary-600 mt-1 mr-3 flex-shrink-0" />
                       <span>Improved compliance features</span>
                     </li>
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
+                      <FaCheckCircle className="text-primary-600 mt-1 mr-3 flex-shrink-0" />
                       <span>Advanced integration capabilities</span>
                     </li>
                     <li className="flex items-start">
-                      <FaCheckCircle className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
+                      <FaCheckCircle className="text-primary-600 mt-1 mr-3 flex-shrink-0" />
                       <span>Real-time optimization</span>
                     </li>
                   </ul>
                 </div>
 
-                <div className="bg-gradient-to-r from-navy-50 to-navy-100 p-8 rounded-xl my-8 shadow-sm">
+                <div className="bg-gradient-to-r from-primary-50 to-primary-100 p-8 rounded-xl my-8 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4">Conclusion</h2>
                   <p className="text-lg text-gray-700">
                     Predictive dialing technology is a powerful tool that can significantly improve your call center's efficiency and productivity. By understanding how it works and implementing best practices, you can maximize its benefits and transform your outbound calling operations.
@@ -265,7 +265,7 @@ export default function PredictiveDialingTechnology() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <Link href="/blog/call-center-efficiency" className="group">
                     <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-                      <h4 className="text-lg font-bold text-gray-900 group-hover:text-navy-500 mb-2">
+                      <h4 className="text-lg font-bold text-gray-900 group-hover:text-primary-600 mb-2">
                         How to Improve Call Center Efficiency: Complete Guide
                       </h4>
                       <p className="text-gray-600">
@@ -275,7 +275,7 @@ export default function PredictiveDialingTechnology() {
                   </Link>
                   <Link href="/blog/voip-features-comparison" className="group">
                     <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-                      <h4 className="text-lg font-bold text-gray-900 group-hover:text-navy-500 mb-2">
+                      <h4 className="text-lg font-bold text-gray-900 group-hover:text-primary-600 mb-2">
                         VoIP Features: The Ultimate Comparison Guide
                       </h4>
                       <p className="text-gray-600">

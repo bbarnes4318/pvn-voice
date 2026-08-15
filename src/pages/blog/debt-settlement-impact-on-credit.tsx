@@ -17,14 +17,14 @@ export default function VoIPCallQuality() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-navy-500 text-white py-12 md:py-20">
+        <section className="bg-primary-600 text-white py-12 md:py-20">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto">
-              <Link href="/blog" className="inline-flex items-center text-navy-50 hover:text-white mb-6 transition-colors">
+              <Link href="/blog" className="inline-flex items-center text-primary-100 hover:text-white mb-6 transition-colors">
                 <FaArrowLeft className="mr-2" /> Back to Blog
               </Link>
               <h1 className="text-3xl md:text-5xl font-bold mb-6">Optimizing VoIP Call Quality: The Complete Guide for Businesses</h1>
-              <div className="flex items-center text-navy-50 space-x-6">
+              <div className="flex items-center text-primary-100 space-x-6">
                 <div className="flex items-center">
                   <FaCalendarAlt className="mr-2" />
                   <span>January 17, 2023</span>
@@ -34,7 +34,7 @@ export default function VoIPCallQuality() {
                   <span>Robert Garcia</span>
                 </div>
                 <div>
-                  <span className="px-3 py-1 bg-navy-600 rounded-full text-sm">Technical</span>
+                  <span className="px-3 py-1 bg-primary-700 rounded-full text-sm">Technical</span>
                 </div>
               </div>
             </div>
@@ -84,11 +84,11 @@ export default function VoIPCallQuality() {
                   </p>
 
                   <div className="bg-gray-50 rounded-xl p-8 my-8">
-                    <h3 className="font-bold text-navy-500 mb-6">Short-Term Credit Impacts</h3>
+                    <h3 className="font-bold text-primary-600 mb-6">Short-Term Credit Impacts</h3>
                     <div className="space-y-6">
                       <div className="flex items-start">
-                        <div className="bg-navy-100 p-2 rounded-full mr-4 flex-shrink-0">
-                          <span className="text-navy-600 font-bold">1</span>
+                        <div className="bg-primary-100 p-2 rounded-full mr-4 flex-shrink-0">
+                          <span className="text-primary-700 font-bold">1</span>
                         </div>
                         <div>
                           <h4 className="font-medium text-gray-800">Negative Payment History</h4>
@@ -99,8 +99,8 @@ export default function VoIPCallQuality() {
                       </div>
 
                       <div className="flex items-start">
-                        <div className="bg-navy-100 p-2 rounded-full mr-4 flex-shrink-0">
-                          <span className="text-navy-600 font-bold">2</span>
+                        <div className="bg-primary-100 p-2 rounded-full mr-4 flex-shrink-0">
+                          <span className="text-primary-700 font-bold">2</span>
                         </div>
                         <div>
                           <h4 className="font-medium text-gray-800">Late Payments and Collections</h4>
@@ -111,8 +111,8 @@ export default function VoIPCallQuality() {
                       </div>
 
                       <div className="flex items-start">
-                        <div className="bg-navy-100 p-2 rounded-full mr-4 flex-shrink-0">
-                          <span className="text-navy-600 font-bold">3</span>
+                        <div className="bg-primary-100 p-2 rounded-full mr-4 flex-shrink-0">
+                          <span className="text-primary-700 font-bold">3</span>
                         </div>
                         <div>
                           <h4 className="font-medium text-gray-800">Account Status Changes</h4>
@@ -153,39 +153,39 @@ export default function VoIPCallQuality() {
                       <h3 className="font-bold text-2xl mb-6">Typical Credit Score Recovery Timeline</h3>
                       <div className="space-y-6">
                         <div className="bg-white p-5 rounded-lg shadow-sm">
-                          <h4 className="font-bold text-navy-500 mb-2">0-6 Months</h4>
+                          <h4 className="font-bold text-primary-600 mb-2">0-6 Months</h4>
                           <p className="text-gray-700 m-0">
                             Initial drop in score occurs as debts are settled and reported. This is typically the lowest point for your credit score.
                           </p>
                         </div>
                         <div className="bg-white p-5 rounded-lg shadow-sm">
-                          <h4 className="font-bold text-navy-500 mb-2">6-12 Months</h4>
+                          <h4 className="font-bold text-primary-600 mb-2">6-12 Months</h4>
                           <p className="text-gray-700 m-0">
                             If you start rebuilding with secured credit cards or credit-builder loans, and maintain perfect payment history, you may see modest improvements.
                           </p>
                         </div>
                         <div className="bg-white p-5 rounded-lg shadow-sm">
-                          <h4 className="font-bold text-navy-500 mb-2">1-2 Years</h4>
+                          <h4 className="font-bold text-primary-600 mb-2">1-2 Years</h4>
                           <p className="text-gray-700 m-0">
                             With continued responsible credit use, many people begin to see significant improvements. You may qualify for better credit products.
                           </p>
                         </div>
                         <div className="bg-white p-5 rounded-lg shadow-sm">
-                          <h4 className="font-bold text-navy-500 mb-2">2-4 Years</h4>
+                          <h4 className="font-bold text-primary-600 mb-2">2-4 Years</h4>
                           <p className="text-gray-700 m-0">
                             The impact of settled accounts continues to decrease. With good habits, many consumers return to "fair" or "good" credit score ranges.
                           </p>
                         </div>
                         <div className="bg-white p-5 rounded-lg shadow-sm">
-                          <h4 className="font-bold text-navy-500 mb-2">5-7 Years</h4>
+                          <h4 className="font-bold text-primary-600 mb-2">5-7 Years</h4>
                           <p className="text-gray-700 m-0">
                             Settled accounts begin falling off your credit report entirely. If you've maintained good credit habits, your score could be nearly fully recovered.
                           </p>
                         </div>
                       </div>
                     </div>
-                    <div className="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 rounded-full bg-navy-100 opacity-20"></div>
-                    <div className="absolute bottom-0 left-0 -ml-16 -mb-16 w-64 h-64 rounded-full bg-navy-100 opacity-20"></div>
+                    <div className="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 rounded-full bg-primary-100 opacity-20"></div>
+                    <div className="absolute bottom-0 left-0 -ml-16 -mb-16 w-64 h-64 rounded-full bg-primary-100 opacity-20"></div>
                   </div>
 
                   <h2>Debt Settlement vs. Other Debt Relief Options: Credit Impact Comparison</h2>
@@ -249,25 +249,25 @@ export default function VoIPCallQuality() {
 
                   <div className="grid md:grid-cols-2 gap-6 my-8">
                     <div className="bg-gray-50 p-6 rounded-xl">
-                      <h3 className="font-bold text-navy-500 mb-3">Negotiate Payment Terms</h3>
+                      <h3 className="font-bold text-primary-600 mb-3">Negotiate Payment Terms</h3>
                       <p className="text-gray-700 m-0">
                         Ask creditors to report the account as "paid in full" rather than "settled" or "paid settled." Some creditors will agree to this as part of your settlement negotiation, especially if you're offering a substantial lump-sum payment.
                       </p>
                     </div>
                     <div className="bg-gray-50 p-6 rounded-xl">
-                      <h3 className="font-bold text-navy-500 mb-3">Request Goodwill Deletions</h3>
+                      <h3 className="font-bold text-primary-600 mb-3">Request Goodwill Deletions</h3>
                       <p className="text-gray-700 m-0">
                         After settling, send a goodwill letter asking the creditor to remove the negative marks from your credit report entirely. This is more likely to work with smaller creditors or in cases of hardship like medical issues.
                       </p>
                     </div>
                     <div className="bg-gray-50 p-6 rounded-xl">
-                      <h3 className="font-bold text-navy-500 mb-3">Settle Strategically</h3>
+                      <h3 className="font-bold text-primary-600 mb-3">Settle Strategically</h3>
                       <p className="text-gray-700 m-0">
                         If possible, prioritize settling older accounts or those already in collections first, as they're already damaging your score. Newer accounts in good standing should be settled last if at all.
                       </p>
                     </div>
                     <div className="bg-gray-50 p-6 rounded-xl">
-                      <h3 className="font-bold text-navy-500 mb-3">Work with Professionals</h3>
+                      <h3 className="font-bold text-primary-600 mb-3">Work with Professionals</h3>
                       <p className="text-gray-700 m-0">
                         Experienced debt settlement companies often have established relationships with creditors and know how to negotiate terms that minimize credit impacts while maximizing debt reduction.
                       </p>
@@ -306,13 +306,13 @@ export default function VoIPCallQuality() {
                     </li>
                   </ol>
 
-                  <div className="bg-navy-50 rounded-xl p-6 my-8">
+                  <div className="bg-primary-50 rounded-xl p-6 my-8">
                     <div className="flex items-start">
                       <div className="mr-4 flex-shrink-0">
-                        <FaChartLine className="text-navy-500 text-3xl" />
+                        <FaChartLine className="text-primary-600 text-3xl" />
                       </div>
                       <div>
-                        <h3 className="font-bold text-navy-600 mb-2">Credit Score Success Story</h3>
+                        <h3 className="font-bold text-primary-700 mb-2">Credit Score Success Story</h3>
                         <p className="italic text-gray-700 mb-4">
                           "After settling $35,000 in credit card debt, my score dropped from 640 to 520. I focused on rebuilding by using a secured card, becoming an authorized user on my mom's old credit card, and making every payment on time. Within 18 months, my score was back up to 680, and at the two-year mark, I qualified for a conventional car loan at a competitive rate."
                         </p>
@@ -386,14 +386,14 @@ export default function VoIPCallQuality() {
               {/* Sidebar */}
               <div className="lg:col-span-1 space-y-8">
                 {/* Contact CTA */}
-                <div className="bg-navy-50 rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-navy-600 mb-4">Need Expert Help?</h3>
+                <div className="bg-primary-50 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-primary-700 mb-4">Need Expert Help?</h3>
                   <p className="text-gray-600 mb-6">
                     Get personalized advice from our credit specialists and discover how to improve your credit score.
                   </p>
                   <a 
                     href="tel:+19045128487" 
-                    className="btn-call mx-auto flex items-center justify-center space-x-3 bg-green-700 hover:bg-green-800"
+                    className="btn-call mx-auto flex items-center justify-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
                   >
                     <FaPhoneAlt className="text-white" />
                     <span>Call +1 (904) 512-8487 for a Free Credit Analysis</span>
@@ -407,13 +407,13 @@ export default function VoIPCallQuality() {
                 </div>
 
                 {/* Free Credit Resources */}
-                <div className="bg-green-50 rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-green-800 mb-6">Free Credit Resources</h3>
+                <div className="bg-secondary-50 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-secondary-700 mb-6">Free Credit Resources</h3>
                   <ul className="space-y-6">
                     <li className="flex items-start">
-                      <FaCreditCard className="text-green-700 mt-1 mr-4 flex-shrink-0 text-lg" />
+                      <FaCreditCard className="text-secondary-600 mt-1 mr-4 flex-shrink-0 text-lg" />
                       <div>
-                        <Link href="/resources/credit-rebuilding-guide" className="font-medium text-green-700 hover:text-green-800 transition-colors block mb-2">
+                        <Link href="/resources/credit-rebuilding-guide" className="font-medium text-secondary-600 hover:text-secondary-700 transition-colors block mb-2">
                           Credit Rebuilding Guide
                         </Link>
                         <p className="text-gray-600">
@@ -422,9 +422,9 @@ export default function VoIPCallQuality() {
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <FaCreditCard className="text-green-700 mt-1 mr-4 flex-shrink-0 text-lg" />
+                      <FaCreditCard className="text-secondary-600 mt-1 mr-4 flex-shrink-0 text-lg" />
                       <div>
-                        <Link href="/resources/sample-goodwill-letter" className="font-medium text-green-700 hover:text-green-800 transition-colors block mb-2">
+                        <Link href="/resources/sample-goodwill-letter" className="font-medium text-secondary-600 hover:text-secondary-700 transition-colors block mb-2">
                           Sample Goodwill Letter
                         </Link>
                         <p className="text-gray-600">
@@ -433,9 +433,9 @@ export default function VoIPCallQuality() {
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <FaCreditCard className="text-green-700 mt-1 mr-4 flex-shrink-0 text-lg" />
+                      <FaCreditCard className="text-secondary-600 mt-1 mr-4 flex-shrink-0 text-lg" />
                       <div>
-                        <Link href="/resources/secured-card-comparison" className="font-medium text-green-700 hover:text-green-800 transition-colors block mb-2">
+                        <Link href="/resources/secured-card-comparison" className="font-medium text-secondary-600 hover:text-secondary-700 transition-colors block mb-2">
                           Secured Card Comparison
                         </Link>
                         <p className="text-gray-600">
@@ -451,23 +451,23 @@ export default function VoIPCallQuality() {
                   <h3 className="text-xl font-bold text-gray-800 mb-6">Credit Score Facts</h3>
                   <ul className="space-y-4">
                     <li className="flex items-start">
-                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">Payment history accounts for 35% of your FICO score—the largest factor</p>
                     </li>
                     <li className="flex items-start">
-                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">Most negative items remain on your credit report for 7 years</p>
                     </li>
                     <li className="flex items-start">
-                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">Credit utilization under 10% leads to the highest scores</p>
                     </li>
                     <li className="flex items-start">
-                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">Checking your own credit is a "soft inquiry" and doesn't hurt your score</p>
                     </li>
                     <li className="flex items-start">
-                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">Having a mix of credit types can improve your score over time</p>
                     </li>
                   </ul>
@@ -479,19 +479,19 @@ export default function VoIPCallQuality() {
                   <ul className="space-y-6">
                     <li>
                       <Link href="/blog/debt-settlement-myths-debunked" className="group block">
-                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-2">5 Common Debt Settlement Myths Debunked</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-2">5 Common Debt Settlement Myths Debunked</h4>
                         <p className="text-sm text-gray-500">April 22, 2023</p>
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/how-to-negotiate-with-debt-collectors" className="group block">
-                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-2">How to Negotiate with Debt Collectors: A Step-by-Step Guide</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-2">How to Negotiate with Debt Collectors: A Step-by-Step Guide</h4>
                         <p className="text-sm text-gray-500">May 15, 2023</p>
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/debt-snowball-vs-avalanche" className="group block">
-                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-2">Debt Snowball vs. Debt Avalanche: Which Strategy Is Right for You?</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-2">Debt Snowball vs. Debt Avalanche: Which Strategy Is Right for You?</h4>
                         <p className="text-sm text-gray-500">February 28, 2023</p>
                       </Link>
                     </li>
@@ -503,7 +503,7 @@ export default function VoIPCallQuality() {
         </section>
 
         {/* CTA Banner */}
-        <section className="bg-navy-500 text-white py-12">
+        <section className="bg-primary-600 text-white py-12">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-bold mb-6">Want a Free Credit Analysis?</h2>
@@ -512,7 +512,7 @@ export default function VoIPCallQuality() {
               </p>
               <a 
                 href="tel:+19045128487" 
-                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-green-700 hover:bg-green-800"
+                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
               >
                 <FaPhoneAlt className="text-white" />
                 <span>Call +1 (904) 512-8487 for a Free Credit Analysis</span>

@@ -26,7 +26,7 @@ const BuyersGuideBlog = () => {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-navy-50 to-navy-100">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
         <title>Buyer's Guide - PVN Voice Blog</title>
         <meta name="description" content="Comprehensive guides to help you choose the right VoIP solution for your business." />
@@ -34,10 +34,10 @@ const BuyersGuideBlog = () => {
 
       <Header />
       <main className="flex-grow">
-        <div className="bg-gradient-to-br from-white to-navy-50 py-16">
+        <div className="bg-gradient-to-br from-white to-primary-50 py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <Link href="/blog" className="inline-flex items-center text-navy-500 hover:text-navy-600 mb-8">
+              <Link href="/blog" className="inline-flex items-center text-primary-600 hover:text-primary-700 mb-8">
                 <FaArrowLeft className="mr-2" />
                 Back to Blog
               </Link>
@@ -52,7 +52,7 @@ const BuyersGuideBlog = () => {
                   <Link href={post.url} key={index} className="block">
                     <article className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
                       <div className="p-6">
-                        <h2 className="text-2xl font-bold text-gray-900 mb-3 hover:text-navy-500">
+                        <h2 className="text-2xl font-bold text-gray-900 mb-3 hover:text-primary-600">
                           {post.title}
                         </h2>
                         <p className="text-gray-600 mb-4">

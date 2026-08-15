@@ -19,7 +19,7 @@ const TestimonialCard = ({ quote, author, title, company, industry, image, metri
   <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
     <div className="flex items-start gap-4">
       <div className="relative">
-        <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-navy-500">
+        <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-blue-500">
           <Image
             src={image}
             alt={author}
@@ -28,7 +28,7 @@ const TestimonialCard = ({ quote, author, title, company, industry, image, metri
             className="object-cover"
           />
       </div>
-        <div className="absolute -bottom-1 -right-1 bg-navy-500 rounded-full p-1">
+        <div className="absolute -bottom-1 -right-1 bg-blue-500 rounded-full p-1">
           <FaCheck className="text-white text-xs" />
         </div>
       </div>
@@ -39,7 +39,7 @@ const TestimonialCard = ({ quote, author, title, company, industry, image, metri
           <p className="text-sm text-gray-500">{title}</p>
           <p className="text-sm text-gray-500">{company}</p>
           <div className="mt-2">
-            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-navy-100 text-navy-700">
+            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
               {industry}
             </span>
           </div>
@@ -272,8 +272,8 @@ const Testimonials: React.FC = () => {
     <section className="section bg-gradient-to-b from-white to-gray-50">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-navy-500">
-            Trusted by <span className="text-green-700">Industry Leaders</span>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary-600">
+            Trusted by <span className="text-secondary-600">Industry Leaders</span>
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
             Discover how forward-thinking companies are revolutionizing their business communications with PVN Voice's cutting-edge solutions. Join thousands of organizations that have transformed their operations and achieved remarkable results.
@@ -284,8 +284,8 @@ const Testimonials: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
           {stats.map((stat, index) => (
             <div key={index} className="bg-white p-8 rounded-xl shadow-md text-center transform hover:scale-105 transition-transform duration-300">
-              <div className="text-green-700 mb-4">{stat.icon}</div>
-              <div className="text-4xl font-bold text-navy-500 mb-2">{stat.value}</div>
+              <div className="text-secondary-600 mb-4">{stat.icon}</div>
+              <div className="text-4xl font-bold text-primary-600 mb-2">{stat.value}</div>
               <div className="text-gray-600 font-medium mb-1">{stat.label}</div>
               <div className="text-sm text-gray-500">{stat.subtext}</div>
             </div>
@@ -293,15 +293,15 @@ const Testimonials: React.FC = () => {
         </div>
 
         {/* Industry Stats + Testimonials Grid in Blue Gradient */}
-        <div className="text-center mb-16 bg-gradient-to-r from-navy-500 to-navy-400 rounded-xl py-12 px-4 md:px-12">
+        <div className="text-center mb-16 bg-gradient-to-r from-primary-600 to-primary-400 rounded-xl py-12 px-4 md:px-12">
           <h3 className="text-2xl md:text-3xl font-bold mb-8 text-white">
             Industry-Specific Success Stories
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             {industryStats.map((stat, index) => (
               <div key={index} className="bg-white p-6 rounded-xl shadow-md text-center">
-                <div className="text-green-700 mb-3">{stat.icon}</div>
-                <div className="text-3xl font-bold text-navy-500 mb-1">{stat.value}</div>
+                <div className="text-secondary-600 mb-3">{stat.icon}</div>
+                <div className="text-3xl font-bold text-primary-600 mb-1">{stat.value}</div>
                 <div className="text-gray-600 font-medium">{stat.label}</div>
                 <div className="text-sm text-gray-500 mt-1">{stat.subtext}</div>
               </div>
@@ -317,7 +317,7 @@ const Testimonials: React.FC = () => {
 
         {/* Blog Section */}
         <div className="bg-white rounded-2xl shadow-lg overflow-hidden mb-16">
-          <div className="bg-gradient-to-r from-navy-500 to-navy-600 p-8 md:p-12">
+          <div className="bg-gradient-to-r from-primary-600 to-primary-700 p-8 md:p-12">
             <div className="flex items-center justify-between mb-8">
               <div className="flex items-center">
                 <FaBook className="text-3xl text-white mr-4" />
@@ -325,14 +325,14 @@ const Testimonials: React.FC = () => {
                   <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
                     Expert Insights & Resources
                   </h3>
-                  <p className="text-navy-50 text-lg">
+                  <p className="text-primary-100 text-lg">
                     Stay informed with our latest VoIP guides and industry trends
                   </p>
                 </div>
               </div>
               <a 
                 href="/blog" 
-                className="hidden md:flex items-center px-6 py-3 bg-white text-navy-500 rounded-lg hover:bg-navy-50 transition-colors font-medium"
+                className="hidden md:flex items-center px-6 py-3 bg-white text-primary-600 rounded-lg hover:bg-primary-50 transition-colors font-medium"
               >
                 View All Posts
                 <FaArrowRight className="ml-2" />
@@ -358,7 +358,7 @@ const Testimonials: React.FC = () => {
                   </div>
                   <div className="p-6">
                     <div className="flex items-center mb-3">
-                      <span className="px-3 py-1 bg-navy-100 text-navy-500 rounded-full text-sm font-medium">
+                      <span className="px-3 py-1 bg-primary-100 text-primary-600 rounded-full text-sm font-medium">
                         {post.category}
                       </span>
                       <span className="ml-3 text-sm text-gray-500 flex items-center">
@@ -366,19 +366,19 @@ const Testimonials: React.FC = () => {
                         {post.readTime}
                       </span>
                     </div>
-                    <h4 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-navy-500 transition-colors line-clamp-2">
+                    <h4 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-primary-600 transition-colors line-clamp-2">
                       {post.title}
                     </h4>
                     <p className="text-gray-600 mb-4 line-clamp-2">
                       {post.excerpt}
                     </p>
                     <div className="flex items-center justify-between">
-                      <div className="flex items-center text-navy-500 font-medium">
+                      <div className="flex items-center text-primary-600 font-medium">
                         Read Article
                         <FaArrowRight className="ml-2 transform group-hover:translate-x-1 transition-transform" />
                       </div>
                       <div className="flex items-center">
-                        <div className="w-8 h-8 rounded-full bg-navy-100 flex items-center justify-center text-navy-500 text-sm font-medium mr-2">
+                        <div className="w-8 h-8 rounded-full bg-primary-100 flex items-center justify-center text-primary-600 text-sm font-medium mr-2">
                           {post.author.split(' ').map(n => n[0]).join('')}
                         </div>
                         <span className="text-sm text-gray-600">{post.author}</span>
@@ -392,7 +392,7 @@ const Testimonials: React.FC = () => {
             <div className="flex justify-center mt-8 md:hidden">
               <a 
                 href="/blog" 
-                className="inline-flex items-center px-6 py-3 bg-navy-500 text-white rounded-lg hover:bg-navy-600 transition-colors font-medium"
+                className="inline-flex items-center px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors font-medium"
               >
                 View All Posts
                 <FaArrowRight className="ml-2" />
@@ -402,29 +402,29 @@ const Testimonials: React.FC = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-navy-500 to-navy-600 text-white rounded-xl p-8 md:p-10 text-center max-w-3xl mx-auto shadow-lg">
+        <div className="bg-gradient-to-r from-primary-600 to-primary-700 text-white rounded-xl p-8 md:p-10 text-center max-w-3xl mx-auto shadow-lg">
           <h3 className="text-2xl md:text-3xl font-bold mb-4">
             Ready to Transform Your Business Communication?
           </h3>
-          <p className="text-navy-50 mb-6 text-lg">
+          <p className="text-primary-100 mb-6 text-lg">
             Join industry leaders who trust PVN Voice for their critical communications needs. Experience the future of business communication today.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center">
           <a 
               href="tel:+19045128487" 
-              className="bg-green-700 hover:bg-green-800 text-white px-8 py-4 rounded-lg transition-colors font-medium text-lg flex items-center justify-center space-x-3"
+              className="bg-secondary-600 hover:bg-secondary-700 text-white px-8 py-4 rounded-lg transition-colors font-medium text-lg flex items-center justify-center space-x-3"
           >
             <FaPhone className="text-white" />
             <span>Call (904) 512-8487</span>
           </a>
             <a 
               href="/contact-us" 
-              className="bg-white text-navy-500 hover:bg-navy-50 px-8 py-4 rounded-lg transition-colors font-medium text-lg"
+              className="bg-white text-primary-600 hover:bg-primary-50 px-8 py-4 rounded-lg transition-colors font-medium text-lg"
             >
               Get a Free Demo
             </a>
           </div>
-          <p className="mt-4 text-sm text-navy-200">
+          <p className="mt-4 text-sm text-primary-200">
             Free consultation • No obligation • 30-day trial available
           </p>
         </div>

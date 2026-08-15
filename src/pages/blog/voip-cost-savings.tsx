@@ -16,14 +16,14 @@ export default function VoIPCostSavings() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-navy-500 text-white py-12 md:py-20">
+        <section className="bg-primary-600 text-white py-12 md:py-20">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto">
-              <Link href="/blog" className="inline-flex items-center text-navy-50 hover:text-white mb-6 transition-colors">
+              <Link href="/blog" className="inline-flex items-center text-primary-100 hover:text-white mb-6 transition-colors">
                 <FaArrowLeft className="mr-2" /> Back to Blog
               </Link>
               <h1 className="text-3xl md:text-5xl font-bold mb-6">VoIP Cost Savings: How Businesses Save Money with Modern Phone Systems</h1>
-              <div className="flex items-center text-navy-50 space-x-6">
+              <div className="flex items-center text-primary-100 space-x-6">
                 <div className="flex items-center">
                   <FaCalendarAlt className="mr-2" />
                   <span>April 1, 2024</span>
@@ -33,7 +33,7 @@ export default function VoIPCostSavings() {
                   <span>Michael Reynolds</span>
                 </div>
                 <div>
-                  <span className="px-3 py-1 bg-navy-600 rounded-full text-sm">VoIP Benefits</span>
+                  <span className="px-3 py-1 bg-primary-700 rounded-full text-sm">VoIP Benefits</span>
                 </div>
               </div>
             </div>
@@ -113,10 +113,10 @@ export default function VoIPCostSavings() {
                       </ul>
                     </div>
 
-                    <div className="bg-navy-50 border-l-4 border-navy-500 p-6 rounded-xl">
+                    <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl">
                       <div className="flex">
-                        <FaMoneyBillWave className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
-                        <p className="text-navy-600 m-0">
+                        <FaMoneyBillWave className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
+                        <p className="text-blue-700 m-0">
                           <strong>Pro Tip:</strong> Many businesses overlook the potential tax benefits of switching to VoIP. Cloud-based phone systems can often be classified as an operational expense rather than a capital expense, providing additional tax advantages.
                         </p>
                       </div>
@@ -185,15 +185,15 @@ export default function VoIPCostSavings() {
                         <h3 className="text-xl font-bold text-gray-900 mb-6">Case Studies</h3>
                         <div className="space-y-6">
                           <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                            <h4 className="text-lg font-bold text-navy-500 mb-3">Small Business (25 employees)</h4>
+                            <h4 className="text-lg font-bold text-primary-600 mb-3">Small Business (25 employees)</h4>
                             <p className="text-gray-700 mb-0">Reduced monthly phone costs from $1,200 to $400, saving $9,600 annually</p>
                           </div>
                           <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                            <h4 className="text-lg font-bold text-navy-500 mb-3">Mid-sized Company (100 employees)</h4>
+                            <h4 className="text-lg font-bold text-primary-600 mb-3">Mid-sized Company (100 employees)</h4>
                             <p className="text-gray-700 mb-0">Saved $45,000 annually by eliminating PBX maintenance and reducing long-distance charges</p>
                           </div>
                           <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                            <h4 className="text-lg font-bold text-navy-500 mb-3">Enterprise (500+ employees)</h4>
+                            <h4 className="text-lg font-bold text-primary-600 mb-3">Enterprise (500+ employees)</h4>
                             <p className="text-gray-700 mb-0">Achieved $200,000+ annual savings through unified communications and reduced travel costs</p>
                           </div>
                         </div>
@@ -207,14 +207,14 @@ export default function VoIPCostSavings() {
                       </p>
                     </div>
 
-                    <div className="bg-navy-50 p-8 rounded-xl">
-                      <h3 className="text-xl font-bold text-navy-500 mb-4">Ready to Start Saving?</h3>
+                    <div className="bg-primary-50 p-8 rounded-xl">
+                      <h3 className="text-xl font-bold text-primary-600 mb-4">Ready to Start Saving?</h3>
                       <p className="text-gray-700 mb-6">
                         Contact PVN Voice today for a free consultation and custom savings analysis for your business.
                       </p>
                       <a 
                         href="/contact-us" 
-                        className="inline-block bg-navy-500 text-white px-8 py-4 rounded-md hover:bg-navy-600 transition-colors font-medium"
+                        className="inline-block bg-primary-600 text-white px-8 py-4 rounded-md hover:bg-primary-700 transition-colors font-medium"
                       >
                         Get Your Savings Analysis
                       </a>
@@ -258,14 +258,14 @@ export default function VoIPCostSavings() {
               {/* Sidebar */}
               <div className="lg:col-span-1">
                 {/* CTA Box */}
-                <div className="bg-navy-50 rounded-xl p-6 mb-8">
-                  <h3 className="text-xl font-bold text-navy-600 mb-4">Overwhelmed by VoIP Costs?</h3>
+                <div className="bg-primary-50 rounded-xl p-6 mb-8">
+                  <h3 className="text-xl font-bold text-primary-700 mb-4">Overwhelmed by VoIP Costs?</h3>
                   <p className="text-gray-700 mb-6">
                     Our debt specialists can help you explore relief options and create a customized plan to address your VoIP costs.
                   </p>
                   <a 
                     href="tel:+19045128487" 
-                    className="block w-full bg-green-700 hover:bg-green-800 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors mb-4"
+                    className="block w-full bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors mb-4"
                   >
                     <FaPhoneAlt className="inline mr-2" />
                     Call 19045128487 for a Free Consultation
@@ -279,14 +279,14 @@ export default function VoIPCostSavings() {
                 </div>
 
                 {/* Free Resources */}
-                <div className="bg-green-50 rounded-xl p-6 mb-8">
-                  <h3 className="text-xl font-bold text-green-800 mb-4">Free VoIP Resources</h3>
+                <div className="bg-secondary-50 rounded-xl p-6 mb-8">
+                  <h3 className="text-xl font-bold text-secondary-700 mb-4">Free VoIP Resources</h3>
                   <p className="text-gray-700 mb-6">
                     Download our helpful guides and templates for managing VoIP costs and financial assistance programs.
                   </p>
                   <a 
                     href="#" 
-                    className="block w-full bg-green-700 hover:bg-green-800 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors"
+                    className="block w-full bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors"
                   >
                     <FaCreditCard className="inline mr-2" />
                     Download Resources
@@ -320,7 +320,7 @@ export default function VoIPCostSavings() {
                   </ul>
                   <Link 
                     href="/voip-costs-faq" 
-                    className="text-navy-500 hover:text-navy-600 text-sm font-medium flex items-center mt-4"
+                    className="text-primary-600 hover:text-primary-700 text-sm font-medium flex items-center mt-4"
                   >
                     Read our full VoIP Costs FAQ
                     <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -335,19 +335,19 @@ export default function VoIPCostSavings() {
                   <ul className="space-y-6">
                     <li>
                       <Link href="/blog/how-to-negotiate-with-debt-collectors" className="group">
-                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-1">How to Negotiate with Debt Collectors: A Step-by-Step Guide</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-1">How to Negotiate with Debt Collectors: A Step-by-Step Guide</h4>
                         <p className="text-sm text-gray-500">May 15, 2023</p>
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/debt-settlement-myths-debunked" className="group">
-                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-1">5 Common Debt Settlement Myths Debunked</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-1">5 Common Debt Settlement Myths Debunked</h4>
                         <p className="text-sm text-gray-500">April 22, 2023</p>
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/budget-for-debt-payoff" className="group">
-                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-1">How to Create a Realistic Budget When Paying Off Debt</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-1">How to Create a Realistic Budget When Paying Off Debt</h4>
                         <p className="text-sm text-gray-500">March 15, 2023</p>
                       </Link>
                     </li>
@@ -359,7 +359,7 @@ export default function VoIPCostSavings() {
         </section>
 
         {/* CTA Banner */}
-        <section className="bg-navy-500 text-white py-12">
+        <section className="bg-primary-600 text-white py-12">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-bold mb-6">Ready to Tackle Your VoIP Costs?</h2>
@@ -368,7 +368,7 @@ export default function VoIPCostSavings() {
               </p>
               <a 
                 href="tel:+19045128487" 
-                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-green-700 hover:bg-green-800"
+                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
               >
                 <FaPhoneAlt className="text-white" />
                 <span>Call (904) 512-8487 for a Free Consultation</span>

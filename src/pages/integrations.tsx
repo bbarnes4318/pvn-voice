@@ -68,11 +68,11 @@ export default function Integrations() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-navy-600 to-navy-400 text-white py-20 px-4">
+        <section className="bg-gradient-to-r from-primary-700 to-primary-400 text-white py-20 px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-extrabold mb-6 drop-shadow-lg">Seamless VoIP Integrations for Modern Businesses</h1>
-            <p className="text-2xl md:text-3xl mb-8 font-medium text-navy-50 drop-shadow">Connect PVN Voice with the tools you rely on—CRM, helpdesk, analytics, and more—for unified workflows and measurable results.</p>
-            <a href="tel:+19045128487" className="inline-flex items-center space-x-3 bg-green-700 hover:bg-green-800 text-white px-10 py-5 rounded-xl font-bold text-xl shadow-cta transition-colors">
+            <p className="text-2xl md:text-3xl mb-8 font-medium text-primary-100 drop-shadow">Connect PVN Voice with the tools you rely on—CRM, helpdesk, analytics, and more—for unified workflows and measurable results.</p>
+            <a href="tel:+19045128487" className="inline-flex items-center space-x-3 bg-secondary-600 hover:bg-secondary-700 text-white px-10 py-5 rounded-xl font-bold text-xl shadow-cta transition-colors">
               <FaPhoneAlt className="text-white text-2xl" />
               <span>Call (904) 512-8487 for a Free Consultation</span>
             </a>
@@ -80,16 +80,16 @@ export default function Integrations() {
         </section>
 
         {/* SEO Intro */}
-        <section className="py-12 bg-gradient-to-br from-navy-50 to-navy-100">
+        <section className="py-12 bg-gradient-to-br from-primary-50 to-primary-100">
           <div className="container-custom max-w-4xl mx-auto text-center">
-            <p className="text-2xl text-navy-600 font-semibold">PVN Voice's integration capabilities empower your business to unify communications, automate workflows, and maximize productivity. Our robust APIs and pre-built integrations connect you with industry-leading CRMs, helpdesk platforms, analytics tools, and collaboration suites—eliminating data silos and driving measurable ROI.</p>
+            <p className="text-2xl text-primary-700 font-semibold">PVN Voice's integration capabilities empower your business to unify communications, automate workflows, and maximize productivity. Our robust APIs and pre-built integrations connect you with industry-leading CRMs, helpdesk platforms, analytics tools, and collaboration suites—eliminating data silos and driving measurable ROI.</p>
           </div>
         </section>
 
         {/* Featured Integrations */}
-        <section className="py-16 bg-gradient-to-br from-navy-100 to-navy-50">
+        <section className="py-16 bg-gradient-to-br from-primary-100 to-primary-50">
           <div className="container-custom">
-            <h2 className="text-4xl font-extrabold text-center mb-12 text-navy-700 tracking-tight">Featured Integrations</h2>
+            <h2 className="text-4xl font-extrabold text-center mb-12 text-primary-800 tracking-tight">Featured Integrations</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-10 items-center justify-center max-w-5xl mx-auto">
               <div className="flex flex-col items-center">
                 <Image src="/images/salesforce.png" alt="Salesforce" width={64} height={64} className="mb-2" />
@@ -156,42 +156,42 @@ export default function Integrations() {
                 <span className="font-semibold text-gray-700">Duo Security</span>
               </div>
             </div>
-            <p className="text-center text-navy-400 mt-8 text-lg font-medium">Integrate with Salesforce, HubSpot, Zoho CRM, Zendesk, Freshdesk, ServiceNow, Google Analytics, Tableau, Power BI, Microsoft Teams, Slack, Asana, OpenAI, Zapier, Okta, Duo Security, and more.</p>
+            <p className="text-center text-primary-500 mt-8 text-lg font-medium">Integrate with Salesforce, HubSpot, Zoho CRM, Zendesk, Freshdesk, ServiceNow, Google Analytics, Tableau, Power BI, Microsoft Teams, Slack, Asana, OpenAI, Zapier, Okta, Duo Security, and more.</p>
           </div>
         </section>
 
         {/* Integration Categories */}
-        <section className="py-16 bg-gradient-to-br from-navy-50 to-navy-100">
+        <section className="py-16 bg-gradient-to-br from-primary-50 to-primary-100">
           <div className="container-custom">
-            <h2 className="text-3xl font-bold text-center mb-12 text-navy-600">Popular Integration Categories</h2>
+            <h2 className="text-3xl font-bold text-center mb-12 text-primary-700">Popular Integration Categories</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
               <div className="bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                <FaCogs className="text-3xl text-navy-500 mb-4" />
+                <FaCogs className="text-3xl text-primary-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-3">CRM Systems</h3>
                 <p className="text-gray-600 mb-4">Seamlessly integrate with Salesforce, HubSpot, and Zoho CRM to streamline customer interactions and improve sales efficiency.</p>
               </div>
               <div className="bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                <FaDatabase className="text-3xl text-navy-500 mb-4" />
+                <FaDatabase className="text-3xl text-primary-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Help Desk Software</h3>
                 <p className="text-gray-600 mb-4">Connect with Zendesk, Freshdesk, and ServiceNow to provide better customer support and track issues efficiently.</p>
               </div>
               <div className="bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                <FaChartLine className="text-3xl text-navy-500 mb-4" />
+                <FaChartLine className="text-3xl text-primary-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Analytics Tools</h3>
                 <p className="text-gray-600 mb-4">Integrate with Google Analytics, Tableau, and Power BI for comprehensive insights into your communication data.</p>
               </div>
               <div className="bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                <FaUsers className="text-3xl text-navy-500 mb-4" />
+                <FaUsers className="text-3xl text-primary-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Team Collaboration</h3>
                 <p className="text-gray-600 mb-4">Connect with Microsoft Teams, Slack, and Asana to enhance team communication and project management.</p>
               </div>
               <div className="bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                <FaRobot className="text-3xl text-navy-500 mb-4" />
+                <FaRobot className="text-3xl text-primary-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-3">AI & Automation</h3>
                 <p className="text-gray-600 mb-4">Leverage OpenAI, Zapier, and custom AI solutions to automate tasks and enhance customer interactions.</p>
               </div>
               <div className="bg-gray-50 p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                <FaShieldAlt className="text-3xl text-navy-500 mb-4" />
+                <FaShieldAlt className="text-3xl text-primary-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Security & Compliance</h3>
                 <p className="text-gray-600 mb-4">Integrate with Okta, Duo Security, and compliance tools to ensure data protection and regulatory compliance.</p>
               </div>
@@ -200,22 +200,22 @@ export default function Integrations() {
         </section>
 
         {/* How It Works */}
-        <section className="py-16 bg-gradient-to-br from-navy-50 to-navy-100">
+        <section className="py-16 bg-gradient-to-br from-primary-50 to-primary-100">
           <div className="container-custom max-w-5xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12 text-navy-600">How It Works</h2>
+            <h2 className="text-3xl font-bold text-center mb-12 text-primary-700">How It Works</h2>
             <div className="grid md:grid-cols-3 gap-10">
               <div className="bg-white p-8 rounded-xl shadow-md flex flex-col items-center">
-                <FaPlug className="text-4xl text-navy-500 mb-4" />
+                <FaPlug className="text-4xl text-primary-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-2">1. Connect</h3>
                 <p className="text-gray-600 text-center">Choose your business tools and connect them to PVN Voice in minutes.</p>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-md flex flex-col items-center">
-                <FaSync className="text-4xl text-navy-500 mb-4" />
+                <FaSync className="text-4xl text-primary-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-2">2. Automate</h3>
                 <p className="text-gray-600 text-center">Automate workflows, data sync, and customer journeys for maximum efficiency.</p>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-md flex flex-col items-center">
-                <FaChartLine className="text-4xl text-navy-500 mb-4" />
+                <FaChartLine className="text-4xl text-primary-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-2">3. Grow</h3>
                 <p className="text-gray-600 text-center">Unlock new insights, boost productivity, and scale your business with confidence.</p>
               </div>
@@ -224,12 +224,12 @@ export default function Integrations() {
         </section>
 
         {/* Benefits Section */}
-        <section className="py-16 bg-gradient-to-br from-navy-50 to-navy-100">
+        <section className="py-16 bg-gradient-to-br from-primary-50 to-primary-100">
           <div className="container-custom">
-            <h2 className="text-3xl font-bold text-center mb-12 text-navy-600">Benefits of VoIP Integrations</h2>
+            <h2 className="text-3xl font-bold text-center mb-12 text-primary-700">Benefits of VoIP Integrations</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-              <div className="bg-navy-50 p-8 rounded-xl shadow-sm">
-                <FaSync className="text-3xl text-navy-500 mb-4" />
+              <div className="bg-primary-50 p-8 rounded-xl shadow-sm">
+                <FaSync className="text-3xl text-primary-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Improved Workflow</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3 flex-shrink-0" /><span>Automated data synchronization</span></li>
@@ -237,8 +237,8 @@ export default function Integrations() {
                   <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3 flex-shrink-0" /><span>Streamlined communication</span></li>
                 </ul>
               </div>
-              <div className="bg-navy-50 p-8 rounded-xl shadow-sm">
-                <FaCloud className="text-3xl text-navy-500 mb-4" />
+              <div className="bg-primary-50 p-8 rounded-xl shadow-sm">
+                <FaCloud className="text-3xl text-primary-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Enhanced Productivity</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3 flex-shrink-0" /><span>Access to customer data during calls</span></li>
@@ -246,8 +246,8 @@ export default function Integrations() {
                   <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3 flex-shrink-0" /><span>Real-time collaboration</span></li>
                 </ul>
               </div>
-              <div className="bg-navy-50 p-8 rounded-xl shadow-sm">
-                <FaMobileAlt className="text-3xl text-navy-500 mb-4" />
+              <div className="bg-primary-50 p-8 rounded-xl shadow-sm">
+                <FaMobileAlt className="text-3xl text-primary-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Better Mobility</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3 flex-shrink-0" /><span>Access from any device</span></li>
@@ -255,8 +255,8 @@ export default function Integrations() {
                   <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3 flex-shrink-0" /><span>Remote work capabilities</span></li>
                 </ul>
               </div>
-              <div className="bg-navy-50 p-8 rounded-xl shadow-sm">
-                <FaLock className="text-3xl text-navy-500 mb-4" />
+              <div className="bg-primary-50 p-8 rounded-xl shadow-sm">
+                <FaLock className="text-3xl text-primary-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Data Security</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3 flex-shrink-0" /><span>256-bit SSL encryption</span></li>
@@ -264,8 +264,8 @@ export default function Integrations() {
                   <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3 flex-shrink-0" /><span>Role-based access controls</span></li>
                 </ul>
               </div>
-              <div className="bg-navy-50 p-8 rounded-xl shadow-sm">
-                <FaShieldAlt className="text-3xl text-navy-500 mb-4" />
+              <div className="bg-primary-50 p-8 rounded-xl shadow-sm">
+                <FaShieldAlt className="text-3xl text-primary-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Regulatory Compliance</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3 flex-shrink-0" /><span>HIPAA, GDPR, and TCPA support</span></li>
@@ -273,8 +273,8 @@ export default function Integrations() {
                   <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3 flex-shrink-0" /><span>Continuous monitoring</span></li>
                 </ul>
               </div>
-              <div className="bg-navy-50 p-8 rounded-xl shadow-sm">
-                <FaDesktop className="text-3xl text-navy-500 mb-4" />
+              <div className="bg-primary-50 p-8 rounded-xl shadow-sm">
+                <FaDesktop className="text-3xl text-primary-600 mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Customization</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start"><FaCheck className="text-green-500 mt-1 mr-3 flex-shrink-0" /><span>Flexible APIs</span></li>
@@ -287,9 +287,9 @@ export default function Integrations() {
         </section>
 
         {/* Testimonials */}
-        <section className="py-16 bg-gradient-to-br from-navy-50 to-navy-100">
+        <section className="py-16 bg-gradient-to-br from-primary-50 to-primary-100">
           <div className="container-custom max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12 text-navy-600">What Our Clients Say</h2>
+            <h2 className="text-3xl font-bold text-center mb-12 text-primary-700">What Our Clients Say</h2>
             <div className="grid md:grid-cols-2 gap-8">
               {testimonials.map((t, i) => (
                 <div key={i} className="bg-white p-8 rounded-xl shadow-lg flex flex-col items-center">
@@ -299,7 +299,7 @@ export default function Integrations() {
                   <div className="text-gray-500 text-sm">{t.title}, {t.company}</div>
                   <div className="mt-2 flex flex-wrap gap-2">
                     {t.metrics.map((m, j) => (
-                      <span key={j} className="bg-navy-100 text-navy-600 px-2 py-1 rounded text-xs font-medium">{m.value} {m.label}</span>
+                      <span key={j} className="bg-primary-100 text-primary-700 px-2 py-1 rounded text-xs font-medium">{m.value} {m.label}</span>
                     ))}
                   </div>
                 </div>
@@ -309,14 +309,14 @@ export default function Integrations() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-16 bg-gradient-to-br from-navy-50 to-navy-100">
+        <section className="py-16 bg-gradient-to-br from-primary-50 to-primary-100">
           <div className="container-custom max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-10 text-navy-600">Frequently Asked Questions</h2>
+            <h2 className="text-3xl font-bold text-center mb-10 text-primary-700">Frequently Asked Questions</h2>
             <div className="space-y-6">
               {faqs.map((faq, i) => (
                 <div key={i} className="border-b pb-6">
                   <div className="flex items-center mb-2">
-                    <FaQuestionCircle className="text-navy-500 mr-2" />
+                    <FaQuestionCircle className="text-primary-600 mr-2" />
                     <span className="font-semibold text-lg text-gray-800">{faq.q}</span>
                   </div>
                   <p className="text-gray-600 ml-7">{faq.a}</p>
@@ -327,13 +327,13 @@ export default function Integrations() {
         </section>
 
         {/* Final CTA */}
-        <section className="py-20 bg-gradient-to-r from-navy-600 to-navy-400 text-white text-center">
+        <section className="py-20 bg-gradient-to-r from-primary-700 to-primary-400 text-white text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Connect Your Systems?</h2>
-            <p className="text-xl mb-8 text-navy-50 font-medium">Contact us today to learn how our VoIP integrations can streamline your business operations and boost productivity.</p>
+            <p className="text-xl mb-8 text-primary-100 font-medium">Contact us today to learn how our VoIP integrations can streamline your business operations and boost productivity.</p>
             <a 
               href="tel:+19045128487" 
-              className="inline-flex items-center space-x-3 bg-green-700 hover:bg-green-800 text-white px-10 py-5 rounded-xl font-bold text-xl shadow-cta transition-colors"
+              className="inline-flex items-center space-x-3 bg-secondary-600 hover:bg-secondary-700 text-white px-10 py-5 rounded-xl font-bold text-xl shadow-cta transition-colors"
             >
               <FaPhoneAlt className="text-white text-2xl" />
               <span>Call (904) 512-8487 for a Free Consultation</span>

@@ -16,11 +16,11 @@ export default function Sitemap() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-navy-500 text-white py-12">
+        <section className="bg-primary-600 text-white py-12">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl font-bold mb-4">Sitemap</h1>
-              <p className="text-xl text-navy-50">
+              <p className="text-xl text-primary-100">
                 A complete guide to all the pages on PVN Voice
               </p>
             </div>
@@ -34,31 +34,31 @@ export default function Sitemap() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                 {/* Main Pages */}
                 <div>
-                  <h2 className="text-2xl font-bold text-navy-500 mb-6 flex items-center">
+                  <h2 className="text-2xl font-bold text-primary-600 mb-6 flex items-center">
                     <FaHome className="mr-2" /> Main Pages
                   </h2>
                   <ul className="space-y-4">
                     <li>
-                      <Link href="/" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         Home
                       </Link>
                     </li>
                     <li>
-                      <Link href="/how-it-works" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/how-it-works" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         Services
                       </Link>
                     </li>
                     <li>
-                      <Link href="/about-us" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/about-us" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         About Us
                       </Link>
                     </li>
                     <li>
-                      <Link href="/contact-us" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/contact-us" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         Contact Us
                       </Link>
                     </li>
@@ -67,43 +67,43 @@ export default function Sitemap() {
 
                 {/* Resources */}
                 <div>
-                  <h2 className="text-2xl font-bold text-navy-500 mb-6 flex items-center">
+                  <h2 className="text-2xl font-bold text-primary-600 mb-6 flex items-center">
                     <FaBook className="mr-2" /> Resources
                   </h2>
                   <ul className="space-y-4">
                     <li>
-                      <Link href="/blog" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/blog" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         Blog
                       </Link>
                     </li>
                     <li>
-                      <Link href="/debt-calculator" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/debt-calculator" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         Pricing
                       </Link>
                     </li>
                     <li>
-                      <Link href="/glossary" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/glossary" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         VoIP Glossary
                       </Link>
                     </li>
                     <li>
-                      <Link href="/tips" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/tips" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         Business Communication Tips
                       </Link>
                     </li>
                     <li>
-                      <Link href="/#faq" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/#faq" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         FAQ
                       </Link>
                     </li>
                     <li>
-                      <Link href="/#testimonials" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/#testimonials" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         Testimonials
                       </Link>
                     </li>
@@ -112,31 +112,31 @@ export default function Sitemap() {
 
                 {/* Legal Pages */}
                 <div>
-                  <h2 className="text-2xl font-bold text-navy-500 mb-6 flex items-center">
+                  <h2 className="text-2xl font-bold text-primary-600 mb-6 flex items-center">
                     <FaFileAlt className="mr-2" /> Legal Information
                   </h2>
                   <ul className="space-y-4">
                     <li>
-                      <Link href="/terms-of-service" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/terms-of-service" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         Terms of Service
                       </Link>
                     </li>
                     <li>
-                      <Link href="/privacy-policy" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/privacy-policy" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         Privacy Policy
                       </Link>
                     </li>
                     <li>
-                      <Link href="/disclosures" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/disclosures" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         Disclosures
                       </Link>
                     </li>
                     <li>
-                      <Link href="/sitemap" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/sitemap" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         Sitemap
                       </Link>
                     </li>
@@ -145,37 +145,37 @@ export default function Sitemap() {
 
                 {/* Compliance Policies */}
                 <div>
-                  <h2 className="text-2xl font-bold text-navy-500 mb-6 flex items-center">
+                  <h2 className="text-2xl font-bold text-primary-600 mb-6 flex items-center">
                     <FaShieldAlt className="mr-2" /> Compliance Policies
                   </h2>
                   <ul className="space-y-4">
                     <li>
-                      <Link href="/compliance" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/compliance" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         Compliance Overview
                       </Link>
                     </li>
                     <li>
-                      <Link href="/compliance/do-not-call" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/compliance/do-not-call" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         Do-Not-Call (DNC) Policy
                       </Link>
                     </li>
                     <li>
-                      <Link href="/compliance/do-not-originate" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/compliance/do-not-originate" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         Do-Not-Originate (DNO) Policy
                       </Link>
                     </li>
                     <li>
-                      <Link href="/compliance/reassigned-numbers" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/compliance/reassigned-numbers" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         Reassigned Numbers Database (RND) Policy
                       </Link>
                     </li>
                     <li>
-                      <Link href="/compliance/consent" className="text-gray-700 hover:text-navy-500 transition-colors flex items-center">
-                        <span className="w-2 h-2 bg-navy-500 rounded-full mr-2"></span>
+                      <Link href="/compliance/consent" className="text-gray-700 hover:text-primary-600 transition-colors flex items-center">
+                        <span className="w-2 h-2 bg-secondary-400 rounded-full mr-2"></span>
                         Opt-In &amp; Consent Policy
                       </Link>
                     </li>
@@ -185,7 +185,7 @@ export default function Sitemap() {
 
               {/* Blog Categories */}
               <div className="mt-16">
-                <h2 className="text-2xl font-bold text-navy-500 mb-6 flex items-center">
+                <h2 className="text-2xl font-bold text-primary-600 mb-6 flex items-center">
                   <FaLightbulb className="mr-2" /> Blog Categories
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -219,7 +219,7 @@ export default function Sitemap() {
               {/* XML Sitemap */}
               <div className="mt-16 bg-gray-50 p-8 rounded-xl">
                 <div className="flex items-start">
-                  <FaSitemap className="text-2xl text-navy-500 mt-1 mr-4" />
+                  <FaSitemap className="text-2xl text-primary-600 mt-1 mr-4" />
                   <div>
                     <h2 className="text-2xl font-bold text-gray-800 mb-2">XML Sitemap</h2>
                     <p className="text-gray-600 mb-4">
@@ -240,7 +240,7 @@ export default function Sitemap() {
                 </p>
                 <Link 
                   href="/contact-us" 
-                  className="inline-flex items-center bg-green-700 hover:bg-green-800 text-white font-medium px-6 py-3 rounded-lg transition-colors"
+                  className="inline-flex items-center bg-secondary-600 hover:bg-secondary-700 text-white font-medium px-6 py-3 rounded-lg transition-colors"
                 >
                   <FaEnvelope className="mr-2" />
                   Contact Us

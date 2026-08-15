@@ -28,7 +28,7 @@ export default function OptInConsentPolicy() {
       sections={sections}
     >
       <h2 id="lead-intake" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaUserCheck className="text-navy-500 mr-2 flex-shrink-0" /> 1. Lead Intake Requirements
+        <FaUserCheck className="text-primary-600 mr-2 flex-shrink-0" /> 1. Lead Intake Requirements
       </h2>
       <p className="text-gray-700 leading-relaxed mb-3">
         No lead is loaded into any dialing campaign unless the record includes:
@@ -52,7 +52,7 @@ export default function OptInConsentPolicy() {
       </p>
 
       <h2 id="verification" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaCheckCircle className="text-navy-500 mr-2 flex-shrink-0" /> 2. Verification and Suppression
+        <FaCheckCircle className="text-primary-600 mr-2 flex-shrink-0" /> 2. Verification and Suppression
       </h2>
       <ul className="list-disc pl-6 space-y-2 mb-4">
         <li className="text-gray-700">
@@ -67,7 +67,7 @@ export default function OptInConsentPolicy() {
       </ul>
 
       <h2 id="revocation" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaTimesCircle className="text-navy-500 mr-2 flex-shrink-0" /> 3. Revocation
+        <FaTimesCircle className="text-primary-600 mr-2 flex-shrink-0" /> 3. Revocation
       </h2>
       <ul className="list-disc pl-6 space-y-2 mb-4">
         <li className="text-gray-700">
@@ -79,14 +79,14 @@ export default function OptInConsentPolicy() {
       </ul>
 
       <h2 id="disclosure" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaBullhorn className="text-navy-500 mr-2 flex-shrink-0" /> 4. Disclosure on Calls
+        <FaBullhorn className="text-primary-600 mr-2 flex-shrink-0" /> 4. Disclosure on Calls
       </h2>
       <p className="text-gray-700 leading-relaxed mb-4">
         At the outset of each call, agents identify themselves, the seller on whose behalf the call is placed, and the purpose of the call, and comply with call-recording disclosure requirements in two-party consent states.
       </p>
 
       <h2 id="recordkeeping" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaClipboardList className="text-navy-500 mr-2 flex-shrink-0" /> 5. Recordkeeping
+        <FaClipboardList className="text-primary-600 mr-2 flex-shrink-0" /> 5. Recordkeeping
       </h2>
       <p className="text-gray-700 leading-relaxed mb-4">
         Consent records, certification tokens, revocations, and intake audit logs are retained for a minimum of five (5) years and are producible within five (5) business days of a lawful request.

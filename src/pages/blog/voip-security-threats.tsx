@@ -18,7 +18,7 @@ const VoIPSecurityThreats = () => {
         <article className="py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <Link href="/blog" className="inline-flex items-center text-navy-500 hover:text-navy-600 mb-8">
+              <Link href="/blog" className="inline-flex items-center text-primary-600 hover:text-primary-700 mb-8">
                 <FaArrowLeft className="mr-2" />
                 Back to Blog
               </Link>
@@ -41,7 +41,7 @@ const VoIPSecurityThreats = () => {
                     12 min read
                   </div>
                 </div>
-                <div className="h-1 w-20 bg-navy-500"></div>
+                <div className="h-1 w-20 bg-primary-600"></div>
               </div>
 
               <div className="prose prose-lg max-w-none">
@@ -131,7 +131,7 @@ const VoIPSecurityThreats = () => {
                 <div className="mt-12 p-6 bg-gray-50 rounded-lg">
                   <h3 className="text-xl font-bold text-gray-900 mb-4">About the Author</h3>
                   <div className="flex items-center">
-                    <div className="w-16 h-16 rounded-full bg-navy-100 flex items-center justify-center text-navy-500 text-xl font-medium mr-4">
+                    <div className="w-16 h-16 rounded-full bg-primary-100 flex items-center justify-center text-primary-600 text-xl font-medium mr-4">
                       MT
                     </div>
                     <div>

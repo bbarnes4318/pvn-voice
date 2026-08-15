@@ -32,7 +32,7 @@ export default function Pricing() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-navy-50 to-navy-100">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
         <title>Pricing - PVN Voice</title>
         <meta name="description" content="Clear, transparent pricing for PVN Voice's cloud phone system, unified communications, and contact center solutions. No hidden fees or long-term contracts." />
@@ -41,11 +41,11 @@ export default function Pricing() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-navy-500 text-white py-12 md:py-20">
+        <section className="bg-primary-600 text-white py-12 md:py-20">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">Simple, Transparent Pricing</h1>
-              <p className="text-xl md:text-2xl text-navy-50">
+              <p className="text-xl md:text-2xl text-primary-100">
                 Enterprise features at small business prices. No hidden fees or long-term contracts.
               </p>
             </div>
@@ -61,7 +61,7 @@ export default function Pricing() {
                 <div className="bg-gray-100 p-1 rounded-full inline-flex">
                   <button
                     className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${
-                      billingCycle === 'monthly' ? 'bg-navy-500 text-white' : 'text-gray-700 hover:bg-gray-200'
+                      billingCycle === 'monthly' ? 'bg-primary-600 text-white' : 'text-gray-700 hover:bg-gray-200'
                     }`}
                     onClick={() => setBillingCycle('monthly')}
                   >
@@ -69,7 +69,7 @@ export default function Pricing() {
                   </button>
                   <button
                     className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${
-                      billingCycle === 'annual' ? 'bg-navy-500 text-white' : 'text-gray-700 hover:bg-gray-200'
+                      billingCycle === 'annual' ? 'bg-primary-600 text-white' : 'text-gray-700 hover:bg-gray-200'
                     }`}
                     onClick={() => setBillingCycle('annual')}
                   >
@@ -86,7 +86,7 @@ export default function Pricing() {
                 <div className="flex items-center justify-center">
                   <button
                     onClick={() => setEmployeeCount(Math.max(1, employeeCount - 1))}
-                    className="bg-navy-100 text-navy-500 hover:bg-navy-200 px-3 py-1 rounded-md"
+                    className="bg-primary-100 text-primary-600 hover:bg-primary-200 px-3 py-1 rounded-md"
                   >
                     -
                   </button>
@@ -100,7 +100,7 @@ export default function Pricing() {
                   />
                   <button
                     onClick={() => setEmployeeCount(employeeCount + 1)}
-                    className="bg-navy-100 text-navy-500 hover:bg-navy-200 px-3 py-1 rounded-md"
+                    className="bg-primary-100 text-primary-600 hover:bg-primary-200 px-3 py-1 rounded-md"
                   >
                     +
                   </button>
@@ -121,17 +121,17 @@ export default function Pricing() {
                       <span className="text-3xl font-bold text-gray-900">${getBasicPrice()}</span>
                       <span className="text-gray-500 ml-1">/user/month</span>
                     </div>
-                    <div className="bg-navy-50 p-4 rounded-lg mb-6">
-                      <p className="text-navy-600 font-medium">
+                    <div className="bg-primary-50 p-4 rounded-lg mb-6">
+                      <p className="text-primary-700 font-medium">
                         Total: ${calculateTotalPrice(getBasicPrice())}/month
                       </p>
                       {billingCycle === 'annual' && (
-                        <p className="text-sm text-navy-500 mt-1">
+                        <p className="text-sm text-primary-600 mt-1">
                           You save ${annualSavings(19.99)} per year
                         </p>
                       )}
                     </div>
-                    <button className="w-full bg-navy-500 hover:bg-navy-600 text-white font-medium py-2 px-4 rounded-md transition-colors">
+                    <button className="w-full bg-primary-600 hover:bg-primary-700 text-white font-medium py-2 px-4 rounded-md transition-colors">
                       Contact Us
                     </button>
                   </div>
@@ -167,8 +167,8 @@ export default function Pricing() {
                 </div>
 
                 {/* Business Plan */}
-                <div className="bg-white border-2 border-navy-400 rounded-xl shadow-md overflow-hidden relative">
-                  <div className="absolute top-0 right-0 bg-navy-500 text-white text-xs font-bold px-3 py-1">
+                <div className="bg-white border-2 border-primary-400 rounded-xl shadow-md overflow-hidden relative">
+                  <div className="absolute top-0 right-0 bg-primary-600 text-white text-xs font-bold px-3 py-1">
                     MOST POPULAR
                   </div>
                   <div className="p-6">
@@ -178,17 +178,17 @@ export default function Pricing() {
                       <span className="text-3xl font-bold text-gray-900">${getBusinessPrice()}</span>
                       <span className="text-gray-500 ml-1">/user/month</span>
                     </div>
-                    <div className="bg-navy-50 p-4 rounded-lg mb-6">
-                      <p className="text-navy-600 font-medium">
+                    <div className="bg-primary-50 p-4 rounded-lg mb-6">
+                      <p className="text-primary-700 font-medium">
                         Total: ${calculateTotalPrice(getBusinessPrice())}/month
                       </p>
                       {billingCycle === 'annual' && (
-                        <p className="text-sm text-navy-500 mt-1">
+                        <p className="text-sm text-primary-600 mt-1">
                           You save ${annualSavings(29.99)} per year
                         </p>
                       )}
                     </div>
-                    <button className="w-full bg-green-700 hover:bg-green-800 text-white font-medium py-2 px-4 rounded-md transition-colors">
+                    <button className="w-full bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-2 px-4 rounded-md transition-colors">
                       Contact Us
                     </button>
                   </div>
@@ -232,17 +232,17 @@ export default function Pricing() {
                       <span className="text-3xl font-bold text-gray-900">${getEnterprisePrice()}</span>
                       <span className="text-gray-500 ml-1">/user/month</span>
                     </div>
-                    <div className="bg-navy-50 p-4 rounded-lg mb-6">
-                      <p className="text-navy-600 font-medium">
+                    <div className="bg-primary-50 p-4 rounded-lg mb-6">
+                      <p className="text-primary-700 font-medium">
                         Total: ${calculateTotalPrice(getEnterprisePrice())}/month
                       </p>
                       {billingCycle === 'annual' && (
-                        <p className="text-sm text-navy-500 mt-1">
+                        <p className="text-sm text-primary-600 mt-1">
                           You save ${annualSavings(39.99)} per year
                         </p>
                       )}
                     </div>
-                    <button className="w-full bg-navy-500 hover:bg-navy-600 text-white font-medium py-2 px-4 rounded-md transition-colors">
+                    <button className="w-full bg-primary-600 hover:bg-primary-700 text-white font-medium py-2 px-4 rounded-md transition-colors">
                       Contact Us
                     </button>
                   </div>
@@ -285,7 +285,7 @@ export default function Pricing() {
         <section className="py-16 bg-gray-50">
           <div className="container-custom">
             <div className="max-w-5xl mx-auto">
-              <h2 className="text-3xl font-bold text-center mb-12 text-navy-500">Feature Comparison</h2>
+              <h2 className="text-3xl font-bold text-center mb-12 text-primary-600">Feature Comparison</h2>
               
               <div className="bg-white rounded-xl shadow-sm overflow-auto">
                 <table className="w-full min-w-full">
@@ -369,32 +369,32 @@ export default function Pricing() {
         <section className="py-16 bg-white">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold text-center mb-12 text-navy-500">Frequently Asked Questions</h2>
+              <h2 className="text-3xl font-bold text-center mb-12 text-primary-600">Frequently Asked Questions</h2>
               
               <div className="space-y-6">
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h3 className="text-xl font-bold text-navy-500 mb-2">Are there any setup fees?</h3>
+                  <h3 className="text-xl font-bold text-primary-600 mb-2">Are there any setup fees?</h3>
                   <p className="text-gray-700">
                     No, there are no setup fees with PVN Voice. All plans include free configuration and onboarding assistance to help you get started quickly.
                   </p>
                 </div>
                 
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h3 className="text-xl font-bold text-navy-500 mb-2">Do I need to sign a long-term contract?</h3>
+                  <h3 className="text-xl font-bold text-primary-600 mb-2">Do I need to sign a long-term contract?</h3>
                   <p className="text-gray-700">
                     No. All our plans are available on a month-to-month basis with no long-term commitment required. Annual plans are available at a discount but are completely optional.
                   </p>
                 </div>
                 
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h3 className="text-xl font-bold text-navy-500 mb-2">Can I keep my existing phone numbers?</h3>
+                  <h3 className="text-xl font-bold text-primary-600 mb-2">Can I keep my existing phone numbers?</h3>
                   <p className="text-gray-700">
                     Yes, you can port your existing phone numbers to PVN Voice. The porting process typically takes 2-4 weeks and we'll guide you through the entire process.
                   </p>
                 </div>
                 
                 <div className="bg-gray-50 p-6 rounded-xl">
-                  <h3 className="text-xl font-bold text-navy-500 mb-2">What kind of internet connection do I need?</h3>
+                  <h3 className="text-xl font-bold text-primary-600 mb-2">What kind of internet connection do I need?</h3>
                   <p className="text-gray-700">
                     For optimal call quality, we recommend a minimum of 100 Kbps of bandwidth per concurrent call. Most modern business internet connections are more than sufficient for VoIP calls.
                   </p>
@@ -405,7 +405,7 @@ export default function Pricing() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 bg-navy-500 text-white">
+        <section className="py-16 bg-primary-600 text-white">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Business Communication?</h2>
@@ -415,13 +415,13 @@ export default function Pricing() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="/contact-us"
-                  className="bg-white text-navy-500 hover:bg-gray-100 font-medium px-8 py-3 rounded-md transition-colors"
+                  className="bg-white text-primary-600 hover:bg-gray-100 font-medium px-8 py-3 rounded-md transition-colors"
                 >
                   Request Custom Quote
                 </a>
                 <a 
                   href="tel:+18001234567" 
-                  className="btn-call flex items-center justify-center space-x-3 bg-green-700 hover:bg-green-800"
+                  className="btn-call flex items-center justify-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
                 >
                   <FaPhone className="text-white" />
                   <span>Call 1-800-123-4567</span>

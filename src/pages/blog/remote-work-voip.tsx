@@ -16,14 +16,14 @@ export default function RemoteWorkVoIP() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-navy-500 text-white py-12 md:py-20">
+        <section className="bg-primary-600 text-white py-12 md:py-20">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto">
-              <Link href="/blog" className="inline-flex items-center text-navy-50 hover:text-white mb-6 transition-colors">
+              <Link href="/blog" className="inline-flex items-center text-primary-100 hover:text-white mb-6 transition-colors">
                 <FaArrowLeft className="mr-2" /> Back to Blog
               </Link>
               <h1 className="text-3xl md:text-5xl font-bold mb-6">VoIP Solutions for Remote Work: Empowering Distributed Teams</h1>
-              <div className="flex items-center text-navy-50 space-x-6">
+              <div className="flex items-center text-primary-100 space-x-6">
                 <div className="flex items-center">
                   <FaCalendarAlt className="mr-2" />
                   <span>April 1, 2024</span>
@@ -33,7 +33,7 @@ export default function RemoteWorkVoIP() {
                   <span>Michael Reynolds</span>
                 </div>
                 <div>
-                  <span className="px-3 py-1 bg-navy-600 rounded-full text-sm">Remote Work</span>
+                  <span className="px-3 py-1 bg-primary-700 rounded-full text-sm">Remote Work</span>
                 </div>
               </div>
             </div>
@@ -64,10 +64,10 @@ export default function RemoteWorkVoIP() {
                       </p>
                     </div>
 
-                    <div className="bg-navy-50 border-l-4 border-navy-500 p-6 rounded-xl">
+                    <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl">
                       <div className="flex">
-                        <FaLaptop className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
-                        <p className="text-navy-600 m-0">
+                        <FaLaptop className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
+                        <p className="text-blue-700 m-0">
                           <strong>Important:</strong> When implementing VoIP for remote teams, ensure your solution includes essential features like video conferencing, instant messaging, and file sharing. A comprehensive unified communications platform will maximize team productivity and collaboration.
                         </p>
                       </div>
@@ -184,26 +184,26 @@ export default function RemoteWorkVoIP() {
                       <h3 className="text-xl font-bold text-gray-900 mb-6">Remote Work Success Stories</h3>
                       <div className="space-y-6">
                         <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                          <h4 className="text-lg font-bold text-navy-500 mb-3">Global Marketing Agency</h4>
+                          <h4 className="text-lg font-bold text-primary-600 mb-3">Global Marketing Agency</h4>
                           <p className="text-gray-700 mb-0">Reduced communication costs by 65% while improving team collaboration across 5 time zones using VoIP solutions.</p>
                         </div>
                         <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                          <h4 className="text-lg font-bold text-navy-500 mb-3">Software Development Firm</h4>
+                          <h4 className="text-lg font-bold text-primary-600 mb-3">Software Development Firm</h4>
                           <p className="text-gray-700 mb-0">Maintained 99.9% uptime for client communications while supporting 100+ remote developers across multiple countries.</p>
                         </div>
                         <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                          <h4 className="text-lg font-bold text-navy-500 mb-3">Customer Service Center</h4>
+                          <h4 className="text-lg font-bold text-primary-600 mb-3">Customer Service Center</h4>
                           <p className="text-gray-700 mb-0">Successfully transitioned 200+ agents to remote work while improving customer satisfaction scores by 15%.</p>
                         </div>
                       </div>
                     </div>
 
-                    <div className="bg-navy-50 p-8 rounded-xl">
-                      <h3 className="text-xl font-bold text-navy-500 mb-4">Ready to Empower Your Remote Team?</h3>
+                    <div className="bg-primary-50 p-8 rounded-xl">
+                      <h3 className="text-xl font-bold text-primary-600 mb-4">Ready to Empower Your Remote Team?</h3>
                       <p className="text-gray-700 mb-6">
                         Contact PVN Voice today for a comprehensive remote work VoIP solution that will keep your team connected and productive.
                       </p>
-                      <a href="/contact-us" className="inline-block bg-navy-500 text-white px-8 py-4 rounded-md hover:bg-navy-600 transition-colors font-medium">
+                      <a href="/contact-us" className="inline-block bg-primary-600 text-white px-8 py-4 rounded-md hover:bg-primary-700 transition-colors font-medium">
                         Get Started with Remote VoIP
                       </a>
                     </div>
@@ -212,7 +212,7 @@ export default function RemoteWorkVoIP() {
                   <h2 className="text-2xl font-bold text-gray-900 mb-6">Managing Remote Teams with VoIP</h2>
                   
                   <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 mb-8">
-                    <h3 className="text-xl font-bold text-navy-500 mb-4">Communication Protocols</h3>
+                    <h3 className="text-xl font-bold text-primary-600 mb-4">Communication Protocols</h3>
                     <p className="text-gray-700 mb-4">
                       Establish clear guidelines for remote communication:
                     </p>
@@ -245,7 +245,7 @@ export default function RemoteWorkVoIP() {
                   </div>
 
                   <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 mb-8">
-                    <h3 className="text-xl font-bold text-navy-500 mb-4">Team Collaboration</h3>
+                    <h3 className="text-xl font-bold text-primary-600 mb-4">Team Collaboration</h3>
                     <p className="text-gray-700 mb-4">
                       Maximize team productivity with these strategies:
                     </p>
@@ -280,7 +280,7 @@ export default function RemoteWorkVoIP() {
                   <h2 className="text-2xl font-bold text-gray-900 mb-6">Troubleshooting Remote VoIP Issues</h2>
                   
                   <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 mb-8">
-                    <h3 className="text-xl font-bold text-navy-500 mb-4">Common Challenges</h3>
+                    <h3 className="text-xl font-bold text-primary-600 mb-4">Common Challenges</h3>
                     <p className="text-gray-700 mb-4">
                       Address these typical remote work communication issues:
                     </p>
@@ -313,7 +313,7 @@ export default function RemoteWorkVoIP() {
                   </div>
 
                   <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 mb-8">
-                    <h3 className="text-xl font-bold text-navy-500 mb-4">Quick Solutions</h3>
+                    <h3 className="text-xl font-bold text-primary-600 mb-4">Quick Solutions</h3>
                     <p className="text-gray-700 mb-4">
                       Implement these fixes for common problems:
                     </p>
@@ -378,12 +378,12 @@ export default function RemoteWorkVoIP() {
                     </div>
                   </div>
 
-                  <div className="bg-navy-50 p-6 rounded-xl mt-8">
-                    <h3 className="font-bold text-navy-500 mb-3">Ready to Optimize Your Remote Team Communication?</h3>
+                  <div className="bg-primary-50 p-6 rounded-xl mt-8">
+                    <h3 className="font-bold text-primary-600 mb-3">Ready to Optimize Your Remote Team Communication?</h3>
                     <p className="text-gray-700 mb-4">
                       Contact PVN Voice today for a personalized demo of our remote work VoIP solutions.
                     </p>
-                    <a href="/contact-us" className="inline-block bg-navy-500 text-white px-6 py-3 rounded-md hover:bg-navy-600 transition-colors">
+                    <a href="/contact-us" className="inline-block bg-primary-600 text-white px-6 py-3 rounded-md hover:bg-primary-700 transition-colors">
                       Schedule Your Demo
                     </a>
                   </div>
@@ -423,14 +423,14 @@ export default function RemoteWorkVoIP() {
               {/* Sidebar */}
               <div className="lg:col-span-1">
                 {/* CTA Box */}
-                <div className="bg-navy-50 rounded-xl p-6 mb-8">
-                  <h3 className="text-xl font-bold text-navy-600 mb-4">Ready to Enable Remote Work?</h3>
+                <div className="bg-primary-50 rounded-xl p-6 mb-8">
+                  <h3 className="text-xl font-bold text-primary-700 mb-4">Ready to Enable Remote Work?</h3>
                   <p className="text-gray-700 mb-6">
                     Our VoIP specialists can help you implement the perfect remote communication solution for your team.
                   </p>
                   <a 
                     href="#" 
-                    className="block w-full bg-navy-500 hover:bg-navy-600 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors mb-4"
+                    className="block w-full bg-primary-600 hover:bg-primary-700 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors mb-4"
                   >
                     <FaHeadset className="inline mr-2" />
                     Schedule a Demo
@@ -438,14 +438,14 @@ export default function RemoteWorkVoIP() {
                 </div>
 
                 {/* Free Resources */}
-                <div className="bg-green-50 rounded-xl p-6 mb-8">
-                  <h3 className="text-xl font-bold text-green-800 mb-4">Free Remote Work Resources</h3>
+                <div className="bg-secondary-50 rounded-xl p-6 mb-8">
+                  <h3 className="text-xl font-bold text-secondary-700 mb-4">Free Remote Work Resources</h3>
                   <p className="text-gray-700 mb-6">
                     Download our helpful guides for implementing VoIP in remote teams.
                   </p>
                   <a 
                     href="#" 
-                    className="block w-full bg-green-700 hover:bg-green-800 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors"
+                    className="block w-full bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors"
                   >
                     <FaGlobe className="inline mr-2" />
                     Download Resources
@@ -475,7 +475,7 @@ export default function RemoteWorkVoIP() {
                   </ul>
                   <Link 
                     href="/remote-voip-faq" 
-                    className="text-navy-500 hover:text-navy-600 text-sm font-medium flex items-center mt-4"
+                    className="text-primary-600 hover:text-primary-700 text-sm font-medium flex items-center mt-4"
                   >
                     Read our full Remote VoIP FAQ
                     <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -498,7 +498,7 @@ export default function RemoteWorkVoIP() {
               </p>
               <a 
                 href="#" 
-                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-green-700 hover:bg-green-800"
+                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
               >
                 <FaHeadset className="text-white" />
                 <span>Schedule Your Free Demo</span>

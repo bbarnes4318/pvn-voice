@@ -57,7 +57,7 @@ const ComplianceStatus: React.FC<ComplianceStatusProps> = ({
         </div>
         <div className="w-full bg-gray-200 rounded-full h-2.5">
           <div
-            className="bg-navy-500 h-2.5 rounded-full"
+            className="bg-blue-600 h-2.5 rounded-full"
             style={{ width: `${progress}%` }}
           ></div>
         </div>

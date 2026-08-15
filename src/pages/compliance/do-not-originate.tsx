@@ -27,7 +27,7 @@ export default function DoNotOriginatePolicy() {
       sections={sections}
     >
       <h2 id="screening" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaFingerprint className="text-navy-500 mr-2 flex-shrink-0" /> 1. Do-Not-Originate Screening
+        <FaFingerprint className="text-primary-600 mr-2 flex-shrink-0" /> 1. Do-Not-Originate Screening
       </h2>
       <ul className="list-disc pl-6 space-y-2 mb-4">
         <li className="text-gray-700">
@@ -39,7 +39,7 @@ export default function DoNotOriginatePolicy() {
       </ul>
 
       <h2 id="caller-id" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaIdBadge className="text-navy-500 mr-2 flex-shrink-0" /> 2. Caller ID Integrity
+        <FaIdBadge className="text-primary-600 mr-2 flex-shrink-0" /> 2. Caller ID Integrity
       </h2>
       <ul className="list-disc pl-6 space-y-2 mb-4">
         <li className="text-gray-700">
@@ -57,7 +57,7 @@ export default function DoNotOriginatePolicy() {
       </ul>
 
       <h2 id="traffic-practices" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaRandom className="text-navy-500 mr-2 flex-shrink-0" /> 3. Traffic Practices
+        <FaRandom className="text-primary-600 mr-2 flex-shrink-0" /> 3. Traffic Practices
       </h2>
       <ul className="list-disc pl-6 space-y-2 mb-4">
         <li className="text-gray-700">
@@ -69,7 +69,7 @@ export default function DoNotOriginatePolicy() {
       </ul>
 
       <h2 id="recordkeeping" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaClipboardList className="text-navy-500 mr-2 flex-shrink-0" /> 4. Recordkeeping
+        <FaClipboardList className="text-primary-600 mr-2 flex-shrink-0" /> 4. Recordkeeping
       </h2>
       <p className="text-gray-700 leading-relaxed mb-4">
         DNO suppression logs, DID ownership/authorization records, and CNAM registration records are retained for a minimum of five (5) years.

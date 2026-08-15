@@ -17,14 +17,14 @@ export default function OptimizingVoIPCallQuality() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-navy-500 text-white py-12 md:py-20">
+        <section className="bg-primary-600 text-white py-12 md:py-20">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto">
-              <Link href="/blog" className="inline-flex items-center text-navy-50 hover:text-white mb-6 transition-colors">
+              <Link href="/blog" className="inline-flex items-center text-primary-100 hover:text-white mb-6 transition-colors">
                 <FaArrowLeft className="mr-2" /> Back to Blog
               </Link>
               <h1 className="text-3xl md:text-5xl font-bold mb-6">Troubleshooting and Optimizing VoIP Call Quality: The Ultimate Guide</h1>
-              <div className="flex items-center text-navy-50 space-x-6">
+              <div className="flex items-center text-primary-100 space-x-6">
                 <div className="flex items-center">
                   <FaCalendarAlt className="mr-2" />
                   <span>January 17, 2023</span>
@@ -34,7 +34,7 @@ export default function OptimizingVoIPCallQuality() {
                   <span>Robert Garcia</span>
                 </div>
                 <div>
-                  <span className="px-3 py-1 bg-navy-600 rounded-full text-sm">Technical</span>
+                  <span className="px-3 py-1 bg-primary-700 rounded-full text-sm">Technical</span>
                 </div>
               </div>
             </div>
@@ -62,10 +62,10 @@ export default function OptimizingVoIPCallQuality() {
                       </p>
                     </div>
 
-                    <div className="bg-navy-50 border-l-4 border-navy-500 p-6 rounded-xl">
+                    <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-xl">
                       <div className="flex">
-                        <FaInfoCircle className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
-                        <p className="text-navy-600 m-0">
+                        <FaInfoCircle className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
+                        <p className="text-blue-700 m-0">
                           <strong>Pro Tip:</strong> Regular monitoring of call quality metrics can help identify issues before they impact your business communications. Set up automated alerts for when key metrics fall below acceptable thresholds.
                         </p>
                       </div>
@@ -78,19 +78,19 @@ export default function OptimizingVoIPCallQuality() {
                           <h3 className="text-xl font-bold text-gray-900 mb-4">Network Factors</h3>
                           <ul className="space-y-3">
                             <li className="flex items-start">
-                              <FaNetworkWired className="text-navy-400 mr-2 mt-1 flex-shrink-0" />
+                              <FaNetworkWired className="text-primary-500 mr-2 mt-1 flex-shrink-0" />
                               <span>Bandwidth availability</span>
                             </li>
                             <li className="flex items-start">
-                              <FaNetworkWired className="text-navy-400 mr-2 mt-1 flex-shrink-0" />
+                              <FaNetworkWired className="text-primary-500 mr-2 mt-1 flex-shrink-0" />
                               <span>Network congestion</span>
                             </li>
                             <li className="flex items-start">
-                              <FaNetworkWired className="text-navy-400 mr-2 mt-1 flex-shrink-0" />
+                              <FaNetworkWired className="text-primary-500 mr-2 mt-1 flex-shrink-0" />
                               <span>QoS settings</span>
                             </li>
                             <li className="flex items-start">
-                              <FaNetworkWired className="text-navy-400 mr-2 mt-1 flex-shrink-0" />
+                              <FaNetworkWired className="text-primary-500 mr-2 mt-1 flex-shrink-0" />
                               <span>Firewall configuration</span>
                             </li>
                           </ul>
@@ -100,19 +100,19 @@ export default function OptimizingVoIPCallQuality() {
                           <h3 className="text-xl font-bold text-gray-900 mb-4">System Factors</h3>
                           <ul className="space-y-3">
                             <li className="flex items-start">
-                              <FaMicrochip className="text-navy-400 mr-2 mt-1 flex-shrink-0" />
+                              <FaMicrochip className="text-primary-500 mr-2 mt-1 flex-shrink-0" />
                               <span>Codec selection</span>
                             </li>
                             <li className="flex items-start">
-                              <FaMicrochip className="text-navy-400 mr-2 mt-1 flex-shrink-0" />
+                              <FaMicrochip className="text-primary-500 mr-2 mt-1 flex-shrink-0" />
                               <span>Hardware quality</span>
                             </li>
                             <li className="flex items-start">
-                              <FaMicrochip className="text-navy-400 mr-2 mt-1 flex-shrink-0" />
+                              <FaMicrochip className="text-primary-500 mr-2 mt-1 flex-shrink-0" />
                               <span>Software updates</span>
                             </li>
                             <li className="flex items-start">
-                              <FaMicrochip className="text-navy-400 mr-2 mt-1 flex-shrink-0" />
+                              <FaMicrochip className="text-primary-500 mr-2 mt-1 flex-shrink-0" />
                               <span>System configuration</span>
                             </li>
                           </ul>
@@ -233,12 +233,12 @@ export default function OptimizingVoIPCallQuality() {
                       </div>
                     </div>
 
-                    <div className="bg-navy-50 p-8 rounded-xl">
-                      <h3 className="text-xl font-bold text-navy-500 mb-4">Need Help Optimizing Your VoIP System?</h3>
+                    <div className="bg-primary-50 p-8 rounded-xl">
+                      <h3 className="text-xl font-bold text-primary-600 mb-4">Need Help Optimizing Your VoIP System?</h3>
                       <p className="text-gray-700 mb-6">
                         Contact PVN Voice today for a comprehensive call quality assessment and optimization plan.
                       </p>
-                      <a href="/contact-us" className="inline-block bg-navy-500 text-white px-8 py-4 rounded-md hover:bg-navy-600 transition-colors font-medium">
+                      <a href="/contact-us" className="inline-block bg-primary-600 text-white px-8 py-4 rounded-md hover:bg-primary-700 transition-colors font-medium">
                         Get Your Quality Assessment
                       </a>
                     </div>
@@ -353,11 +353,11 @@ export default function OptimizingVoIPCallQuality() {
                       </div>
                     </div>
 
-                    <div className="bg-navy-50 p-6 rounded-xl">
+                    <div className="bg-primary-50 p-6 rounded-xl">
                       <div className="flex items-start">
-                        <FaNetworkWired className="text-navy-500 text-3xl mr-4 flex-shrink-0" />
+                        <FaNetworkWired className="text-primary-600 text-3xl mr-4 flex-shrink-0" />
                         <div>
-                          <h3 className="text-xl font-bold text-navy-600 mb-2">Case Study: Manufacturing Company Solves Call Quality Issues</h3>
+                          <h3 className="text-xl font-bold text-primary-700 mb-2">Case Study: Manufacturing Company Solves Call Quality Issues</h3>
                           <p className="text-gray-700 mb-4">
                             "After struggling with poor call quality for months, we discovered our network switches were incorrectly configured, causing micro-interruptions in our VoIP traffic. By implementing proper QoS, upgrading to managed switches, and creating a dedicated VLAN for voice traffic, we improved our average MOS score from 3.2 to 4.3. Customer complaints about call quality dropped by 95%."
                           </p>
@@ -452,14 +452,14 @@ export default function OptimizingVoIPCallQuality() {
               {/* Sidebar */}
               <div className="lg:col-span-1 space-y-8">
                 {/* Contact CTA */}
-                <div className="bg-navy-50 rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-navy-600 mb-4">Need Help With Call Quality?</h3>
+                <div className="bg-primary-50 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-primary-700 mb-4">Need Help With Call Quality?</h3>
                   <p className="text-gray-600 mb-6">
                     Our VoIP experts can diagnose and fix your call quality issues. Get a free consultation today.
                   </p>
                   <a 
                     href="tel:+19045128487" 
-                    className="block w-full bg-navy-500 text-white font-medium py-3 px-4 rounded-lg text-center hover:bg-navy-600 transition-colors mb-4"
+                    className="block w-full bg-primary-600 text-white font-medium py-3 px-4 rounded-lg text-center hover:bg-primary-700 transition-colors mb-4"
                   >
                     Call (904) 512-8487
                   </a>
@@ -472,13 +472,13 @@ export default function OptimizingVoIPCallQuality() {
                 </div>
 
                 {/* VoIP Resources */}
-                <div className="bg-green-50 rounded-xl p-6">
-                  <h3 className="text-xl font-bold text-green-800 mb-6">VoIP Resources</h3>
+                <div className="bg-secondary-50 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-secondary-700 mb-6">VoIP Resources</h3>
                   <ul className="space-y-6">
                     <li className="flex items-start">
-                      <FaNetworkWired className="text-green-700 mt-1 mr-4 flex-shrink-0 text-lg" />
+                      <FaNetworkWired className="text-secondary-600 mt-1 mr-4 flex-shrink-0 text-lg" />
                       <div>
-                        <Link href="/resources/network-optimization" className="font-medium text-green-700 hover:text-green-800 transition-colors block mb-2">
+                        <Link href="/resources/network-optimization" className="font-medium text-secondary-600 hover:text-secondary-700 transition-colors block mb-2">
                           Network Optimization Guide
                         </Link>
                         <p className="text-gray-600">
@@ -487,9 +487,9 @@ export default function OptimizingVoIPCallQuality() {
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <FaNetworkWired className="text-green-700 mt-1 mr-4 flex-shrink-0 text-lg" />
+                      <FaNetworkWired className="text-secondary-600 mt-1 mr-4 flex-shrink-0 text-lg" />
                       <div>
-                        <Link href="/resources/troubleshooting-guide" className="font-medium text-green-700 hover:text-green-800 transition-colors block mb-2">
+                        <Link href="/resources/troubleshooting-guide" className="font-medium text-secondary-600 hover:text-secondary-700 transition-colors block mb-2">
                           Troubleshooting Guide
                         </Link>
                         <p className="text-gray-600">
@@ -498,9 +498,9 @@ export default function OptimizingVoIPCallQuality() {
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <FaNetworkWired className="text-green-700 mt-1 mr-4 flex-shrink-0 text-lg" />
+                      <FaNetworkWired className="text-secondary-600 mt-1 mr-4 flex-shrink-0 text-lg" />
                       <div>
-                        <Link href="/resources/bandwidth-calculator" className="font-medium text-green-700 hover:text-green-800 transition-colors block mb-2">
+                        <Link href="/resources/bandwidth-calculator" className="font-medium text-secondary-600 hover:text-secondary-700 transition-colors block mb-2">
                           Bandwidth Calculator
                         </Link>
                         <p className="text-gray-600">
@@ -516,23 +516,23 @@ export default function OptimizingVoIPCallQuality() {
                   <h3 className="text-xl font-bold text-gray-800 mb-6">VoIP Quality Facts</h3>
                   <ul className="space-y-4">
                     <li className="flex items-start">
-                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">Latency over 150ms affects call quality</p>
                     </li>
                     <li className="flex items-start">
-                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">QoS can improve VoIP quality by 30%</p>
                     </li>
                     <li className="flex items-start">
-                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">Packet loss over 1% degrades calls</p>
                     </li>
                     <li className="flex items-start">
-                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">Jitter should be under 30ms for HD calls</p>
                     </li>
                     <li className="flex items-start">
-                      <span className="bg-navy-100 text-navy-600 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
+                      <span className="bg-primary-100 text-primary-700 font-bold text-xs px-2.5 py-1.5 rounded-md mr-3 mt-0.5">FACT</span>
                       <p className="text-gray-700 m-0">85% of issues are network-related</p>
                     </li>
                   </ul>
@@ -544,19 +544,19 @@ export default function OptimizingVoIPCallQuality() {
                   <ul className="space-y-6">
                     <li>
                       <Link href="/blog/voip-security-practices" className="group block">
-                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-2">Essential VoIP Security Best Practices</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-2">Essential VoIP Security Best Practices</h4>
                         <p className="text-sm text-gray-500">March 10, 2023</p>
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/choosing-voip-provider" className="group block">
-                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-2">How to Choose the Right VoIP Provider</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-2">How to Choose the Right VoIP Provider</h4>
                         <p className="text-sm text-gray-500">April 5, 2023</p>
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/voip-cost-savings" className="group block">
-                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-2">How VoIP Can Cut Your Communication Costs</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-2">How VoIP Can Cut Your Communication Costs</h4>
                         <p className="text-sm text-gray-500">February 20, 2023</p>
                       </Link>
                     </li>
@@ -568,7 +568,7 @@ export default function OptimizingVoIPCallQuality() {
         </section>
 
         {/* CTA Banner */}
-        <section className="bg-navy-500 text-white py-12">
+        <section className="bg-primary-600 text-white py-12">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-bold mb-6">Ready for Crystal-Clear Business Calls?</h2>
@@ -577,7 +577,7 @@ export default function OptimizingVoIPCallQuality() {
               </p>
               <a 
                 href="tel:18001234567" 
-                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-green-700 hover:bg-green-800"
+                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
               >
                 <FaPhoneAlt className="text-white" />
                 <span>Call (800) 123-4567 for a Free Assessment</span>

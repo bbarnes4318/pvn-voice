@@ -26,7 +26,7 @@ export default function ReassignedNumbersPolicy() {
       sections={sections}
     >
       <h2 id="query-process" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaSearch className="text-navy-500 mr-2 flex-shrink-0" /> 1. RND Query Process
+        <FaSearch className="text-primary-600 mr-2 flex-shrink-0" /> 1. RND Query Process
       </h2>
       <ul className="list-disc pl-6 space-y-2 mb-4">
         <li className="text-gray-700">
@@ -44,7 +44,7 @@ export default function ReassignedNumbersPolicy() {
       </ul>
 
       <h2 id="cadence" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaSyncAlt className="text-navy-500 mr-2 flex-shrink-0" /> 2. Cadence
+        <FaSyncAlt className="text-primary-600 mr-2 flex-shrink-0" /> 2. Cadence
       </h2>
       <ul className="list-disc pl-6 space-y-2 mb-4">
         <li className="text-gray-700">
@@ -56,7 +56,7 @@ export default function ReassignedNumbersPolicy() {
       </ul>
 
       <h2 id="remediation" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaClipboardList className="text-navy-500 mr-2 flex-shrink-0" /> 3. Remediation and Recordkeeping
+        <FaClipboardList className="text-primary-600 mr-2 flex-shrink-0" /> 3. Remediation and Recordkeeping
       </h2>
       <p className="text-gray-700 leading-relaxed mb-4">
         If the Company learns through any channel (RND, carrier response, or the called party) that a number has been reassigned, the number is suppressed immediately and the associated consent record is retired. RND query submissions, response files, timestamps, and suppression actions are retained for a minimum of five (5) years to document safe-harbor compliance.

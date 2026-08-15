@@ -183,7 +183,7 @@ export default function Blog() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-navy-50 to-navy-100">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
         <title>Business VoIP Blog - PVN Voice</title>
         <meta name="description" content="Get the latest insights, tips, and strategies for business VoIP, cloud communications, and remote work from PVN Voice experts." />
@@ -192,12 +192,12 @@ export default function Blog() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-navy-600 to-navy-400 text-white py-20 relative overflow-hidden">
+        <section className="bg-gradient-to-br from-primary-700 to-primary-500 text-white py-20 relative overflow-hidden">
           <div className="absolute inset-0 bg-[url('/images/pattern.png')] opacity-10"></div>
           <div className="container-custom relative z-10">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-lg">Business Communications Blog</h1>
-              <p className="text-xl md:text-2xl text-navy-50 mb-8">
+              <p className="text-xl md:text-2xl text-primary-100 mb-8">
                 Get the latest insights, tips, and strategies for business VoIP, cloud communications, and remote work from PVN Voice experts.
               </p>
             </div>
@@ -208,7 +208,7 @@ export default function Blog() {
         <section className="bg-white border-b border-gray-200 py-8 sticky top-0 z-20 shadow-sm">
           <div className="container-custom">
             <div className="flex flex-wrap gap-3 justify-center">
-              <Link href="/blog" className="px-5 py-2.5 bg-navy-500 text-white rounded-full hover:bg-navy-600 transition-colors font-medium shadow-md hover:shadow-lg">
+              <Link href="/blog" className="px-5 py-2.5 bg-primary-600 text-white rounded-full hover:bg-primary-700 transition-colors font-medium shadow-md hover:shadow-lg">
                 All Categories
               </Link>
               <Link href="/blog/categories/cost-savings" className="px-5 py-2.5 bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors font-medium">
@@ -259,7 +259,7 @@ export default function Blog() {
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                             <div className="absolute top-4 left-4">
-                              <span className="text-xs font-semibold px-3 py-1.5 bg-white/90 backdrop-blur-sm text-navy-500 rounded-full shadow-sm">
+                              <span className="text-xs font-semibold px-3 py-1.5 bg-white/90 backdrop-blur-sm text-primary-600 rounded-full shadow-sm">
                                 {post.category}
                               </span>
                             </div>
@@ -269,7 +269,7 @@ export default function Blog() {
                               <FaCalendarAlt className="mr-1.5" />
                               {post.date}
                             </div>
-                            <h2 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-navy-500 transition-colors line-clamp-2">
+                            <h2 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-primary-600 transition-colors line-clamp-2">
                               {post.title}
                             </h2>
                             <p className="text-gray-600 mb-4 line-clamp-3 flex-grow">
@@ -277,12 +277,12 @@ export default function Blog() {
                             </p>
                             <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                               <div className="flex items-center">
-                                <div className="w-10 h-10 rounded-full bg-navy-100 flex items-center justify-center text-navy-500 text-sm font-medium mr-3">
+                                <div className="w-10 h-10 rounded-full bg-primary-100 flex items-center justify-center text-primary-600 text-sm font-medium mr-3">
                                   {post.author.split(' ').map(n => n[0]).join('')}
                                 </div>
                                 <span className="font-medium text-gray-700">{post.author}</span>
                               </div>
-                              <span className="text-navy-500 text-sm font-medium group-hover:text-navy-600 flex items-center">
+                              <span className="text-primary-600 text-sm font-medium group-hover:text-primary-700 flex items-center">
                                 Read More <FaArrowRight className="ml-1 text-xs" />
                               </span>
                             </div>
@@ -291,7 +291,7 @@ export default function Blog() {
                       ) : postStyle === 'premium-style' ? (
                         // Second page premium style
                         <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 h-full flex flex-col border border-gray-100">
-                          <div className="relative h-48 overflow-hidden bg-gradient-to-r from-navy-500 to-green-700">
+                          <div className="relative h-48 overflow-hidden bg-gradient-to-r from-primary-600 to-secondary-600">
                             <div className="absolute inset-0 bg-[url('/images/pattern.png')] opacity-10"></div>
                             <div className="absolute inset-0 flex items-center justify-center">
                               <div className="w-20 h-20 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-white text-2xl font-bold">
@@ -299,7 +299,7 @@ export default function Blog() {
                               </div>
                             </div>
                             <div className="absolute top-4 left-4">
-                              <span className="text-xs font-semibold px-3 py-1.5 bg-white/90 backdrop-blur-sm text-navy-500 rounded-full shadow-sm">
+                              <span className="text-xs font-semibold px-3 py-1.5 bg-white/90 backdrop-blur-sm text-primary-600 rounded-full shadow-sm">
                                 {post.category}
                               </span>
                             </div>
@@ -309,7 +309,7 @@ export default function Blog() {
                               <FaCalendarAlt className="mr-1.5" />
                               {post.date}
                             </div>
-                            <h2 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-navy-500 transition-colors line-clamp-2">
+                            <h2 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-primary-600 transition-colors line-clamp-2">
                               {post.title}
                             </h2>
                             <p className="text-gray-600 mb-4 line-clamp-3 flex-grow">
@@ -317,12 +317,12 @@ export default function Blog() {
                             </p>
                             <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                               <div className="flex items-center">
-                                <div className="w-10 h-10 rounded-full bg-navy-100 flex items-center justify-center text-navy-500 text-sm font-medium mr-3">
+                                <div className="w-10 h-10 rounded-full bg-primary-100 flex items-center justify-center text-primary-600 text-sm font-medium mr-3">
                                   {post.author.split(' ').map(n => n[0]).join('')}
                                 </div>
                                 <span className="font-medium text-gray-700">{post.author}</span>
                               </div>
-                              <span className="text-navy-500 text-sm font-medium group-hover:text-navy-600 flex items-center">
+                              <span className="text-primary-600 text-sm font-medium group-hover:text-primary-700 flex items-center">
                                 Read More <FaArrowRight className="ml-1 text-xs" />
                               </span>
                             </div>
@@ -331,8 +331,8 @@ export default function Blog() {
                       ) : (
                         // Standard style for other pages
                         <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 h-full flex flex-col border border-gray-100">
-                          <div className="p-4 bg-gradient-to-r from-navy-50 to-green-50 border-b border-gray-100">
-                            <span className="text-xs font-semibold px-3 py-1.5 bg-white text-navy-500 rounded-full shadow-sm">
+                          <div className="p-4 bg-gradient-to-r from-primary-50 to-secondary-50 border-b border-gray-100">
+                            <span className="text-xs font-semibold px-3 py-1.5 bg-white text-primary-600 rounded-full shadow-sm">
                               {post.category}
                             </span>
                           </div>
@@ -341,7 +341,7 @@ export default function Blog() {
                               <FaCalendarAlt className="mr-1.5" />
                               {post.date}
                             </div>
-                            <h2 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-navy-500 transition-colors line-clamp-2">
+                            <h2 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-primary-600 transition-colors line-clamp-2">
                               {post.title}
                             </h2>
                             <p className="text-gray-600 mb-4 line-clamp-3 flex-grow">
@@ -349,12 +349,12 @@ export default function Blog() {
                             </p>
                             <div className="flex items-center justify-between pt-4 border-t border-gray-100">
                               <div className="flex items-center">
-                                <div className="w-10 h-10 rounded-full bg-navy-100 flex items-center justify-center text-navy-500 text-sm font-medium mr-3">
+                                <div className="w-10 h-10 rounded-full bg-primary-100 flex items-center justify-center text-primary-600 text-sm font-medium mr-3">
                                   {post.author.split(' ').map(n => n[0]).join('')}
                                 </div>
                                 <span className="font-medium text-gray-700">{post.author}</span>
                               </div>
-                              <span className="text-navy-500 text-sm font-medium group-hover:text-navy-600 flex items-center">
+                              <span className="text-primary-600 text-sm font-medium group-hover:text-primary-700 flex items-center">
                                 Read More <FaArrowRight className="ml-1 text-xs" />
                               </span>
                             </div>
@@ -390,7 +390,7 @@ export default function Blog() {
                       onClick={() => handlePageChange(index + 1)}
                       className={`px-5 py-2.5 rounded-md ${
                         currentPage === index + 1
-                          ? 'bg-navy-500 text-white shadow-md'
+                          ? 'bg-primary-600 text-white shadow-md'
                           : 'bg-white text-gray-700 hover:bg-gray-100 shadow-sm'
                       }`}
                     >
@@ -417,29 +417,29 @@ export default function Blog() {
         </section>
 
         {/* Newsletter Section */}
-        <section className="py-16 bg-gradient-to-r from-navy-600 to-navy-900 text-white relative overflow-hidden">
+        <section className="py-16 bg-gradient-to-r from-primary-700 to-primary-900 text-white relative overflow-hidden">
           <div className="absolute inset-0 bg-[url('/images/pattern.png')] opacity-10"></div>
           <div className="container-custom relative z-10">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Stay Updated with VoIP Trends</h2>
-              <p className="text-xl mb-8 text-navy-50">
+              <p className="text-xl mb-8 text-primary-100">
                 Subscribe to our newsletter for the latest business communications insights and tips
               </p>
               <form className="flex flex-col md:flex-row gap-4 max-w-2xl mx-auto">
                 <input
                   type="email"
                   placeholder="Your email address"
-                  className="px-5 py-3.5 rounded-md flex-grow text-gray-800 focus:outline-none focus:ring-2 focus:ring-green-500 shadow-md"
+                  className="px-5 py-3.5 rounded-md flex-grow text-gray-800 focus:outline-none focus:ring-2 focus:ring-secondary-400 shadow-md"
                   required
                 />
                 <button
                   type="submit"
-                  className="bg-green-700 hover:bg-green-800 transition-colors text-white font-medium px-8 py-3.5 rounded-md shadow-md"
+                  className="bg-secondary-600 hover:bg-secondary-700 transition-colors text-white font-medium px-8 py-3.5 rounded-md shadow-md"
                 >
                   Subscribe
                 </button>
               </form>
-              <p className="mt-4 text-sm text-navy-200">
+              <p className="mt-4 text-sm text-primary-200">
                 We respect your privacy. Unsubscribe at any time. See our{' '}
                 <Link href="/compliance/consent" className="underline hover:text-white">Opt-In &amp; Consent Policy</Link>.
               </p>

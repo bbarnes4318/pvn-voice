@@ -7,7 +7,7 @@ import { FaFileAlt, FaShieldAlt, FaPrint, FaUserShield } from 'react-icons/fa';
 
 export default function TermsOfService() {
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-navy-50 to-navy-100">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
         <title>Terms of Service - PVN Voice</title>
         <meta name="description" content="Read PVN Voice's Terms of Service and understand the terms that govern your use of our VoIP and business communication services." />
@@ -17,22 +17,22 @@ export default function TermsOfService() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-navy-500 text-white py-10">
+        <section className="bg-primary-600 text-white py-10">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto">
               <div className="flex justify-between items-center mb-6">
-                <Link href="/" className="text-navy-50 hover:text-white transition-colors text-sm">
+                <Link href="/" className="text-primary-100 hover:text-white transition-colors text-sm">
                   &larr; Back to Home
                 </Link>
                 <button 
                   onClick={() => window.print()} 
-                  className="text-navy-50 hover:text-white transition-colors text-sm flex items-center"
+                  className="text-primary-100 hover:text-white transition-colors text-sm flex items-center"
                 >
                   <FaPrint className="mr-1" /> Print
                 </button>
               </div>
               <h1 className="text-3xl md:text-4xl font-bold">Terms of Service</h1>
-              <p className="text-navy-50 mt-3">
+              <p className="text-primary-100 mt-3">
                 Last Updated: June 1, 2023
               </p>
             </div>
@@ -49,35 +49,35 @@ export default function TermsOfService() {
                   <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
                     <h2 className="text-lg font-bold text-gray-800 mb-4 border-b border-gray-200 pb-2">Contents</h2>
                     <ul className="space-y-2 text-sm">
-                      <li><a href="#acceptance" className="text-navy-500 hover:text-navy-700 transition-colors">1. Acceptance of Terms</a></li>
-                      <li><a href="#description" className="text-navy-500 hover:text-navy-700 transition-colors">2. Description of Services</a></li>
-                      <li><a href="#eligibility" className="text-navy-500 hover:text-navy-700 transition-colors">3. Eligibility</a></li>
-                      <li><a href="#registration" className="text-navy-500 hover:text-navy-700 transition-colors">4. Account Registration</a></li>
-                      <li><a href="#fees" className="text-navy-500 hover:text-navy-700 transition-colors">5. Fees and Payments</a></li>
-                      <li><a href="#expectations" className="text-navy-500 hover:text-navy-700 transition-colors">6. Service Expectations</a></li>
-                      <li><a href="#responsibilities" className="text-navy-500 hover:text-navy-700 transition-colors">7. Client Responsibilities</a></li>
-                      <li><a href="#termination" className="text-navy-500 hover:text-navy-700 transition-colors">8. Termination of Services</a></li>
-                      <li><a href="#privacy" className="text-navy-500 hover:text-navy-700 transition-colors">9. Privacy and Communication</a></li>
-                      <li><a href="#liability" className="text-navy-500 hover:text-navy-700 transition-colors">10. Limitation of Liability</a></li>
-                      <li><a href="#disclaimer" className="text-navy-500 hover:text-navy-700 transition-colors">11. Disclaimer of Warranties</a></li>
-                      <li><a href="#indemnification" className="text-navy-500 hover:text-navy-700 transition-colors">12. Indemnification</a></li>
-                      <li><a href="#changes" className="text-navy-500 hover:text-navy-700 transition-colors">13. Changes to Terms</a></li>
-                      <li><a href="#governing" className="text-navy-500 hover:text-navy-700 transition-colors">14. Governing Law</a></li>
-                      <li><a href="#contact" className="text-navy-500 hover:text-navy-700 transition-colors">15. Contact Information</a></li>
+                      <li><a href="#acceptance" className="text-primary-600 hover:text-primary-800 transition-colors">1. Acceptance of Terms</a></li>
+                      <li><a href="#description" className="text-primary-600 hover:text-primary-800 transition-colors">2. Description of Services</a></li>
+                      <li><a href="#eligibility" className="text-primary-600 hover:text-primary-800 transition-colors">3. Eligibility</a></li>
+                      <li><a href="#registration" className="text-primary-600 hover:text-primary-800 transition-colors">4. Account Registration</a></li>
+                      <li><a href="#fees" className="text-primary-600 hover:text-primary-800 transition-colors">5. Fees and Payments</a></li>
+                      <li><a href="#expectations" className="text-primary-600 hover:text-primary-800 transition-colors">6. Service Expectations</a></li>
+                      <li><a href="#responsibilities" className="text-primary-600 hover:text-primary-800 transition-colors">7. Client Responsibilities</a></li>
+                      <li><a href="#termination" className="text-primary-600 hover:text-primary-800 transition-colors">8. Termination of Services</a></li>
+                      <li><a href="#privacy" className="text-primary-600 hover:text-primary-800 transition-colors">9. Privacy and Communication</a></li>
+                      <li><a href="#liability" className="text-primary-600 hover:text-primary-800 transition-colors">10. Limitation of Liability</a></li>
+                      <li><a href="#disclaimer" className="text-primary-600 hover:text-primary-800 transition-colors">11. Disclaimer of Warranties</a></li>
+                      <li><a href="#indemnification" className="text-primary-600 hover:text-primary-800 transition-colors">12. Indemnification</a></li>
+                      <li><a href="#changes" className="text-primary-600 hover:text-primary-800 transition-colors">13. Changes to Terms</a></li>
+                      <li><a href="#governing" className="text-primary-600 hover:text-primary-800 transition-colors">14. Governing Law</a></li>
+                      <li><a href="#contact" className="text-primary-600 hover:text-primary-800 transition-colors">15. Contact Information</a></li>
                     </ul>
                   </div>
                   
-                  <div className="mt-6 bg-navy-50 p-5 rounded-lg border border-navy-100">
+                  <div className="mt-6 bg-primary-50 p-5 rounded-lg border border-primary-100">
                     <div className="flex items-center mb-3">
-                      <FaShieldAlt className="text-navy-500 mr-2" />
-                      <h3 className="font-bold text-navy-600">Have Questions?</h3>
+                      <FaShieldAlt className="text-primary-600 mr-2" />
+                      <h3 className="font-bold text-primary-700">Have Questions?</h3>
                     </div>
                     <p className="text-sm text-gray-700 mb-3">
                       Our legal team is available to explain any part of these terms or answer any questions you may have.
                     </p>
                     <a 
                       href="tel:+19045128487" 
-                      className="block w-full bg-navy-500 hover:bg-navy-600 text-white text-center py-2 px-3 rounded text-sm font-medium"
+                      className="block w-full bg-primary-600 hover:bg-primary-700 text-white text-center py-2 px-3 rounded text-sm font-medium"
                     >
                       Call (904) 512-8487
                     </a>
@@ -89,7 +89,7 @@ export default function TermsOfService() {
               <div className="lg:w-3/4">
                 <div className="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-100 mb-8">
                   <div className="flex items-start">
-                    <FaFileAlt className="text-navy-500 text-2xl mr-4 mt-1 flex-shrink-0" />
+                    <FaFileAlt className="text-primary-600 text-2xl mr-4 mt-1 flex-shrink-0" />
                     <div>
                       <h2 className="text-xl font-bold text-gray-800 mb-2">Important Notice</h2>
                       <p className="text-gray-700 text-sm leading-relaxed">
@@ -210,7 +210,7 @@ export default function TermsOfService() {
 
                   <h2 id="privacy" className="text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200">9. Privacy and Communication</h2>
                   <p className="text-gray-700 leading-relaxed mb-3">
-                    Your privacy is important to us. Please review our <Link href="/privacy-policy" className="text-navy-500 hover:text-navy-700 transition-colors">Privacy Policy</Link> to understand how we collect, use, and share your information.
+                    Your privacy is important to us. Please review our <Link href="/privacy-policy" className="text-primary-600 hover:text-primary-800 transition-colors">Privacy Policy</Link> to understand how we collect, use, and share your information.
                   </p>
                   <p className="text-gray-700 leading-relaxed">
                     By using our Services, you consent to receive communications from us, including emails, text messages, and phone calls related to your account and VoIP services. You can opt out of marketing communications, but we may still send you important service-related communications.
@@ -258,11 +258,11 @@ export default function TermsOfService() {
                     <ul className="space-y-2">
                       <li className="text-gray-700 flex items-center">
                         <span className="w-20 inline-block font-medium">Email:</span> 
-                        <a href="mailto:support@pvndialer.com" className="text-navy-500 hover:text-navy-600">support@pvndialer.com</a>
+                        <a href="mailto:support@pvndialer.com" className="text-primary-600 hover:text-primary-700">support@pvndialer.com</a>
                       </li>
                       <li className="text-gray-700 flex items-center">
                         <span className="w-20 inline-block font-medium">Phone:</span> 
-                        <a href="tel:+19045128487" className="text-navy-500 hover:text-navy-600">(904) 512-8487</a>
+                        <a href="tel:+19045128487" className="text-primary-600 hover:text-primary-700">(904) 512-8487</a>
                       </li>
                       <li className="text-gray-700 flex items-start">
                         <span className="w-20 inline-block font-medium">Mail:</span> 
@@ -278,7 +278,7 @@ export default function TermsOfService() {
                       </p>
                       <a 
                         href="#top" 
-                        className="flex items-center text-navy-500 hover:text-navy-600 transition-colors text-xs font-medium"
+                        className="flex items-center text-primary-600 hover:text-primary-700 transition-colors text-xs font-medium"
                       >
                         Back to Top
                         <svg className="ml-1 w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -300,17 +300,17 @@ export default function TermsOfService() {
               <h2 className="text-lg font-bold text-gray-800 mb-4 text-center">Related Documents</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <Link href="/privacy-policy" className="bg-white rounded-md p-4 shadow-sm text-center hover:shadow transition-shadow border border-gray-100">
-                  <FaShieldAlt className="text-navy-500 text-xl mx-auto mb-2" />
+                  <FaShieldAlt className="text-primary-600 text-xl mx-auto mb-2" />
                   <h3 className="font-bold text-gray-800 text-sm mb-1">Privacy Policy</h3>
                   <p className="text-gray-600 text-xs">How we protect and use your information</p>
                 </Link>
                 <Link href="/disclosures" className="bg-white rounded-md p-4 shadow-sm text-center hover:shadow transition-shadow border border-gray-100">
-                  <FaUserShield className="text-navy-500 text-xl mx-auto mb-2" />
+                  <FaUserShield className="text-primary-600 text-xl mx-auto mb-2" />
                   <h3 className="font-bold text-gray-800 text-sm mb-1">Disclosures</h3>
                   <p className="text-gray-600 text-xs">Important information about our VoIP services</p>
                 </Link>
                 <Link href="/contact-us" className="bg-white rounded-md p-4 shadow-sm text-center hover:shadow transition-shadow border border-gray-100">
-                  <FaFileAlt className="text-navy-500 text-xl mx-auto mb-2" />
+                  <FaFileAlt className="text-primary-600 text-xl mx-auto mb-2" />
                   <h3 className="font-bold text-gray-800 text-sm mb-1">Contact Us</h3>
                   <p className="text-gray-600 text-xs">Get help or ask questions about these terms</p>
                 </Link>

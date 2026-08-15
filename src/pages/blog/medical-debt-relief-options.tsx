@@ -16,14 +16,14 @@ export default function VoIPCallQualityOptimization() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-navy-500 text-white py-12 md:py-20">
+        <section className="bg-primary-600 text-white py-12 md:py-20">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto">
-              <Link href="/blog" className="inline-flex items-center text-navy-50 hover:text-white mb-6 transition-colors">
+              <Link href="/blog" className="inline-flex items-center text-primary-100 hover:text-white mb-6 transition-colors">
                 <FaArrowLeft className="mr-2" /> Back to Blog
               </Link>
               <h1 className="text-3xl md:text-5xl font-bold mb-6">VoIP Call Quality Optimization: A Complete Guide to Crystal Clear Communications</h1>
-              <div className="flex items-center text-navy-50 space-x-6">
+              <div className="flex items-center text-primary-100 space-x-6">
                 <div className="flex items-center">
                   <FaCalendarAlt className="mr-2" />
                   <span>April 1, 2024</span>
@@ -33,7 +33,7 @@ export default function VoIPCallQualityOptimization() {
                   <span>Michael Reynolds</span>
                 </div>
                 <div>
-                  <span className="px-3 py-1 bg-navy-600 rounded-full text-sm">VoIP Quality</span>
+                  <span className="px-3 py-1 bg-primary-700 rounded-full text-sm">VoIP Quality</span>
                 </div>
               </div>
             </div>
@@ -61,10 +61,10 @@ export default function VoIPCallQualityOptimization() {
                     What makes VoIP optimization particularly challenging is its real-time nature. Unlike email or messaging, voice calls require consistent performance without interruption. Network issues that might go unnoticed during other activities can significantly impact call quality.
                   </p>
 
-                  <div className="bg-navy-50 border-l-4 border-navy-500 p-5 my-8">
+                  <div className="bg-blue-50 border-l-4 border-blue-500 p-5 my-8">
                     <div className="flex">
-                      <FaWifi className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
-                      <p className="text-navy-600 m-0">
+                      <FaWifi className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
+                      <p className="text-blue-700 m-0">
                         <strong>Important:</strong> Before implementing any optimizations, establish baseline measurements of your current call quality. Use tools like VoIP monitoring software to track metrics such as latency, jitter, and packet loss. This data will help you identify specific areas needing improvement.
                       </p>
                     </div>
@@ -114,7 +114,7 @@ export default function VoIPCallQualityOptimization() {
 
                   <div className="grid md:grid-cols-2 gap-6 my-8">
                     <div className="bg-gray-50 p-6 rounded-xl">
-                      <h3 className="font-bold text-navy-500 mb-3">Network Monitoring Tools</h3>
+                      <h3 className="font-bold text-primary-600 mb-3">Network Monitoring Tools</h3>
                       <p className="text-gray-700 mb-4">
                         Implement comprehensive monitoring solutions to track call quality metrics and identify issues before they affect users.
                       </p>
@@ -124,7 +124,7 @@ export default function VoIPCallQualityOptimization() {
                       </div>
                     </div>
                     <div className="bg-gray-50 p-6 rounded-xl">
-                      <h3 className="font-bold text-navy-500 mb-3">Troubleshooting Tools</h3>
+                      <h3 className="font-bold text-primary-600 mb-3">Troubleshooting Tools</h3>
                       <p className="text-gray-700 mb-4">
                         Keep essential diagnostic tools ready for quick problem resolution.
                       </p>
@@ -209,14 +209,14 @@ export default function VoIPCallQualityOptimization() {
               {/* Sidebar */}
               <div className="lg:col-span-1">
                 {/* CTA Box */}
-                <div className="bg-navy-50 rounded-xl p-6 mb-8">
-                  <h3 className="text-xl font-bold text-navy-600 mb-4">Need Help with VoIP Call Quality?</h3>
+                <div className="bg-primary-50 rounded-xl p-6 mb-8">
+                  <h3 className="text-xl font-bold text-primary-700 mb-4">Need Help with VoIP Call Quality?</h3>
                   <p className="text-gray-700 mb-6">
                     Our VoIP experts can help you optimize your system and achieve crystal clear communications.
                   </p>
                   <a 
                     href="tel:+19045128487" 
-                    className="block w-full bg-green-700 hover:bg-green-800 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors mb-4"
+                    className="block w-full bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors mb-4"
                   >
                     <FaPhoneAlt className="inline mr-2" />
                     Call (904) 512-8487 for a Free Consultation
@@ -230,14 +230,14 @@ export default function VoIPCallQualityOptimization() {
                 </div>
 
                 {/* Free Resources */}
-                <div className="bg-green-50 rounded-xl p-6 mb-8">
-                  <h3 className="text-xl font-bold text-green-800 mb-4">Free VoIP Resources</h3>
+                <div className="bg-secondary-50 rounded-xl p-6 mb-8">
+                  <h3 className="text-xl font-bold text-secondary-700 mb-4">Free VoIP Resources</h3>
                   <p className="text-gray-700 mb-6">
                     Download our helpful guides and templates for optimizing VoIP call quality and managing communications.
                   </p>
                   <a 
                     href="#" 
-                    className="block w-full bg-green-700 hover:bg-green-800 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors"
+                    className="block w-full bg-secondary-600 hover:bg-secondary-700 text-white font-medium py-3 px-4 rounded-lg text-center transition-colors"
                   >
                     <FaHeadset className="inline mr-2" />
                     Download Resources
@@ -271,7 +271,7 @@ export default function VoIPCallQualityOptimization() {
                   </ul>
                   <Link 
                     href="/VoIP-FAQ" 
-                    className="text-navy-500 hover:text-navy-600 text-sm font-medium flex items-center mt-4"
+                    className="text-primary-600 hover:text-primary-700 text-sm font-medium flex items-center mt-4"
                   >
                     Read our full VoIP FAQ
                     <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -286,19 +286,19 @@ export default function VoIPCallQualityOptimization() {
                   <ul className="space-y-6">
                     <li>
                       <Link href="/blog/VoIP-setup-guide" className="group">
-                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-1">VoIP Setup Guide: A Comprehensive Step-by-Step Guide</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-1">VoIP Setup Guide: A Comprehensive Step-by-Step Guide</h4>
                         <p className="text-sm text-gray-500">March 15, 2024</p>
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/VoIP-security-tips" className="group">
-                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-1">VoIP Security Tips: Protecting Your Communications</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-1">VoIP Security Tips: Protecting Your Communications</h4>
                         <p className="text-sm text-gray-500">February 15, 2024</p>
                       </Link>
                     </li>
                     <li>
                       <Link href="/blog/VoIP-migration-strategy" className="group">
-                        <h4 className="font-medium text-gray-800 group-hover:text-navy-500 transition-colors mb-1">VoIP Migration Strategy: Moving to VoIP Made Easy</h4>
+                        <h4 className="font-medium text-gray-800 group-hover:text-primary-600 transition-colors mb-1">VoIP Migration Strategy: Moving to VoIP Made Easy</h4>
                         <p className="text-sm text-gray-500">January 15, 2024</p>
                       </Link>
                     </li>
@@ -310,7 +310,7 @@ export default function VoIPCallQualityOptimization() {
         </section>
 
         {/* CTA Banner */}
-        <section className="bg-navy-500 text-white py-12">
+        <section className="bg-primary-600 text-white py-12">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-bold mb-6">Ready to Optimize Your VoIP Call Quality?</h2>
@@ -319,7 +319,7 @@ export default function VoIPCallQualityOptimization() {
               </p>
               <a 
                 href="tel:+19045128487" 
-                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-green-700 hover:bg-green-800"
+                className="btn-call mx-auto flex items-center justify-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
               >
                 <FaPhoneAlt className="text-white" />
                 <span>Call (904) 512-8487 for a Free Consultation</span>

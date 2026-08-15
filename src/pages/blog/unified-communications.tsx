@@ -16,14 +16,14 @@ export default function UnifiedCommunications() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-navy-500 text-white py-12 md:py-20">
+        <section className="bg-primary-600 text-white py-12 md:py-20">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto">
-              <Link href="/blog" className="inline-flex items-center text-navy-50 hover:text-white mb-6 transition-colors">
+              <Link href="/blog" className="inline-flex items-center text-primary-100 hover:text-white mb-6 transition-colors">
                 <FaArrowLeft className="mr-2" /> Back to Blog
               </Link>
               <h1 className="text-3xl md:text-5xl font-bold mb-6">Unified Communications: The Future of Business Communication</h1>
-              <div className="flex items-center text-navy-50 space-x-6">
+              <div className="flex items-center text-primary-100 space-x-6">
                 <div className="flex items-center">
                   <FaCalendarAlt className="mr-2" />
                   <span>April 2, 2024</span>
@@ -33,7 +33,7 @@ export default function UnifiedCommunications() {
                   <span>Emily Rodriguez</span>
                 </div>
                 <div>
-                  <span className="px-3 py-1 bg-navy-600 rounded-full text-sm">UCaaS</span>
+                  <span className="px-3 py-1 bg-primary-700 rounded-full text-sm">UCaaS</span>
                 </div>
               </div>
             </div>
@@ -61,8 +61,8 @@ export default function UnifiedCommunications() {
                   <div className="grid md:grid-cols-2 gap-6 my-8">
                     <div className="bg-gray-50 p-6 rounded-xl">
                       <div className="flex items-center mb-4">
-                        <FaPhoneAlt className="text-navy-500 mr-3" />
-                        <h3 className="font-bold text-navy-500 m-0">Voice Communication</h3>
+                        <FaPhoneAlt className="text-primary-600 mr-3" />
+                        <h3 className="font-bold text-primary-600 m-0">Voice Communication</h3>
                       </div>
                       <ul className="list-disc pl-5 space-y-2">
                         <li>VoIP phone calls</li>
@@ -73,8 +73,8 @@ export default function UnifiedCommunications() {
                     </div>
                     <div className="bg-gray-50 p-6 rounded-xl">
                       <div className="flex items-center mb-4">
-                        <FaVideo className="text-navy-500 mr-3" />
-                        <h3 className="font-bold text-navy-500 m-0">Video Collaboration</h3>
+                        <FaVideo className="text-primary-600 mr-3" />
+                        <h3 className="font-bold text-primary-600 m-0">Video Collaboration</h3>
                       </div>
                       <ul className="list-disc pl-5 space-y-2">
                         <li>Video conferencing</li>
@@ -86,10 +86,10 @@ export default function UnifiedCommunications() {
                   </div>
 
                   <h2>Key Benefits of Unified Communications</h2>
-                  <div className="bg-navy-50 border-l-4 border-navy-500 p-5 my-8">
+                  <div className="bg-blue-50 border-l-4 border-blue-500 p-5 my-8">
                     <div className="flex">
-                      <FaGlobe className="text-navy-500 mt-1 mr-3 flex-shrink-0" />
-                      <p className="text-navy-600 m-0">
+                      <FaGlobe className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
+                      <p className="text-blue-700 m-0">
                         <strong>Pro Tip:</strong> Modern UC platforms are cloud-based, offering unprecedented flexibility and scalability for businesses of all sizes.
                       </p>
                     </div>
@@ -116,15 +116,15 @@ export default function UnifiedCommunications() {
                     <h3 className="font-bold mb-4">Key Factors to Consider</h3>
                     <div className="space-y-4">
                       <div className="bg-white p-4 rounded shadow-sm">
-                        <h4 className="font-bold text-navy-500">Network Infrastructure</h4>
+                        <h4 className="font-bold text-primary-600">Network Infrastructure</h4>
                         <p className="text-gray-800">Ensure your network can handle the increased bandwidth requirements of UC solutions</p>
                       </div>
                       <div className="bg-white p-4 rounded shadow-sm">
-                        <h4 className="font-bold text-navy-500">User Training</h4>
+                        <h4 className="font-bold text-primary-600">User Training</h4>
                         <p className="text-gray-800">Comprehensive training programs to maximize UC adoption and utilization</p>
                       </div>
                       <div className="bg-white p-4 rounded shadow-sm">
-                        <h4 className="font-bold text-navy-500">Security Measures</h4>
+                        <h4 className="font-bold text-primary-600">Security Measures</h4>
                         <p className="text-gray-800">Implement robust security protocols to protect sensitive communications</p>
                       </div>
                     </div>
@@ -141,12 +141,12 @@ export default function UnifiedCommunications() {
                     <li>Greater personalization options</li>
                   </ul>
 
-                  <div className="bg-navy-50 p-6 rounded-xl mt-8">
-                    <h3 className="font-bold text-navy-500 mb-3">Ready to Transform Your Communication?</h3>
+                  <div className="bg-primary-50 p-6 rounded-xl mt-8">
+                    <h3 className="font-bold text-primary-600 mb-3">Ready to Transform Your Communication?</h3>
                     <p className="text-gray-700 mb-4">
                       Contact PVN Voice today to learn how our unified communications solutions can benefit your business.
                     </p>
-                    <a href="/contact-us" className="inline-block bg-navy-500 text-white px-6 py-3 rounded-md hover:bg-navy-600 transition-colors">
+                    <a href="/contact-us" className="inline-block bg-primary-600 text-white px-6 py-3 rounded-md hover:bg-primary-700 transition-colors">
                       Get Started
                     </a>
                   </div>
@@ -191,11 +191,11 @@ export default function UnifiedCommunications() {
                   <h3 className="font-bold text-gray-800 mb-4">Related Posts</h3>
                   <div className="space-y-4">
                     <Link href="/blog/voip-cost-savings" className="block p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                      <h4 className="font-bold text-navy-500 mb-2">VoIP Cost Savings Guide</h4>
+                      <h4 className="font-bold text-primary-600 mb-2">VoIP Cost Savings Guide</h4>
                       <p className="text-gray-600 text-sm">Learn how businesses are reducing communication costs with VoIP</p>
                     </Link>
                     <Link href="/blog/remote-work-voip" className="block p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                      <h4 className="font-bold text-navy-500 mb-2">Remote Work VoIP Solutions</h4>
+                      <h4 className="font-bold text-primary-600 mb-2">Remote Work VoIP Solutions</h4>
                       <p className="text-gray-600 text-sm">Essential VoIP features for remote work success</p>
                     </Link>
                   </div>

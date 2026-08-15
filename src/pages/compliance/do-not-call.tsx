@@ -28,7 +28,7 @@ export default function DoNotCallPolicy() {
       sections={sections}
     >
       <h2 id="national-registry" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaBan className="text-navy-500 mr-2 flex-shrink-0" /> 1. National Do-Not-Call Registry
+        <FaBan className="text-primary-600 mr-2 flex-shrink-0" /> 1. National Do-Not-Call Registry
       </h2>
       <ul className="list-disc pl-6 space-y-2 mb-4">
         <li className="text-gray-700">
@@ -43,7 +43,7 @@ export default function DoNotCallPolicy() {
       </ul>
 
       <h2 id="internal-list" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaListAlt className="text-navy-500 mr-2 flex-shrink-0" /> 2. Internal Do-Not-Call List
+        <FaListAlt className="text-primary-600 mr-2 flex-shrink-0" /> 2. Internal Do-Not-Call List
       </h2>
       <ul className="list-disc pl-6 space-y-2 mb-4">
         <li className="text-gray-700">
@@ -58,7 +58,7 @@ export default function DoNotCallPolicy() {
       </ul>
 
       <h2 id="additional-suppression" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaFilter className="text-navy-500 mr-2 flex-shrink-0" /> 3. Additional Suppression
+        <FaFilter className="text-primary-600 mr-2 flex-shrink-0" /> 3. Additional Suppression
       </h2>
       <ul className="list-disc pl-6 space-y-2 mb-4">
         <li className="text-gray-700">
@@ -73,7 +73,7 @@ export default function DoNotCallPolicy() {
       </ul>
 
       <h2 id="training" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaUserGraduate className="text-navy-500 mr-2 flex-shrink-0" /> 4. Agent Training and Enforcement
+        <FaUserGraduate className="text-primary-600 mr-2 flex-shrink-0" /> 4. Agent Training and Enforcement
       </h2>
       <ul className="list-disc pl-6 space-y-2 mb-4">
         <li className="text-gray-700">
@@ -88,7 +88,7 @@ export default function DoNotCallPolicy() {
       </ul>
 
       <h2 id="recordkeeping" className="flex items-center text-xl font-bold text-gray-800 mt-8 mb-4 pb-2 border-b border-gray-200 scroll-mt-24">
-        <FaClipboardList className="text-navy-500 mr-2 flex-shrink-0" /> 5. Recordkeeping
+        <FaClipboardList className="text-primary-600 mr-2 flex-shrink-0" /> 5. Recordkeeping
       </h2>
       <p className="text-gray-700 leading-relaxed mb-4">
         The Company retains DNC scrub logs, suppression files, SAN documentation, consent records, and internal DNC entries for a minimum of five (5) years.

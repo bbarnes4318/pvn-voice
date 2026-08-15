@@ -165,7 +165,7 @@ export default function Glossary() {
   });
   
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-navy-50 to-navy-100">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
         <title>VoIP Glossary - PVN Voice</title>
         <meta name="description" content="A comprehensive glossary of VoIP and business communication terminology to help you better understand cloud telephony solutions." />
@@ -174,11 +174,11 @@ export default function Glossary() {
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-navy-500 text-white py-12 md:py-20">
+        <section className="bg-primary-600 text-white py-12 md:py-20">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">VoIP Glossary</h1>
-              <p className="text-xl md:text-2xl text-navy-50">
+              <p className="text-xl md:text-2xl text-primary-100">
                 Understanding telecommunications terminology is the first step toward making informed decisions about your business phone system.
               </p>
             </div>
@@ -197,7 +197,7 @@ export default function Glossary() {
                       placeholder="Search glossary terms..."
                       value={searchTerm}
                       onChange={(e) => setSearchTerm(e.target.value)}
-                      className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-navy-500 focus:border-transparent"
+                      className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-600 focus:border-transparent"
                     />
                     <FaSearch className="absolute left-3 top-3.5 text-gray-400" />
                   </div>
@@ -210,7 +210,7 @@ export default function Glossary() {
                       onClick={() => setSelectedCategory(category)}
                       className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                         selectedCategory === category
-                          ? 'bg-green-700 text-white'
+                          ? 'bg-secondary-600 text-white'
                           : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                       }`}
                     >
@@ -236,7 +236,7 @@ export default function Glossary() {
                       onClick={() => hasTerms && scrollToLetter(letter)}
                       className={`w-8 h-8 flex items-center justify-center rounded-full text-sm font-medium ${
                         hasTerms
-                          ? 'bg-navy-50 text-navy-500 hover:bg-navy-100 cursor-pointer'
+                          ? 'bg-primary-50 text-primary-600 hover:bg-primary-100 cursor-pointer'
                           : 'bg-gray-100 text-gray-400 cursor-not-allowed'
                       }`}
                       disabled={!hasTerms}
@@ -266,7 +266,7 @@ export default function Glossary() {
               
               {Object.keys(groupedTerms).sort().map(letter => (
                 <div key={letter} id={`letter-${letter}`} className="mb-10">
-                  <h2 className="text-3xl font-bold text-navy-500 mb-6 border-b-2 border-navy-100 pb-2">
+                  <h2 className="text-3xl font-bold text-primary-600 mb-6 border-b-2 border-primary-100 pb-2">
                     {letter}
                   </h2>
                   <div className="space-y-4">
@@ -278,7 +278,7 @@ export default function Glossary() {
                         >
                           <h3 className="text-lg font-semibold text-gray-800">{term.term}</h3>
                           <div className="flex items-center">
-                            <span className="text-xs px-2 py-1 rounded bg-navy-100 text-navy-600 mr-3">
+                            <span className="text-xs px-2 py-1 rounded bg-primary-100 text-primary-700 mr-3">
                               {term.category}
                             </span>
                             {expandedTerms[term.term] ? (
@@ -302,8 +302,8 @@ export default function Glossary() {
 
             {/* Related Resources */}
             <div className="max-w-4xl mx-auto mt-16">
-              <div className="bg-navy-50 rounded-xl p-8">
-                <h2 className="text-2xl font-bold text-navy-500 mb-6">Related Resources</h2>
+              <div className="bg-primary-50 rounded-xl p-8">
+                <h2 className="text-2xl font-bold text-primary-600 mb-6">Related Resources</h2>
                 <div className="grid md:grid-cols-2 gap-6">
                   <Link href="/debt-calculator" className="block p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
                     <h3 className="text-xl font-semibold text-gray-800 mb-2">Pricing Calculator</h3>

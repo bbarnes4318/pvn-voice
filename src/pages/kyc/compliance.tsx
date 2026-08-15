@@ -51,7 +51,7 @@ const Compliance: React.FC = () => {
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
           <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
             <div className="flex justify-center">
-              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-navy-500"></div>
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
             </div>
             <p className="mt-4 text-center text-sm text-gray-600">
               Loading compliance data...
@@ -109,20 +109,20 @@ const Compliance: React.FC = () => {
                   <div className="relative pt-1">
                     <div className="flex mb-2 items-center justify-between">
                       <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-navy-500 bg-navy-200">
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-blue-200">
                           Compliance Score
                         </span>
                       </div>
                       <div className="text-right">
-                        <span className="text-xs font-semibold inline-block text-navy-500">
+                        <span className="text-xs font-semibold inline-block text-blue-600">
                           {complianceData.score}%
                         </span>
                       </div>
                     </div>
-                    <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-navy-200">
+                    <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-blue-200">
                       <div
                         style={{ width: `${complianceData.score}%` }}
-                        className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-navy-500"
+                        className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-500"
                       ></div>
                     </div>
                   </div>
@@ -265,13 +265,13 @@ const Compliance: React.FC = () => {
               <div className="flex justify-center space-x-4">
                 <Link
                   href="/kyc"
-                  className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-navy-500 hover:bg-navy-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-navy-500"
+                  className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                 >
                   Complete KYC
                 </Link>
                 <Link
                   href="/dashboard"
-                  className="inline-flex items-center px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-navy-500"
+                  className="inline-flex items-center px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                 >
                   Back to Dashboard
                 </Link>

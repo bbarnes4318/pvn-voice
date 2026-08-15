@@ -59,7 +59,7 @@ const DocumentUpload: React.FC<DocumentUploadProps> = ({
     <div className="w-full">
       <div
         className={`border-2 border-dashed rounded-lg p-6 text-center ${
-          dragActive ? 'border-navy-500 bg-navy-50' : 'border-gray-300'
+          dragActive ? 'border-blue-500 bg-blue-50' : 'border-gray-300'
         }`}
         onDragEnter={handleDrag}
         onDragLeave={handleDrag}
@@ -93,7 +93,7 @@ const DocumentUpload: React.FC<DocumentUploadProps> = ({
               />
             </svg>
             <div className="text-sm text-gray-600">
-              <span className="font-medium text-navy-500 hover:text-navy-500">
+              <span className="font-medium text-blue-600 hover:text-blue-500">
                 Upload a file
               </span>{" "}
               or drag and drop

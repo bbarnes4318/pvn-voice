@@ -6,7 +6,7 @@ import { PORTAL_LOGIN_URL } from '../lib/site-links';
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-b from-navy-600 to-navy-900 text-white pb-8">
+    <footer className="bg-gradient-to-b from-primary-700 to-primary-900 text-white pb-8">
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 pt-16">
           {/* Column 1 - Logo & About */}
@@ -159,7 +159,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="mt-12 pt-8 border-t border-navy-500">
+        <div className="mt-12 pt-8 border-t border-primary-600">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-200 text-sm mb-4 md:mb-0">
               © {new Date().getFullYear()} PVN Voice. All rights reserved.
