@@ -22,22 +22,6 @@ module.exports = {
     },
     extend: {
       colors: {
-        // Single source of truth for the PVN Voice palette. `navy` is the brand
-        // color and the logo blue; `attest` and `flag` carry reserved meaning
-        // (attested/clean/included and tagged/declined respectively) and are
-        // never used as decoration.
-        ink: '#001E33',
-        navy: '#003359',
-        paper: '#F2F5F7',
-        card: '#FFFFFF',
-        slate: '#5A7183',
-        rule: '#D3DDE4',
-        attest: '#3CB26E',
-        flag: '#D14343',
-
-        // Legacy palettes retained only for pages not covered by the rebuild
-        // (glossary and the unlinked legacy routes). New work uses the tokens
-        // above.
         primary: {
           50: '#f0f5fc',
           100: '#dde7f5',
@@ -79,19 +63,13 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['"IBM Plex Sans"', '"Segoe UI"', 'Helvetica', 'Arial', 'sans-serif'],
-        display: ['Archivo', '"Helvetica Neue"', 'Arial', 'sans-serif'],
-        data: ['"IBM Plex Mono"', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
-      },
-      maxWidth: {
-        doc: '780px',
-        shell: '1240px',
+        sans: ['Inter', 'sans-serif'],
+        display: ['Montserrat', 'sans-serif'],
       },
       boxShadow: {
-        cta: '0 10px 25px -5px rgba(40, 156, 106, 0.5)',
-        monitor: '0 24px 60px -30px rgba(0, 30, 51, .6)',
-      },
+        'cta': '0 10px 25px -5px rgba(40, 156, 106, 0.5)',
+      }
     },
   },
   plugins: [],
-};
+} 

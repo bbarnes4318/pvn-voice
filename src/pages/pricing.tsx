@@ -1,121 +1,164 @@
 import React from 'react';
 import Head from 'next/head';
-import SiteHeader from '../components/SiteHeader';
-import SiteFooter from '../components/SiteFooter';
-import Band from '../components/Band';
-import Eyebrow from '../components/Eyebrow';
-import Estimator from '../components/Estimator';
-import RateDeck from '../components/RateDeck';
-import SeatPriceTile from '../components/SeatPriceTile';
-import { DID_MINIMUM, PHONE_DISPLAY, PHONE_HREF } from '../lib/pricing';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import { FaPhoneAlt, FaHandshake, FaChartLine, FaShieldAlt, FaHeadset } from 'react-icons/fa';
 
-/**
- * NOTE: this page was composed from the shared RateDeck, SeatPriceTile and
- * Estimator components rather than ported from a reference mockup — no
- * pvnvoice-pricing.html was supplied. Every rate and quantity comes from
- * lib/pricing, so nothing here can disagree with Home or Call Centers; the
- * section ordering and the connective copy are the only original parts and are
- * the bits to replace when the real mockup lands.
- */
 export default function Pricing() {
   return (
-    <div className="min-h-screen flex flex-col bg-paper">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>PVN Voice — Pricing</title>
-        <meta
-          name="description"
-          content="Posted rates for outbound call centers and wholesale buyers: $3/agent/day per seat with included minutes and monitored DIDs, or a direct per-minute rate deck. No sales call required."
-        />
+        <title>Custom VoIP Solutions - PVN Voice</title>
+        <meta name="description" content="Get a tailored VoIP solution that perfectly matches your business needs and budget. Schedule a free consultation today." />
       </Head>
 
-      <SiteHeader active="/pricing" />
-
+      <Header />
       <main className="flex-grow">
-        <section className="py-[clamp(44px,6vw,72px)]">
+        {/* Hero Section */}
+        <section className="bg-primary-600 text-white py-16">
           <div className="container-custom">
-            <Eyebrow className="mb-5">Pricing</Eyebrow>
-            <h1 className="text-[clamp(36px,4.8vw,54px)] leading-[1.02] max-w-[22ch]">
-              Two rate structures. Both posted in full.
-            </h1>
-            <p className="mt-5 text-[19px] text-slate max-w-[56ch]">
-              Running an outbound floor? Take the per-seat rate. Buying minutes for your own platform?
-              Take the rate deck. Either way the numbers are on this page &mdash; there is no quote
-              form standing between you and a price.
-            </p>
-            <div className="flex flex-wrap gap-3 mt-7">
-              <a href={PHONE_HREF} className="btn-solid">
-                Call {PHONE_DISPLAY}
-              </a>
-              <a href="#estimate" className="btn-line">
-                Run the estimate
+            <div className="max-w-3xl mx-auto text-center">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">Your Business Deserves a Custom Solution</h1>
+              <p className="text-xl text-primary-100 mb-8">
+                No one-size-fits-all pricing here. Get a tailored solution that matches your exact needs and budget.
+              </p>
+              <a 
+                href="tel:+19045128487" 
+                className="btn-call inline-flex items-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
+              >
+                <FaPhoneAlt className="text-white" />
+                <span>Call (904) 512-8487 for a Free Consultation</span>
               </a>
             </div>
           </div>
         </section>
 
-        <Band id="rates">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-14 items-end mb-10">
-            <div>
-              <Eyebrow>Rates</Eyebrow>
-              <h2 className="text-[clamp(30px,4.2vw,50px)] mt-3.5">Per seat, or per minute.</h2>
-            </div>
-            <p className="text-lg text-slate max-w-[62ch]">
-              The per-seat rate bundles dialing infrastructure, monitored numbers and pre-dial
-              compliance into one number per agent per dialing day. The rate deck is the direct
-              carrier price for buyers who bring their own platform.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,.85fr)_minmax(0,1.15fr)] gap-5 lg:gap-8 items-start">
-            <SeatPriceTile />
-            <RateDeck />
-          </div>
-
-          <p className="mt-6 text-sm text-slate">
-            Wholesale accounts carry a {DID_MINIMUM} DID minimum. The litigator gate is included at $0
-            on every route, on both rate structures, and is never billed per record.
-          </p>
-        </Band>
-
-        <Band id="estimate">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-14 items-end mb-10">
-            <div>
-              <Eyebrow>Cost Estimator</Eyebrow>
-              <h2 className="text-[clamp(30px,4.2vw,50px)] mt-3.5">
-                Price it before you pick up the phone.
-              </h2>
-            </div>
-            <p className="text-lg text-slate max-w-[62ch]">
-              Adjust your seats and dials, or your minutes and DIDs. Nothing is stored or submitted.
-              When the math makes sense, call us to verify against your specific NPA-NXX mix.
-            </p>
-          </div>
-          <Estimator />
-        </Band>
-
-        <section className="text-center py-[clamp(52px,7vw,88px)]">
+        {/* Value Proposition Section */}
+        <section className="py-16 bg-gray-50">
           <div className="container-custom">
-            <Eyebrow centered>Get a direct rate on the phone</Eyebrow>
-            <h2 className="text-[clamp(30px,4.2vw,50px)] max-w-[19ch] mx-auto mt-3.5">
-              Tell us your seats or your minutes. We&apos;ll quote you on the call.
-            </h2>
-            <p className="mt-4 text-lg text-slate">No slide decks, no scheduling a demo.</p>
-            <div className="flex flex-wrap gap-3 mt-7 justify-center">
-              <a href={PHONE_HREF} className="btn-solid">
-                Call {PHONE_DISPLAY}
-              </a>
-              <a href="/voip-for-call-centers" className="btn-line">
-                See the per-seat page
+            <div className="max-w-4xl mx-auto">
+              <div className="text-center mb-16">
+                <h2 className="text-3xl font-bold mb-4">Why Choose a Custom Solution?</h2>
+                <p className="text-xl text-gray-600">
+                  Every business has unique communication needs. We work with you to create the perfect solution.
+                </p>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="bg-white rounded-xl shadow-lg p-8">
+                  <div className="flex items-center mb-4">
+                    <FaHandshake className="text-4xl text-secondary-400 mr-4" />
+                    <h3 className="text-xl font-bold">Personalized Approach</h3>
+                  </div>
+                  <p className="text-gray-600">
+                    We take the time to understand your business goals, team structure, and workflow before recommending a solution.
+                  </p>
+                </div>
+
+                <div className="bg-white rounded-xl shadow-lg p-8">
+                  <div className="flex items-center mb-4">
+                    <FaChartLine className="text-4xl text-secondary-400 mr-4" />
+                    <h3 className="text-xl font-bold">Scalable Solutions</h3>
+                  </div>
+                  <p className="text-gray-600">
+                    Your solution grows with your business. Only pay for what you need, when you need it.
+                  </p>
+                </div>
+
+                <div className="bg-white rounded-xl shadow-lg p-8">
+                  <div className="flex items-center mb-4">
+                    <FaShieldAlt className="text-4xl text-secondary-400 mr-4" />
+                    <h3 className="text-xl font-bold">Transparent Pricing</h3>
+                  </div>
+                  <p className="text-gray-600">
+                    No hidden fees or surprise charges. Get a clear understanding of your investment before making a decision.
+                  </p>
+                </div>
+
+                <div className="bg-white rounded-xl shadow-lg p-8">
+                  <div className="flex items-center mb-4">
+                    <FaHeadset className="text-4xl text-secondary-400 mr-4" />
+                    <h3 className="text-xl font-bold">Dedicated Support</h3>
+                  </div>
+                  <p className="text-gray-600">
+                    Work with a dedicated team that understands your business and is committed to your success.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* How It Works Section */}
+        <section className="py-16 bg-white">
+          <div className="container-custom">
+            <div className="max-w-3xl mx-auto">
+              <h2 className="text-3xl font-bold text-center mb-12">How We Create Your Perfect Solution</h2>
+              <div className="space-y-12">
+                <div className="flex items-start">
+                  <div className="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">1</div>
+                  <div className="ml-4">
+                    <h3 className="text-xl font-semibold mb-2">Free Consultation</h3>
+                    <p className="text-gray-600">
+                      We start with a detailed discussion about your business needs, challenges, and goals.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">2</div>
+                  <div className="ml-4">
+                    <h3 className="text-xl font-semibold mb-2">Custom Solution Design</h3>
+                    <p className="text-gray-600">
+                      Our experts design a tailored solution that perfectly matches your requirements and budget.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">3</div>
+                  <div className="ml-4">
+                    <h3 className="text-xl font-semibold mb-2">Seamless Implementation</h3>
+                    <p className="text-gray-600">
+                      We handle the entire setup process and train your team to ensure a smooth transition.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center flex-shrink-0 mt-1">4</div>
+                  <div className="ml-4">
+                    <h3 className="text-xl font-semibold mb-2">Ongoing Support</h3>
+                    <p className="text-gray-600">
+                      Get continuous support and regular check-ins to ensure your solution keeps delivering value.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="bg-primary-600 text-white py-16">
+          <div className="container-custom">
+            <div className="max-w-3xl mx-auto text-center">
+              <h2 className="text-3xl font-bold mb-6">Ready to Transform Your Business Communication?</h2>
+              <p className="text-xl text-primary-100 mb-8">
+                Schedule your free consultation today and discover how we can help you save up to 50% on your communication costs.
+              </p>
+              <a 
+                href="tel:+19045128487" 
+                className="btn-call inline-flex items-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
+              >
+                <FaPhoneAlt className="text-white" />
+                <span>Call (904) 512-8487 for a Free Consultation</span>
               </a>
             </div>
-            <p className="mt-5 font-data text-[12.5px] text-slate tracking-[.04em]">
-              No contract term &middot; No minimum commit &middot; KYC required before turn-up
-            </p>
           </div>
         </section>
       </main>
-
-      <SiteFooter />
+      <Footer />
     </div>
   );
-}
+} 

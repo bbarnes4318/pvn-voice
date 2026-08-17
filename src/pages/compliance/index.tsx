@@ -1,82 +1,127 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import SiteHeader from '../../components/SiteHeader';
-import SiteFooter from '../../components/SiteFooter';
-import Eyebrow from '../../components/Eyebrow';
-import { PHONE_DISPLAY, PHONE_HREF } from '../../lib/pricing';
-import { COMPLIANCE_POLICIES, POLICY_META_LINE } from '../../lib/compliance-policies';
+import { IconType } from 'react-icons';
+import {
+  FaDatabase,
+  FaFileContract,
+  FaFileSignature,
+  FaPhoneAlt,
+  FaPhoneSlash,
+  FaSearchLocation,
+  FaShieldAlt,
+} from 'react-icons/fa';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import {
+  COMPLIANCE_POLICIES,
+  DNC_PHONE_DISPLAY,
+  DNC_PHONE_HREF,
+  POLICY_META_LINE,
+} from '../../lib/compliance-policies';
+
+const policyIcons: Record<string, IconType> = {
+  '/compliance/do-not-call': FaPhoneSlash,
+  '/compliance/do-not-originate': FaShieldAlt,
+  '/compliance/reassigned-numbers': FaDatabase,
+  '/compliance/consent': FaFileSignature,
+  '/compliance/traceback': FaSearchLocation,
+  '/compliance/acceptable-use': FaFileContract,
+};
 
 export default function Compliance() {
   return (
-    <div className="min-h-screen flex flex-col bg-paper">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 to-primary-100">
       <Head>
-        <title>PVN Voice — Compliance Policies</title>
-        <meta
-          name="description"
-          content="PVN LLC's telemarketing compliance policies: Do-Not-Call, Do-Not-Originate, Reassigned Numbers Database, Opt-In & Consent, Traceback Response, and Acceptable Use. Published in full for carriers, clients, and consumers."
-        />
+        <title>Compliance Policies - PVN Voice</title>
+        <meta name="description" content="PVN LLC's telemarketing compliance policies: Do-Not-Call, Do-Not-Originate, Reassigned Numbers Database, Opt-In & Consent, Traceback Response, and Acceptable Use. Each policy is published in full for carriers, clients, and consumers." />
       </Head>
 
-      <SiteHeader active="/compliance" />
-
+      <Header />
       <main className="flex-grow">
-        <div className="mx-auto w-full max-w-[960px] px-5 sm:px-8 lg:px-14">
-          <section className="pt-[clamp(40px,6vw,64px)] pb-[clamp(30px,4vw,44px)]">
-            <Eyebrow>Compliance</Eyebrow>
-            <h1 className="text-[clamp(32px,4.2vw,46px)] leading-[1.04] mt-4">Compliance Policies</h1>
-            <p className="mt-4 font-data text-[13px] text-slate">{POLICY_META_LINE}</p>
-            <p className="mt-5 text-lg text-slate max-w-[66ch]">
-              PVN LLC conducts and supports outbound calling in compliance with the Telephone Consumer
-              Protection Act (TCPA), the FCC&apos;s implementing rules, the FTC&apos;s Telemarketing
-              Sales Rule, and applicable state telemarketing laws. The policies below govern every
-              campaign we place or support, and each one is published in full so that consumers,
-              clients, carriers, and auditors can review it directly.
-            </p>
-          </section>
-
-          <section className="pb-[clamp(48px,6vw,72px)]">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {COMPLIANCE_POLICIES.map((policy) => (
-                <Link
-                  key={policy.href}
-                  href={policy.href}
-                  className="block bg-card border border-rule rounded-md p-6 no-underline text-ink transition-all hover:border-attest hover:-translate-y-0.5"
-                >
-                  <h2 className="text-lg">{policy.name}</h2>
-                  <p className="mt-2 text-slate text-[14.5px] leading-[1.55]">{policy.description}</p>
-                  <p className="mt-3.5 font-data text-xs font-semibold tracking-[.06em] text-attest">
-                    Read the {policy.shortName} &rarr;
-                  </p>
+        {/* Hero Section */}
+        <section className="bg-primary-600 text-white py-10">
+          <div className="container-custom">
+            <div className="max-w-3xl mx-auto">
+              <div className="flex justify-between items-center mb-6">
+                <Link href="/" className="text-primary-100 hover:text-white transition-colors text-sm">
+                  &larr; Back to Home
                 </Link>
-              ))}
-            </div>
-
-            <div className="bg-navy text-white rounded-lg p-7 sm:p-10 mt-[clamp(40px,5vw,60px)]">
-              <h2 className="text-2xl text-white">Do-Not-Call Requests and Policy Copies</h2>
-              <p className="mt-2.5 text-[#A9C6D6] max-w-[60ch]">
-                To be added to our internal Do-Not-Call list, or to request a written copy of any
-                policy on this page, call us. Do-not-call requests are honored immediately, and in all
-                cases within 24 hours.
+              </div>
+              <h1 className="text-3xl md:text-4xl font-bold">Compliance Policies</h1>
+              <p className="text-primary-100 mt-3">
+                {POLICY_META_LINE}
               </p>
-              <a href={PHONE_HREF} className="btn-attest mt-5">
-                Call {PHONE_DISPLAY}
-              </a>
             </div>
+          </div>
+        </section>
 
-            <p className="mt-6 text-sm text-slate">
-              These policies are reviewed at least annually and upon any material change in applicable
-              law. Copies are available on request at{' '}
-              <a href={PHONE_HREF} className="text-navy">
-                {PHONE_DISPLAY}
-              </a>
-              .
-            </p>
-          </section>
-        </div>
+        {/* Content Section */}
+        <section className="py-10 bg-white">
+          <div className="container-custom">
+            <div className="max-w-4xl mx-auto">
+              <div className="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-100 mb-8">
+                <div className="flex items-start">
+                  <FaShieldAlt className="text-primary-600 text-2xl mr-4 mt-1 flex-shrink-0" />
+                  <div>
+                    <h2 className="text-xl font-bold text-gray-800 mb-2">Our Compliance Commitment</h2>
+                    <p className="text-gray-700 text-sm leading-relaxed">
+                      PVN LLC conducts and supports outbound calling in compliance with the Telephone Consumer Protection Act (TCPA), the FCC's implementing rules, the FTC's Telemarketing Sales Rule, and applicable state telemarketing laws. The policies below govern every campaign we place or support, and each one is published in full so that consumers, clients, carriers, and auditors can review it directly.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {COMPLIANCE_POLICIES.map((policy) => {
+                  const PolicyIcon = policyIcons[policy.href] ?? FaShieldAlt;
+                  return (
+                    <Link
+                      key={policy.href}
+                      href={policy.href}
+                      className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow transition-shadow flex flex-col"
+                    >
+                      <div className="flex items-center mb-3">
+                        <PolicyIcon className="text-primary-600 text-xl mr-3 flex-shrink-0" />
+                        <h2 className="text-lg font-bold text-gray-800">{policy.name}</h2>
+                      </div>
+                      <p className="text-gray-600 text-sm leading-relaxed flex-grow">
+                        {policy.description}
+                      </p>
+                      <span className="text-primary-600 hover:text-primary-700 text-sm font-medium mt-4">
+                        Read the {policy.shortName} &rarr;
+                      </span>
+                    </Link>
+                  );
+                })}
+              </div>
+
+              <div className="mt-10 bg-primary-50 p-6 rounded-lg border border-primary-100">
+                <div className="flex items-start">
+                  <FaPhoneAlt className="text-primary-600 text-xl mr-4 mt-1 flex-shrink-0" />
+                  <div>
+                    <h2 className="text-lg font-bold text-primary-700 mb-2">Do-Not-Call Requests and Policy Copies</h2>
+                    <p className="text-gray-700 text-sm leading-relaxed mb-4">
+                      To be added to our internal Do-Not-Call list, or to request a written copy of any policy on this page, call us. Do-not-call requests are honored immediately, and in all cases within 24 hours.
+                    </p>
+                    <a
+                      href={DNC_PHONE_HREF}
+                      className="inline-block bg-primary-600 hover:bg-primary-700 text-white text-center py-2 px-6 rounded text-sm font-medium"
+                    >
+                      Call {DNC_PHONE_DISPLAY}
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <p className="text-gray-600 text-sm italic mt-8 pt-6 border-t border-gray-200">
+                These policies are reviewed at least annually and upon any material change in applicable law. Copies are available on request at <a href={DNC_PHONE_HREF} className="text-primary-600 hover:text-primary-700">{DNC_PHONE_DISPLAY}</a>.
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
-
-      <SiteFooter variant="minimal" />
+      <Footer />
     </div>
   );
 }

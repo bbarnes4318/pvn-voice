@@ -8,8 +8,7 @@ export interface CompliancePolicy {
 }
 
 // Shared metadata for the PVN LLC telemarketing compliance policies.
-export const POLICY_META_LINE =
-  'PVN LLC · Telemarketing Compliance Policies · Updated August 14, 2026';
+export const POLICY_META_LINE = 'PVN LLC • Telemarketing Compliance Policies • Updated August 14, 2026';
 
 export const DNC_PHONE_DISPLAY = '(904) 512-8487';
 export const DNC_PHONE_HREF = 'tel:+19045128487';
@@ -72,29 +71,9 @@ export const COMPLIANCE_POLICIES: CompliancePolicy[] = [
 ];
 
 export const formatPolicyMetaLine = (effectiveDate: string, version: string): string =>
-  `PVN LLC · Effective Date: ${effectiveDate} · Version ${version}`;
+  `PVN LLC • Effective Date: ${effectiveDate} • Version ${version}`;
 
 export const getPolicyMetaLine = (href: string): string => {
   const policy = COMPLIANCE_POLICIES.find((candidate) => candidate.href === href);
   return policy ? formatPolicyMetaLine(policy.effectiveDate, policy.version) : POLICY_META_LINE;
 };
-
-/**
- * Sibling policies for the "Related Policies" row, plus the link back to the
- * index. Derived from COMPLIANCE_POLICIES so a new policy appears on every
- * other policy page automatically and no page ever links to itself.
- */
-export const relatedPolicies = (currentHref: string): { href: string; label: string }[] => [
-  ...COMPLIANCE_POLICIES.filter((policy) => policy.href !== currentHref).map((policy) => ({
-    href: policy.href,
-    label: policy.name,
-  })),
-  { href: '/compliance', label: '← All Compliance Policies' },
-];
-
-/** The non-policy legal documents, linked from the policy pages' siblings row. */
-export const LEGAL_DOCUMENTS: { href: string; label: string }[] = [
-  { href: '/terms-of-service', label: 'Terms of Service' },
-  { href: '/privacy-policy', label: 'Privacy Policy' },
-  { href: '/disclosures', label: 'Disclosures' },
-];
