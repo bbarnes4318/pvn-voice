@@ -6,37 +6,69 @@
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
-    @apply text-gray-800 bg-gray-50;
+    @apply bg-paper text-ink font-sans antialiased;
+    font-size: 17px;
+    line-height: 1.6;
   }
-  
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-display font-bold;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display font-extrabold;
+    letter-spacing: -0.032em;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  summary:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid theme('colors.attest');
+    outline-offset: 3px;
+    border-radius: 2px;
   }
 }
 
 @layer components {
   .btn {
-    @apply inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+    @apply inline-flex items-center justify-center gap-2 font-data text-sm font-semibold px-6 py-3.5 rounded-[3px] border-[1.5px] border-navy transition-colors;
   }
-  
+
+  .btn-solid {
+    @apply btn bg-navy text-white hover:bg-ink hover:border-ink;
+  }
+
+  .btn-line {
+    @apply btn text-navy hover:bg-navy/[.06];
+  }
+
+  .btn-attest {
+    @apply btn bg-attest border-attest text-[#042313] hover:bg-[#4FC983] hover:border-[#4FC983];
+  }
+
+  /* Legacy button classes, still referenced by the unlinked legacy routes. */
   .btn-primary {
-    @apply btn bg-secondary-600 text-white hover:bg-secondary-700 focus:ring-secondary-500 shadow-cta hover:shadow-lg;
+    @apply btn bg-secondary-600 text-white border-secondary-600 hover:bg-secondary-700;
   }
-  
+
   .btn-secondary {
-    @apply btn bg-white text-primary-700 border border-primary-200 hover:bg-gray-50 focus:ring-primary-500;
+    @apply btn bg-white text-navy border-rule hover:bg-paper;
   }
-  
+
   .btn-call {
-    @apply btn-primary text-lg py-4 px-8 md:text-xl md:py-5 md:px-10;
+    @apply btn-solid text-base py-4 px-8;
   }
-  
+
   .container-custom {
-    @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px];
+    @apply mx-auto w-full max-w-shell px-5 sm:px-8 lg:px-14;
   }
-  
+
   .section {
     @apply py-12 sm:py-16 lg:py-20;
   }
@@ -52,9 +84,49 @@
   }
 }
 
-/* Print styles for the compliance policy pages: carriers and clients print these,
-   so drop the site chrome (header, footer, sidebar, print button) and render the
-   policy itself as plain black-on-white text at full width. */
+/* Animations shared by LiveTerminal and DidPoolChips. */
+@keyframes pvn-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.25;
+  }
+}
+
+@keyframes pvn-slide {
+  from {
+    opacity: 0;
+    transform: translateY(-7px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.pvn-pulse {
+  animation: pvn-pulse 1.8s ease-in-out infinite;
+}
+
+.pvn-slide {
+  animation: pvn-slide 0.35s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  .pvn-pulse,
+  .pvn-slide {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Print styles for the legal and compliance documents: carriers, clients and
+   auditors print these, so drop the site chrome and render the document itself
+   as plain black-on-white text at full width. */
 @media print {
   header,
   footer,
@@ -64,45 +136,30 @@
 
   html,
   body,
-  .policy-page {
-    background: #fff !important;
-  }
-
-  .policy-page section {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-  }
-
-  .policy-hero {
+  .legal-doc {
     background: #fff !important;
     color: #000 !important;
   }
 
-  .policy-hero h1,
-  .policy-hero p,
-  .policy-hero a {
-    color: #000 !important;
-  }
-
-  .policy-body {
-    width: 100% !important;
+  .legal-doc {
     max-width: 100% !important;
   }
 
-  .policy-body a {
+  .legal-doc a {
     color: #000 !important;
     text-decoration: none !important;
   }
 
-  .policy-body h2 {
+  .legal-doc h2 {
     break-after: avoid;
     page-break-after: avoid;
   }
 
-  .policy-body ul,
-  .policy-body li,
-  .policy-body p {
+  .legal-doc ul,
+  .legal-doc ol,
+  .legal-doc li,
+  .legal-doc p {
     break-inside: avoid;
     page-break-inside: avoid;
   }
-} 
+}
