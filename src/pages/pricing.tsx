@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import { PORTAL_SIGNUP_URL } from '../lib/site-links';
 import { FaPhoneAlt, FaHandshake, FaChartLine, FaShieldAlt, FaHeadset } from 'react-icons/fa';
 
 export default function Pricing() {
@@ -147,13 +148,21 @@ export default function Pricing() {
               <p className="text-xl text-primary-100 mb-8">
                 Schedule your free consultation today and discover how we can help you save up to 50% on your communication costs.
               </p>
-              <a 
-                href="tel:+19045128487" 
-                className="btn-call inline-flex items-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
-              >
-                <FaPhoneAlt className="text-white" />
-                <span>Call (904) 512-8487 for a Free Consultation</span>
-              </a>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                  href="tel:+19045128487"
+                  className="btn-call inline-flex items-center justify-center space-x-3 bg-secondary-600 hover:bg-secondary-700"
+                >
+                  <FaPhoneAlt className="text-white" />
+                  <span>Call (904) 512-8487 for a Free Consultation</span>
+                </a>
+                <a
+                  href={PORTAL_SIGNUP_URL}
+                  className="btn-call inline-flex items-center justify-center bg-white text-primary-600 hover:bg-primary-50"
+                >
+                  Get Started
+                </a>
+              </div>
             </div>
           </div>
         </section>
