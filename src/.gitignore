@@ -1,0 +1,7 @@
+# Secrets never belong in this repository: it is public, and anything under
+# public/ is served to the world. Configure them in the hosting provider.
+.env
+.env.*
+!.env.example
+node_modules/
+.next/
