@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { PORTAL_SIGNUP_URL } from '../lib/site-links';
 import { FaArrowRight, FaPhone, FaCheckCircle, FaShieldAlt, FaClock, FaHeadset, FaChartLine, FaUsers, FaCloudUploadAlt, FaPhoneAlt, FaRocket, FaMicrophone, FaExchangeAlt } from 'react-icons/fa';
 
 export const HeroTop: React.FC = () => {
@@ -56,11 +57,11 @@ export const HeroTop: React.FC = () => {
               <FaPhone className="text-white" />
               <span>Call (904) 512-8487 for a Free Consultation</span>
             </a>
-            <a 
-              href="/contact-us" 
+            <a
+              href={PORTAL_SIGNUP_URL}
               className="btn-call flex items-center justify-center space-x-3 bg-white text-primary-600 hover:bg-primary-50"
             >
-              <span>Schedule a Demo</span>
+              <span>Get Started</span>
             </a>
           </div>
           <p className="mt-4 text-sm text-primary-200">

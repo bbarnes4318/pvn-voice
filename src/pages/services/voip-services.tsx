@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import { PORTAL_SIGNUP_URL } from '../../lib/site-links';
 import { FaPhone, FaCogs, FaChartLine, FaShieldAlt, FaUsers, FaGlobe, FaHeadset, FaCheckCircle, FaArrowRight, FaRocket, FaClock, FaChartBar, FaUserFriends, FaBuilding, FaMobileAlt } from 'react-icons/fa';
 
 export default function VOIPServices() {
@@ -31,10 +32,10 @@ export default function VOIPServices() {
                 Experience crystal-clear voice quality, advanced features, and seamless integration with our reliable VoIP phone service. Join thousands of businesses that trust our solutions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/contact" className="inline-flex items-center justify-center bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                  Get Started Free
+                <a href={PORTAL_SIGNUP_URL} className="inline-flex items-center justify-center bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                  Get Started
                   <FaArrowRight className="ml-2" />
-                </Link>
+                </a>
                 <Link href="#features" className="inline-flex items-center justify-center bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition-colors">
                   Explore Features
                 </Link>
@@ -229,9 +230,9 @@ export default function VOIPServices() {
                       <span className="text-lg">Email support</span>
                     </li>
                   </ul>
-                  <Link href="/contact" className="block text-center bg-primary-600 text-white px-6 py-4 rounded-xl font-semibold hover:bg-primary-700 transition-colors">
+                  <a href={PORTAL_SIGNUP_URL} className="block text-center bg-primary-600 text-white px-6 py-4 rounded-xl font-semibold hover:bg-primary-700 transition-colors">
                     Get Started
-                  </Link>
+                  </a>
                 </div>
                 <div className="bg-white p-10 rounded-2xl shadow-lg border-2 border-primary-600 transform scale-105 relative">
                   <div className="absolute top-0 right-0 bg-primary-600 text-white px-4 py-1 rounded-bl-xl rounded-tr-xl">
@@ -260,9 +261,9 @@ export default function VOIPServices() {
                       <span className="text-lg">Analytics dashboard</span>
                     </li>
                   </ul>
-                  <Link href="/contact" className="block text-center bg-primary-600 text-white px-6 py-4 rounded-xl font-semibold hover:bg-primary-700 transition-colors">
+                  <a href={PORTAL_SIGNUP_URL} className="block text-center bg-primary-600 text-white px-6 py-4 rounded-xl font-semibold hover:bg-primary-700 transition-colors">
                     Get Started
-                  </Link>
+                  </a>
                 </div>
                 <div className="bg-white p-10 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
                   <div className="text-center mb-8">
@@ -288,7 +289,7 @@ export default function VOIPServices() {
                       <span className="text-lg">Dedicated account manager</span>
                     </li>
                   </ul>
-                  <Link href="/contact" className="block text-center bg-primary-600 text-white px-6 py-4 rounded-xl font-semibold hover:bg-primary-700 transition-colors">
+                  <Link href="/contact-us" className="block text-center bg-primary-600 text-white px-6 py-4 rounded-xl font-semibold hover:bg-primary-700 transition-colors">
                     Contact Sales
                   </Link>
                 </div>
@@ -309,11 +310,11 @@ export default function VOIPServices() {
                 Join thousands of businesses that trust our VoIP phone service for their communication needs. Get started with a free consultation today.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/contact" className="inline-flex items-center justify-center bg-white text-primary-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
-                  Get Started Free
+                <a href={PORTAL_SIGNUP_URL} className="inline-flex items-center justify-center bg-white text-primary-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors">
+                  Get Started
                   <FaArrowRight className="ml-2" />
-                </Link>
-                <Link href="/contact" className="inline-flex items-center justify-center bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-colors">
+                </a>
+                <Link href="/contact-us" className="inline-flex items-center justify-center bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-colors">
                   Schedule Demo
                 </Link>
               </div>

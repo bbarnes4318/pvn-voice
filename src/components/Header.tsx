@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { FaPhone, FaBars, FaTimes, FaShieldAlt, FaCheckCircle, FaStar, FaLock, FaSignInAlt } from 'react-icons/fa';
 import Logo from './Logo';
-import { PORTAL_LOGIN_URL } from '../lib/site-links';
+import { PORTAL_LOGIN_URL, PORTAL_SIGNUP_URL } from '../lib/site-links';
 
 const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -122,11 +122,20 @@ const Header: React.FC = () => {
                 <span>Customer Login</span>
               </a>
               <a
+                href={PORTAL_SIGNUP_URL}
+                className="bg-secondary-600 text-white px-4 py-2 rounded hover:bg-secondary-700 transition-colors font-medium"
+              >
+                Get Started
+              </a>
+              <a
                 href="tel:+19045128487"
+                aria-label="Call (904) 512-8487"
                 className="bg-primary-600 text-white px-4 py-2 rounded hover:bg-primary-700 transition-colors font-medium flex items-center space-x-2"
               >
                 <FaPhone />
-                <span>Call (904) 512-8487</span>
+                {/* The number is always in the top bar; here it gives way to Get Started on narrower desktops. */}
+                <span className="hidden 2xl:inline">Call (904) 512-8487</span>
+                <span className="2xl:hidden">Call</span>
               </a>
             </nav>
 
@@ -186,6 +195,12 @@ const Header: React.FC = () => {
               <Link href="/compliance" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">Compliance</Link>
             </div>
             <div className="pt-3 border-t border-gray-100 space-y-3">
+              <a
+                href={PORTAL_SIGNUP_URL}
+                className="bg-secondary-600 text-white px-4 py-2 rounded hover:bg-secondary-700 transition-colors font-medium flex items-center justify-center"
+              >
+                Get Started
+              </a>
               <a
                 href={PORTAL_LOGIN_URL}
                 target="_blank"

@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube, FaSignInAlt } from 'react-icons/fa';
-import { PORTAL_LOGIN_URL } from '../lib/site-links';
+import { PORTAL_LOGIN_URL, PORTAL_SIGNUP_URL } from '../lib/site-links';
 
 const Footer = () => {
   return (
@@ -74,6 +74,11 @@ const Footer = () => {
                 <Link href="/contact-us" className="text-gray-200 hover:text-white transition-colors">
                   Contact Us
                 </Link>
+              </li>
+              <li>
+                <a href={PORTAL_SIGNUP_URL} className="text-gray-200 hover:text-white transition-colors">
+                  Get Started
+                </a>
               </li>
               <li>
                 <a
