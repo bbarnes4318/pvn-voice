@@ -70,6 +70,19 @@ const waterfallRoutes = [
   { name: 'Your Carrier', detail: 'Keep your existing provider in the stack', badge: '4' },
 ];
 
+const oldWay = [
+  'VICIdial sends the call directly to one carrier',
+  'That carrier cannot complete an eligible attempt',
+  'The attempt ends with no backup path',
+];
+
+const pvnWay = [
+  'VICIdial sends the call to PVN once',
+  'PVN tries the first configured route',
+  'Eligible failures advance to the next route',
+  'Your existing carrier can remain in the stack',
+];
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
@@ -92,7 +105,6 @@ export default function Home() {
       <Header />
 
       <main className="flex-grow">
-        {/* HERO — intentionally left-led split layout */}
         <section className="relative overflow-hidden bg-primary-950 text-white">
           <div className="absolute inset-0 opacity-30 bg-gradient-to-br from-primary-700 via-primary-950 to-black" />
           <div className="absolute -top-32 -right-24 h-96 w-96 rounded-full bg-secondary-500 opacity-10 blur-3xl" />
@@ -137,12 +149,12 @@ export default function Home() {
 
               <div className="lg:pl-6">
                 <div className="rounded-3xl border border-white/15 bg-white/[0.07] p-5 md:p-7 shadow-2xl backdrop-blur-sm">
-                  <div className="flex items-center justify-between mb-6">
+                  <div className="flex items-start justify-between gap-5 mb-6">
                     <div>
                       <p className="text-xs font-bold tracking-[0.18em] text-secondary-300 uppercase">PVN AnswerLift</p>
                       <h2 className="text-2xl font-bold mt-1">Your Carrier Waterfall</h2>
                     </div>
-                    <span className="rounded-full bg-success-500/15 border border-success-400/30 px-3 py-1 text-xs font-bold text-success-200">
+                    <span className="rounded-full bg-success-500/15 border border-success-400/30 px-3 py-1 text-xs font-bold text-success-200 whitespace-nowrap">
                       ROUTING ACTIVE
                     </span>
                   </div>
@@ -162,7 +174,7 @@ export default function Home() {
 
                   <div className="space-y-3">
                     {waterfallRoutes.map((route) => (
-                      <div key={route.name} className="relative flex items-center rounded-2xl border border-white/10 bg-white/[0.06] p-4">
+                      <div key={route.name} className="flex items-center rounded-2xl border border-white/10 bg-white/[0.06] p-4">
                         <div className="h-9 w-9 rounded-full bg-secondary-500 text-white flex items-center justify-center font-bold mr-4 flex-shrink-0">
                           {route.badge}
                         </div>
@@ -177,7 +189,7 @@ export default function Home() {
                     ))}
                   </div>
 
-                  <div className="mt-5 rounded-2xl bg-secondary-500/10 border border-secondary-400/20 p-4 text-center">
+                  <div className="mt-5 rounded-2xl bg-secondary-500/10 border border-secondary-400/20 p-4">
                     <p className="font-bold text-secondary-200">One trunk. Multiple chances to connect.</p>
                     <p className="text-sm text-primary-200 mt-1">Eligible failures continue down the waterfall.</p>
                   </div>
@@ -187,7 +199,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* THE PROBLEM — asymmetric intro instead of centered template block */}
         <section className="py-20 md:py-24 bg-white" id="how-it-works">
           <div className="container-custom">
             <div className="grid lg:grid-cols-[0.9fr_1.1fr] gap-8 lg:gap-14 items-end mb-14">
@@ -207,39 +218,43 @@ export default function Home() {
 
             <div className="grid lg:grid-cols-2 gap-8">
               <div className="rounded-3xl border border-gray-200 bg-gray-50 p-7 md:p-9">
-                <div className="flex items-center mb-6">
-                  <span className="rounded-full bg-gray-200 text-gray-700 px-3 py-1 text-xs font-bold mr-3">OLD WAY</span>
-                  <h3 className="text-2xl font-bold text-gray-900">Direct-to-carrier dialplan</h3>
+                <div className="flex items-start gap-4 mb-7">
+                  <span className="rounded-full bg-gray-200 text-gray-700 px-3 py-1 text-xs font-bold whitespace-nowrap">OLD WAY</span>
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-900">Direct-to-carrier dialplan</h3>
+                    <p className="text-gray-600 mt-2">One route owns the outcome of the call.</p>
+                  </div>
                 </div>
-                <div className="space-y-4">
-                  {['VICIdial', 'Carrier A', 'Carrier cannot complete eligible attempt', 'Call stops'].map((label, index) => (
-                    <React.Fragment key={label}>
-                      <div className={`rounded-xl border p-4 font-semibold ${index >= 2 ? 'border-red-200 bg-red-50 text-red-800' : 'border-gray-200 bg-white text-gray-800'}`}>
-                        {label}
-                      </div>
-                      {index < 3 && <div className="text-center text-gray-400">↓</div>}
-                    </React.Fragment>
+                <div className="border-l-2 border-gray-300 pl-6 space-y-6">
+                  {oldWay.map((label, index) => (
+                    <div key={label} className="relative">
+                      <span className="absolute -left-[31px] top-1 h-3 w-3 rounded-full bg-gray-400" />
+                      <p className={`font-semibold ${index === oldWay.length - 1 ? 'text-red-700' : 'text-gray-800'}`}>{label}</p>
+                    </div>
                   ))}
                 </div>
               </div>
 
               <div className="rounded-3xl border-2 border-secondary-200 bg-secondary-50 p-7 md:p-9 shadow-lg">
-                <div className="flex items-center mb-6">
-                  <span className="rounded-full bg-secondary-600 text-white px-3 py-1 text-xs font-bold mr-3">PVN WAY</span>
-                  <h3 className="text-2xl font-bold text-primary-950">One connection, multiple routes</h3>
+                <div className="flex items-start gap-4 mb-7">
+                  <span className="rounded-full bg-secondary-600 text-white px-3 py-1 text-xs font-bold whitespace-nowrap">PVN WAY</span>
+                  <div>
+                    <h3 className="text-2xl font-bold text-primary-950">One connection, multiple routes</h3>
+                    <p className="text-secondary-900 mt-2">Your dialer stays the same. The routing layer gets smarter.</p>
+                  </div>
                 </div>
-                <div className="space-y-4">
-                  {['VICIdial → PVN', 'Route 1', 'Route 2', 'Route 3', 'Your existing carrier'].map((label, index) => (
-                    <React.Fragment key={label}>
-                      <div className="rounded-xl border border-secondary-200 bg-white p-4 font-semibold text-primary-900 flex items-center justify-between">
-                        <span>{label}</span>
-                        {index > 0 && <FaCheckCircle className="text-secondary-600" />}
+                <div className="border-l-2 border-secondary-300 pl-6 space-y-6">
+                  {pvnWay.map((label) => (
+                    <div key={label} className="relative">
+                      <span className="absolute -left-[31px] top-1 h-3 w-3 rounded-full bg-secondary-600" />
+                      <div className="flex items-start justify-between gap-4">
+                        <p className="font-semibold text-primary-900">{label}</p>
+                        <FaCheckCircle className="text-secondary-600 mt-1 flex-shrink-0" />
                       </div>
-                      {index < 4 && <div className="text-center text-secondary-500">↓</div>}
-                    </React.Fragment>
+                    </div>
                   ))}
                 </div>
-                <p className="mt-5 text-sm text-secondary-900 leading-relaxed">
+                <p className="mt-7 text-sm text-secondary-900 leading-relaxed">
                   PVN advances only on eligible failover conditions. End-user responses such as busy or decline are not treated like carrier failures.
                 </p>
               </div>
@@ -247,7 +262,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* BYOC — left copy / right product visual */}
         <section className="py-20 md:py-24 bg-primary-50">
           <div className="container-custom">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -276,12 +290,12 @@ export default function Home() {
               </div>
 
               <div className="rounded-3xl bg-white border border-primary-100 shadow-xl p-7 md:p-9">
-                <div className="flex items-center justify-between mb-7">
+                <div className="flex items-start justify-between gap-5 mb-7">
                   <div>
                     <p className="text-sm font-bold text-secondary-700 uppercase tracking-wider">Your waterfall</p>
                     <h3 className="text-2xl font-bold text-primary-950 mt-1">Keep what works. Add more paths.</h3>
                   </div>
-                  <FaSitemap className="text-4xl text-primary-500" />
+                  <FaSitemap className="text-4xl text-primary-500 flex-shrink-0" />
                 </div>
                 <div className="space-y-3">
                   {[
@@ -305,10 +319,9 @@ export default function Home() {
           </div>
         </section>
 
-        {/* CONTROL / VISIBILITY — split intro, then cards */}
         <section className="py-20 md:py-24 bg-white">
           <div className="container-custom">
-            <div className="grid lg:grid-cols-[1.05fr_0.95fr] gap-8 lg:gap-14 items-end mb-14">
+            <div className="grid lg:grid-cols-[0.95fr_1.05fr] gap-10 lg:gap-16 items-end mb-12">
               <div>
                 <p className="text-secondary-700 font-bold tracking-wider uppercase text-sm mb-3">See the routes. Control the routes.</p>
                 <h2 className="font-display text-4xl md:text-5xl font-bold text-primary-950 leading-tight">
@@ -317,7 +330,7 @@ export default function Home() {
               </div>
               <div className="lg:pb-2">
                 <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
-                  PVN puts routing controls and performance data in the customer portal so your team can make decisions from evidence instead of waiting on a carrier NOC.
+                  PVN puts routing controls and performance data in the customer portal so your team can make decisions from evidence, not carrier promises.
                 </p>
               </div>
             </div>
@@ -325,7 +338,9 @@ export default function Home() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {advantages.map(({ icon: Icon, title, copy }) => (
                 <div key={title} className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm hover:shadow-lg transition-shadow">
-                  <div className="h-12 w-12 rounded-xl bg-primary-100 text-primary-700 flex items-center justify-center text-xl mb-5"><Icon /></div>
+                  <div className="h-12 w-12 rounded-xl bg-primary-100 text-primary-700 flex items-center justify-center text-xl mb-5">
+                    <Icon />
+                  </div>
                   <h3 className="text-xl font-bold text-primary-950 mb-3">{title}</h3>
                   <p className="text-gray-600 leading-relaxed">{copy}</p>
                 </div>
@@ -334,42 +349,33 @@ export default function Home() {
           </div>
         </section>
 
-        {/* DATA — left copy / right dashboard */}
         <section className="py-20 md:py-24 bg-primary-950 text-white overflow-hidden">
           <div className="container-custom">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <p className="text-secondary-300 font-bold tracking-wider uppercase text-sm mb-3">Measure the network, not the sales pitch</p>
-                <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">Know which routes are actually carrying your calls.</h2>
+                <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
+                  Know which routes are actually carrying your calls.
+                </h2>
                 <p className="text-xl text-primary-100 leading-relaxed mb-8">
                   The PVN portal exposes call attempts, answered calls, answer rate, average talk time, route health,
                   spend, failure reasons and route-level performance. Your team can see what changed instead of waiting for a carrier to explain it.
                 </p>
                 <div className="grid sm:grid-cols-2 gap-4">
-                  {[
-                    ['7-day answer rate', FaChartLine],
-                    ['Average talk time', FaChartBar],
-                    ['Traffic share by route', FaRoute],
-                    ['Route availability', FaBolt],
-                  ].map(([label, Icon]) => {
-                    const MetricIcon = Icon as React.ComponentType<{ className?: string }>;
-                    return (
-                      <div key={label as string} className="rounded-xl border border-white/10 bg-white/[0.06] p-4 flex items-center">
-                        <MetricIcon className="text-secondary-300 mr-3" />
-                        <span className="font-semibold">{label as string}</span>
-                      </div>
-                    );
-                  })}
+                  <div className="rounded-xl border border-white/10 bg-white/[0.06] p-4 flex items-center"><FaChartLine className="text-secondary-300 mr-3" /><span className="font-semibold">7-day answer rate</span></div>
+                  <div className="rounded-xl border border-white/10 bg-white/[0.06] p-4 flex items-center"><FaChartBar className="text-secondary-300 mr-3" /><span className="font-semibold">Average talk time</span></div>
+                  <div className="rounded-xl border border-white/10 bg-white/[0.06] p-4 flex items-center"><FaRoute className="text-secondary-300 mr-3" /><span className="font-semibold">Traffic share by route</span></div>
+                  <div className="rounded-xl border border-white/10 bg-white/[0.06] p-4 flex items-center"><FaBolt className="text-secondary-300 mr-3" /><span className="font-semibold">Route availability</span></div>
                 </div>
               </div>
 
               <div className="rounded-3xl border border-white/10 bg-white/[0.06] p-6 md:p-8">
-                <div className="flex items-center justify-between border-b border-white/10 pb-5 mb-5">
+                <div className="flex items-start justify-between gap-5 border-b border-white/10 pb-5 mb-5">
                   <div>
                     <p className="text-sm text-primary-300">Mission Control</p>
                     <h3 className="text-2xl font-bold">Calls flowing</h3>
                   </div>
-                  <span className="rounded-full bg-success-500/15 text-success-200 border border-success-400/20 px-3 py-1 text-xs font-bold">LIVE ROUTING</span>
+                  <span className="rounded-full bg-success-500/15 text-success-200 border border-success-400/20 px-3 py-1 text-xs font-bold whitespace-nowrap">LIVE ROUTING</span>
                 </div>
                 <div className="grid grid-cols-2 gap-4 mb-5">
                   {[
@@ -385,15 +391,17 @@ export default function Home() {
                   ))}
                 </div>
                 <div className="rounded-xl bg-primary-950/50 border border-white/10 p-5">
-                  <p className="text-sm font-bold mb-3">Route performance</p>
-                  <div className="space-y-3">
+                  <p className="text-sm font-bold mb-4">Route performance</p>
+                  <div className="space-y-4">
                     {[72, 54, 36].map((width, index) => (
-                      <div key={width} className="flex items-center">
-                        <span className="w-20 text-sm text-primary-200">Route {index + 1}</span>
-                        <div className="h-2 flex-grow rounded-full bg-white/10 overflow-hidden">
+                      <div key={width}>
+                        <div className="flex items-center justify-between mb-2">
+                          <span className="text-sm text-primary-200">Route {index + 1}</span>
+                          <span className="text-xs text-primary-300">sample</span>
+                        </div>
+                        <div className="h-2 rounded-full bg-white/10 overflow-hidden">
                           <div className="h-full rounded-full bg-secondary-400" style={{ width: `${width}%` }} />
                         </div>
-                        <span className="ml-3 text-xs text-primary-300">sample</span>
                       </div>
                     ))}
                   </div>
@@ -404,7 +412,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* PLATFORM — visual left / copy right to continue alternating rhythm */}
         <section className="py-20 md:py-24 bg-gray-50">
           <div className="container-custom">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -435,7 +442,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* RESELLERS — full-width proof band with left-led content */}
         <section className="py-20 md:py-24 bg-white">
           <div className="container-custom">
             <div className="rounded-3xl bg-gradient-to-br from-primary-700 to-primary-950 text-white p-8 md:p-12 lg:p-14">
@@ -460,54 +466,56 @@ export default function Home() {
           </div>
         </section>
 
-        {/* WATERFALL CHALLENGE — intentionally centered conversion moment */}
         <section className="py-20 md:py-28 bg-secondary-50">
           <div className="container-custom">
-            <div className="max-w-5xl mx-auto text-center">
-              <div className="inline-flex items-center rounded-full bg-secondary-100 text-secondary-800 px-4 py-2 text-sm font-bold mb-5">
-                THE WATERFALL CHALLENGE
+            <div className="grid lg:grid-cols-[0.95fr_1.05fr] gap-12 lg:gap-16 items-start">
+              <div>
+                <div className="inline-flex items-center rounded-full bg-secondary-100 text-secondary-800 px-4 py-2 text-sm font-bold mb-5">
+                  THE WATERFALL CHALLENGE
+                </div>
+                <h2 className="font-display text-4xl md:text-6xl font-bold text-primary-950 mb-6 leading-tight">
+                  Keep your carrier. Put PVN in front of it. Measure what the waterfall recovers.
+                </h2>
+                <p className="text-xl text-gray-700 leading-relaxed mb-8 max-w-2xl">
+                  Send a controlled slice of traffic through PVN and keep your existing carrier in the waterfall.
+                  Compare what the first route connects with what the full waterfall connects. The value should be visible in the data.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 mb-6">
+                  <a
+                    href="/contact-us"
+                    className="inline-flex items-center justify-center rounded-lg bg-primary-700 hover:bg-primary-800 text-white px-8 py-4 text-lg font-bold transition-colors"
+                  >
+                    Start the Waterfall Challenge
+                    <FaArrowRight className="ml-3" />
+                  </a>
+                  <a
+                    href="tel:+19045128487"
+                    className="inline-flex items-center justify-center rounded-lg border-2 border-primary-200 bg-white hover:bg-primary-50 text-primary-800 px-8 py-4 text-lg font-bold transition-colors"
+                  >
+                    <FaPhone className="mr-3" />
+                    Call (904) 512-8487
+                  </a>
+                </div>
+                <p className="text-sm text-gray-500 max-w-2xl">
+                  Actual answer rates and waterfall lift vary by traffic profile, destination, carrier acceptance and calling conditions.
+                </p>
               </div>
-              <h2 className="font-display text-4xl md:text-6xl font-bold text-primary-950 mb-6">
-                Keep your carrier. Put PVN in front of it. Measure what the waterfall recovers.
-              </h2>
-              <p className="text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto mb-9">
-                Send a controlled slice of traffic through PVN and keep your existing carrier in the waterfall.
-                Compare what the first route connects with what the full waterfall connects. The value should be visible in the data.
-              </p>
 
-              <div className="grid md:grid-cols-3 gap-5 text-left mb-10">
+              <div className="space-y-4">
                 {[
                   ['1', 'Connect', 'Point a test campaign or traffic segment from VICIdial to PVN.'],
                   ['2', 'Keep your carrier', 'Add your existing provider into the waterfall instead of replacing it.'],
                   ['3', 'Compare', 'Measure route performance and the additional eligible calls completed through backup paths.'],
                 ].map(([num, title, copy]) => (
-                  <div key={num} className="rounded-2xl bg-white border border-secondary-100 p-6 shadow-sm">
-                    <div className="h-10 w-10 rounded-full bg-secondary-600 text-white flex items-center justify-center font-bold mb-4">{num}</div>
-                    <h3 className="text-xl font-bold text-primary-950 mb-2">{title}</h3>
-                    <p className="text-gray-600 leading-relaxed">{copy}</p>
+                  <div key={num} className="rounded-2xl bg-white border border-secondary-100 p-6 shadow-sm flex items-start gap-5">
+                    <div className="h-10 w-10 rounded-full bg-secondary-600 text-white flex items-center justify-center font-bold flex-shrink-0">{num}</div>
+                    <div>
+                      <h3 className="text-xl font-bold text-primary-950 mb-2">{title}</h3>
+                      <p className="text-gray-600 leading-relaxed">{copy}</p>
+                    </div>
                   </div>
                 ))}
               </div>
-
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="/contact-us"
-                  className="inline-flex items-center justify-center rounded-lg bg-primary-700 hover:bg-primary-800 text-white px-8 py-4 text-lg font-bold transition-colors"
-                >
-                  Start the Waterfall Challenge
-                  <FaArrowRight className="ml-3" />
-                </a>
-                <a
-                  href="tel:+19045128487"
-                  className="inline-flex items-center justify-center rounded-lg border-2 border-primary-200 bg-white hover:bg-primary-50 text-primary-800 px-8 py-4 text-lg font-bold transition-colors"
-                >
-                  <FaPhone className="mr-3" />
-                  Call (904) 512-8487
-                </a>
-              </div>
-              <p className="text-sm text-gray-500 mt-6">
-                Actual answer rates and waterfall lift vary by traffic profile, destination, carrier acceptance and calling conditions.
-              </p>
             </div>
           </div>
         </section>
