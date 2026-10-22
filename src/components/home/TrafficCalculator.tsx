@@ -143,7 +143,7 @@ const TrafficCalculator: React.FC = () => {
 
               <div className="border-t border-gray-200 bg-white px-6 py-5">
                 <p className="text-sm leading-relaxed text-gray-600">
-                  These are your inputs, not our claims. The traffic test below measures the real failure and recovery rate on your own calls.
+                  The calculator uses only the inputs you enter. The traffic test below measures the real failure and recovery rate on your own calls.
                 </p>
                 <a
                   href="/#traffic-test"
