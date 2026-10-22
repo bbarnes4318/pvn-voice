@@ -35,7 +35,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
   const currentCarrier = field(req.body?.currentCarrier);
   const message = field(req.body?.message, 2000);
   const website = field(req.body?.website);
-  const trustedForm = field(req.body?.xxTrustedFormCertUrl, 2000);
+  const trustedForm = field(req.body?.xxTrustedFormCertUrl);
 
   if (website) {
     return res.status(200).json({ success: true });
