@@ -1,221 +1,133 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { FaPhone, FaBars, FaTimes, FaShieldAlt, FaCheckCircle, FaStar, FaLock, FaSignInAlt } from 'react-icons/fa';
+import { FaBars, FaPhone, FaSignInAlt, FaTimes } from 'react-icons/fa';
 import Logo from './Logo';
-import { PORTAL_LOGIN_URL, PORTAL_SIGNUP_URL } from '../lib/site-links';
+import { PORTAL_LOGIN_URL } from '../lib/site-links';
+
+const navItems = [
+  ['Why Waterfall', '/#why-waterfall'],
+  ['How It Works', '/#how-it-works'],
+  ['BYOC', '/#byoc'],
+  ['Platform', '/#platform'],
+  ['Pricing', '/pricing'],
+  ['Resellers', '/#resellers'],
+  ['Compliance', '/compliance'],
+];
 
 const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!mobileMenuOpen);
-  };
-
   return (
     <header className="bg-white">
-      {/* Top Bar */}
-      <div className="bg-primary-600 text-white py-1">
-        <div className="container-custom">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-1 md:space-y-0">
-            <div className="flex items-center space-x-4 text-sm">
-              <span className="flex items-center">
-                <FaShieldAlt className="mr-1" />
-                256-bit SSL Encrypted
-              </span>
-              <span className="hidden md:inline">|</span>
-              <span className="flex items-center">
-                <FaCheckCircle className="mr-1" />
-                BBB Accredited Business
-              </span>
+      <div className="bg-primary-950 text-primary-100">
+        <div className="container-custom py-2.5 flex items-center justify-between gap-4 text-xs md:text-sm">
+          <div className="font-semibold tracking-wide">
+            CARRIER ROUTING FOR HIGH-VOLUME CALL CENTERS
+          </div>
+          <div className="hidden sm:flex items-center gap-5">
+            <span className="text-primary-300">VICIdial • Multi-carrier routing • BYOC</span>
+            <a href="tel:+19045128487" className="font-semibold text-white hover:text-secondary-300 transition-colors">
+              (904) 512-8487
+            </a>
+            <a
+              href={PORTAL_LOGIN_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-white hover:text-secondary-300 transition-colors"
+            >
+              Login
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="sticky top-0 z-40 border-b border-gray-100 bg-white/95 backdrop-blur">
+        <div className="container-custom h-20 flex items-center justify-between gap-6">
+          <Link href="/" className="flex items-center flex-shrink-0" aria-label="PVN Voice home">
+            <Logo />
+          </Link>
+
+          <nav className="hidden xl:flex items-center gap-5 2xl:gap-7 whitespace-nowrap">
+            {navItems.map(([label, href]) => (
+              <Link
+                key={label}
+                href={href}
+                className="text-sm font-semibold text-gray-700 hover:text-primary-700 transition-colors"
+              >
+                {label}
+              </Link>
+            ))}
+          </nav>
+
+          <div className="hidden lg:flex items-center gap-3 flex-shrink-0">
+            <a
+              href={PORTAL_LOGIN_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden 2xl:inline-flex items-center gap-2 rounded-lg border border-gray-200 px-4 py-2.5 text-sm font-semibold text-gray-700 hover:border-primary-300 hover:text-primary-700 transition-colors"
+            >
+              <FaSignInAlt />
+              Customer Login
+            </a>
+            <Link
+              href="/contact-us"
+              className="inline-flex items-center rounded-lg bg-secondary-600 px-5 py-2.5 text-sm font-bold text-white shadow-cta hover:bg-secondary-700 transition-colors"
+            >
+              Test My Traffic
+            </Link>
+          </div>
+
+          <button
+            type="button"
+            onClick={() => setMobileMenuOpen((open) => !open)}
+            className="lg:hidden text-primary-950 text-2xl"
+            aria-label="Toggle navigation"
+            aria-expanded={mobileMenuOpen}
+          >
+            {mobileMenuOpen ? <FaTimes /> : <FaBars />}
+          </button>
+        </div>
+      </div>
+
+      {mobileMenuOpen && (
+        <div className="lg:hidden fixed inset-x-0 top-[112px] bottom-0 z-50 overflow-y-auto bg-white border-t border-gray-100">
+          <div className="container-custom py-6">
+            <div className="space-y-1">
+              {navItems.map(([label, href]) => (
+                <Link
+                  key={label}
+                  href={href}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="block rounded-lg px-3 py-3 text-base font-semibold text-gray-800 hover:bg-primary-50 hover:text-primary-700"
+                >
+                  {label}
+                </Link>
+              ))}
             </div>
-            <div className="flex items-center space-x-4 text-sm">
-              <span className="flex items-center">
-                <FaStar className="mr-1 text-yellow-400" />
-                4.9/5 Customer Rating
-              </span>
-              <span className="hidden md:inline">|</span>
-              <a href="tel:+19045128487" className="hover:text-primary-100 transition-colors">
-                Call (904) 512-8487
-              </a>
-              <span className="hidden md:inline">|</span>
+
+            <div className="mt-6 border-t border-gray-100 pt-6 space-y-3">
+              <Link
+                href="/contact-us"
+                onClick={() => setMobileMenuOpen(false)}
+                className="flex items-center justify-center rounded-lg bg-secondary-600 px-5 py-3 font-bold text-white"
+              >
+                Test My Traffic
+              </Link>
               <a
                 href={PORTAL_LOGIN_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center font-medium hover:text-primary-100 transition-colors"
+                className="flex items-center justify-center gap-2 rounded-lg border border-primary-200 px-5 py-3 font-semibold text-primary-800"
               >
-                <FaLock className="mr-1" />
+                <FaSignInAlt />
                 Customer Login
               </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Main Navigation */}
-      <div className="bg-white shadow-sm sticky top-0 z-40">
-        <div className="container-custom">
-          <div className="flex justify-between items-center h-24">
-            {/* Logo */}
-            <div className="flex items-center">
-              <Logo />
-            </div>
-
-            {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center space-x-3 xl:space-x-4 2xl:space-x-6 whitespace-nowrap">
-              <Link href="/" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
-                Home
-              </Link>
-              <Link href="/services" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
-                Services
-              </Link>
-              <div className="relative group">
-                <button className="text-gray-700 hover:text-primary-600 font-medium transition-colors flex items-center focus:outline-none">
-                  Solutions
-                  <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg>
-                </button>
-                <div className="absolute left-0 mt-2 w-64 bg-white border border-gray-100 rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-opacity z-20">
-                  <Link href="/services/voip-for-call-centers" className="block px-5 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors">VOIP for Call Centers</Link>
-                  <Link href="/services/dialer-systems" className="block px-5 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors">Dialer Systems</Link>
-                  <Link href="/services/ai-powered-solutions" className="block px-5 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors">AI-Powered Solutions</Link>
-                  <Link href="/services/ai-voice-agents" className="block px-5 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors">AI Voice Agents / Virtual Agents</Link>
-                  <Link href="/phone-system" className="block px-5 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors">Business Phone System</Link>
-                  <Link href="/unified-communications" className="block px-5 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors">Unified Communications</Link>
-                  <Link href="/contact-center" className="block px-5 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors">Contact Center</Link>
-                  <Link href="/integrations" className="block px-5 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors">Integrations</Link>
-                </div>
-              </div>
-              <Link href="/pricing" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
-                Pricing
-              </Link>
-              <div className="relative group">
-                <button className="text-gray-700 hover:text-primary-600 font-medium transition-colors flex items-center focus:outline-none">
-                  Resources
-                  <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg>
-                </button>
-                <div className="absolute left-0 mt-2 w-56 bg-white border border-gray-100 rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-opacity z-20">
-                  <Link href="/blog" className="block px-5 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors">Blog</Link>
-                  <Link href="/faq" className="block px-5 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors">FAQ</Link>
-                  <Link href="/glossary" className="block px-5 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors">VoIP Glossary</Link>
-                  <Link href="/tips" className="block px-5 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors">Business Communication Tips</Link>
-                  <a href="https://app.pvndialer.com" target="_blank" rel="noopener noreferrer" className="block px-5 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors">GeoFilter Tool</a>
-                </div>
-              </div>
-              <div className="relative group">
-                <button className="text-gray-700 hover:text-primary-600 font-medium transition-colors flex items-center focus:outline-none">
-                  Company
-                  <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg>
-                </button>
-                <div className="absolute right-0 mt-2 w-56 bg-white border border-gray-100 rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-opacity z-20">
-                  <Link href="/about-us" className="block px-5 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors">About Us</Link>
-                  <Link href="/contact-us" className="block px-5 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors">Contact Us</Link>
-                  <Link href="/compliance" className="block px-5 py-3 text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors">Compliance</Link>
-                </div>
-              </div>
-              <a
-                href={PORTAL_LOGIN_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hidden xl:flex items-center space-x-2 border border-primary-600 text-primary-600 px-4 py-2 rounded hover:bg-primary-600 hover:text-white transition-colors font-medium"
-              >
-                <FaSignInAlt />
-                <span>Customer Login</span>
-              </a>
-              <a
-                href={PORTAL_SIGNUP_URL}
-                className="bg-secondary-600 text-white px-4 py-2 rounded hover:bg-secondary-700 transition-colors font-medium"
-              >
-                Get Started
-              </a>
               <a
                 href="tel:+19045128487"
-                aria-label="Call (904) 512-8487"
-                className="bg-primary-600 text-white px-4 py-2 rounded hover:bg-primary-700 transition-colors font-medium flex items-center space-x-2"
+                className="flex items-center justify-center gap-2 rounded-lg bg-primary-950 px-5 py-3 font-semibold text-white"
               >
                 <FaPhone />
-                {/* The number is always in the top bar; here it gives way to Get Started on narrower desktops. */}
-                <span className="hidden 2xl:inline">Call (904) 512-8487</span>
-                <span className="2xl:hidden">Call</span>
-              </a>
-            </nav>
-
-            {/* Mobile Menu Button */}
-            <div className="lg:hidden">
-              <button
-                onClick={toggleMobileMenu}
-                className="text-gray-700 hover:text-primary-600 focus:outline-none transition-colors"
-              >
-                {mobileMenuOpen ? (
-                  <FaTimes className="text-2xl" />
-                ) : (
-                  <FaBars className="text-2xl" />
-                )}
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Mobile Menu */}
-      {mobileMenuOpen && (
-        <div className="lg:hidden bg-white border-t border-gray-100 fixed inset-x-0 top-[80px] bottom-0 z-30 overflow-y-auto">
-          <div className="container-custom py-4 space-y-3">
-            <Link href="/" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors">
-              Home
-            </Link>
-            <Link href="/services" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors">
-              Services
-            </Link>
-            <div className="border-t border-gray-100 pt-3">
-              <span className="block text-gray-700 font-semibold mb-2">Solutions</span>
-              <Link href="/services/voip-for-call-centers" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">VOIP for Call Centers</Link>
-              <Link href="/services/dialer-systems" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">Dialer Systems</Link>
-              <Link href="/services/ai-powered-solutions" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">AI-Powered Solutions</Link>
-              <Link href="/services/ai-voice-agents" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">AI Voice Agents / Virtual Agents</Link>
-              <Link href="/phone-system" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">Business Phone System</Link>
-              <Link href="/unified-communications" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">Unified Communications</Link>
-              <Link href="/contact-center" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">Contact Center</Link>
-              <Link href="/integrations" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">Integrations</Link>
-            </div>
-            <Link href="/pricing" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors">
-              Pricing
-            </Link>
-            <div className="border-t border-gray-100 pt-3">
-              <span className="block text-gray-700 font-semibold mb-2">Resources</span>
-              <Link href="/blog" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">Blog</Link>
-              <Link href="/faq" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">FAQ</Link>
-              <Link href="/glossary" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">VoIP Glossary</Link>
-              <Link href="/tips" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">Business Communication Tips</Link>
-              <a href="https://app.pvndialer.com" target="_blank" rel="noopener noreferrer" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">GeoFilter Tool</a>
-            </div>
-            <div className="border-t border-gray-100 pt-3">
-              <span className="block text-gray-700 font-semibold mb-2">Company</span>
-              <Link href="/about-us" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">About Us</Link>
-              <Link href="/contact-us" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">Contact Us</Link>
-              <Link href="/compliance" className="block text-gray-700 hover:text-primary-600 font-medium py-2 transition-colors pl-4">Compliance</Link>
-            </div>
-            <div className="pt-3 border-t border-gray-100 space-y-3">
-              <a
-                href={PORTAL_SIGNUP_URL}
-                className="bg-secondary-600 text-white px-4 py-2 rounded hover:bg-secondary-700 transition-colors font-medium flex items-center justify-center"
-              >
-                Get Started
-              </a>
-              <a
-                href={PORTAL_LOGIN_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="border border-primary-600 text-primary-600 px-4 py-2 rounded hover:bg-primary-600 hover:text-white transition-colors font-medium flex items-center justify-center space-x-2"
-              >
-                <FaSignInAlt />
-                <span>Customer Login</span>
-              </a>
-              <a
-                href="tel:+19045128487"
-                className="bg-primary-600 text-white px-4 py-2 rounded hover:bg-primary-700 transition-colors font-medium flex items-center justify-center space-x-2"
-              >
-                <FaPhone />
-                <span>Call (904) 512-8487</span>
+                Call (904) 512-8487
               </a>
             </div>
           </div>
