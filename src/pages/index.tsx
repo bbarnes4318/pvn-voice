@@ -101,8 +101,8 @@ export default function Home() {
           <div className="absolute -top-40 -right-24 h-[520px] w-[520px] rounded-full bg-secondary-500/10 blur-3xl" />
           <div className="absolute bottom-0 left-1/3 h-64 w-64 rounded-full bg-primary-500/10 blur-3xl" />
 
-          <div className="container-custom relative py-16 md:py-24 lg:py-28">
-            <div className="grid lg:grid-cols-[1.05fr_0.95fr] gap-12 lg:gap-16 items-center">
+          <div className="container-custom relative py-10 md:py-14 lg:py-16">
+            <div className="grid lg:grid-cols-[1.05fr_0.95fr] gap-12 lg:gap-16 items-start">
               <div>
                 <div className="inline-flex items-center gap-2 rounded-full border border-secondary-400/30 bg-secondary-400/10 px-4 py-2 text-xs md:text-sm font-bold tracking-[0.12em] text-secondary-200 uppercase mb-6">
                   <span className="h-2 w-2 rounded-full bg-secondary-400 animate-pulse" />
