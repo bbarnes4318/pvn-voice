@@ -60,12 +60,12 @@ const platformCards = [
 ];
 
 const callCenterFacts = [
-  'VICIdial-friendly SIP connectivity',
-  'Per-customer CPS and channel controls',
-  'Gateway health checks and route availability',
-  'Carrier-attempt SIP response visibility',
-  'NPA and overlay-aware DID selection for authorized inventory',
-  'Transparent route-level rates and billing increments',
+  ['VICIdial-ready routing', 'Connect once and keep the campaigns, agents and workflow your floor already uses.'],
+  ['High-volume traffic controls', 'Set CPS and concurrent-call limits so traffic stays inside the capacity of each account and route.'],
+  ['Carrier health & failover', 'Identify unavailable paths and move eligible failures to the next configured route instead of stopping the opportunity.'],
+  ['Attempt-level SIP visibility', 'See the gateway, carrier attempt and SIP response so you know why a dial stopped and where.'],
+  ['Authorized local-presence DIDs', 'Use approved number inventory with NPA and overlay-aware selection for the destinations your campaigns call.'],
+  ['Route-level cost visibility', 'See rates and billing increments by route so you can balance connect performance against actual cost.'],
 ];
 
 const challengeSteps = [
@@ -310,11 +310,11 @@ export default function Home() {
         <section className="relative overflow-hidden bg-primary-950 py-20 md:py-28 text-white">
           <div className="absolute -left-32 top-10 h-80 w-80 rounded-full bg-secondary-500/10 blur-3xl" />
           <div className="container-custom relative">
-            <div className="grid lg:grid-cols-[0.9fr_1.1fr] gap-12 lg:gap-20 items-center">
+            <div className="grid lg:grid-cols-[0.95fr_1.05fr] gap-12 lg:gap-16 items-center">
               <div>
                 <p className="text-sm font-bold tracking-[0.16em] text-secondary-300 uppercase">Prove it with your own traffic</p>
-                <h2 className="mt-4 font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                  Don&apos;t switch carriers. Challenge them.
+                <h2 className="mt-4 font-display text-4xl md:text-5xl lg:text-[52px] font-bold leading-[1.06] tracking-tight">
+                  Don&apos;t switch carriers.<span className="block">Challenge them.</span>
                 </h2>
                 <p className="mt-6 text-xl leading-relaxed text-primary-100">
                   Put PVN in front of a controlled slice of traffic and keep your existing carrier in the waterfall. Then compare what your first route completed with what the full route stack completed.
@@ -490,23 +490,29 @@ export default function Home() {
 
         <section className="py-20 md:py-28 bg-gray-50">
           <div className="container-custom">
-            <div className="grid lg:grid-cols-[0.8fr_1.2fr] gap-10 lg:gap-16 items-start">
+            <div className="grid lg:grid-cols-[0.95fr_1.05fr] gap-10 lg:gap-16 items-start">
               <div>
-                <p className="text-sm font-bold tracking-[0.16em] text-secondary-700 uppercase">Built around the floor</p>
-                <h2 className="mt-4 font-display text-4xl md:text-5xl font-bold leading-tight text-primary-950">
-                  This is not another office phone system.
+                <p className="text-sm font-bold tracking-[0.16em] text-secondary-700 uppercase">Built for high-volume outbound</p>
+                <h2 className="mt-4 max-w-2xl font-display text-4xl md:text-[46px] lg:text-[50px] font-bold leading-[1.06] tracking-tight text-primary-950">
+                  Built for call centers that live and die by connect rate.
                 </h2>
-                <p className="mt-6 text-xl leading-relaxed text-gray-700">
-                  PVN is designed around the realities of outbound call centers: route failures, CPS limits, concurrent calls, carrier health, DID logic, SIP response codes and billing transparency.
+                <p className="mt-6 max-w-2xl text-xl leading-relaxed text-gray-700">
+                  Your floor does not need another generic SIP trunk. It needs routing built around VICIdial, high-volume traffic, carrier failover, number strategy, and visibility into every attempt.
                 </p>
+                <div className="mt-7 rounded-2xl border-l-4 border-secondary-500 bg-white px-5 py-4 shadow-sm">
+                  <p className="text-lg font-bold text-primary-950">The goal is simple: keep more viable calls alive long enough to reach an agent.</p>
+                </div>
               </div>
 
               <div className="grid md:grid-cols-2 gap-5">
-                {callCenterFacts.map((fact, index) => (
-                  <div key={fact} className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+                {callCenterFacts.map(([title, copy], index) => (
+                  <div key={title} className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
                     <div className="flex items-start gap-4">
                       <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-primary-100 font-bold text-primary-700">{index + 1}</div>
-                      <p className="font-semibold leading-relaxed text-primary-950">{fact}</p>
+                      <div>
+                        <h3 className="text-lg font-bold leading-snug text-primary-950">{title}</h3>
+                        <p className="mt-2 text-sm leading-relaxed text-gray-600">{copy}</p>
+                      </div>
                     </div>
                   </div>
                 ))}
