@@ -6,37 +6,41 @@
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
-    @apply text-gray-800 bg-gray-50;
+    @apply bg-gray-50 text-gray-800;
   }
-  
+
   h1, h2, h3, h4, h5, h6 {
     @apply font-display font-bold;
+  }
+
+  :where(a, button, input, select, textarea, summary):focus-visible {
+    @apply outline-none ring-2 ring-secondary-400 ring-offset-2;
   }
 }
 
 @layer components {
   .btn {
-    @apply inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+    @apply inline-flex items-center justify-center rounded-lg px-6 py-3 text-base font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
   }
-  
+
   .btn-primary {
-    @apply btn bg-secondary-600 text-white hover:bg-secondary-700 focus:ring-secondary-500 shadow-cta hover:shadow-lg;
+    @apply btn bg-secondary-600 text-white shadow-cta hover:bg-secondary-700 hover:shadow-lg focus:ring-secondary-500;
   }
-  
+
   .btn-secondary {
-    @apply btn bg-white text-primary-700 border border-primary-200 hover:bg-gray-50 focus:ring-primary-500;
+    @apply btn border border-primary-200 bg-white text-primary-700 hover:bg-gray-50 focus:ring-primary-500;
   }
-  
+
   .btn-call {
-    @apply btn-primary text-lg py-4 px-8 md:text-xl md:py-5 md:px-10;
+    @apply btn-primary px-8 py-4 text-lg md:px-10 md:py-5 md:text-xl;
   }
-  
+
   .container-custom {
-    @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px];
+    @apply container mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8;
   }
-  
+
   .section {
     @apply py-12 sm:py-16 lg:py-20;
   }
@@ -52,19 +56,29 @@
   }
 }
 
-/* Keep the Waterfall Challenge headline from creating a one-word orphan on
-   desktop. The left sales column needs enough width for “Don't switch carriers.”
-   to read as a single thought, while the proof steps remain beside it. */
-@media (min-width: 1024px) {
-  main > section:nth-of-type(3) .container-custom > .grid {
-    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+@keyframes routeStepIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 
-  main > section:nth-of-type(3) h2 {
-    font-size: 3.125rem;
-    line-height: 1.05;
-    max-width: 40rem;
-    text-wrap: balance;
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 
