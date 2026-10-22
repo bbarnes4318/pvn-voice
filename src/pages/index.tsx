@@ -109,9 +109,8 @@ export default function Home() {
                   Built for high-volume VICIdial call centers
                 </div>
 
-                <h1 className="font-display text-5xl md:text-6xl lg:text-[68px] font-bold leading-[1.02] tracking-tight max-w-4xl">
-                  How many potential conversations are dying at your
-                  <span className="text-secondary-400"> first carrier?</span>
+                <h1 className="font-display text-5xl md:text-6xl lg:text-[68px] font-bold leading-[1.02] tracking-tight max-w-3xl">
+                  How Many Calls Are You Losing?
                 </h1>
 
                 <p className="mt-7 text-xl md:text-2xl leading-relaxed text-primary-100 max-w-3xl">
