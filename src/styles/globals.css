@@ -52,6 +52,22 @@
   }
 }
 
+/* Keep the Waterfall Challenge headline from creating a one-word orphan on
+   desktop. The left sales column needs enough width for “Don't switch carriers.”
+   to read as a single thought, while the proof steps remain beside it. */
+@media (min-width: 1024px) {
+  main > section:nth-of-type(3) .container-custom > .grid {
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  }
+
+  main > section:nth-of-type(3) h2 {
+    font-size: 3.125rem;
+    line-height: 1.05;
+    max-width: 40rem;
+    text-wrap: balance;
+  }
+}
+
 /* Print styles for the compliance policy pages: carriers and clients print these,
    so drop the site chrome (header, footer, sidebar, print button) and render the
    policy itself as plain black-on-white text at full width. */
@@ -105,4 +121,4 @@
     break-inside: avoid;
     page-break-inside: avoid;
   }
-} 
+}
