@@ -92,7 +92,7 @@ export default function Home() {
       <Header />
 
       <main className="flex-grow">
-        {/* HERO */}
+        {/* HERO — intentionally left-led split layout */}
         <section className="relative overflow-hidden bg-primary-950 text-white">
           <div className="absolute inset-0 opacity-30 bg-gradient-to-br from-primary-700 via-primary-950 to-black" />
           <div className="absolute -top-32 -right-24 h-96 w-96 rounded-full bg-secondary-500 opacity-10 blur-3xl" />
@@ -108,8 +108,7 @@ export default function Home() {
                 </h1>
                 <p className="text-xl md:text-2xl text-primary-100 leading-relaxed max-w-2xl mb-8">
                   Connect VICIdial to PVN once. We put a multi-carrier waterfall behind your traffic,
-                  move eligible failed attempts to the next route, and let you keep your existing
-                  carrier in the stack.
+                  move eligible failed attempts to the next route, and let you keep your existing carrier in the stack.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -133,9 +132,7 @@ export default function Home() {
                   <span className="flex items-center"><FaCheckCircle className="text-secondary-400 mr-2" />Bring your own carrier</span>
                   <span className="flex items-center"><FaCheckCircle className="text-secondary-400 mr-2" />Route-level visibility</span>
                 </div>
-                <p className="mt-6 text-sm text-primary-300">
-                  Built for high-volume call centers in Pakistan and worldwide.
-                </p>
+                <p className="mt-6 text-sm text-primary-300">Built for high-volume call centers in Pakistan and worldwide.</p>
               </div>
 
               <div className="lg:pl-6">
@@ -153,9 +150,7 @@ export default function Home() {
                   <div className="rounded-2xl border border-primary-400/20 bg-primary-950/60 p-4 mb-4">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center">
-                        <div className="h-10 w-10 rounded-xl bg-primary-600 flex items-center justify-center mr-3">
-                          <FaServer />
-                        </div>
+                        <div className="h-10 w-10 rounded-xl bg-primary-600 flex items-center justify-center mr-3"><FaServer /></div>
                         <div>
                           <p className="font-bold">Your VICIdial</p>
                           <p className="text-sm text-primary-300">One SIP connection to PVN</p>
@@ -192,21 +187,25 @@ export default function Home() {
           </div>
         </section>
 
-        {/* THE PROBLEM */}
+        {/* THE PROBLEM — asymmetric intro instead of centered template block */}
         <section className="py-20 md:py-24 bg-white" id="how-it-works">
           <div className="container-custom">
-            <div className="max-w-3xl mx-auto text-center mb-14">
-              <p className="text-secondary-700 font-bold tracking-wider uppercase text-sm mb-3">Stop betting the floor on one route</p>
-              <h2 className="font-display text-4xl md:text-5xl font-bold text-primary-950 mb-5">
-                A single carrier gets one chance. A waterfall gives the call another path.
-              </h2>
-              <p className="text-xl text-gray-600 leading-relaxed">
-                Most centers wire a carrier directly into VICIdial. If that route cannot complete an eligible call,
-                the attempt ends there. PVN inserts a routing layer between your dialer and the carriers.
-              </p>
+            <div className="grid lg:grid-cols-[0.9fr_1.1fr] gap-8 lg:gap-14 items-end mb-14">
+              <div>
+                <p className="text-secondary-700 font-bold tracking-wider uppercase text-sm mb-3">Stop betting the floor on one route</p>
+                <h2 className="font-display text-4xl md:text-5xl font-bold text-primary-950 leading-tight">
+                  A single carrier gets one chance. A waterfall gives the call another path.
+                </h2>
+              </div>
+              <div className="lg:pb-2">
+                <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
+                  Most centers wire a carrier directly into VICIdial. If that route cannot complete an eligible call,
+                  the attempt ends there. PVN inserts a routing layer between your dialer and the carriers.
+                </p>
+              </div>
             </div>
 
-            <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-8">
               <div className="rounded-3xl border border-gray-200 bg-gray-50 p-7 md:p-9">
                 <div className="flex items-center mb-6">
                   <span className="rounded-full bg-gray-200 text-gray-700 px-3 py-1 text-xs font-bold mr-3">OLD WAY</span>
@@ -248,7 +247,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* BYOC */}
+        {/* BYOC — left copy / right product visual */}
         <section className="py-20 md:py-24 bg-primary-50">
           <div className="container-custom">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -306,25 +305,27 @@ export default function Home() {
           </div>
         </section>
 
-        {/* CONTROL / VISIBILITY */}
+        {/* CONTROL / VISIBILITY — split intro, then cards */}
         <section className="py-20 md:py-24 bg-white">
           <div className="container-custom">
-            <div className="max-w-3xl mx-auto text-center mb-14">
-              <p className="text-secondary-700 font-bold tracking-wider uppercase text-sm mb-3">See the routes. Control the routes.</p>
-              <h2 className="font-display text-4xl md:text-5xl font-bold text-primary-950 mb-5">
-                Your carrier waterfall should not live inside somebody else&apos;s secret dialplan.
-              </h2>
-              <p className="text-xl text-gray-600 leading-relaxed">
-                PVN puts routing controls and performance data in the customer portal so your team can make decisions from evidence.
-              </p>
+            <div className="grid lg:grid-cols-[1.05fr_0.95fr] gap-8 lg:gap-14 items-end mb-14">
+              <div>
+                <p className="text-secondary-700 font-bold tracking-wider uppercase text-sm mb-3">See the routes. Control the routes.</p>
+                <h2 className="font-display text-4xl md:text-5xl font-bold text-primary-950 leading-tight">
+                  Your carrier waterfall should not live inside somebody else&apos;s secret dialplan.
+                </h2>
+              </div>
+              <div className="lg:pb-2">
+                <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
+                  PVN puts routing controls and performance data in the customer portal so your team can make decisions from evidence instead of waiting on a carrier NOC.
+                </p>
+              </div>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {advantages.map(({ icon: Icon, title, copy }) => (
                 <div key={title} className="rounded-2xl border border-gray-200 bg-white p-7 shadow-sm hover:shadow-lg transition-shadow">
-                  <div className="h-12 w-12 rounded-xl bg-primary-100 text-primary-700 flex items-center justify-center text-xl mb-5">
-                    <Icon />
-                  </div>
+                  <div className="h-12 w-12 rounded-xl bg-primary-100 text-primary-700 flex items-center justify-center text-xl mb-5"><Icon /></div>
                   <h3 className="text-xl font-bold text-primary-950 mb-3">{title}</h3>
                   <p className="text-gray-600 leading-relaxed">{copy}</p>
                 </div>
@@ -333,15 +334,13 @@ export default function Home() {
           </div>
         </section>
 
-        {/* DATA / EXAMPLE DASHBOARD */}
+        {/* DATA — left copy / right dashboard */}
         <section className="py-20 md:py-24 bg-primary-950 text-white overflow-hidden">
           <div className="container-custom">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <p className="text-secondary-300 font-bold tracking-wider uppercase text-sm mb-3">Measure the network, not the sales pitch</p>
-                <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
-                  Know which routes are actually carrying your calls.
-                </h2>
+                <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">Know which routes are actually carrying your calls.</h2>
                 <p className="text-xl text-primary-100 leading-relaxed mb-8">
                   The PVN portal exposes call attempts, answered calls, answer rate, average talk time, route health,
                   spend, failure reasons and route-level performance. Your team can see what changed instead of waiting for a carrier to explain it.
@@ -405,7 +404,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* PLATFORM */}
+        {/* PLATFORM — visual left / copy right to continue alternating rhythm */}
         <section className="py-20 md:py-24 bg-gray-50">
           <div className="container-custom">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -436,7 +435,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* RESELLERS */}
+        {/* RESELLERS — full-width proof band with left-led content */}
         <section className="py-20 md:py-24 bg-white">
           <div className="container-custom">
             <div className="rounded-3xl bg-gradient-to-br from-primary-700 to-primary-950 text-white p-8 md:p-12 lg:p-14">
@@ -461,7 +460,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* WATERFALL CHALLENGE */}
+        {/* WATERFALL CHALLENGE — intentionally centered conversion moment */}
         <section className="py-20 md:py-28 bg-secondary-50">
           <div className="container-custom">
             <div className="max-w-5xl mx-auto text-center">
