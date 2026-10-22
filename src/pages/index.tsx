@@ -412,12 +412,12 @@ export default function Home() {
 
         <section id="platform" className="py-20 md:py-28 bg-white">
           <div className="container-custom">
-            <div className="grid lg:grid-cols-[1.1fr_0.9fr] gap-12 lg:gap-16 items-center">
+            <div className="grid lg:grid-cols-[1.02fr_0.98fr] gap-12 lg:gap-16 items-start">
               <div className="rounded-[28px] border border-gray-200 bg-primary-950 p-6 md:p-8 text-white shadow-xl">
                 <div className="flex items-start justify-between gap-5 border-b border-white/10 pb-6">
                   <div>
                     <p className="text-xs font-bold tracking-[0.16em] text-primary-300 uppercase">Mission Control</p>
-                    <h3 className="mt-2 text-2xl font-bold">See what happened after VICIdial handed off the call.</h3>
+                    <h3 className="mt-2 max-w-xl text-2xl font-bold">See the call path after VICIdial.</h3>
                   </div>
                   <span className="rounded-full border border-success-400/20 bg-success-500/10 px-3 py-1 text-xs font-bold text-success-200">LIVE ROUTING</span>
                 </div>
@@ -454,27 +454,31 @@ export default function Home() {
                 </div>
               </div>
 
-              <div>
-                <p className="text-sm font-bold tracking-[0.16em] text-secondary-700 uppercase">No more carrier black box</p>
-                <h2 className="mt-4 font-display text-4xl md:text-5xl font-bold leading-tight text-primary-950">
-                  You should not have to message a carrier to ask what happened to your calls.
+              <div className="lg:pt-2">
+                <p className="text-sm font-bold tracking-[0.16em] text-secondary-700 uppercase">Full route visibility</p>
+                <h2 className="mt-4 max-w-2xl font-display text-4xl md:text-[46px] lg:text-[50px] font-bold leading-[1.05] tracking-tight text-primary-950">
+                  Know where every call went.
                 </h2>
-                <p className="mt-6 text-xl leading-relaxed text-gray-700">
-                  PVN puts routing controls and route-level performance in the portal so your team can see which paths are available, which are carrying traffic and where failures are happening.
+                <p className="mt-6 max-w-2xl text-xl leading-relaxed text-gray-700">
+                  The moment VICIdial hands us a call, PVN shows the route path: which carrier received it, where a route failed, which route answered, and how each path is performing.
                 </p>
 
-                <div className="mt-8 grid sm:grid-cols-2 gap-4">
+                <div className="mt-7 rounded-2xl border-l-4 border-secondary-500 bg-secondary-50 px-5 py-4">
+                  <p className="text-lg font-bold text-primary-950">No tickets. No guessing. No waiting on a carrier to explain your own traffic.</p>
+                </div>
+
+                <div className="mt-7 grid sm:grid-cols-2 gap-4">
                   {[
-                    ['Route order', FaRoute],
-                    ['Answer-rate trends', FaChartLine],
-                    ['Failure visibility', FaBolt],
-                    ['Rate visibility', FaDollarSign],
+                    ['Route-by-route visibility', FaRoute],
+                    ['Answer & talk-time trends', FaChartLine],
+                    ['Failure reasons', FaBolt],
+                    ['Rates & billing', FaDollarSign],
                   ].map(([label, Icon]) => {
                     const MetricIcon = Icon as React.ComponentType<{ className?: string }>;
                     return (
                       <div key={label as string} className="flex items-center gap-3 rounded-xl border border-gray-200 bg-gray-50 p-4">
-                        <MetricIcon className="text-secondary-600" />
-                        <span className="font-semibold text-primary-950">{label as string}</span>
+                        <MetricIcon className="flex-shrink-0 text-secondary-600" />
+                        <span className="font-semibold leading-snug text-primary-950">{label as string}</span>
                       </div>
                     );
                   })}
