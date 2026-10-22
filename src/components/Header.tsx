@@ -5,13 +5,12 @@ import Logo from './Logo';
 import { PORTAL_LOGIN_URL } from '../lib/site-links';
 
 const navItems = [
-  ['Why Waterfall', '/#why-waterfall'],
-  ['How It Works', '/#how-it-works'],
+  ['Why PVN', '/#why-waterfall'],
+  ['Waterfall', '/#waterfall'],
   ['BYOC', '/#byoc'],
-  ['Platform', '/#platform'],
-  ['Pricing', '/pricing'],
+  ['Mission Control', '/#platform'],
   ['Resellers', '/#resellers'],
-  ['Compliance', '/compliance'],
+  ['Pricing', '/pricing'],
 ];
 
 const Header: React.FC = () => {
@@ -19,21 +18,21 @@ const Header: React.FC = () => {
 
   return (
     <header className="bg-white">
-      <div className="bg-primary-950 text-primary-100">
-        <div className="container-custom py-2.5 flex items-center justify-between gap-4 text-xs md:text-sm">
-          <div className="font-semibold tracking-wide">
-            CARRIER ROUTING FOR HIGH-VOLUME CALL CENTERS
+      <div className="bg-primary-950 text-white">
+        <div className="container-custom flex min-h-[36px] items-center justify-between gap-4 py-2 text-xs">
+          <div className="font-bold uppercase tracking-[0.13em] text-primary-200">
+            Call Center VoIP • Multi-Carrier Routing • BYOC
           </div>
-          <div className="hidden sm:flex items-center gap-5">
-            <span className="text-primary-300">VICIdial • Multi-carrier routing • BYOC</span>
-            <a href="tel:+19045128487" className="font-semibold text-white hover:text-secondary-300 transition-colors">
+          <div className="hidden items-center gap-5 sm:flex">
+            <span className="hidden text-primary-400 lg:inline">Built for high-volume VICIdial operations</span>
+            <a href="tel:+19045128487" className="font-bold text-white transition-colors hover:text-secondary-300">
               (904) 512-8487
             </a>
             <a
               href={PORTAL_LOGIN_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-white hover:text-secondary-300 transition-colors"
+              className="font-bold text-white transition-colors hover:text-secondary-300"
             >
               Login
             </a>
@@ -41,46 +40,38 @@ const Header: React.FC = () => {
         </div>
       </div>
 
-      <div className="sticky top-0 z-40 border-b border-gray-100 bg-white/95 backdrop-blur">
-        <div className="container-custom h-20 flex items-center justify-between gap-6">
-          <Link href="/" className="flex items-center flex-shrink-0" aria-label="PVN Voice home">
+      <div className="sticky top-0 z-40 border-b border-gray-200/80 bg-white/95 backdrop-blur-md">
+        <div className="container-custom flex h-[74px] items-center justify-between gap-6">
+          <Link href="/" className="flex flex-shrink-0 items-center" aria-label="PVN Voice home">
             <Logo />
           </Link>
 
-          <nav className="hidden xl:flex items-center gap-5 2xl:gap-7 whitespace-nowrap">
+          <nav className="hidden items-center gap-5 whitespace-nowrap xl:flex 2xl:gap-7">
             {navItems.map(([label, href]) => (
               <Link
                 key={label}
                 href={href}
-                className="text-sm font-semibold text-gray-700 hover:text-primary-700 transition-colors"
+                className="text-sm font-bold text-gray-600 transition-colors hover:text-primary-800"
               >
                 {label}
               </Link>
             ))}
           </nav>
 
-          <div className="hidden lg:flex items-center gap-3 flex-shrink-0">
-            <a
-              href={PORTAL_LOGIN_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hidden 2xl:inline-flex items-center gap-2 rounded-lg border border-gray-200 px-4 py-2.5 text-sm font-semibold text-gray-700 hover:border-primary-300 hover:text-primary-700 transition-colors"
-            >
-              <FaSignInAlt />
-              Customer Login
-            </a>
+          <div className="hidden flex-shrink-0 items-center lg:flex">
             <Link
               href="/contact-us"
-              className="inline-flex items-center rounded-lg bg-secondary-600 px-5 py-2.5 text-sm font-bold text-white shadow-cta hover:bg-secondary-700 transition-colors"
+              className="inline-flex items-center rounded-xl bg-secondary-600 px-5 py-3 text-sm font-bold text-white shadow-[0_8px_20px_rgba(40,156,106,0.22)] transition-all hover:-translate-y-0.5 hover:bg-secondary-700"
             >
               Test My Traffic
+              <span className="ml-2">→</span>
             </Link>
           </div>
 
           <button
             type="button"
             onClick={() => setMobileMenuOpen((open) => !open)}
-            className="lg:hidden text-primary-950 text-2xl"
+            className="text-2xl text-primary-950 lg:hidden"
             aria-label="Toggle navigation"
             aria-expanded={mobileMenuOpen}
           >
@@ -90,7 +81,7 @@ const Header: React.FC = () => {
       </div>
 
       {mobileMenuOpen && (
-        <div className="lg:hidden fixed inset-x-0 top-[112px] bottom-0 z-50 overflow-y-auto bg-white border-t border-gray-100">
+        <div className="fixed inset-x-0 bottom-0 top-[110px] z-50 overflow-y-auto border-t border-gray-100 bg-white lg:hidden">
           <div className="container-custom py-6">
             <div className="space-y-1">
               {navItems.map(([label, href]) => (
@@ -98,18 +89,25 @@ const Header: React.FC = () => {
                   key={label}
                   href={href}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="block rounded-lg px-3 py-3 text-base font-semibold text-gray-800 hover:bg-primary-50 hover:text-primary-700"
+                  className="block rounded-xl px-3 py-3.5 text-base font-bold text-gray-800 hover:bg-primary-50 hover:text-primary-800"
                 >
                   {label}
                 </Link>
               ))}
+              <Link
+                href="/compliance"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block rounded-xl px-3 py-3.5 text-base font-bold text-gray-800 hover:bg-primary-50 hover:text-primary-800"
+              >
+                Compliance
+              </Link>
             </div>
 
-            <div className="mt-6 border-t border-gray-100 pt-6 space-y-3">
+            <div className="mt-6 space-y-3 border-t border-gray-100 pt-6">
               <Link
                 href="/contact-us"
                 onClick={() => setMobileMenuOpen(false)}
-                className="flex items-center justify-center rounded-lg bg-secondary-600 px-5 py-3 font-bold text-white"
+                className="flex items-center justify-center rounded-xl bg-secondary-600 px-5 py-3.5 font-bold text-white"
               >
                 Test My Traffic
               </Link>
@@ -117,17 +115,15 @@ const Header: React.FC = () => {
                 href={PORTAL_LOGIN_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 rounded-lg border border-primary-200 px-5 py-3 font-semibold text-primary-800"
+                className="flex items-center justify-center gap-2 rounded-xl border border-primary-200 px-5 py-3.5 font-bold text-primary-800"
               >
-                <FaSignInAlt />
-                Customer Login
+                <FaSignInAlt /> Customer Login
               </a>
               <a
                 href="tel:+19045128487"
-                className="flex items-center justify-center gap-2 rounded-lg bg-primary-950 px-5 py-3 font-semibold text-white"
+                className="flex items-center justify-center gap-2 rounded-xl bg-primary-950 px-5 py-3.5 font-bold text-white"
               >
-                <FaPhone />
-                Call (904) 512-8487
+                <FaPhone /> (904) 512-8487
               </a>
             </div>
           </div>
